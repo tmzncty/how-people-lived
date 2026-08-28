@@ -36,6 +36,7 @@ For each place, period and population, investigate:
 - [x] framework for historical breaks rewriting life horizons
 - [x] Britain 1935–1955 prewar / wartime / postwar comparison
 - [x] United States 1935–1955 prewar / wartime / postwar comparison
+- [x] China 1935–1955 cohort comparison with explicit urban/rural and wartime-displacement cautions
 
 ## Next high-value life horizons
 
@@ -68,10 +69,26 @@ For each place, period and population, investigate:
 
 Keep entries centered on education, occupation, family, housing, consumption, household formation and old-age expectations rather than political controversy.
 
+#### Historical-break series
+
+- [x] national comparison framework, 1935–1955: prewar possibilities → wartime displacement/interruption → postwar recovery → new institutions of work, education and marriage
+- [ ] Shanghai secondary-school student, c. 1935: schooling, occupation, marriage and city life
+- [ ] rural teenager, c. 1935: household labor, schooling, craft/work and marriage
+- [ ] wartime displaced family, c. 1938–1944: survival, schooling, work, reunion and return plans
+- [ ] wartime student, c. 1940: relocated education as a future-preserving strategy
+- [ ] urban worker/employee, c. 1955: job, danwei, housing, marriage and children
+- [ ] rural young adult, c. 1955: reconstruct separately rather than as a delayed urban model
+- [ ] women born c. 1920: compare education, work and marriage across 1935 / 1944 / 1955
+- [ ] parents' hopes for sons and daughters across the same period
+
+#### Later transitions
+
 - [ ] urban youth, 1980s: education, employment, marriage, housing and household goods
 - [ ] urban household, 1990s: children's education, housing improvement and consumer durables
 - [ ] rural household, 1990s: household production, migration, housing, appliances and children's prospects
 - [ ] adulthood milestones across 1980 / 1990 / 2000
+- [ ] when university changes from an elite-visible route to a mass family aspiration
+- [ ] when changing jobs or careers becomes a normal imagined choice rather than an exceptional rupture
 
 ### Cross-period comparison files
 
@@ -84,6 +101,7 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 - [ ] What made marriage economically possible?
 - [ ] When did changing careers become thinkable as a normal choice?
 - [ ] What happens when a war, depression or technological transition rewrites the life plan of the same cohort?
+- [ ] What happens when employment becomes a bundle of wage + housing + welfare + social identity?
 
 ## Historical-break method
 
@@ -101,13 +119,17 @@ Track whether the following changed:
 - marriage timing
 - housing threshold
 - family-size plans
-- home ownership
+- home ownership or housing allocation
 - consumer expectations
 - old-age expectations
 - main insecurity
 - confidence that life will improve
 
-This makes historical change visible inside a single imagined lifetime.
+For China and other highly heterogeneous settings, add another rule:
+
+> **Never let the cohort method erase place, class or rural/urban divergence.**
+
+The same birth year does not imply the same life menu.
 
 ## Data opportunities
 
@@ -122,9 +144,11 @@ Life goals are qualitative, but many constraints can be made machine-readable:
 - pension eligibility
 - household formation age
 - home ownership
+- housing allocation
 - household size
 - intergenerational co-residence
 - educational attainment
+- displacement / migration history
 
 The repository should not reduce a life horizon to numbers, but quantitative constraints help define the boundary of the possible.
 
@@ -137,6 +161,10 @@ A future reader should be able to choose a profile such as:
 or:
 
 > British worker, born 1920 — compare age 15 / 24 / 35
+
+or:
+
+> Chinese urban student, born 1920 — compare 1935 / wartime / 1955, then switch to a rural profile of the same cohort
 
 and see linked panels:
 
@@ -153,9 +181,11 @@ and see linked panels:
 
 ### What future can you realistically plan?
 
+- education
+- occupation
 - promotion
 - marriage
-- independent household
+- independent household or housing allocation
 - children
 - savings
 - old age
@@ -163,13 +193,14 @@ and see linked panels:
 
 ### What changed while you were growing up?
 
-- war
+- war and displacement
 - depression
 - education
 - welfare institutions
 - housing
 - technology
 - labor demand
+- marriage rules
 - social expectations
 
 That pairing — **material world + imagined future + historical break** — is the project's full model of ordinary life.
