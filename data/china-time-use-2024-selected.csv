@@ -1,0 +1,25 @@
+survey_year,measure,population,activity,value_minutes_per_day,participation_rate_percent,unit,notes,source
+2024,resident_average_time,all,paid_labor,207,54.1,minutes_per_day,"All residents; third national time-use survey",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,all,paid_labor,383,54.1,minutes_per_day,"Among participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,male,paid_labor,404,60.2,minutes_per_day,"Among male participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,female,paid_labor,355,47.7,minutes_per_day,"Among female participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_18_59,paid_labor,392,75.6,minutes_per_day,"Among participants aged 18-59",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_60_plus,paid_labor,330,36.3,minutes_per_day,"Among participants aged 60+",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,resident_average_time,all,unpaid_labor,125,75.6,minutes_per_day,"All residents",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,all,unpaid_labor,165,75.6,minutes_per_day,"Among participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,male,unpaid_labor,112,67.5,minutes_per_day,"Among male participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,female,unpaid_labor,209,83.9,minutes_per_day,"Among female participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_18_59,unpaid_labor,162,82.7,minutes_per_day,"Among participants aged 18-59",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_60_plus,unpaid_labor,211,88.9,minutes_per_day,"Among participants aged 60+",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,resident_average_time,all,discretionary_personal,204,97.4,minutes_per_day,"All residents",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,age_18_59,discretionary_personal,188,97.1,minutes_per_day,"Among participants aged 18-59",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_60_plus,discretionary_personal,322,98.7,minutes_per_day,"Among participants aged 60+",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,resident_average_time,all,transport,50,80.5,minutes_per_day,"All residents",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,all,transport,62,80.5,minutes_per_day,"Among participants",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_18_59,transport,66,84.9,minutes_per_day,"Among participants aged 18-59",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,resident_average_time,all,ict_use,337,92.9,minutes_per_day,"ICT use can accompany primary activities and should not be added to primary-domain totals",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957436.html
+2024,participant_average_time,all,ict_use,363,92.9,minutes_per_day,"Among ICT users",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,urban,ict_use,402,94.3,minutes_per_day,"Among urban ICT users",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,rural,ict_use,283,90.2,minutes_per_day,"Among rural ICT users",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_18_59,ict_use,439,98.7,minutes_per_day,"Among ICT users aged 18-59",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
+2024,participant_average_time,age_60_plus,ict_use,292,85.2,minutes_per_day,"Among ICT users aged 60+",https://www.stats.gov.cn/english/PressRelease/202411/t20241115_1957437.html
