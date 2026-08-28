@@ -2,137 +2,164 @@
 
 Machine-readable tables used by the project live here.
 
+This directory contains two different kinds of machine-readable material:
+
+1. **measured data** — published statistics or values extracted from a documented study;
+2. **research scaffolds** — qualitative cohort maps created by the repository to organize sourced evidence.
+
+Never confuse the two.
+
 ## Conventions
 
 - Preserve the source's original statistical unit.
-- Keep geographic scope explicit.
-- Keep population scope explicit.
+- Keep geographic and population scope explicit.
 - Use blank values for unavailable observations; do not interpolate silently.
-- Keep source URLs or bibliographic identifiers alongside the data.
-- If values for different years come from different historical tables, record the source for each relevant range.
-- Do not convert units-per-100-households into household percentages unless the original source actually reports percentages.
-- Preserve meaningful population splits such as urban/rural or farm/non-farm instead of collapsing them into a national average.
-- Do not compare nominal money values across decades without considering price change.
-- Life-horizon data should define the boundary of plausible choices, not pretend to measure private desire directly.
-- If a published source gives only an approximate benchmark such as "about 42%" or "near 80%," preserve that uncertainty explicitly instead of fabricating precision.
-- Qualitative comparison CSVs must be clearly labeled as **research scaffolds**, not measured survey variables.
+- Keep source URLs / bibliographic identifiers with the data.
+- Preserve urban/rural, sex, cohort and other meaningful splits.
+- Do not convert units-per-100-households into household percentages unless the source does so.
+- Do not compare nominal money values across decades without price adjustment/context.
+- If the source says “about” or “near,” preserve that uncertainty.
+- Mark censored younger cohorts explicitly.
+- Life-horizon statistics establish the boundary of plausible choices; they do not directly measure private desire.
+- Qualitative comparison CSVs must be labeled **research scaffold**.
 
-## China — material conditions
+## Data sub-indexes
 
-### `china-household-durables-1985-2000.csv`
+- [Empirical Life-Sequence Data Index](INDEX-life-sequence-data.md)
+- [Family Life-Course Data Index](INDEX-family-life-course-data.md)
 
-Selected urban/rural durable-goods benchmarks including washing machines, refrigerators, color televisions and electric fans.
+---
 
-### `china-household-income-engel-1978-2005.csv`
+# China — material household conditions
 
-Historical urban/rural household income and Engel-coefficient series.
+## `china-household-durables-1985-2000.csv`
 
-Source: https://www.stats.gov.cn/sj/ndsj/2007/html/J1002e.htm
+Selected urban/rural ownership benchmarks (original unit: units per 100 households) for washing machines, refrigerators, color televisions and electric fans.
 
-### `china-housing-space-1978-2005.csv`
+Primary NBS historical sources include:
 
-Selected National Bureau of Statistics per-capita residential floor-space benchmarks for urban and rural residents.
+- urban: https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm
+- rural: https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm
 
-Important: this file uses the later historical **residential floor space** series. It should not be silently mixed with older tables reporting narrower **net living space** measures.
+## `china-household-income-engel-1978-2005.csv`
 
-Source: https://www.stats.gov.cn/sj/ndsj/2008/html/J0935e.htm
+Urban per-capita disposable income, rural per-capita net income and urban/rural Engel coefficients.
 
-### `china-household-size-1980-2005.csv`
+Source:
 
-Selected urban and rural average household-size benchmarks.
+- https://www.stats.gov.cn/sj/ndsj/2007/html/J1002e.htm
 
-Urban sources:
+Nominal incomes are not direct cross-year purchasing-power measures.
 
-- https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2001e/htm/J1004e.htm
-- https://www.stats.gov.cn/sj/ndsj/2006/html/J1005e.htm
+## `china-housing-space-1978-2005.csv`
 
-Rural source:
+Selected per-capita residential floor-space benchmarks for urban/rural residents.
 
-- https://www.stats.gov.cn/yearbook/1999/j14c.htm
+Source:
 
-### `china-urban-homeownership-1988-2002.csv`
+- https://www.stats.gov.cn/sj/ndsj/2008/html/J0935e.htm
 
-Selected CHIP-based benchmarks from published research on urban housing-tenure transformation.
+Do not silently mix this residential-building floor-space series with narrower historical “net living space” measures.
 
-The 1995 and 2002 observations are explicitly approximate because the source reports them as approximately 42% and near 80%.
+## `china-household-size-1980-2005.csv`
 
-Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC11771467/
+Selected average urban/rural household-size benchmarks.
 
-## China — education and adulthood
+Useful for family labor, sibling availability, concentrated child investment and later elder-care sharing.
 
-### `china-1977-gaokao-benchmark.csv`
+## `china-urban-homeownership-1988-2002.csv`
 
-Historical benchmark for the 1977 national university entrance examination:
+Selected CHIP-based urban homeownership benchmarks.
+
+Early increases were heavily shaped by privatization of public housing; ownership should not be interpreted as pure commercial-market purchase.
+
+Source:
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC11771467/
+
+---
+
+# China — education and school-to-work
+
+## `china-1977-gaokao-benchmark.csv`
+
+Historical scarcity benchmark:
 
 - applicants: about 5.7 million;
-- admitted: 272,971;
-- admission rate: 4.78%.
+- admissions: 272,971;
+- admission rate: about 4.78%.
 
-This is useful as a **scarcity benchmark**, not a complete higher-education time series.
+Source:
 
-Source: https://www.chinadaily.com.cn/cndy/2015-03/31/content_19957679.htm
+- https://www.chinadaily.com.cn/cndy/2015-03/31/content_19957679.htm
 
-### `china-higher-education-gross-enrollment-1990-2004.csv`
+## `china-higher-education-gross-enrollment-1990-2004.csv`
 
-Ministry of Education historical higher-education gross-enrolment rates.
+Ministry of Education higher-education gross-enrolment benchmarks.
 
-Useful for studying when university moves from a rare visible route toward a mass family-planning question.
+Selected values:
 
-Source: https://www.moe.gov.cn/jyb_sjzl/moe_560/moe_1389/moe_1390/moe_1393/201002/t20100226_20347.html
+- 1990: 3.4%;
+- 1995: 7.2%;
+- 2000: 12.5%;
+- 2004: 19.0%.
 
-### `china-educational-mobility-1986-1995-selected.csv`
+Source:
 
-Selected rank-rank educational-mobility coefficients from Wu & Marois (2024).
+- https://www.moe.gov.cn/jyb_sjzl/moe_560/moe_1389/moe_1390/moe_1393/201002/t20100226_20347.html
 
-The file includes the article's illustrative father–daughter contrast for the 1986–95 birth cohort:
+## `china-educational-mobility-1986-1995-selected.csv`
 
-- urban hukou origin: 0.51;
-- rural hukou origin: 0.27.
+Selected rank-rank intergenerational educational-mobility coefficients.
 
-It also preserves selected father–son and mother–daughter cohort comparisons explicitly identified in the article as **not statistically significant changes**.
+Illustrative father-daughter contrast for 1986–95 births:
 
-Higher rank-rank correlation means stronger intergenerational persistence. It does **not** mean higher educational attainment.
+- urban-hukou origin: 0.51;
+- rural-hukou origin: 0.27.
 
-Source: https://link.springer.com/article/10.1007/s11113-024-09887-2
+Higher correlation means stronger persistence, not higher attainment.
 
-### `china-old-age-support-expectations-charls.csv`
+Source:
 
-Urban/rural differences in expected primary source of economic support in old age from a World Bank analysis using CHARLS.
+- https://link.springer.com/article/10.1007/s11113-024-09887-2
 
-This is a later-period expectation dataset, not evidence that the same percentages applied in earlier decades.
+## School-to-work sequence evidence (no simple CSV yet)
 
-Source: https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
+A 2025 CGSS sequence analysis reconstructs ages 10–29 for people born 1946–1995 and identifies:
 
-### `china-retirement-rates-charls-2018.csv`
+- early transition;
+- delayed transition;
+- unsmooth transition;
+- reversed transition.
 
-Weighted CHARLS 2018 retirement rates by age group, urban/rural status and sex.
+See:
 
-Selected total-population contrasts:
+- [`../topics/school-to-work-transition-as-a-life-stage.md`](../topics/school-to-work-transition-as-a-life-stage.md)
 
-- age 60–64: urban 70.8%, rural 26.1%;
-- age 65–69: urban 81.3%, rural 35.2%;
-- age 70–74: urban 83.4%, rural 45.0%.
+Source:
 
-The dataset demonstrates why chronological age should not be treated as a universal retirement stage.
+- https://www.tandfonline.com/doi/full/10.1080/21620555.2025.2480280
 
-Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10187591/
+---
 
-## China — employment and migration
+# China — employment and migration
 
-### `china-job-tenure-urban-resident-migrant-1999.csv`
+## `china-job-tenure-urban-resident-migrant-1999.csv`
 
-A small benchmark dataset from the 1999 urban household survey analyzed by Knight & Yueh:
+One historical comparison from the 1999 survey analyzed by Knight & Yueh:
 
-- urban residents: average job tenure 19.9 years;
-- rural–urban migrants: average job tenure 4.5 years.
+- urban residents: mean job tenure 19.9 years;
+- rural–urban migrants: 4.5 years.
 
-The values should **not** be generalized to all workers in China. Their value is comparative: two very different employment-time regimes already coexisted in the same historical moment.
+Source:
 
-Source: https://www.sciencedirect.com/science/article/pii/S0147596704000551
+- https://www.sciencedirect.com/science/article/pii/S0147596704000551
 
-### `china-rural-urban-migrant-workers-1990-2022.csv`
+Do not generalize these two samples to all Chinese workers.
 
-World Bank / census / monitoring benchmarks for rural-to-urban migrant workers:
+## `china-rural-urban-migrant-workers-1990-2022.csv`
+
+Selected national migrant-worker stock estimates:
 
 - 1990: 21.6 million;
 - 2000: 78.8 million;
@@ -140,30 +167,170 @@ World Bank / census / monitoring benchmarks for rural-to-urban migrant workers:
 - 2019: 174.3 million;
 - 2022: 171.9 million.
 
-Useful for showing when "go out to work" becomes a mass life route rather than a marginal exception.
+Source:
 
-Source: https://documents1.worldbank.org/curated/en/099020325194013546/pdf/P180848-980daabd-c4df-4314-a796-5df3bf5c97c5.pdf
+- https://documents1.worldbank.org/curated/en/099020325194013546/pdf/P180848-980daabd-c4df-4314-a796-5df3bf5c97c5.pdf
 
-## China — Internet, pandemic and AI
+This shows when “go out to work” becomes a mass route. It does not reveal individual migration sequences.
 
-### `china-internet-scale-1997-2011.csv`
+---
 
-Selected CNNIC benchmarks for the transition from rare dial-up Internet to mass and mobile connectivity.
+# China — marriage, childbearing and household formation
 
-### `china-pandemic-graduate-cohorts-2020-2023.csv`
+## `china-first-marriage-age-selected-1990-2021.csv`
 
-Ministry of Education benchmark figures for graduate cohorts entering the labor market during the pandemic period:
+Selected **period** mean-age-at-first-marriage endpoints.
+
+1990:
+
+- men 23.57;
+- women 22.02.
+
+2021:
+
+- men 25.63;
+- women 23.89.
+
+Source:
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC9516001/
+
+## `china-first-marriage-by-birth-cohort-cfps2018.csv`
+
+CFPS 2018 **birth-cohort** first-marriage timing table.
+
+Contains:
+
+- median first-marriage age;
+- married before 25;
+- before 30;
+- before 35;
+- before 40 where sufficiently observed.
+
+Cohorts range from pre-1950 through 1985–89.
+
+Source:
+
+- https://link.springer.com/article/10.1007/s42379-022-00113-0
+
+Period and cohort marriage measures answer different questions and should not be mixed.
+
+## `china-childbearing-by-birth-cohort-cfps2018.csv`
+
+Published CFPS 2018 cohort estimates for women:
+
+- at least one child;
+- second child;
+- second child among mothers;
+- median first-to-second-birth interval.
+
+Source:
+
+- https://journals.sagepub.com/doi/full/10.1177/2057150X211040936
+
+The 1980s/1990s cohorts are incompletely observed; especially the 1990s values are **not completed-fertility estimates**.
+
+---
+
+# China — intergenerational family and later life
+
+## `china-old-age-support-expectations-charls.csv`
+
+Urban/rural differences in expected primary economic support in old age.
+
+Useful for showing pension-backed versus child-supported old-age horizons.
+
+Source:
+
+- https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
+
+## `china-retirement-rates-charls-2018.csv`
+
+Weighted CHARLS 2018 retirement rates by age, sex and urban/rural residence.
+
+Selected totals:
+
+- age 60–64: urban 70.8%, rural 26.1%;
+- age 65–69: urban 81.3%, rural 35.2%;
+- age 70–74: urban 83.4%, rural 45.0%.
+
+Source:
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC10187591/
+
+## `china-elderly-coresidence-with-adult-children-1982-2010.csv`
+
+Selected census-based endpoints for age 65+ living with adult children:
+
+- 1982: 69.4%;
+- 2010: 51.7%.
+
+Source:
+
+- https://www.demographic-research.org/volumes/vol41/48/41-48.pdf
+
+Declining co-residence does not mean family support disappears.
+
+## `china-grandparent-care-urban-rural-charls-2011.csv`
+
+CHARLS 2011–2012 analytic-sample participation in grandchild care:
+
+- rural: 42.69%;
+- urban: 48.01%.
+
+Source:
+
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6244459/
+
+Participation is not care intensity.
+
+---
+
+# China — communications and Internet
+
+## `china-internet-scale-1997-2011.csv`
+
+Selected CNNIC benchmarks for the transition from rare dial-up use to mass/mobile connectivity.
+
+Useful for cohort history: a 1990-born child can move from nearly offline childhood to mass mobile Internet by early adulthood.
+
+## `china-household-communication-devices-2000-2010.csv`
+
+Urban/rural household computers and mobile phones per 100 households.
+
+Selected 2000 contrast:
+
+- urban computers 9.70 / rural 0.47;
+- urban mobile phones 19.50 / rural 4.32.
+
+Selected 2010 contrast:
+
+- urban computers 71.16 / rural 10.37;
+- urban mobile phones 188.86 / rural 136.54.
+
+Sources:
+
+- urban: https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm
+- rural: https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm
+
+---
+
+# China — pandemic
+
+## `china-pandemic-graduate-cohorts-2020-2023.csv`
+
+Graduate-cohort planning benchmarks:
 
 - 2020: 8.74 million;
 - 2021: 9.09 million;
 - 2022: 10.76 million;
 - 2023: 11.58 million.
 
-The file prevents pandemic recruitment disruption from being conflated with the simultaneous structural increase in graduate-cohort size.
+Use to distinguish pandemic recruitment disruption from the structural rise in cohort size.
 
-### `china-pandemic-railway-passenger-trips-2019-2023.csv`
+## `china-pandemic-railway-passenger-trips-2019-2023.csv`
 
-NBS railway passenger-trip benchmarks:
+Railway passenger trips:
 
 - 2019: 3.66 billion;
 - 2020: 2.20 billion;
@@ -171,106 +338,118 @@ NBS railway passenger-trip benchmarks:
 - 2022: 1.67 billion;
 - 2023: 3.85 billion.
 
-Useful for visualizing the contraction and rebound of ordinary intercity movement.
+Use as a mobility-system benchmark, not as an explanation for individual travel.
 
-### `china-generative-ai-adoption-2024-2025.csv`
+---
 
-CNNIC-based benchmarks for generative-AI use in China.
+# China — generative AI
 
-Use with the Gen-Z / AI archive rather than treating adoption as proof of dependence or skill.
+## `china-generative-ai-adoption-2024-2025.csv`
 
-## China — generational comparison scaffolds
+CNNIC-based benchmarks for generative-AI use.
 
-### `china-cohort-age-anchors-1955-2005.csv`
+Use with:
 
-Simple arithmetic age anchors for six observation cohorts:
+- [`../INDEX-gen-z.md`](../INDEX-gen-z.md)
+- [`../topics/ai-as-cognitive-infrastructure.md`](../topics/ai-as-cognitive-infrastructure.md)
 
-- 1955;
-- 1965;
-- 1975;
-- 1985;
-- 1995;
-- 2005.
+Adoption is not proof of skill, dependence or cognitive change by itself.
 
-The file answers questions such as:
+---
 
-- how old was this cohort in 1977?
-- what age was it when the Internet became visible?
-- what age was it during the pandemic?
-- had professional routines formed before generative AI arrived?
+# China — cohort research scaffolds
 
-### `china-generational-life-course-matrix.csv`
+## `china-cohort-age-anchors-1955-2005.csv`
 
-Qualitative research scaffold comparing, by anchor cohort:
+Arithmetic age anchors for c.1955 / 1965 / 1975 / 1985 / 1995 / 2005.
 
-- formative household conditions;
+## `china-generational-life-course-matrix.csv`
+
+**Research scaffold**, not survey data.
+
+Summarizes sourced cohort interpretations across:
+
+- childhood material conditions;
 - education problem;
 - first-work problem;
 - housing problem;
 - information environment;
-- later historical break;
+- historical breaks;
 - simplified adult problem.
 
-This is **not survey data**. It is a machine-readable index into the repository's sourced research notes.
+---
 
-## United States
+# United States
 
-### `us-electric-service-1920-1940.csv`
+## `us-electric-service-1920-1940.csv`
 
-U.S. Census Bureau historical benchmark percentages for electric service in all dwellings and farm dwellings in 1920, 1930 and 1940.
+U.S. Census Bureau historical percentages for electric service in all dwellings and farm dwellings.
 
-Source: https://www.census.gov/about/history/stories/monthly/2025/september-2025.html
+Source:
 
-## Why life-horizon data belongs here
+- https://www.census.gov/about/history/stories/monthly/2025/september-2025.html
 
-The project reconstructs two linked layers:
+---
 
-1. **material possibility** — income, housing, infrastructure, technology, transport;
-2. **life-course possibility** — education routes, work routes, migration, marriage, household formation, old-age support and cognitive tools.
+# Why life-course data belongs here
 
-Numbers do not reveal what a person privately wanted.
+Numbers do not reveal what someone privately wanted.
 
-They help establish what a person was realistically planning around.
+They establish what was realistically possible and how common a route could be.
 
-Examples:
+The project increasingly distinguishes:
 
-- higher-education gross enrolment shows how ordinary university attendance could plausibly be;
-- educational rank correlations show how strongly position persisted across generations within the study framework;
-- job tenure shows how long a worker remained attached to an employer in a specific survey population;
-- retirement rates show whether late life is institutionally separated from work;
-- housing space shows how much privacy and household separation were physically possible;
-- household size changes the number of people sharing labor and care;
-- durable ownership shows what counted as normal domestic equipment;
-- Internet scale shows whether online life was rare, destination-based, mass or mobile;
-- migration counts show whether "go elsewhere to work" was marginal or ordinary;
-- homeownership data show whether housing was allocated, privatized or market-purchased;
-- pension/support expectations reveal whether old age is imagined through institutional retirement or intergenerational support;
-- AI adoption shows scale, while qualitative sources are still needed to show how cognition actually changed.
+- **stock/status data** — what someone has now;
+- **period data** — what happens in a calendar year;
+- **cohort data** — what happens to people born in a particular period;
+- **event-history data** — when a transition occurs;
+- **sequence data** — the order/duration of multiple transitions.
 
-## High-value future datasets
+The strongest ordinary-life reconstruction combines these levels.
 
-- historical price indices and durable-goods prices;
-- rent/wage and home-price/income ratios;
-- parental transfers for first-home purchase;
-- water and sanitation access;
-- telephone ownership;
-- Internet-café prices and access patterns;
-- SMS prices and message volumes;
-- transport ownership;
-- age at first marriage;
-- school completion and transition rates;
-- first-job duration and job-change rates **by birth cohort**;
-- first-home timing by cohort;
-- pension coverage and pension amount by cohort;
+## Highest-value future derived datasets
+
+Primary next targets:
+
+- first-work age by birth cohort;
+- first-job duration by cohort;
+- number of jobs by age 30/40;
+- first migration age / episode count;
+- first-marriage age by cohort × origin × education;
+- marriage-to-first-child interval;
+- first independent residence;
+- first ownership age / route;
+- parental first-home transfers;
+- actual retirement age by cohort;
 - grandchild-care hours;
-- transfers to/from adult children;
-- co-residence with elderly parents;
-- household education expenditure;
-- time-use by age and period;
-- pandemic-era remote-work prevalence by occupation;
-- desired working hours and commute by cohort;
-- AI use by occupation and age;
-- historical railway and steamship timetables;
-- wage/fare comparisons;
-- household fuel use;
-- postal and telegram price/time comparisons.
+- elder-care time and money transfers;
+- AI use by age and occupation.
+
+Primary data route:
+
+- CHARLS 2014 Life History Survey;
+- CFPS longitudinal/event-history modules;
+- CGSS retrospective school/work histories.
+
+Guide:
+
+- [`../sources/life-history-survey-guide.md`](../sources/life-history-survey-guide.md)
+
+## Final data rule
+
+Do not infer a life sequence from current status.
+
+A current homeowner may have:
+
+- bought on the market;
+- received privatized work-unit housing;
+- inherited;
+- received parental transfer.
+
+A current worker may have started at 16 or 26.
+
+A current married person may have married at 20 or 35.
+
+Always preserve:
+
+> **unit + population + age + period/cohort + transition definition + source.**
