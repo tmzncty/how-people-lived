@@ -66,6 +66,20 @@ The dataset is useful because it prevents two changes from being conflated:
 
 The figures are cohort/planning figures used by the Ministry of Education in the relevant employment season. Do not substitute them silently for final statistical counts of all graduates under a different educational definition.
 
+### `china-pandemic-railway-passenger-trips-2019-2023.csv`
+
+National Bureau of Statistics railway passenger-trip benchmarks for the five years surrounding the pandemic break:
+
+- 2019: 3.66 billion
+- 2020: 2.20 billion
+- 2021: 2.61 billion
+- 2022: 1.67 billion
+- 2023: 3.85 billion
+
+The series is useful for visualizing how dramatically ordinary intercity movement contracted and then rebounded. It does **not** by itself explain why any individual trip occurred or failed to occur.
+
+Sources are the NBS annual statistical communiqués for 2019–2023 and are retained row-by-row in the CSV.
+
 ### `us-electric-service-1920-1940.csv`
 
 U.S. Census Bureau historical benchmark percentages for electric service in all dwellings and farm dwellings in 1920, 1930 and 1940.
@@ -90,7 +104,8 @@ Examples:
 - marriage-age distributions show how the timing of household formation changed;
 - housing tenure shows whether independent housing was mainly allocated, rented, subsidized or market-purchased;
 - pension/support expectations reveal whether old age is imagined primarily through institutional retirement or intergenerational family support;
-- graduate cohort sizes show how many people are entering the school-to-work transition at the same time, but do not by themselves reveal employment quality.
+- graduate cohort sizes show how many people are entering the school-to-work transition at the same time, but do not by themselves reveal employment quality;
+- transport series show whether ordinary movement expanded or contracted but do not directly reveal subjective experience.
 
 Numbers do not reveal what a person privately wanted. They help establish what a person was realistically planning around.
 
