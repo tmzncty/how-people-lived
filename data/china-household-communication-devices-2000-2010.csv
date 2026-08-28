@@ -1,0 +1,13 @@
+year,residence,item,units_per_100_households,unit,scope,source_url,note
+2000,urban,computer,9.70,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2000,urban,mobile_telephone,19.50,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2000,rural,computer,0.47,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
+2000,rural,mobile_telephone,4.32,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
+2005,urban,computer,41.52,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2005,urban,mobile_telephone,137.00,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2005,rural,computer,2.10,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
+2005,rural,mobile_telephone,50.24,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
+2010,urban,computer,71.16,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2010,urban,mobile_telephone,188.86,set per 100 households,China urban households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1010e.htm,Year-end ownership
+2010,rural,computer,10.37,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
+2010,rural,mobile_telephone,136.54,set per 100 households,China rural households,https://www.stats.gov.cn/sj/ndsj/2012/html/J1030e.htm,Year-end ownership
