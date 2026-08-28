@@ -23,7 +23,10 @@ Useful ages:
 - 45 in 2000;
 - 65 in 2020.
 
-See: [`born-1955-life-course.md`](born-1955-life-course.md)
+See:
+
+- [`born-1955-life-course.md`](born-1955-life-course.md)
+- [`born-1955-urban-rural-pair.md`](born-1955-urban-rural-pair.md)
 
 ### Born c. 1965
 
@@ -54,7 +57,10 @@ Useful ages:
 - 35 in 2010;
 - 45 in 2020.
 
-See: [`born-1975-life-course.md`](born-1975-life-course.md)
+See:
+
+- [`born-1975-life-course.md`](born-1975-life-course.md)
+- [`born-1975-urban-rural-pair.md`](born-1975-urban-rural-pair.md)
 
 ### Born c. 1985
 
@@ -87,7 +93,10 @@ Useful ages:
 - 27 in 2022;
 - 31 in 2026.
 
-See: [`born-1995-life-course.md`](born-1995-life-course.md)
+See:
+
+- [`born-1995-life-course.md`](born-1995-life-course.md)
+- [`born-1995-urban-rural-pair.md`](born-1995-urban-rural-pair.md)
 
 ### Born c. 2005
 
@@ -102,7 +111,7 @@ Use the existing Gen-Z archive:
 
 ## Read the cohorts sideways
 
-A birth-year file is only the first layer. Cross-generational comparison should also preserve gender, origin and family transmission.
+A birth-year file is only the first layer. Cross-generational comparison should also preserve gender, origin, family transmission and life stage.
 
 ### Gender
 
@@ -115,6 +124,12 @@ Do not assume a male-default sequence of school → job → marriage → retirem
 - [`by-domain/urban-rural-same-cohort.md`](by-domain/urban-rural-same-cohort.md)
 
 A cohort is a shared clock, not a shared life. The same birth year can contain radically different school, migration, employment, housing and pension systems.
+
+Detailed paired examples now exist for:
+
+- c.1955;
+- c.1975;
+- c.1995.
 
 ### Parent–child pairs
 
@@ -129,19 +144,33 @@ Pairs such as c.1955 parent → c.1985 child and c.1965 parent → c.1995 child 
 
 Use these to compare what age 20 or age 30 materially meant in different systems.
 
+### Midlife
+
+- [`midlife-sandwich-across-generations.md`](midlife-sandwich-across-generations.md)
+
+This follows the point at which adulthood can become responsibility in two directions: financing children while supporting aging parents and protecting one's own future.
+
+### Age 60
+
+- [`age-60-across-generations.md`](age-60-across-generations.md)
+
+Chronological age is not the same as retirement. Urban/rural differences in pension access and continued work make age 60 a different life stage for different populations.
+
 ## Compare by domain
 
 The `by-domain/` directory lets readers follow one adult problem across cohorts rather than following one cohort through time.
 
 Current domain files include:
 
-- education;
-- work;
-- housing;
-- information;
-- family and care;
-- women across cohorts;
-- urban/rural same-cohort divergence.
+- [`by-domain/education.md`](by-domain/education.md);
+- [`by-domain/work.md`](by-domain/work.md);
+- [`by-domain/housing.md`](by-domain/housing.md);
+- [`by-domain/information.md`](by-domain/information.md);
+- [`by-domain/family-and-care.md`](by-domain/family-and-care.md);
+- [`by-domain/marriage-and-household-formation.md`](by-domain/marriage-and-household-formation.md);
+- [`by-domain/grandparent-care-and-later-life.md`](by-domain/grandparent-care-and-later-life.md);
+- [`by-domain/women-across-cohorts.md`](by-domain/women-across-cohorts.md);
+- [`by-domain/urban-rural-same-cohort.md`](by-domain/urban-rural-same-cohort.md).
 
 Related cross-period topics:
 
@@ -158,12 +187,28 @@ Every cohort should eventually be comparable on:
 | School | expected leaving age, exam routes, family investment |
 | First work | allocation, market search, migration, job mobility |
 | Housing | family home, allocation, purchase, rent, parental support |
-| Marriage/family | timing, economic prerequisites, household size |
+| Marriage/family | timing, co-residence, economic prerequisites, first child |
 | Communication | letter/telephone/PC/mobile/AI |
 | Consumption | which goods mark improvement or normality |
-| Risk | unemployment, housing, education, health, elder care |
-| Old age | children, employer pension, social insurance, savings |
+| Midlife | child investment, parent care, housing, career, own savings |
+| Grandparenthood | childcare intensity, continued work, transfers |
+| Old age | children, employer pension, social insurance, savings, co-residence |
 | Historical breaks | war, reform, Internet, pandemic, AI |
+
+## A family-support warning
+
+Declining intergenerational co-residence does not mean family support disappears.
+
+Census-based research reports the share of people aged 65+ living with adult children declining from about **69.4% in 1982 to 51.7% in 2010**.
+
+At the same time, research documents:
+
+- living separately but nearby;
+- financial transfers;
+- frequent contact;
+- substantial grandchild care.
+
+So later-life “independence” should be decomposed in the same way as young-adult independence.
 
 ## Do not force symmetry
 
@@ -176,5 +221,7 @@ For others, it is whether the first job lasts for life.
 For others, it is whether housing must be purchased.
 
 For others, it is whether cognitive work is now shared with AI.
+
+For older adults, the central question may instead be whether age 60 means pension-backed retirement, continued work, grandchild care, elder care, or several of these at once.
 
 The comparison should preserve those asymmetries rather than pretending each generation faced the same problem with different attitudes.
