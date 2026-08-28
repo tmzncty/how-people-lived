@@ -103,6 +103,20 @@ This is a later-period expectation dataset, not evidence that the same percentag
 
 Source: https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
 
+### `china-retirement-rates-charls-2018.csv`
+
+Weighted CHARLS 2018 retirement rates by age group, urban/rural status and sex.
+
+Selected total-population contrasts:
+
+- age 60–64: urban 70.8%, rural 26.1%;
+- age 65–69: urban 81.3%, rural 35.2%;
+- age 70–74: urban 83.4%, rural 45.0%.
+
+The dataset demonstrates why chronological age should not be treated as a universal retirement stage.
+
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10187591/
+
 ## China — employment and migration
 
 ### `china-job-tenure-urban-resident-migrant-1999.csv`
@@ -223,6 +237,7 @@ Examples:
 - higher-education gross enrolment shows how ordinary university attendance could plausibly be;
 - educational rank correlations show how strongly position persisted across generations within the study framework;
 - job tenure shows how long a worker remained attached to an employer in a specific survey population;
+- retirement rates show whether late life is institutionally separated from work;
 - housing space shows how much privacy and household separation were physically possible;
 - household size changes the number of people sharing labor and care;
 - durable ownership shows what counted as normal domestic equipment;
@@ -246,7 +261,9 @@ Examples:
 - school completion and transition rates;
 - first-job duration and job-change rates **by birth cohort**;
 - first-home timing by cohort;
-- pension coverage by cohort;
+- pension coverage and pension amount by cohort;
+- grandchild-care hours;
+- transfers to/from adult children;
 - co-residence with elderly parents;
 - household education expenditure;
 - time-use by age and period;
