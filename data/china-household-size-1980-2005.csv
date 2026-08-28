@@ -1,0 +1,11 @@
+area,year,average_household_size_persons,source,note
+rural,1980,5.54,https://www.stats.gov.cn/yearbook/1999/j14c.htm,"rural household survey"
+rural,1985,5.12,https://www.stats.gov.cn/yearbook/1999/j14c.htm,"rural household survey"
+rural,1990,4.80,https://www.stats.gov.cn/yearbook/1999/j14c.htm,"rural household survey"
+rural,1995,4.48,https://www.stats.gov.cn/yearbook/1999/j14c.htm,"rural household survey"
+rural,1998,4.30,https://www.stats.gov.cn/yearbook/1999/j14c.htm,"rural household survey"
+urban,1985,3.89,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2001e/htm/J1004e.htm,"urban household survey"
+urban,1990,3.50,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2001e/htm/J1004e.htm,"urban household survey"
+urban,1995,3.23,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2001e/htm/J1004e.htm,"urban household survey"
+urban,2000,3.13,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2001e/htm/J1004e.htm,"urban household survey"
+urban,2005,2.96,https://www.stats.gov.cn/sj/ndsj/2006/html/J1005e.htm,"urban household survey"
