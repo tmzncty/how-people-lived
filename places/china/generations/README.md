@@ -41,7 +41,10 @@ Useful ages:
 - 35 in 2000;
 - 55 in 2020.
 
-See: [`born-1965-life-course.md`](born-1965-life-course.md)
+See:
+
+- [`born-1965-life-course.md`](born-1965-life-course.md)
+- [`born-1965-urban-rural-pair.md`](born-1965-urban-rural-pair.md)
 
 ### Born c. 1975
 
@@ -76,7 +79,10 @@ Useful ages:
 - 25 in 2010;
 - 35 in 2020.
 
-See: [`born-1985-life-course.md`](born-1985-life-course.md)
+See:
+
+- [`born-1985-life-course.md`](born-1985-life-course.md)
+- [`born-1985-urban-rural-pair.md`](born-1985-urban-rural-pair.md)
 
 ### Born c. 1995
 
@@ -104,10 +110,38 @@ Core question:
 
 > What happens when smartphones are childhood infrastructure, the pandemic interrupts secondary education, and generative AI arrives before professional routines form?
 
-Use the existing Gen-Z archive:
+See:
 
-- [`INDEX-gen-z.md`](../../../INDEX-gen-z.md)
-- [`places/china/gen-z-cohort-2000-2005-life-course.md`](../gen-z-cohort-2000-2005-life-course.md)
+- [`../gen-z-cohort-2000-2005-life-course.md`](../gen-z-cohort-2000-2005-life-course.md)
+- [`born-2005-urban-rural-pair.md`](born-2005-urban-rural-pair.md)
+- [`../../../INDEX-gen-z.md`](../../../INDEX-gen-z.md)
+
+## Six paired urban/rural cohorts are now available
+
+The paired files make the project's main caution concrete:
+
+> **A cohort is a shared clock, not a shared life.**
+
+Read:
+
+- [c.1955 urban/rural](born-1955-urban-rural-pair.md)
+- [c.1965 urban/rural](born-1965-urban-rural-pair.md)
+- [c.1975 urban/rural](born-1975-urban-rural-pair.md)
+- [c.1985 urban/rural](born-1985-urban-rural-pair.md)
+- [c.1995 urban/rural](born-1995-urban-rural-pair.md)
+- [c.2005 urban/rural](born-2005-urban-rural-pair.md)
+
+The meaning of the urban/rural divide changes across cohorts.
+
+For older cohorts it can mean completely different labor, welfare and appliance systems.
+
+For younger cohorts both sides may use smartphones and AI, while inequality shifts toward:
+
+- school quality;
+- family assets;
+- migration cost;
+- where housing support is located;
+- ability to convert digital tools into credentials and jobs.
 
 ## Read the cohorts sideways
 
@@ -123,13 +157,7 @@ Do not assume a male-default sequence of school → job → marriage → retirem
 
 - [`by-domain/urban-rural-same-cohort.md`](by-domain/urban-rural-same-cohort.md)
 
-A cohort is a shared clock, not a shared life. The same birth year can contain radically different school, migration, employment, housing and pension systems.
-
-Detailed paired examples now exist for:
-
-- c.1955;
-- c.1975;
-- c.1995.
+Use the six paired files above for detailed examples.
 
 ### Parent–child pairs
 
@@ -176,6 +204,48 @@ Related cross-period topics:
 
 - [`../../../topics/first-job-as-a-life-course-anchor.md`](../../../topics/first-job-as-a-life-course-anchor.md)
 - [`../../../topics/first-home-and-parental-support.md`](../../../topics/first-home-and-parental-support.md)
+
+## From structural comparison to empirical life histories
+
+The next stage is to test these cohort maps against event-history data.
+
+Start with:
+
+- [`../../../sources/life-history-survey-guide.md`](../../../sources/life-history-survey-guide.md)
+
+Key sources include:
+
+- CHARLS 2014 Life History Survey;
+- China Family Panel Studies (CFPS);
+- event-history-calendar modules for marriage, residence and employment.
+
+These sources can eventually support derived cohort statistics such as:
+
+- age at first work;
+- first-job duration;
+- number of employers;
+- age at first migration;
+- marriage timing;
+- housing transitions;
+- retirement age.
+
+The repository should preserve derived, non-identifying results and methods rather than redistribute restricted microdata.
+
+## First-encounter memories
+
+Cohort timing can also be reconstructed through personal technology memories:
+
+- first refrigerator;
+- first telephone;
+- first computer;
+- first Internet connection;
+- first mobile phone;
+- first smartphone;
+- first AI conversation.
+
+Start with:
+
+- [`../../../INDEX-first-encounters.md`](../../../INDEX-first-encounters.md)
 
 ## Comparison dimensions
 
