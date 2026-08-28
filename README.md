@@ -30,6 +30,10 @@ For example, household refrigerators existed long before they became ordinary po
 
 Sources: National Bureau of Statistics of China, historical statistical yearbook tables on durable consumer goods: [urban households](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm) and [rural households](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm).
 
+A second example is electricity. U.S. historical Census figures report electric service in 34.7% of all dwellings in 1920 but only 1.6% of farm dwellings. A technology can therefore be old, commercially mature, and highly visible in cities while remaining outside ordinary life elsewhere in the same country.
+
+See: [`places/united-states/1920-1940-electrification-divide.md`](places/united-states/1920-1940-electrification-divide.md).
+
 ## What belongs here
 
 We are interested in both **material conditions** and **lived experience**.
@@ -76,6 +80,10 @@ A reader of *Around the World in Eighty Days* may know that Phileas Fogg travels
 
 See: [`literature/around-the-world-in-eighty-days.md`](literature/around-the-world-in-eighty-days.md).
 
+*Dracula* offers another kind of hidden infrastructure. Its characters combine telegrams, phonograph diaries, typewriters, newspaper files, duplicate copies and railway timetables into a late-Victorian information-processing system. A modern reader can miss how much physical labor is hidden inside "collecting the evidence."
+
+See: [`literature/dracula-1897-information-machine.md`](literature/dracula-1897-information-machine.md).
+
 Literary texts are evidence, but not transparent records. A novel may depict an elite household, exaggerate for comedy, omit routine labor, or assume contemporary knowledge that modern readers no longer possess. Where possible, literary examples should be checked against statistics, manuals, advertisements, diaries, letters, oral histories, newspapers, photographs, catalogues, and scholarly research.
 
 ## Repository map
@@ -86,6 +94,8 @@ how-people-lived/
 ├── README.zh-CN.md
 ├── METHODOLOGY.md
 ├── CONTRIBUTING.md
+├── ROADMAP.md
+├── AGENTS.md
 ├── templates/
 │   ├── life-slice.md
 │   └── technology-adoption.md
@@ -93,19 +103,31 @@ how-people-lived/
 │   ├── README.md
 │   └── technology-existence-vs-adoption.md
 ├── places/
-│   └── china/
-│       ├── 1980s-urban-household-technology.md
-│       └── 1990s-rural-household-technology.md
+│   ├── china/
+│   │   ├── 1980s-urban-household-technology.md
+│   │   └── 1990s-rural-household-technology.md
+│   ├── united-kingdom/london/
+│   │   └── c1872-clerk.md
+│   └── united-states/
+│       ├── 1930s-household-refrigeration.md
+│       └── 1920-1940-electrification-divide.md
 ├── literature/
 │   ├── README.md
-│   └── around-the-world-in-eighty-days.md
+│   ├── around-the-world-in-eighty-days.md
+│   └── dracula-1897-information-machine.md
 ├── topics/
 │   ├── refrigeration.md
-│   └── laundry-and-washing-machines.md
+│   ├── laundry-and-washing-machines.md
+│   ├── lighting-and-electrification.md
+│   ├── water-sanitation-and-toilets.md
+│   ├── cooking-fuel-and-stoves.md
+│   └── post-telegraph-and-information-delay.md
 ├── sources/
-│   └── source-catalog.md
+│   ├── source-catalog.md
+│   └── household-infrastructure-sources.md
 └── data/
-    └── china-household-durables-1985-2000.csv
+    ├── china-household-durables-1985-2000.csv
+    └── us-electric-service-1920-1940.csv
 ```
 
 This structure will grow. Period, place, class and rural/urban differences should be preserved rather than flattened into a single timeline.
