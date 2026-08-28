@@ -100,6 +100,54 @@ Use the existing Gen-Z archive:
 - [`INDEX-gen-z.md`](../../../INDEX-gen-z.md)
 - [`places/china/gen-z-cohort-2000-2005-life-course.md`](../gen-z-cohort-2000-2005-life-course.md)
 
+## Read the cohorts sideways
+
+A birth-year file is only the first layer. Cross-generational comparison should also preserve gender, origin and family transmission.
+
+### Gender
+
+- [`by-domain/women-across-cohorts.md`](by-domain/women-across-cohorts.md)
+
+Do not assume a male-default sequence of school → job → marriage → retirement. Education, childbirth, paid work, migration and care interact differently by cohort.
+
+### Urban / rural origin
+
+- [`by-domain/urban-rural-same-cohort.md`](by-domain/urban-rural-same-cohort.md)
+
+A cohort is a shared clock, not a shared life. The same birth year can contain radically different school, migration, employment, housing and pension systems.
+
+### Parent–child pairs
+
+- [`paired-parent-child-cohorts.md`](paired-parent-child-cohorts.md)
+
+Pairs such as c.1955 parent → c.1985 child and c.1965 parent → c.1995 child reveal how one generation gives advice using a risk model learned in an earlier world.
+
+### Same age, different year
+
+- [`age-30-across-generations.md`](age-30-across-generations.md)
+- [`../../../topics/age-20-in-different-generations.md`](../../../topics/age-20-in-different-generations.md)
+
+Use these to compare what age 20 or age 30 materially meant in different systems.
+
+## Compare by domain
+
+The `by-domain/` directory lets readers follow one adult problem across cohorts rather than following one cohort through time.
+
+Current domain files include:
+
+- education;
+- work;
+- housing;
+- information;
+- family and care;
+- women across cohorts;
+- urban/rural same-cohort divergence.
+
+Related cross-period topics:
+
+- [`../../../topics/first-job-as-a-life-course-anchor.md`](../../../topics/first-job-as-a-life-course-anchor.md)
+- [`../../../topics/first-home-and-parental-support.md`](../../../topics/first-home-and-parental-support.md)
+
 ## Comparison dimensions
 
 Every cohort should eventually be comparable on:
