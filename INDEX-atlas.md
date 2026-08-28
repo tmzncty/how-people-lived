@@ -20,15 +20,7 @@ Start with:
 
 - [Life Horizons Index](INDEX-life-horizons.md)
 
-Questions include:
-
-- what counted as adulthood;
-- what counted as a good job;
-- when university became an ordinary option;
-- what people saved for;
-- what counted as independence;
-- when changing jobs became normal;
-- when retirement became a recognizable life stage.
+Questions include adulthood, good jobs, university, savings, independence, job change, housing and retirement.
 
 ## 3. How did the same life problem change across generations?
 
@@ -37,14 +29,7 @@ Start with:
 - [Generational Life-Course Index](INDEX-generations.md)
 - [China cohort life-course map](places/china/generations/README.md)
 
-China anchor cohorts currently include people born around:
-
-- 1955;
-- 1965;
-- 1975;
-- 1985;
-- 1995;
-- 2005.
+China anchor cohorts currently include people born around 1955, 1965, 1975, 1985, 1995 and 2005.
 
 All six now have urban/rural paired examples.
 
@@ -60,16 +45,32 @@ Follow:
 
 > partnership → household formation → children → midlife transfers → grandparent care → retirement / continued work → old-age support.
 
-Useful detailed topics now include:
+## 5. Who owned the 24 hours of an ordinary day?
 
-- marriage and household formation;
-- first home and parental support;
-- sandwich-generation midlife;
-- grandparent childcare;
-- co-residence versus living nearby;
-- age 60 and retirement.
+Start with:
 
-## 5. What did the millennial-era transition feel like?
+- [Time-Use and the 24-Hour Life Index](INDEX-time-use.md)
+- [The 24-hour life: time as a material resource](topics/time-as-a-material-resource.md)
+- [Unpaid labor, care and the hidden household shift](topics/unpaid-labor-and-care-time.md)
+- [Commuting, transport and the price of distance](topics/commuting-and-the-price-of-distance.md)
+- [Time-use source guide](sources/time-use-source-guide.md)
+- [Time-use data index](data/INDEX-time-use-data.md)
+
+This branch asks not only what people owned, but what they had time for.
+
+It tracks:
+
+- paid work;
+- housework;
+- childcare and elder care;
+- commuting;
+- discretionary time;
+- Internet/ICT use;
+- the conversion of physical household labor into attention-intensive care and educational labor.
+
+A key methodological rule is that 2018 and 2024 China time-use surveys are not a perfectly harmonized trend series because the 2024 design expanded coverage and changed categories/methods.
+
+## 6. What did the millennial-era transition feel like?
 
 Start with:
 
@@ -79,7 +80,7 @@ A useful sequence:
 
 > offline childhood → destination Internet → QQ / PC adolescence → smartphone adulthood → pandemic around age 30.
 
-## 6. What did the pandemic do to ordinary life?
+## 7. What did the pandemic do to ordinary life?
 
 Start with:
 
@@ -89,7 +90,7 @@ The archive focuses on home becoming school/work infrastructure, remote work, on
 
 It deliberately treats the pandemic as ordinary-life history rather than political controversy.
 
-## 7. What is distinctive about post-2000 youth?
+## 8. What is distinctive about post-2000 youth?
 
 Start with:
 
@@ -99,7 +100,7 @@ A useful sequence:
 
 > Internet-default childhood → smartphone adolescence → pandemic coming of age → generative-AI adulthood.
 
-## 8. When did a technology actually arrive in someone's life?
+## 9. When did a technology actually arrive in someone's life?
 
 Start with:
 
@@ -112,7 +113,7 @@ This archive asks:
 
 Useful for refrigerators, washing machines, telephone, pager, mobile phone, computer, Internet, smartphone, mobile payment and generative AI.
 
-## 9. How can we reconstruct real life sequences empirically?
+## 10. How can we reconstruct real life sequences empirically?
 
 The project now has three levels of evidence.
 
@@ -135,7 +136,7 @@ Start with:
 - [Leaving the parental home as a life stage](topics/leaving-parental-home-as-a-life-stage.md)
 - [Empirical Life-Sequence Data Index](data/INDEX-life-sequence-data.md)
 
-The repository now contains birth-cohort data for first marriage and childbearing, plus event-history research on migration, skilled-job entry and first homeownership.
+The repository contains birth-cohort data for first marriage and childbearing, plus event-history research on migration, skilled-job entry and first homeownership.
 
 ### Life-history microdata route
 
@@ -143,29 +144,23 @@ Start with:
 
 - [Life-History Survey Guide](sources/life-history-survey-guide.md)
 
-Key survey systems:
+Key survey systems include CHARLS life histories, CFPS and CGSS retrospective work/education histories.
 
-- CHARLS 2014 Life History Survey;
-- China Family Panel Studies (CFPS);
-- Chinese General Social Survey retrospective work/education histories;
-- event-history research derived from these and related datasets.
+The empirical goal is to derive non-identifying cohort statistics such as first-work age, first-job duration, migration age, marriage timing, housing transitions and retirement age.
 
-The next empirical goal is to derive non-identifying cohort statistics such as first-work age, first-job duration, migration age, marriage timing, housing transitions and retirement age.
-
-## 10. How can actual memories be collected?
+## 11. How can actual memories be collected?
 
 Start with:
 
 - [Generational oral-history interview template](templates/generational-oral-history-interview.md)
 - [Generational memory preservation guide](sources/generational-memory-preservation-guide.md)
 - [Everyday memory artifact template](templates/everyday-memory-artifact.md)
-- [Technology first-encounter template](templates/technology-first-encounter.md)
 - [Pandemic memory archive guide](places/china/pandemic/memory-archive-guide.md)
 - [AI-era memory archive guide](places/china/gen-z/ai-memory-archive-guide.md)
 
-The oral-history template asks for concrete ages and transitions rather than stereotypes: first earnings, first job, migration, marriage, housing, technologies, children, midlife care, grandparenthood and retirement.
+The oral-history method asks concrete ages and transitions rather than stereotypes.
 
-## 11. How should evidence be preserved?
+## 12. How should evidence be preserved?
 
 The repository generally preserves:
 
@@ -179,7 +174,7 @@ The repository generally preserves:
 
 It should not become an indiscriminate dump of private chats, copyrighted books or restricted microdata.
 
-## 12. Literature
+## 13. Literature
 
 Start with:
 
@@ -192,42 +187,28 @@ Examples already include:
 - *Around the World in Eighty Days* — transport bandwidth;
 - *Dracula* — information-processing infrastructure.
 
-The growing life-course archive also lets literature be read through:
+The growing life-course archive also lets literature be read through marriage timing, co-residence, job mobility, childcare, time budgets and retirement.
 
-- when characters should already be married;
-- who is expected to live with parents;
-- whether changing jobs is plausible;
-- who provides childcare;
-- what old age and retirement mean.
-
-## 13. China
+## 14. China
 
 Start with:
 
 - [China ordinary-life map](places/china/README.md)
 
-Then choose:
+Then choose historical break, generation, urban/rural pair, material technology, family life, time use, pandemic, AI or empirical event sequence.
 
-- historical break;
-- generation;
-- urban/rural pair;
-- material technology;
-- family life;
-- pandemic;
-- AI;
-- empirical event sequence.
-
-## 14. Machine-readable material
+## 15. Machine-readable material
 
 Start with:
 
 - [Data README](data/README.md)
 - [Empirical Life-Sequence Data Index](data/INDEX-life-sequence-data.md)
 - [Family Life-Course Data Index](data/INDEX-family-life-course-data.md)
+- [Time-Use Data Index](data/INDEX-time-use-data.md)
 
-Current datasets include household durables, housing space, household size, education, migration, Internet adoption, communication devices, pandemic transport/graduates, AI adoption, retirement, first marriage, childbearing, co-residence and grandparent care.
+Current datasets include household durables, housing, household size, education, migration, Internet adoption, communication devices, pandemic transport/graduates, AI adoption, retirement, marriage, childbearing, co-residence, grandparent care and time use.
 
-## 15. The repository's full model
+## 16. The repository's full model
 
 The project now asks at least these linked questions:
 
@@ -239,8 +220,10 @@ The project now asks at least these linked questions:
 6. **At what age did each transition occur?**
 7. **In what order did work, migration, marriage, housing and children occur?**
 8. **How did one transition change the probability of the next?**
-9. **How did the answer differ for urban/rural, women/men, migrants/non-migrants and different family resources?**
-10. **Which technologies were learned as novelties, and which were already background infrastructure?**
-11. **Which memories and artifacts are about to disappear if nobody preserves them?**
+9. **Who controlled the hours of the day?**
+10. **How did paid work, unpaid care, commuting and digital reachability compete for time?**
+11. **How did the answer differ for urban/rural, women/men, migrants/non-migrants and different family resources?**
+12. **Which technologies were learned as novelties, and which were already background infrastructure?**
+13. **Which memories and artifacts are about to disappear if nobody preserves them?**
 
 That is the working definition of an atlas of ordinary life.
