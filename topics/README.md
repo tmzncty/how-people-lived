@@ -27,6 +27,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work requires pensions, savings or intergenerational support and therefore cannot be treated as timeless
 - [What did people save for?](what-did-people-save-for.md) — savings as evidence of which future costs households expect to finance themselves
 - [What counted as independence?](what-counted-as-independence.md) — economic, residential, occupational, geographic and intergenerational independence do not necessarily occur at the same time
+- [Optionality as a life goal](optionality-as-a-life-goal.md) — when preserving the ability to change job, city, education or household plan becomes a rational objective rather than mere indecision
 
 ## Planned systems
 
@@ -89,6 +90,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - when did pension planning become separated from one employer?
 - when did "career" become a project rather than a position?
 - when did a household begin planning several future generations at once?
+- when did keeping options open become valuable enough to postpone another milestone?
 
 ## How topic notes should work
 
@@ -111,5 +113,7 @@ A job can pay less but still be preferred if it provides housing, welfare or pro
 A formal retirement age can exist for one population while another population works until health prevents it.
 
 A young couple can live in their own apartment while depending on parental capital to buy it.
+
+A person can delay a permanent choice not because they lack goals, but because reversibility has become valuable under uncertainty.
 
 The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household.
