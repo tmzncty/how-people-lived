@@ -10,13 +10,46 @@ History is often organized around states, wars, institutions, inventions, and fa
 
 This repository collects evidence about everyday life: housing, food, work, income, prices, transport, communication, household technology, education, leisure, family life, hygiene, health, time use, and the futures people could realistically imagine for themselves.
 
-It is intended both as a small digital-history project and as a **context companion for reading literature**. If a novel mentions a railway, a steam packet, a refrigerator, a boarding house, a telegram, a servant, a bicycle, or a week's wages, this project asks what those things meant in the material world of the time.
+It is also a **context companion for reading literature**. If a novel mentions a railway, a steam packet, a refrigerator, a boarding house, a telegram, a servant, a bicycle, a week's wages, a work unit, a college place, a smartphone or an AI assistant, this project asks what those things meant in the material world of the time.
+
+## Start here
+
+### Material life
+
+- [Foundations: the material base of ordinary life](foundations/README.md)
+- [Technology exists. Does a person have it?](foundations/technology-existence-vs-adoption.md)
+- [Topics index](topics/README.md)
+- [Data index](data/README.md)
+
+### Life goals and adulthood
+
+- [Life Horizons Index](INDEX-life-horizons.md)
+- [Life horizons and goals](foundations/life-horizons-and-goals.md)
+- [How did the problem of adulthood change across generations?](topics/how-the-problem-of-adulthood-changed-across-generations.md)
+
+### Generations
+
+- [Generational Life-Course Index](INDEX-generations.md)
+- [China cohort map: c.1955 → c.2005](places/china/generations/README.md)
+- [Generations are timing, not personality](foundations/generations-are-timing-not-personality.md)
+
+### Recent life-history archives
+
+- [Millennial-Era Ordinary Life Index](INDEX-millennial.md)
+- [Pandemic Everyday-Life Index](INDEX-pandemic.md)
+- [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.md)
+
+### Literature
+
+- [Literature Context Notes](literature/README.md)
+- [*Around the World in Eighty Days*: infrastructure of the scheduled globe](literature/around-the-world-in-eighty-days.md)
+- [*Dracula* as a 1897 information machine](literature/dracula-1897-information-machine.md)
 
 ## The central rule: invention is not availability
 
 A technology can exist for decades before it becomes part of ordinary life.
 
-For every technology, service, or convenience, we try to distinguish:
+For every technology, service, or convenience, distinguish where evidence allows:
 
 1. **technical existence** — could it be built at all?
 2. **commercial availability** — could someone buy or use it somewhere?
@@ -24,19 +57,64 @@ For every technology, service, or convenience, we try to distinguish:
 4. **economic accessibility** — could an ordinary household afford it?
 5. **social distribution** — who actually had access: urban/rural, rich/poor, region, occupation, gender, age?
 6. **mass adoption** — when did it become normal rather than exceptional?
-7. **behavioral effect** — when did it actually change how people cooked, washed, traveled, communicated, worked, or planned their lives?
+7. **behavioral effect** — when did it actually change how people cooked, washed, traveled, communicated, worked, studied, or planned their lives?
 
-For example, household refrigerators existed long before they became ordinary possessions everywhere. Chinese statistical yearbooks show the importance of place and social distribution: in 1985 urban China had 6.58 refrigerators per 100 households, rising to 42.33 in 1990 and 66.22 in 1995. Rural households had only 1.22 refrigerators per 100 households in 1990 and 5.15 in 1995. A statement such as "refrigerators existed in the 1980s" therefore tells us almost nothing about a particular family's daily life.
+For example, Chinese household refrigerators existed long before they became normal possessions everywhere. Historical statistical yearbooks report 6.58 refrigerators per 100 urban households in 1985, 42.33 in 1990 and 66.22 in 1995. Rural households had only 1.22 per 100 households in 1990 and 5.15 in 1995.
 
-Sources: National Bureau of Statistics of China, historical statistical yearbook tables on durable consumer goods: [urban households](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm) and [rural households](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm).
+Sources:
 
-A second example is electricity. U.S. historical Census figures report electric service in 34.7% of all dwellings in 1920 but only 1.6% of farm dwellings. A technology can therefore be old, commercially mature, and highly visible in cities while remaining outside ordinary life elsewhere in the same country.
+- [urban durable goods](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm)
+- [rural durable goods](https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm)
 
-See: [`places/united-states/1920-1940-electrification-divide.md`](places/united-states/1920-1940-electrification-divide.md).
+A statement such as “refrigerators existed in the 1980s” therefore tells us almost nothing about a particular family's daily life.
+
+## The second rule: the life menu is historical too
+
+Material history alone is not enough.
+
+For a person in a specific place and year, also ask:
+
+- What counted as adulthood?
+- What counted as a good job?
+- Was university a realistic option?
+- How was housing obtained?
+- When was marriage economically possible?
+- What did parents expect from children?
+- What did people save for?
+- Was retirement a meaningful expected life stage?
+- Could disliking a job justify leaving it?
+- Was keeping future options open itself valuable?
+
+The project calls this a person's **life horizon**.
+
+See: [Life Horizons Index](INDEX-life-horizons.md).
+
+## The third rule: generations are timing, not personality
+
+Do not write:
+
+> “The post-90s are more individualistic.”
+
+Instead ask:
+
+> **What did a person born in 1995 encounter at age 10, 20, 25 and 30?**
+
+The repository now uses six anchor cohorts for China:
+
+| Anchor cohort | Simplified adult problem |
+|---|---|
+| c.1955 | obtain a viable place and materially improve the household |
+| c.1965 | build around institutional stability, then adapt when rules change |
+| c.1975 | learn labor/housing mobility and digital systems as adult adaptations |
+| c.1985 | coordinate education, job, city and housing as separate projects |
+| c.1995 | preserve optionality through market adulthood, pandemic and early-career AI |
+| c.2005 | establish competence when cognitive work can be shared with AI |
+
+This is not a personality ranking. It is a timing map.
+
+See: [Generational Life-Course Index](INDEX-generations.md).
 
 ## What belongs here
-
-We are interested in both **material conditions** and **lived experience**.
 
 ### Material foundations
 
@@ -47,7 +125,7 @@ We are interested in both **material conditions** and **lived experience**.
 - electricity, gas, plumbing and telecommunications
 - household appliances and their real adoption rates
 - roads, railways, ships, bicycles, cars and public transport
-- postal systems, telegraph, telephone, radio, television and computers
+- postal systems, telegraph, telephone, radio, television, computers, smartphones and AI infrastructure
 - schools, libraries, hospitals, shops and other everyday institutions
 - production systems and supply chains that made consumption possible
 
@@ -63,74 +141,90 @@ We are interested in both **material conditions** and **lived experience**.
 - how often people traveled and how far
 - what information reached them, and how quickly
 - what people feared, hoped for, saved for, or expected from adulthood
-- what choices were realistically available to them
-- what was considered normal, luxurious, shameful, dangerous, or impossible
+- what choices were realistically available
+- what was normal, luxurious, shameful, dangerous or impossible
+
+### Historical transitions inside one life
+
+- what changed between age 20 and age 40?
+- did the first-job rules change after the person had already chosen a career?
+- did housing become private property after marriage?
+- did the Internet arrive in childhood, adolescence or mid-career?
+- did the pandemic hit school, first-job entry, parenting or retirement?
+- did generative AI arrive before or after professional skills were formed?
 
 ## Not a political-event encyclopedia
 
-Politics can affect everyday life and cannot always be removed from historical explanation. But this repository is **not organized around political controversy**. When political or institutional conditions are necessary to explain housing, work, schooling, migration, rationing, infrastructure, or other aspects of daily life, they should be described narrowly, factually, and with sources.
+Politics and institutions can affect housing, work, schooling, migration, rationing, infrastructure and family life, so they cannot always be removed from historical explanation.
 
-The organizing question remains: **how did people live?**
+But this repository is **not organized around political controversy**.
+
+When institutional context is necessary:
+
+- describe the narrow material effect;
+- use neutral language;
+- cite sources;
+- return to the question: **how did people live?**
 
 ## Literature as a window — and a problem
 
-Literature is one of the reasons this repository exists.
+Old literature often assumes a material world contemporary readers already understood.
 
-A reader of *Around the World in Eighty Days* may know that Phileas Fogg travels rapidly around the globe, but the plot becomes much more intelligible when placed beside the material network available in the early 1870s: steamships, mail packets, the Suez Canal, expanding Indian railways, and the recently completed U.S. transcontinental railroad. The novel's famous timetable is not merely fantasy; it is built around a newly connected transport system.
+### *Around the World in Eighty Days*
+
+The plot becomes much more intelligible when the early-1870s network of steamships, the Suez Canal, railways and timetables is restored.
 
 See: [`literature/around-the-world-in-eighty-days.md`](literature/around-the-world-in-eighty-days.md).
 
-*Dracula* offers another kind of hidden infrastructure. Its characters combine telegrams, phonograph diaries, typewriters, newspaper files, duplicate copies and railway timetables into a late-Victorian information-processing system. A modern reader can miss how much physical labor is hidden inside "collecting the evidence."
+### *Dracula*
+
+The characters combine telegrams, phonograph diaries, typewriters, newspaper files, duplicate copies and railway timetables into a late-Victorian information-processing system.
 
 See: [`literature/dracula-1897-information-machine.md`](literature/dracula-1897-information-machine.md).
 
-Literary texts are evidence, but not transparent records. A novel may depict an elite household, exaggerate for comedy, omit routine labor, or assume contemporary knowledge that modern readers no longer possess. Where possible, literary examples should be checked against statistics, manuals, advertisements, diaries, letters, oral histories, newspapers, photographs, catalogues, and scholarly research.
+The same method can be applied to modern fiction:
 
-## Repository map
+- bicycles and work units;
+- dormitories and allocated rooms;
+- telephones and train tickets;
+- Internet cafés and QQ;
+- smartphones and platform work;
+- pandemic online classes;
+- AI-assisted work.
+
+Do not reduce literature to a statistical sample. Restore the background systems without flattening the work as literature.
+
+## Current repository shape
 
 ```text
 how-people-lived/
-├── README.md
-├── README.zh-CN.md
-├── METHODOLOGY.md
-├── CONTRIBUTING.md
+├── README.md / README.zh-CN.md
+├── METHODOLOGY.md / CONTRIBUTING.md / AGENTS.md
 ├── ROADMAP.md
-├── AGENTS.md
-├── templates/
-│   ├── life-slice.md
-│   └── technology-adoption.md
+├── ROADMAP-life-horizons.md
+├── ROADMAP-generations.md
+├── INDEX-life-horizons.md
+├── INDEX-generations.md
+├── INDEX-millennial.md
+├── INDEX-pandemic.md
+├── INDEX-gen-z.md
 ├── foundations/
-│   ├── README.md
-│   └── technology-existence-vs-adoption.md
+├── templates/
 ├── places/
 │   ├── china/
-│   │   ├── 1980s-urban-household-technology.md
-│   │   └── 1990s-rural-household-technology.md
-│   ├── united-kingdom/london/
-│   │   └── c1872-clerk.md
+│   │   ├── generations/
+│   │   ├── millennial/
+│   │   ├── pandemic/
+│   │   └── gen-z/
+│   ├── united-kingdom/
 │   └── united-states/
-│       ├── 1930s-household-refrigeration.md
-│       └── 1920-1940-electrification-divide.md
-├── literature/
-│   ├── README.md
-│   ├── around-the-world-in-eighty-days.md
-│   └── dracula-1897-information-machine.md
 ├── topics/
-│   ├── refrigeration.md
-│   ├── laundry-and-washing-machines.md
-│   ├── lighting-and-electrification.md
-│   ├── water-sanitation-and-toilets.md
-│   ├── cooking-fuel-and-stoves.md
-│   └── post-telegraph-and-information-delay.md
+├── literature/
 ├── sources/
-│   ├── source-catalog.md
-│   └── household-infrastructure-sources.md
 └── data/
-    ├── china-household-durables-1985-2000.csv
-    └── us-electric-service-1920-1940.csv
 ```
 
-This structure will grow. Period, place, class and rural/urban differences should be preserved rather than flattened into a single timeline.
+The structure will continue to grow. Period, place, class, gender, rural/urban difference and cohort timing should be preserved rather than flattened into one timeline.
 
 ## Evidence levels
 
@@ -142,42 +236,54 @@ Entries should make clear what kind of claim is being made.
 - **Illustrative** — a literary or anecdotal example used to make a condition easier to understand.
 - **Uncertain** — plausible, but evidence is incomplete or contradictory.
 
-Do not convert "available somewhere" into "normal everywhere".
+Do not convert “available somewhere” into “normal everywhere.”
+
+Do not convert “people changed over time” into “a generation has a personality.”
 
 ## A useful unit: the life slice
 
-Instead of trying to summarize an entire society in a paragraph, contributors are encouraged to build **life slices**: a specific kind of person in a specific place and period.
+Instead of summarizing an entire society in one paragraph, build **life slices**: a specific kind of person in a specific place and period.
 
 Examples:
 
 - an urban Chinese household in 1985
 - a rural Chinese household in 1995
+- a person born in China around 1975 at age 20 and age 45
+- a 2020 university graduate
+- a post-2000 student encountering generative AI
 - a London clerk in the early 1870s
-- an Atlantic steamship passenger in the 1890s
-- a U.S. factory worker in 1910
 - a British household using an icebox in the 1920s
 
-A life slice should answer concrete questions: Where do they sleep? What do they eat? How do they wash clothes? How far do they travel? How much do things cost? What technologies are genuinely available to them? What does a day feel like?
+A good life slice asks: Where do they sleep? What do they eat? How do they wash clothes? How far do they travel? What does work mean? What technologies are genuinely available? What future looks realistic?
 
 ## Source and copyright policy
 
-This repository primarily stores **research notes, structured data, summaries, and citations**, not indiscriminate copies of archival material.
+This repository primarily stores **research notes, structured data, summaries, metadata and citations**, not indiscriminate copies of archival material.
 
 - Public-domain material may be quoted or transcribed where useful.
-- Modern copyrighted books and archival scans should normally be cited, linked, and summarized rather than copied wholesale.
+- Modern copyrighted books, articles and archival scans should normally be cited, linked and summarized rather than copied wholesale.
 - Short quotations should be used only where wording itself matters.
-- Every quantitative claim should identify its unit, place, period, and source.
-- Retrospective oral histories and memoirs should be marked as retrospective memory, not treated as contemporaneous recordings without qualification.
+- Every quantitative claim should identify unit, place, period and source.
+- Retrospective oral histories and memoirs should be marked as retrospective memory.
+- Digital-era personal evidence should respect privacy; preserve structure and context without exposing private conversations unnecessarily.
 
 ## AI authorship
 
-The initial structure and a substantial part of the early research notes in this repository were written by **OpenAI GPT-5.6 Sol**, working with the repository owner. AI-written historical material should not be trusted merely because it sounds plausible: claims are expected to remain traceable to human-readable sources, and corrections are welcome.
+The initial structure and a substantial part of the research notes in this repository were written by **OpenAI GPT-5.6 Sol**, working with the repository owner.
+
+AI-written historical material should not be trusted merely because it sounds plausible. Claims are expected to remain traceable to human-readable sources, uncertainty should stay visible, and corrections are welcome.
 
 ## The question behind the project
 
 A historical person was not a modern person wearing old clothes.
 
-Their range of possible actions was shaped by income, infrastructure, production, transport, information, institutions, household technology, geography, social expectations, and simple physical limits. If we reconstruct those conditions carefully, unfamiliar choices in history and literature often become much easier to understand.
+Nor is a different generation simply a modern person with a different attitude.
+
+What a person could do was shaped by income, infrastructure, production, transport, information, institutions, household technology, geography, family resources, social expectations and physical limits.
+
+What a person **wanted** was also shaped by which futures were visible and realistic.
+
+If we reconstruct both layers carefully, unfamiliar choices in history and literature become much easier to understand.
 
 The aim is not to make the past quaint.
 
