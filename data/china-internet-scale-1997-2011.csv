@@ -1,0 +1,8 @@
+date,measure,value_millions,source,note
+1997-10-31,internet_users,0.62,https://www3.cnnic.cn/n4/2022/0401/c88-802.html,First CNNIC survey; mostly dial-up access
+2000-06-30,internet_users,16.9,https://www.cnnic.net.cn/NMediaFile/2022/0926/MAIN1664183425619U2MS433V3V.pdf,CNNIC historical retrospective benchmark
+2005-06-30,internet_users,103.0,https://www3.cnnic.cn/n4/2022/0401/c88-811.html,16th CNNIC survey
+2008-06-30,internet_users,253.0,https://www.chinanews.com.cn/it/z/cnnic26/,CNNIC historical figures reproduced with 26th report coverage
+2010-06-30,internet_users,420.0,https://www.chinanews.com.cn/it/z/cnnic27/index.shtml,CNNIC historical figures reproduced with 27th report coverage
+2011-12-31,internet_users,513.0,https://www3.cnnic.cn/n4/2022/0401/c87-857.html,CNNIC 2011 development milestones
+2011-12-31,mobile_internet_users,356.0,https://www3.cnnic.cn/n4/2022/0401/c87-857.html,CNNIC 2011 mobile Internet users
