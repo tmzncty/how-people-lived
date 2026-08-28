@@ -1,0 +1,7 @@
+birth_cohort,women_with_at_least_one_child_percent,women_with_second_child_percent,second_child_among_mothers_percent,median_interval_first_to_second_child_years,source_url,source_data,note
+<1950,97.4,78.5,79.7,3.7,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Published Table 4
+1950-1959,97.0,66.8,71.9,4.4,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Published Table 4
+1960-1969,97.9,62.3,63.2,5.8,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Published Table 4
+1970-1979,97.7,59.8,60.9,9.5,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Published Table 4
+1980-1989,90.8,51.3,57.7,7.9,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Cohort had not fully completed reproductive span at survey; interpret cautiously
+1990-1999,41.0,18.2,38.0,,https://journals.sagepub.com/doi/full/10.1177/2057150X211040936,CFPS 2018,Cohort strongly right-censored; not a completed-fertility estimate
