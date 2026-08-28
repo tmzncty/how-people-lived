@@ -1,0 +1,4 @@
+year,population,measure,value,unit,approximate,source,notes
+1988,urban China sample,total homeownership,13.5,percent,false,https://pmc.ncbi.nlm.nih.gov/articles/PMC11771467/,CHIP-based authors' calculation; public rental remained dominant
+1995,urban China sample,total homeownership,42.0,percent,true,https://pmc.ncbi.nlm.nih.gov/articles/PMC11771467/,Article reports approximately 42 percent; subsidized ownership had expanded rapidly
+2002,urban China sample,total homeownership,80,percent,true,https://pmc.ncbi.nlm.nih.gov/articles/PMC11771467/,Article reports homeownership near 80 percent from 2002; value is deliberately flagged approximate
