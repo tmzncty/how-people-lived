@@ -14,6 +14,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Water, sanitation and toilets](water-sanitation-and-toilets.md) — carrying water, plumbing, shared facilities, sewers, bathing and the labor hidden behind a tap
 - [Cooking fuel and stoves](cooking-fuel-and-stoves.md) — wood, coal, gas, oil and electricity as household energy systems rather than just stove types
 - [Post, telegraph and information delay](post-telegraph-and-information-delay.md) — collection schedules, last-mile delivery, telegrams and the lived speed of information
+- [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md) — how telephone access, job information and contact with family can make migration itself easier
 
 ### Life-horizon systems
 
@@ -24,6 +25,8 @@ They are not intended to give one universal history. Their job is to provide reu
 - [When did housing become an adulthood project?](when-did-housing-become-an-adulthood-project.md) — who is responsible for solving housing, and when housing separates from employment or family provision
 - [When did changing jobs become normal?](when-did-changing-jobs-become-normal.md) — the transition from allocated or lifetime employment toward career management and repeated job search
 - [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work requires pensions, savings or intergenerational support and therefore cannot be treated as timeless
+- [What did people save for?](what-did-people-save-for.md) — savings as evidence of which future costs households expect to finance themselves
+- [What counted as independence?](what-counted-as-independence.md) — economic, residential, occupational, geographic and intergenerational independence do not necessarily occur at the same time
 
 ## Planned systems
 
@@ -80,11 +83,12 @@ They are not intended to give one universal history. Their job is to provide reu
 
 ### Life horizons
 
-- what did people save for?
 - what made marriage economically possible?
 - when did moving city become an ordinary career strategy?
 - when did parental support extend into the child's twenties?
 - when did pension planning become separated from one employer?
+- when did "career" become a project rather than a position?
+- when did a household begin planning several future generations at once?
 
 ## How topic notes should work
 
@@ -106,4 +110,6 @@ A job can pay less but still be preferred if it provides housing, welfare or pro
 
 A formal retirement age can exist for one population while another population works until health prevents it.
 
-The best topic notes show **coexistence**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen.
+A young couple can live in their own apartment while depending on parental capital to buy it.
+
+The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household.
