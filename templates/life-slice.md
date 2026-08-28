@@ -118,82 +118,116 @@ For each important technology, distinguish:
 |---|---|---|---|---|---|
 | | | | | | |
 
-## Leisure
+## Life horizon and goals
 
-- social visiting
+Do not stop at material conditions. Reconstruct what this person believed they were moving toward.
+
+### Immediate goal
+
+What matters this year?
+
+- secure work
+- keep the household solvent
+- finish school
+- marry
+- save
+- move
+- educate children
+- gain promotion
+- avoid debt
+- other
+
+### Expected next life stage
+
+What would normally come next for someone in this position?
+
+### What counted as success?
+
+Separate:
+
+- social expectation
+- common practical aspiration
+- personal desire where direct testimony exists
+
+### What counted as failure or misfortune?
+
+Examples may include unemployment, debt, dependency, inability to marry, downward mobility, family loss, or loss of reputation. Do not assume the modern ranking of these outcomes.
+
+### Horizon of possibility
+
+| Zone | Examples | Evidence |
+|---|---|---|
+| realistic | | |
+| difficult but imaginable | | |
+| effectively outside the horizon | | |
+
+### Family and intergenerational goals
+
+What do parents expect? What future do adults want for children? Is advancement imagined mainly for the self or the next generation?
+
+### Old age
+
+What is the expected source of support: work, savings, pension, property, children, community, charity, or something else?
+
+For a dedicated reconstruction, use [`life-horizon.md`](life-horizon.md).
+
+## Leisure and social life
+
+- friends
+- courtship
+- clubs / associations
+- religious activity
+- pubs / tea shops / cafes
 - reading
-- radio / television
+- music
 - cinema / theatre
+- radio / television
 - sport
-- games
-- religious or community activities where relevant
-- boredom and unstructured time
+- hobbies
+- boredom
 
-## Family and relationships
+## Health, hygiene and bodily experience
 
-- household composition
-- age at leaving home
-- marriage expectations
-- child care
-- elder care
-- friendship and courtship spaces
-
-## Body and health
-
-- common illness burden
-- access to medical care
-- dental care
+- common illnesses
+- access to doctors / hospitals / medicine
 - bathing
-- menstruation products where sources permit
-- sleep
-- occupational injury
-- seasonal heat / cold
+- dental care
+- menstruation and reproductive care where relevant
+- physical fatigue
+- workplace injury
+- seasonal discomfort
 
-## What futures were realistically imaginable?
+## Institutions that structure the day
 
-- education
-- work
-- migration
-- marriage / family
-- military service where relevant
-- home ownership
-- retirement
-- social mobility
+- employer
+- school
+- landlord
+- market
+- transport timetable
+- postal schedule
+- utility service
+- military / prison / boarding institution where relevant
 
-Separate **culturally imaginable** futures from **materially accessible** futures.
+Keep institutional context narrow and tied to daily consequences.
 
-## What counted as ordinary, luxurious or impossible?
+## What is socially normal here?
 
-### Ordinary
+What would a contemporary person take for granted that a modern reader might find surprising?
 
-### Aspirational
+## What is considered luxurious?
 
-### Luxury
+## What is considered shameful or dangerous?
 
-### Rare / inaccessible
-
-### Technically existing but irrelevant to this household
-
-## What a modern reader is likely to misunderstand
-
-List anachronistic assumptions worth removing.
-
-## Literature connections
-
-Which novels, memoirs, films or other works become easier to understand with this life slice?
+## What can realistically be refused?
 
 ## What we know
 
-Claims with strong evidence.
-
 ## What we can reasonably infer
-
-Clearly labeled inference.
 
 ## What we do not yet know
 
-Research gaps.
+## First-person test
 
-## Sources
+Finish by asking:
 
-Prefer primary statistics, archives, museums, libraries, period documents and scholarly research. Include stable URLs or bibliographic identifiers where possible.
+> If I woke up tomorrow as this person, what would I need to know before breakfast, before work, before spending money, and before making a plan for the next ten years?
