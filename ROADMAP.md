@@ -14,6 +14,7 @@ Status: **in progress**
 - [x] technology-adoption template
 - [x] initial source catalog
 - [x] first structured adoption dataset
+- [x] second structured adoption dataset (U.S. electrification)
 - [x] first literature context note
 - [ ] citation-format consistency pass
 - [ ] lightweight metadata schema for machine-readable indexing
@@ -26,10 +27,10 @@ Build topic notes that can be reused across many life slices.
 
 - [x] refrigeration
 - [x] laundry and washing machines
-- [ ] cooking fuel: wood, coal, gas, kerosene, electricity
-- [ ] ovens, stoves and rice cookers
-- [ ] water supply and carrying water
-- [ ] toilets, sewage and waste removal
+- [x] cooking fuel: wood, coal, gas, kerosene, electricity
+- [ ] ovens, stoves and rice cookers by region
+- [x] water supply and carrying water — first general note
+- [x] toilets, sewage and waste removal — first general note
 - [ ] bathing and hot water
 - [ ] dishwashing
 - [ ] food markets and shopping frequency
@@ -41,7 +42,7 @@ Build topic notes that can be reused across many life slices.
 - [ ] household crowding
 - [ ] heating
 - [ ] cooling and electric fans
-- [ ] lighting: candle, oil, gas, electric
+- [x] lighting: candle, oil, gas, electric — first general note
 - [ ] furniture
 - [ ] sleeping arrangements
 - [ ] rent and home ownership
@@ -75,7 +76,8 @@ The aim is to be able to answer: **where did a person's 24 hours go?**
 
 - [ ] walking range
 - [ ] bicycles
-- [ ] horse and carriage
+- [x] horse omnibus — initial London evidence
+- [ ] horse and carriage more broadly
 - [ ] tram and streetcar
 - [ ] railway classes and fares
 - [ ] steamship classes and timetables
@@ -86,10 +88,11 @@ The aim is to be able to answer: **where did a person's 24 hours go?**
 
 ### Communication
 
-- [ ] postal delivery frequency
-- [ ] telegrams
+- [x] postal delivery frequency — first Victorian Britain note
+- [x] telegrams — first Victorian Britain note
 - [ ] household telephone adoption
 - [ ] public telephones
+- [ ] newspapers as information infrastructure
 - [ ] radio
 - [ ] television
 - [ ] fax
@@ -133,6 +136,7 @@ The key theme is **uneven adoption**: technologies can be old globally but new i
 Build notes around works where infrastructure changes how the plot is understood.
 
 - [x] Jules Verne, *Around the World in Eighty Days* — global steam/rail network
+- [x] Bram Stoker, *Dracula* — telegraph, phonograph, typewriter, press and railway information stack
 - [ ] nineteenth-century novels — letters and postal delay
 - [ ] railway novels — classes, fares, stations and timetables
 - [ ] urban fiction — lighting and nightlife
@@ -147,11 +151,12 @@ Each note should answer:
 
 ## Phase 7 — Global life slices
 
-Possible initial sequence:
+Initial sequence:
 
-- [ ] London clerk, c. 1872
+- [x] London clerk, c. 1872 — infrastructure frame; wage/rent/time-use pass still needed
 - [ ] Atlantic steamship passenger, 1870s
-- [ ] U.S. urban household, 1930s refrigeration transition
+- [x] U.S. urban household, 1930s refrigeration transition
+- [x] U.S. 1920–1940 urban/farm electrification divide
 - [ ] British household, late 1930s, using Mass Observation material
 - [ ] U.S. factory worker, c. 1910
 - [ ] Japanese urban household, 1960s
@@ -166,7 +171,7 @@ Once enough entries exist:
 
 - [ ] YAML front matter for place, date, population and topics
 - [ ] normalized source identifiers
-- [ ] adoption-series CSV files
+- [x] multiple adoption-series CSV files
 - [ ] price/wage datasets
 - [ ] cross-links by technology and literature work
 - [ ] static site or GitHub Pages index
@@ -178,6 +183,7 @@ A future interface should let a reader ask questions such as:
 - "What could an ordinary household in 1990 China actually own?"
 - "What transport network makes this novel's plot possible?"
 - "How long did it take news to arrive here?"
+- "How many technological eras coexisted in one city or household?"
 
 ## Research principle for every phase
 
