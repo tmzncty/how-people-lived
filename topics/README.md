@@ -32,6 +32,22 @@ They are not intended to give one universal history. Their job is to provide reu
 - [What counted as independence?](what-counted-as-independence.md) — economic, residential, occupational, geographic and intergenerational independence do not necessarily occur at the same time
 - [Optionality as a life goal](optionality-as-a-life-goal.md) — when preserving the ability to change job, city, education or household plan becomes a rational objective rather than mere indecision
 
+### Generational comparison tools
+
+- [How did the problem of adulthood change across generations?](how-the-problem-of-adulthood-changed-across-generations.md) — a six-cohort map from c.1955 to c.2005
+- [What did being 20 mean in different generations?](age-20-in-different-generations.md) — compares the same age across very different institutional worlds
+- [The same pandemic at different ages](pandemic-at-different-ages.md) — compares one historical break across school, first-job, mid-career and retirement life stages
+
+These files use cohort labels as timing devices, not personality explanations.
+
+Method:
+
+- [`foundations/generations-are-timing-not-personality.md`](../foundations/generations-are-timing-not-personality.md)
+
+China cohort map:
+
+- [`places/china/generations/README.md`](../places/china/generations/README.md)
+
 ## Planned systems
 
 ### Home
@@ -99,6 +115,16 @@ They are not intended to give one universal history. Their job is to provide reu
 - when did keeping options open become valuable enough to postpone another milestone?
 - when did work-life balance become a mainstream reason to accept lower pay or change jobs?
 
+### Generational comparisons
+
+- women across the same birth cohorts;
+- rural versus urban people born the same year;
+- what “success at 30” meant by cohort;
+- parent-child paired cohorts;
+- first job duration by birth year;
+- first-home timing by cohort;
+- AI adoption by age and occupation.
+
 ## How topic notes should work
 
 A material topic note should repeatedly ask:
@@ -130,5 +156,7 @@ A young couple can live in their own apartment while depending on parental capit
 A person can delay a permanent choice not because they lack goals, but because reversibility has become valuable under uncertainty.
 
 A worker can dislike a job in any century, but treating that dislike as sufficient reason to resign requires alternatives, portable identity and enough security to survive the transition.
+
+A generation label should be translated into age-positioned facts: what existed at age ten, what work system existed at twenty, what housing system existed at household formation, and what shock arrived before or after routines stabilized.
 
 The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household. A teenager can have a mobile phone while still needing a desktop computer or Internet café to participate fully in online life. A listener can own an MP3 file while also beginning to use streaming services, making media ownership itself a transitional system.
