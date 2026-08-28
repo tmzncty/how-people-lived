@@ -22,6 +22,7 @@ This directory reconstructs that missing layer.
 - Could characters send a letter, telegram, telephone call or message?
 - How long would a reply take?
 - Could news travel faster than the character?
+- What physical labor turned messages into shared information?
 
 ### Money
 
@@ -61,9 +62,12 @@ This directory reconstructs that missing layer.
 ## Current notes
 
 - [*Around the World in Eighty Days*: transport infrastructure and the scheduled globe](around-the-world-in-eighty-days.md)
+- [*Dracula* (1897): the novel as a late-Victorian information machine](dracula-1897-information-machine.md)
 
 ## The rule
 
 Do not reduce literature to historical illustration.
 
 The goal is the opposite: preserve the literary work as literature while restoring the **material assumptions that the original text did not need to explain**.
+
+A plot has infrastructure, a household has hidden labor, and information has a bandwidth. Recovering those constraints often makes old fiction stranger and more intelligible at the same time.
