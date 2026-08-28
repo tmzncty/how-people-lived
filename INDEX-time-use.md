@@ -13,7 +13,13 @@ The central question is:
 - [The 24-hour life: time as a material resource](topics/time-as-a-material-resource.md)
 - [Unpaid labor, care and the hidden household shift](topics/unpaid-labor-and-care-time.md)
 - [Commuting, transport and the price of distance](topics/commuting-and-the-price-of-distance.md)
+- [Where did the saved time go?](topics/where-did-saved-time-go.md)
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
+
+## Source and data guides
+
+- [Time-use source guide](sources/time-use-source-guide.md)
+- [Time-use data index](data/INDEX-time-use-data.md)
 
 ## Machine-readable data
 
@@ -59,27 +65,28 @@ For ages 25–34, average time spent accompanying/caring for children was:
 
 Source:
 
-- National Bureau of Statistics, 2018 National Time Use Survey: https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+- https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
 
 ## The 2008 → 2018 household shift
 
-The NBS comparison of the second survey with 2008 is historically useful.
+Official NBS comparison reports:
 
-Between 2008 and 2018:
-
-- household-work time fell by 17 minutes per day;
-- time accompanying/caring for family rose by 30 minutes;
-- about 85% of family-care time in 2018 was spent on children's life and study;
-- women's unpaid work remained far higher than men's despite a small narrowing of the gap;
-- employment-work time among participants increased even as family-production work participation declined.
-
-This suggests a major transformation:
-
-> **some household labor moved from maintaining things toward maintaining and cultivating people.**
+- household-work time -17 minutes/day;
+- family-care time +30 minutes/day;
+- Internet use 14 minutes/day → 2h42m/day;
+- employment-work time +28 minutes/day;
+- household production/business -32 minutes/day;
+- transport time about 75 → 38 minutes/day.
 
 Source:
 
-- NBS interpretation of the 2018 survey: https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896141.html
+- https://www.stats.gov.cn/sj/sjjd/202302/t20230202_1896141.html
+
+This is why the project now asks:
+
+> **When technology saves time, what activity expands into the freed capacity?**
+
+Do not infer causation from simultaneous changes, but do preserve the pattern of reallocation.
 
 ## Key China anchor: 2024
 
@@ -104,15 +111,9 @@ Sources:
 
 Do **not** treat 2018 and 2024 as a perfectly harmonized time series.
 
-The 2024 survey changed:
+The 2024 survey changed geographic coverage, age coverage, activity classification and collection method.
 
-- geographic coverage;
-- age coverage;
-- activity classification;
-- data-collection method;
-- diary design and reporting framework.
-
-The two surveys can support structural comparison, but precise trend claims should use only explicitly comparable categories or official NBS comparisons.
+The two surveys support structural comparison, but precise trend claims require harmonized definitions.
 
 ## Questions for cohort history
 
@@ -144,6 +145,12 @@ The two surveys can support structural comparison, but precise trend claims shou
 - Does paid labor disappear?
 - Is freed time converted into housework, grandchild care, exercise or leisure?
 - Does urban/rural retirement divergence create completely different daily schedules after age 60?
+
+### AI era
+
+- Does AI reduce task time or raise expected output volume?
+- Does faster drafting create leisure, or simply more drafts and faster deadlines?
+- Which parts of waiting/commuting become productive or reachable time?
 
 ## Core insight
 
