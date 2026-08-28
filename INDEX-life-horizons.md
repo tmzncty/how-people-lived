@@ -7,6 +7,8 @@ This index collects entries about what people thought a life should become.
 - [Life Horizons and Goals](foundations/life-horizons-and-goals.md)
 - [Historical breaks can rewrite a life horizon](foundations/historical-breaks-and-life-horizons.md)
 - [Life goals, adulthood and the expected life course](topics/life-goals-and-adulthood.md)
+- [What did a "good job" mean?](topics/what-did-a-good-job-mean.md)
+- [When did university become an ordinary life option?](topics/when-did-university-become-an-ordinary-life-option.md)
 - [Life Horizon Template](templates/life-horizon.md)
 - [Life Horizon Source Guide](sources/life-horizon-source-guide.md)
 - [Mass Observation future-hopes guide](sources/mass-observation-future-hopes-guide.md)
@@ -24,9 +26,17 @@ This index collects entries about what people thought a life should become.
 
 ## China
 
-- [China, 1935–1955: one cohort, several different futures](places/china/china-1935-1955-life-horizon-shift.md) — education, household work, wartime displacement, postwar recovery, marriage law, urban work-unit life and the rural/urban split
+### Historical breaks
 
-China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, refugee and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
+- [China, 1935–1955: one cohort, several different futures](places/china/china-1935-1955-life-horizon-shift.md) — education, household work, wartime displacement, postwar recovery, marriage, urban work-unit life and the rural/urban split
+- [China, 1985–2005: when the life menu became wider — and more expensive to navigate](places/china/china-1985-2005-life-horizon-shift.md) — education expansion, labour mobility, housing separation, migration, household income, communication and later marriage
+
+### Narrow profiles
+
+- [Urban youth in China, mid-1980s](places/china/1980s-urban-youth-life-horizons.md) — first job, work-unit bundle, housing scarcity, selective higher education and household formation
+- [Rural youth in China, 1990s](places/china/1990s-rural-youth-life-horizons.md) — farming, local non-farm work, migration, remittances, household strategy and uneven appliance adoption
+
+China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, migrant worker, refugee and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
 
 ## Browse by historical break
 
@@ -36,11 +46,15 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / during / after a depression or financial crisis
 - before / after mass electrification
 - before / after mass secondary education
+- before / after higher education becomes a normal family planning question
 - before / after widespread household refrigeration
 - before / after motorization
 - before / after mass home ownership
 - before / after retirement becomes an ordinary expected life stage
 - before / after employment becomes bundled with housing, welfare or other institutional services
+- before / after job and housing become separate household decisions
+- before / after long-distance labour migration becomes common
+- before / after mobile communication reduces the cost of living far from family
 
 The purpose is not to reduce a life to an event. It is to ask when an event changes the practical menu of adulthood.
 
@@ -60,6 +74,9 @@ Look for:
 - property
 - independence
 - old-age security
+- geographic mobility
+- ability to support parents
+- ability to give children a different life route
 
 ### What counted as failure?
 
@@ -73,6 +90,8 @@ Look for:
 - family breakdown
 - loss of reputation
 - displacement without a viable route back to work, school or household life
+- migration that fails to generate expected savings
+- education that does not produce the expected occupational route
 
 ### What future was imaginable?
 
@@ -90,9 +109,11 @@ Ask:
 - Which options became ordinary?
 - Which milestones were postponed?
 - Which forms of security became institutionalized?
+- Which forms of security became individual household responsibilities?
 - Did people begin to expect material improvement?
 - Did a new generation inherit a different definition of a good life from its parents?
 - Did migration or displacement make the person's old life plan geographically impossible?
+- Did education lengthen the period before full economic adulthood?
 
 ## The core comparison
 
