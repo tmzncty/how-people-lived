@@ -1,0 +1,5 @@
+population,expected_primary_support,percent,source,notes
+urban respondents,pension,82.8,https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf,World Bank analysis using CHARLS retirement-expectation question
+urban respondents,children,12.4,https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf,World Bank analysis using CHARLS retirement-expectation question
+rural respondents,pension,20.8,https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf,World Bank analysis using CHARLS retirement-expectation question
+rural respondents,children,67.6,https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf,World Bank analysis using CHARLS retirement-expectation question
