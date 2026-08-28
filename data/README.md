@@ -50,6 +50,22 @@ This is a later-period expectation dataset, not evidence that the same percentag
 
 Source: https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
 
+### `china-pandemic-graduate-cohorts-2020-2023.csv`
+
+Ministry of Education benchmark figures for the ordinary higher-education graduate cohorts entering the labor market during the pandemic period:
+
+- 2020: 8.74 million
+- 2021: 9.09 million
+- 2022: 10.76 million
+- 2023: 11.58 million
+
+The dataset is useful because it prevents two changes from being conflated:
+
+1. the extraordinary disruption to recruitment and school-to-work transitions during the pandemic;
+2. the simultaneous structural increase in the size of graduate cohorts.
+
+The figures are cohort/planning figures used by the Ministry of Education in the relevant employment season. Do not substitute them silently for final statistical counts of all graduates under a different educational definition.
+
 ### `us-electric-service-1920-1940.csv`
 
 U.S. Census Bureau historical benchmark percentages for electric service in all dwellings and farm dwellings in 1920, 1930 and 1940.
@@ -73,7 +89,8 @@ Examples:
 - migration counts show whether "go elsewhere to work" was a marginal or mass route;
 - marriage-age distributions show how the timing of household formation changed;
 - housing tenure shows whether independent housing was mainly allocated, rented, subsidized or market-purchased;
-- pension/support expectations reveal whether old age is imagined primarily through institutional retirement or intergenerational family support.
+- pension/support expectations reveal whether old age is imagined primarily through institutional retirement or intergenerational family support;
+- graduate cohort sizes show how many people are entering the school-to-work transition at the same time, but do not by themselves reveal employment quality.
 
 Numbers do not reveal what a person privately wanted. They help establish what a person was realistically planning around.
 
@@ -93,6 +110,9 @@ Numbers do not reveal what a person privately wanted. They help establish what a
 - pension coverage by population
 - co-residence with elderly parents
 - household education expenditure
+- pandemic-era remote-work prevalence by occupation
+- online recruitment and interview adoption
+- desired working hours and commuting time by cohort
 - historical railway and steamship timetables
 - wage/fare comparisons
 - household fuel use
