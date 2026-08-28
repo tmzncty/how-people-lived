@@ -23,9 +23,11 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Life goals, adulthood and the expected life course](life-goals-and-adulthood.md) — what counted as adulthood, success, failure and a complete life
 - [What did a "good job" mean?](what-did-a-good-job-mean.md) — wages, housing, welfare, stability, status, family formation and geographic mobility as historically variable job qualities
 - [When did "I don't like this job" become a sufficient reason to leave?](when-did-liking-your-job-become-a-reason-to-leave.md) — from material survival and job security to job satisfaction, career fit, calling, passion and work-life integration
+- [When did the first job become a starting point rather than a permanent placement?](first-job-as-a-life-course-anchor.md) — first job as institutional destination, career platform, experiment and AI-era apprenticeship problem
 - [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.md) — the gap between universities existing and ordinary families actually planning around tertiary education
 - [Parents and children's futures](parents-and-childrens-futures.md) — when a child's education, migration and occupation become a long-term household project
 - [When did housing become an adulthood project?](when-did-housing-become-an-adulthood-project.md) — who is responsible for solving housing, and when housing separates from employment or family provision
+- [The first home: independence financed by interdependence](first-home-and-parental-support.md) — first ownership, parental down payments, marriage timing and the layers of residential/financial/capital independence
 - [When did changing jobs become normal?](when-did-changing-jobs-become-normal.md) — the transition from allocated or lifetime employment toward career management and repeated job search
 - [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work requires pensions, savings or intergenerational support and therefore cannot be treated as timeless
 - [What did people save for?](what-did-people-save-for.md) — savings as evidence of which future costs households expect to finance themselves
@@ -37,6 +39,10 @@ They are not intended to give one universal history. Their job is to provide reu
 - [How did the problem of adulthood change across generations?](how-the-problem-of-adulthood-changed-across-generations.md) — a six-cohort map from c.1955 to c.2005
 - [What did being 20 mean in different generations?](age-20-in-different-generations.md) — compares the same age across very different institutional worlds
 - [The same pandemic at different ages](pandemic-at-different-ages.md) — compares one historical break across school, first-job, mid-career and retirement life stages
+- [What did age 30 mean across Chinese generations?](../places/china/generations/age-30-across-generations.md) — compares which milestones were expected, feasible and separately financed by age 30
+- [Women across Chinese cohorts](../places/china/generations/by-domain/women-across-cohorts.md) — education, employment, childbirth, migration and care
+- [Same birth year, different China](../places/china/generations/by-domain/urban-rural-same-cohort.md) — urban/rural divergence inside the same cohort
+- [Paired generations](../places/china/generations/paired-parent-child-cohorts.md) — what parents learned to want for children and how advice can carry an older risk model
 
 These files use cohort labels as timing devices, not personality explanations.
 
@@ -117,13 +123,23 @@ China cohort map:
 
 ### Generational comparisons
 
-- women across the same birth cohorts;
+Completed:
+
+- women across cohorts;
 - rural versus urban people born the same year;
 - what “success at 30” meant by cohort;
 - parent-child paired cohorts;
-- first job duration by birth year;
-- first-home timing by cohort;
-- AI adoption by age and occupation.
+- first-job transition framework;
+- first-home / parental-support framework.
+
+Still needed:
+
+- direct first-job duration by birth cohort rather than one 1999 benchmark;
+- first-home timing by birth cohort;
+- AI adoption by age and occupation;
+- same-age comparisons at 40 and 60;
+- rural women across cohorts;
+- paired family oral histories.
 
 ## How topic notes should work
 
