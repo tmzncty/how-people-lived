@@ -16,6 +16,7 @@ This index collects entries about what people thought a life should become.
 - [What did people save for?](topics/what-did-people-save-for.md)
 - [What counted as independence?](topics/what-counted-as-independence.md)
 - [Communication and the cost of living far away](topics/communication-and-the-cost-of-living-far-away.md)
+- [Optionality as a life goal](topics/optionality-as-a-life-goal.md)
 - [Life Horizon Template](templates/life-horizon.md)
 - [Life Horizon Source Guide](sources/life-horizon-source-guide.md)
 - [Mass Observation future-hopes guide](sources/mass-observation-future-hopes-guide.md)
@@ -46,6 +47,7 @@ This index collects entries about what people thought a life should become.
 - [Rural youth in China, 1990s](places/china/1990s-rural-youth-life-horizons.md) — farming, local non-farm work, migration, remittances, household strategy and uneven appliance adoption
 - [Rural parents in Gansu, early 2000s](places/china/rural-parents-gansu-educational-horizons-2000s.md) — educational aspirations for sons and daughters, household investment and old-age reciprocity
 - [Urban households, 1995–2005: saving for the future](places/china/urban-households-saving-for-the-future-1995-2005.md) — housing, education, health, employment uncertainty and why rising income could coexist with rising saving
+- [Contemporary youth in China, 2026](places/china/contemporary-youth-life-horizons-2026.md) — large graduate cohorts, postgraduate and civil-service routes, market careers, flexible employment, city/housing choices, delayed family decisions and preserving optionality
 
 China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, migrant worker, refugee and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
 
@@ -69,6 +71,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after parents routinely finance education or housing into a child's twenties
 - before / after workers have to manage their own career trajectory
 - before / after adulthood becomes later without necessarily becoming less ordered
+- before / after preserving future options becomes a rational goal in itself
 
 The purpose is not to reduce a life to an event. It is to ask when an event changes the practical menu of adulthood.
 
@@ -76,11 +79,11 @@ The purpose is not to reduce a life to an event. It is to ask when an event chan
 
 ### What counted as success?
 
-Look for security, respectability, promotion, marriage, household formation, children, education, property, independence, old-age security, geographic mobility, ability to support parents, and ability to give children a different life route.
+Look for security, respectability, promotion, marriage, household formation, children, education, property, independence, old-age security, geographic mobility, ability to support parents, ability to give children a different life route, and sometimes the ability to preserve future choice.
 
 ### What counted as failure?
 
-Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, or job change that destroys welfare or pension security.
+Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, job change that destroys welfare or pension security, or repeated option-preserving delays that eventually become costly.
 
 ### What future was imaginable?
 
@@ -89,6 +92,7 @@ Each future entry should distinguish:
 1. realistic paths
 2. difficult but imaginable paths
 3. paths effectively outside the practical horizon
+4. paths deliberately kept open rather than immediately chosen
 
 ### Did the horizon change during this person's adulthood?
 
@@ -103,10 +107,11 @@ Ask:
 - Did housing become a prerequisite rather than a benefit?
 - Did old age become pension-backed retirement or remain child-supported?
 - Did more separate decisions actually change the sequence of adulthood, or only make the old sequence harder to finance?
+- Did the person begin optimizing for reversibility rather than one permanent destination?
 
 ## The core comparison
 
-The repository now has five linked historical questions:
+The repository now has six linked historical questions:
 
 > **What could this person materially do?**
 
@@ -118,4 +123,6 @@ The repository now has five linked historical questions:
 
 > **Did those new projects change the social order of life, or mainly change who had to pay and plan for it?**
 
-All five are needed to reconstruct an ordinary life.
+> **Was the person trying to reach a destination, or preserve the ability to choose one later?**
+
+All six are needed to reconstruct an ordinary life.
