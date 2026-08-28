@@ -30,9 +30,11 @@ A Shanghai student, rural teenager, county-town apprentice, migrant worker and u
 
 Tracks prewar educational and occupational possibilities, rural/urban divergence, wartime displacement, relocated schooling, postwar recovery, marriage rules, education and urban work-unit life.
 
-The main question is:
+### 1982–2005 structural adulthood transition
 
-> How many times could the answer to "What happens to me next?" change before one person reached middle age?
+- [China, 1982–2005: adulthood changed, but its sequence remained surprisingly ordered](transition-to-adulthood-1982-2005.md)
+
+This census-based note is an important correction to any over-simple modernization story. School completion and labor-force entry moved later, but marriage and parenthood moved much less; urban individualization increased somewhat, yet the overall sequence remained strongly ordered.
 
 ### 1985–2005
 
@@ -40,7 +42,7 @@ The main question is:
 
 Tracks work-unit employment, widening labour mobility, rural migration, higher-education expansion, household income, housing becoming separate from employment, mobile phones, computers and changing marriage timing.
 
-### Bundled adulthood → assembled adulthood
+### Bundled adulthood → assembled but still ordered adulthood
 
 - [China, c. 1980s–2000s: from bundled adulthood to assembled adulthood](from-bundled-to-assembled-adulthood.md)
 
@@ -54,9 +56,9 @@ Later adulthood increasingly required separate coordination of:
 
 **education + employer + city + housing + marriage + parental obligations + retirement security**
 
-The central question is not whether choice simply increased. It is:
+But the new structural evidence shows that this did **not** mean the sequence of adulthood disappeared. A more accurate formulation is:
 
-> **Which risks and planning tasks moved from institutions to households and individuals?**
+> **more separately managed projects, while school → work → marriage → parenthood remained a powerful sequence.**
 
 ## Narrow life-horizon profiles
 
@@ -71,6 +73,18 @@ Focuses on first job, work-unit strength, housing scarcity, selective higher edu
 - [Rural youth in China, 1990s: when "going out" became a normal part of the future menu](1990s-rural-youth-life-horizons.md)
 
 Focuses on farming, local non-farm work, migration, household strategy, remittances, family obligations, education and unevenly adopted technologies.
+
+### Rural parents in Gansu, early 2000s
+
+- [Rural parents in Gansu: high educational hopes, unequal expectations, and old-age reciprocity](rural-parents-gansu-educational-horizons-2000s.md)
+
+Uses a survey of roughly 2,000 mothers and children to show that educational aspirations could be high while remaining shaped by gender, household resources and expectations of future support.
+
+### Urban households saving for the future, 1995–2005
+
+- [Urban China, 1995–2005: saving for a future the household increasingly had to finance itself](urban-households-saving-for-the-future-1995-2005.md)
+
+Connects rising household savings to housing, education, health, employment uncertainty and the transfer of future costs from institutions toward households.
 
 ## Material-life notes
 
@@ -97,6 +111,9 @@ These datasets establish constraints and adoption curves. They do **not** by the
 - [When did housing become an adulthood project?](../../topics/when-did-housing-become-an-adulthood-project.md)
 - [When did changing jobs become normal?](../../topics/when-did-changing-jobs-become-normal.md)
 - [Retirement as a historical life stage](../../topics/retirement-as-a-life-stage.md)
+- [What did people save for?](../../topics/what-did-people-save-for.md)
+- [What counted as independence?](../../topics/what-counted-as-independence.md)
+- [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.md)
 - [Life goals, adulthood and the expected life course](../../topics/life-goals-and-adulthood.md)
 - [Technology exists. Does a person have it?](../../foundations/technology-existence-vs-adoption.md)
 - [Historical breaks can rewrite a life horizon](../../foundations/historical-breaks-and-life-horizons.md)
@@ -117,13 +134,12 @@ These datasets establish constraints and adoption curves. They do **not** by the
 - urban household, c. 1995
 - young urban adult, c. 2005
 - migrant worker, 1995 versus 2005
-- rural parents deciding how long children should remain in school
 - first-generation university student
-- parents' hopes for sons and daughters, 1980s versus 2000s
 - first commercial-home buyer cohort
 - marriage and housing readiness
-- retirement and support for parents
 - first voluntary job-change narratives
+- how long parental support continued after graduation
+- when adult children began regular financial support to parents
 
 ### Everyday systems
 
@@ -142,7 +158,7 @@ These datasets establish constraints and adoption curves. They do **not** by the
 
 Chinese literature should be read with the same material-restoration method used elsewhere in the repository.
 
-When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment or retirement, ask:
+When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment, parental down payment or retirement, ask:
 
 1. How common was this for the character's population?
 2. What did it cost?
@@ -150,6 +166,7 @@ When a story mentions a bicycle, work unit, dormitory, train journey, radio, tel
 4. What older system still coexisted with it?
 5. What did possession or access mean for the person's future?
 6. Which other life projects did it solve, create or postpone?
+7. Did it change the sequence of adulthood, or mainly make the existing sequence more expensive to complete?
 
 The goal is not to turn literature into statistics.
 
