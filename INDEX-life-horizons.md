@@ -9,6 +9,10 @@ This index collects entries about what people thought a life should become.
 - [Life goals, adulthood and the expected life course](topics/life-goals-and-adulthood.md)
 - [What did a "good job" mean?](topics/what-did-a-good-job-mean.md)
 - [When did university become an ordinary life option?](topics/when-did-university-become-an-ordinary-life-option.md)
+- [Parents and children's futures](topics/parents-and-childrens-futures.md)
+- [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
+- [When did changing jobs become normal?](topics/when-did-changing-jobs-become-normal.md)
+- [Retirement as a historical life stage](topics/retirement-as-a-life-stage.md)
 - [Life Horizon Template](templates/life-horizon.md)
 - [Life Horizon Source Guide](sources/life-horizon-source-guide.md)
 - [Mass Observation future-hopes guide](sources/mass-observation-future-hopes-guide.md)
@@ -30,6 +34,7 @@ This index collects entries about what people thought a life should become.
 
 - [China, 1935–1955: one cohort, several different futures](places/china/china-1935-1955-life-horizon-shift.md) — education, household work, wartime displacement, postwar recovery, marriage, urban work-unit life and the rural/urban split
 - [China, 1985–2005: when the life menu became wider — and more expensive to navigate](places/china/china-1985-2005-life-horizon-shift.md) — education expansion, labour mobility, housing separation, migration, household income, communication and later marriage
+- [China, c. 1980s–2000s: from bundled adulthood to assembled adulthood](places/china/from-bundled-to-assembled-adulthood.md) — a synthesis of education, employment, city choice, housing, marriage, parents and retirement becoming increasingly separate planning projects
 
 ### Narrow profiles
 
@@ -55,6 +60,8 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after job and housing become separate household decisions
 - before / after long-distance labour migration becomes common
 - before / after mobile communication reduces the cost of living far from family
+- before / after parents routinely finance education or housing into a child's twenties
+- before / after workers have to manage their own career trajectory
 
 The purpose is not to reduce a life to an event. It is to ask when an event changes the practical menu of adulthood.
 
@@ -92,6 +99,8 @@ Look for:
 - displacement without a viable route back to work, school or household life
 - migration that fails to generate expected savings
 - education that does not produce the expected occupational route
+- housing costs that postpone household formation
+- job change that destroys welfare or pension security
 
 ### What future was imaginable?
 
@@ -114,10 +123,12 @@ Ask:
 - Did a new generation inherit a different definition of a good life from its parents?
 - Did migration or displacement make the person's old life plan geographically impossible?
 - Did education lengthen the period before full economic adulthood?
+- Did housing become a prerequisite rather than an institutional benefit?
+- Did old age become a pension-backed retirement stage or remain dependent on work and children?
 
 ## The core comparison
 
-The repository now has three linked historical questions:
+The repository now has four linked historical questions:
 
 > **What could this person materially do?**
 
@@ -125,4 +136,6 @@ The repository now has three linked historical questions:
 
 > **Did history change the answer before they finished becoming it?**
 
-All three are needed to reconstruct an ordinary life.
+> **How many separate projects did they have to coordinate to make adulthood work?**
+
+All four are needed to reconstruct an ordinary life.
