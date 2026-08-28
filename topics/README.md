@@ -16,6 +16,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Post, telegraph and information delay](post-telegraph-and-information-delay.md) — collection schedules, last-mile delivery, telegrams and the lived speed of information
 - [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md) — how telephone access, job information and contact with family can make migration itself easier
 - [From scheduled information to ambient information](from-scheduled-to-ambient-information.md) — broadcast schedules, destination Internet, logged-in social presence, portable connectivity and the smartphone-era disappearance of clean offline time
+- [Owned media versus platform access](owned-media-vs-platform-access.md) — physical objects, locally owned files and streaming/platform access as different relationships between culture, memory and possession
 
 ### Life-horizon systems
 
@@ -130,4 +131,4 @@ A person can delay a permanent choice not because they lack goals, but because r
 
 A worker can dislike a job in any century, but treating that dislike as sufficient reason to resign requires alternatives, portable identity and enough security to survive the transition.
 
-The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household. A teenager can have a mobile phone while still needing a desktop computer or Internet café to participate fully in online life.
+The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household. A teenager can have a mobile phone while still needing a desktop computer or Internet café to participate fully in online life. A listener can own an MP3 file while also beginning to use streaming services, making media ownership itself a transitional system.
