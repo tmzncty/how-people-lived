@@ -22,6 +22,12 @@ This index collects entries about what people thought a life should become.
 
 - [United States, 1935–1955: from insecurity to a wider civilian life menu](places/united-states/united-states-1935-1955-life-horizon-shift.md)
 
+## China
+
+- [China, 1935–1955: one cohort, several different futures](places/china/china-1935-1955-life-horizon-shift.md) — education, household work, wartime displacement, postwar recovery, marriage law, urban work-unit life and the rural/urban split
+
+China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, refugee and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
+
 ## Browse by historical break
 
 The same cohort can carry several different life horizons across one lifetime. Useful comparison points include:
@@ -34,6 +40,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after motorization
 - before / after mass home ownership
 - before / after retirement becomes an ordinary expected life stage
+- before / after employment becomes bundled with housing, welfare or other institutional services
 
 The purpose is not to reduce a life to an event. It is to ask when an event changes the practical menu of adulthood.
 
@@ -65,6 +72,7 @@ Look for:
 - inability to establish a household
 - family breakdown
 - loss of reputation
+- displacement without a viable route back to work, school or household life
 
 ### What future was imaginable?
 
@@ -84,6 +92,7 @@ Ask:
 - Which forms of security became institutionalized?
 - Did people begin to expect material improvement?
 - Did a new generation inherit a different definition of a good life from its parents?
+- Did migration or displacement make the person's old life plan geographically impossible?
 
 ## The core comparison
 
