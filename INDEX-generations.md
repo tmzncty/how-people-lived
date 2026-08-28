@@ -120,6 +120,18 @@ Useful pairs include parent c.1955 → child c.1985 and parent c.1965 → child 
 
 Compares which milestones were expected, affordable or institutionally bundled by age 30. The number and cost of milestones can change even when the broad social sequence remains recognizable.
 
+### Midlife / sandwich generation
+
+- [Midlife across generations: when adulthood becomes responsibility in two directions](places/china/generations/midlife-sandwich-across-generations.md)
+
+Tracks the stage when adults may simultaneously finance children, support aging parents, maintain housing, protect their own career and save for retirement. Midlife can become a three-generation household balance sheet.
+
+### What did age 60 mean?
+
+- [What did age 60 mean across Chinese generations?](places/china/generations/age-60-across-generations.md)
+
+Shows why chronological age and retirement are not the same thing. CHARLS 2018 reports retirement rates of 70.8% for urban residents aged 60–64 versus 26.1% for rural residents of the same age.
+
 ### First job
 
 - [When did the first job stop being a life sentence — and become a first draft?](topics/first-job-as-a-life-course-anchor.md)
@@ -140,6 +152,7 @@ Separates residential, financial, capital, geographic and care independence and 
 - [`data/china-household-size-1980-2005.csv`](data/china-household-size-1980-2005.csv)
 - [`data/china-job-tenure-urban-resident-migrant-1999.csv`](data/china-job-tenure-urban-resident-migrant-1999.csv)
 - [`data/china-educational-mobility-1986-1995-selected.csv`](data/china-educational-mobility-1986-1995-selected.csv)
+- [`data/china-retirement-rates-charls-2018.csv`](data/china-retirement-rates-charls-2018.csv)
 
 Source guide:
 
@@ -291,6 +304,8 @@ For every cohort ask:
 - How was housing obtained when they formed a household?
 - What did parents expect them to achieve?
 - What did they later expect from their children?
+- What did midlife require them to finance or care for?
+- What did age 60 mean in their employment/pension system?
 - Which historical break arrived before or after adulthood stabilized?
 - Which technologies had to be learned as novelties, and which were simply assumed?
 
