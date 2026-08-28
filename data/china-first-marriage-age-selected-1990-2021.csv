@@ -1,0 +1,5 @@
+year,sex,mean_age_at_first_marriage,unit,scope,source_url,note
+1990,male,23.57,years,China,https://pmc.ncbi.nlm.nih.gov/articles/PMC9516001/,Published national benchmark reported in source
+1990,female,22.02,years,China,https://pmc.ncbi.nlm.nih.gov/articles/PMC9516001/,Published national benchmark reported in source
+2021,male,25.63,years,China,https://pmc.ncbi.nlm.nih.gov/articles/PMC9516001/,Published national benchmark reported in source
+2021,female,23.89,years,China,https://pmc.ncbi.nlm.nih.gov/articles/PMC9516001/,Published national benchmark reported in source
