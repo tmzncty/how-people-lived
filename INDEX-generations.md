@@ -4,168 +4,153 @@ This index compares cohorts by the infrastructures, institutions and historical 
 
 It does **not** treat generations as personality types.
 
-Start with the method:
+Start with:
 
 - [Generations are timing, not personality](foundations/generations-are-timing-not-personality.md)
 - [How did the problem of adulthood change across generations?](topics/how-the-problem-of-adulthood-changed-across-generations.md)
 - [China cohort life-course map](places/china/generations/README.md)
+- [Empirical life-sequence anchors](places/china/generations/empirical-life-sequence-anchors.md)
 
 The central question is:
 
-> **What did this cohort encounter while its habits of school, work, housing, intimacy and adulthood were still forming?**
+> **What did this cohort encounter while its habits of school, work, housing, intimacy, family and old age were still forming?**
 
 ## Six anchor cohorts in China
 
 These birth years are observation anchors, not rigid demographic boxes.
 
-### Born c. 1955
+| Anchor cohort | Simplified life-course problem |
+|---|---|
+| c.1955 | obtain a viable place in adult society and improve a materially constrained household |
+| c.1965 | build life around institutional stability, then adapt when the rules change in midlife |
+| c.1975 | learn job mobility, housing choice and digital systems after adulthood has begun |
+| c.1985 | coordinate education, career, city and housing when the first job no longer solves the rest of life |
+| c.1995 | preserve options while adult projects are expensive, reversible and vulnerable to shocks |
+| c.2005 | establish competence when learning and cognitive work can be shared with AI |
 
-- [Life-course note](places/china/generations/born-1955-life-course.md)
+Read the main cohort files:
 
-Simplified sequence:
+- [born c.1955](places/china/generations/born-1955-life-course.md)
+- [born c.1965](places/china/generations/born-1965-life-course.md)
+- [born c.1975](places/china/generations/born-1975-life-course.md)
+- [born c.1985](places/china/generations/born-1985-life-course.md)
+- [born c.1995](places/china/generations/born-1995-life-course.md)
+- [born c.2000–2005 / Gen-Z](places/china/gen-z-cohort-2000-2005-life-course.md)
 
-> young adulthood before consumer abundance → 1977 education route reopens → appliance/housing improvement in the 1980s → housing/employment rules change in midlife → pandemic near retirement
+Related:
 
-Core problem:
-
-> **How do I obtain a viable place in adult society and improve a materially constrained household?**
-
-### Born c. 1965
-
-- [Life-course note](places/china/generations/born-1965-life-course.md)
-
-Simplified sequence:
-
-> adulthood under strong institutional employment → household modernization → job/housing rules loosen in the 1990s → digital systems learned in mature adulthood → pandemic in late career
-
-Core problem:
-
-> **What happens when I build life around permanence and the rules become more mobile during midlife?**
-
-### Born c. 1975
-
-- [Life-course note](places/china/generations/born-1975-life-course.md)
-
-Simplified sequence:
-
-> appliance-expansion childhood → adulthood during labor/housing transition → Internet appears in early career → smartphone in established adulthood → pandemic in midlife
-
-Core problem:
-
-> **How do I learn job mobility, housing choice and digital life after adulthood has already begun?**
-
-### Born c. 1985
-
-- [Life-course note](places/china/generations/born-1985-life-course.md)
 - [Millennial-Era Ordinary Life Index](INDEX-millennial.md)
-
-Simplified sequence:
-
-> materially improving childhood → intensive education → desktop-Internet adolescence → marketized work/housing young adulthood → smartphone adulthood → pandemic around 35 → AI in mid-career
-
-Core problem:
-
-> **How do I assemble education, career, city and housing when the first job no longer solves the rest of life?**
-
-### Born c. 1995
-
-- [Life-course note](places/china/generations/born-1995-life-course.md)
-
-Simplified sequence:
-
-> modern-material childhood → mobile adolescence → market career from the start → pandemic around 25 → generative AI around 27
-
-Core problem:
-
-> **How do I preserve options while adult projects are expensive, reversible and vulnerable to shocks?**
-
-### Born c. 2005
-
 - [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.md)
-- [China, post-2000 cohort life course](places/china/gen-z-cohort-2000-2005-life-course.md)
 
-Simplified sequence:
+## Same birth year, different life
 
-> Internet-default childhood → smartphone adolescence → pandemic during secondary education → generative-AI education / adulthood
+A cohort is a **shared clock, not a shared life**.
 
-Core problem:
+All six anchor cohorts now have urban/rural paired examples:
 
-> **What should I learn myself, what should I delegate to AI, and what will count as real competence?**
+- [c.1955](places/china/generations/born-1955-urban-rural-pair.md)
+- [c.1965](places/china/generations/born-1965-urban-rural-pair.md)
+- [c.1975](places/china/generations/born-1975-urban-rural-pair.md)
+- [c.1985](places/china/generations/born-1985-urban-rural-pair.md)
+- [c.1995](places/china/generations/born-1995-urban-rural-pair.md)
+- [c.2005](places/china/generations/born-2005-urban-rural-pair.md)
 
-## Cross-generational lenses
-
-Birth year is only one axis. The same cohort should also be read through gender, origin, family transmission and adult milestones.
-
-### Women across cohorts
-
-- [Women across Chinese cohorts: the same adulthood milestones, different constraint systems](places/china/generations/by-domain/women-across-cohorts.md)
-
-Tracks education, employment, childbirth, migration and care. A key result is that women in the 1986–95 cohort reach a new educational position relative to men while work/family constraints remain historically distinct.
-
-### Same birth year, urban versus rural
+General comparison:
 
 - [Same birth year, different China](places/china/generations/by-domain/urban-rural-same-cohort.md)
 
-Shows why a generation is a shared clock rather than a shared life. In a 1999 survey, urban residents averaged about 19.9 years of job tenure while rural–urban migrants averaged about 4.5 years.
+For older cohorts the divide can mean different work, welfare and household-technology systems.
 
-### Parent–child paired cohorts
+For younger cohorts both sides may use smartphones and AI while inequality shifts toward school quality, family assets, migration cost, housing location and the ability to convert tools into credentials and jobs.
 
-- [Paired generations: what parents learned to want for children](places/china/generations/paired-parent-child-cohorts.md)
+## Gender
 
-Useful pairs include parent c.1955 → child c.1985 and parent c.1965 → child c.1995. The main question is how parents transmit a risk model learned under earlier institutions.
+- [Women across Chinese cohorts](places/china/generations/by-domain/women-across-cohorts.md)
 
-### What did age 30 mean?
+Education, first work, marriage, childbirth, migration, care and retirement should never be reconstructed using a male-default sequence.
 
-- [What did age 30 mean across Chinese generations?](places/china/generations/age-30-across-generations.md)
+## Read the same age across history
 
-Compares which milestones were expected, affordable or institutionally bundled by age 30. The number and cost of milestones can change even when the broad social sequence remains recognizable.
+- [What did being 20 mean in different generations?](topics/age-20-in-different-generations.md)
+- [What did age 30 mean across generations?](places/china/generations/age-30-across-generations.md)
+- [What did age 60 mean across generations?](places/china/generations/age-60-across-generations.md)
 
-### Midlife / sandwich generation
+The same chronological age can mean:
 
-- [Midlife across generations: when adulthood becomes responsibility in two directions](places/china/generations/midlife-sandwich-across-generations.md)
+- already working versus still studying;
+- already a parent versus still assembling work/housing;
+- pension-backed retirement versus continued agricultural/informal work.
 
-Tracks the stage when adults may simultaneously finance children, support aging parents, maintain housing, protect their own career and save for retirement. Midlife can become a three-generation household balance sheet.
+## Work is now a sequence, not one job field
 
-### What did age 60 mean?
+Start with:
 
-- [What did age 60 mean across Chinese generations?](places/china/generations/age-60-across-generations.md)
+- [First job as a life-course anchor](topics/first-job-as-a-life-course-anchor.md)
+- [School-to-work transition as a life stage](topics/school-to-work-transition-as-a-life-stage.md)
 
-Shows why chronological age and retirement are not the same thing. CHARLS 2018 reports retirement rates of 70.8% for urban residents aged 60–64 versus 26.1% for rural residents of the same age.
+A 2025 CGSS sequence study reconstructs ages 10–29 for people born 1946–1995 and identifies four pathways:
 
-### First job
+- early transition;
+- delayed transition;
+- unsmooth transition;
+- reversed transition.
 
-- [When did the first job stop being a life sentence — and become a first draft?](topics/first-job-as-a-life-course-anchor.md)
+Younger cohorts increasingly experience delayed transitions as education expands.
 
-Tracks the shift from first job as institutional destination to career platform and, for some workers, experiment.
+This makes “graduated” and “landed in a stable/skilled job” separate statuses.
 
-### First home
+## Migration is connected to marriage and work
 
-- [The first home: independence financed by interdependence](topics/first-home-and-parental-support.md)
+Event-history research using CHARLS life histories for 1930–1969 births finds:
 
-Separates residential, financial, capital, geographic and care independence and tracks the growing role of parental transfers in young-adult homeownership.
+- education and nonagricultural employment increase migration opportunity;
+- early marriage and more childbirth reduce subsequent migration;
+- divorce increases migration probability;
+- these family events affect women's mobility more strongly.
 
-## Machine-readable cohort material
+See:
 
-- [`data/china-cohort-age-anchors-1955-2005.csv`](data/china-cohort-age-anchors-1955-2005.csv)
-- [`data/china-generational-life-course-matrix.csv`](data/china-generational-life-course-matrix.csv)
-- [`data/china-housing-space-1978-2005.csv`](data/china-housing-space-1978-2005.csv)
-- [`data/china-household-size-1980-2005.csv`](data/china-household-size-1980-2005.csv)
-- [`data/china-job-tenure-urban-resident-migrant-1999.csv`](data/china-job-tenure-urban-resident-migrant-1999.csv)
-- [`data/china-educational-mobility-1986-1995-selected.csv`](data/china-educational-mobility-1986-1995-selected.csv)
-- [`data/china-retirement-rates-charls-2018.csv`](data/china-retirement-rates-charls-2018.csv)
+- [Empirical life-sequence anchors](places/china/generations/empirical-life-sequence-anchors.md)
 
-Source guide:
+The life course should therefore be read as linked transitions, not independent columns.
 
-- [`sources/generational-life-course-source-catalog.md`](sources/generational-life-course-source-catalog.md)
+## Marriage and household formation
 
-## The same historical break reaches different ages
+- [Marriage and household formation across generations](places/china/generations/by-domain/marriage-and-household-formation.md)
+- [Leaving the parental home as a life stage](topics/leaving-parental-home-as-a-life-stage.md)
+- [First home: independence financed by interdependence](topics/first-home-and-parental-support.md)
+
+A person can:
+
+- leave home for university before financial independence;
+- earn independently while still living with parents;
+- marry before owning housing;
+- own housing with parental capital;
+- migrate for work while remaining part of the parental household economy.
+
+These are different adulthood clocks.
+
+## Family life after marriage
+
+- [Family Life-Course Index](INDEX-family-life-course.md)
+- [Parent–child paired cohorts](places/china/generations/paired-parent-child-cohorts.md)
+- [Midlife / sandwich generation](places/china/generations/midlife-sandwich-across-generations.md)
+- [Grandparent care and later life](places/china/generations/by-domain/grandparent-care-and-later-life.md)
+
+The history of adulthood does not end with marriage and children.
+
+Later stages can include:
+
+> child investment + parent support + housing transfers + grandchild care + continued work + retirement planning.
+
+## Historical breaks at different ages
 
 ### Higher-education expansion
 
-Ask whether university appears as:
+Ask whether university is:
 
 - a newly reopened rare route;
-- a highly selective aspiration;
+- a selective aspiration;
 - a realistic family investment;
 - a mass expectation requiring further differentiation.
 
@@ -174,139 +159,111 @@ Ask whether university appears as:
 Ask whether housing is:
 
 - scarce family/institutional space;
-- allocated or public rental housing;
-- privatized housing acquired after marriage;
-- a market purchase and marriage-readiness project;
-- a parental-capital project for young adults.
+- allocated/public rental housing;
+- privatized public housing;
+- commercial purchase;
+- parental-capital-supported purchase.
 
-### Internet
+### Internet / smartphone
 
-Ask whether the cohort:
+Ask whether the technology arrived:
 
-- learns it in adulthood;
-- encounters it in adolescence;
-- treats it as childhood background.
-
-### Smartphone
-
-Ask whether smartphones arrive:
-
-- after career and family routines form;
+- after adult routines formed;
 - during young adulthood;
 - during adolescence;
-- before the person can remember communication without persistent reachability.
+- as childhood background infrastructure.
 
 ### Pandemic
 
-Ask what life stage is interrupted:
+- [Pandemic at different ages](topics/pandemic-at-different-ages.md)
+- [Pandemic Everyday-Life Index](INDEX-pandemic.md)
 
-- secondary school;
-- university / first job;
-- household formation;
-- mid-career parenting;
-- retirement and elder care.
-
-See: [Pandemic Everyday-Life Index](INDEX-pandemic.md)
+The same event can interrupt school, first work, household formation, midlife care or retirement.
 
 ### Generative AI
 
-Ask what skills were already established when AI arrived.
+Ask what skills were already established before AI arrived.
 
-A person born in 1965 may add AI to a career built before the Web.
+A c.1965 professional adds AI to a career built before the Web.
 
-A person born in 1985 may add AI to mature digital professional habits.
+A c.2005 student may learn the workflow with AI already inside it.
 
-A person born in 1995 may be educated pre-AI but work with AI early in the career.
+## Machine-readable cohort and sequence material
 
-A person born in 2005 may learn academic and professional routines with AI already inside them.
+Start with:
 
-See: [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.md)
+- [Empirical Life-Sequence Data Index](data/INDEX-life-sequence-data.md)
+- [Family Life-Course Data Index](data/INDEX-family-life-course-data.md)
 
-## Compare the changing adult problem
+Useful files include:
 
-| Anchor cohort | A simplified central adult problem |
-|---|---|
-| c.1955 | obtain a stable place and materially improve the household |
-| c.1965 | build around institutional stability, then adapt when rules change |
-| c.1975 | learn labor/housing mobility and digital systems as adult adaptations |
-| c.1985 | coordinate education, job, city and housing as separate projects |
-| c.1995 | preserve optionality through market adulthood, pandemic and early-career AI |
-| c.2005 | establish competence when cognitive work can be shared with AI |
+- `china-cohort-age-anchors-1955-2005.csv`
+- `china-generational-life-course-matrix.csv`
+- `china-job-tenure-urban-resident-migrant-1999.csv`
+- `china-educational-mobility-1986-1995-selected.csv`
+- `china-first-marriage-by-birth-cohort-cfps2018.csv`
+- `china-childbearing-by-birth-cohort-cfps2018.csv`
+- `china-retirement-rates-charls-2018.csv`
+- `china-elderly-coresidence-with-adult-children-1982-2010.csv`
+- `china-grandparent-care-urban-rural-charls-2011.csv`
 
-This table is not a ranking and not a claim about personality.
+## From structural map to empirical life histories
 
-It is a map of changing structural problems.
+The next major step is deriving actual sequences from longitudinal/life-history sources.
+
+Start with:
+
+- [Life-History Survey Guide](sources/life-history-survey-guide.md)
+
+Priority sources:
+
+- CHARLS 2014 Life History Survey;
+- China Family Panel Studies (CFPS);
+- CGSS retrospective education/work histories.
+
+Priority derived measures:
+
+- first-work age;
+- first-job duration;
+- number of jobs by age 30/40;
+- first migration age;
+- marriage timing;
+- marriage-to-child interval;
+- first independent residence;
+- first homeownership route/age;
+- retirement age.
+
+Do not redistribute restricted microdata; preserve derived non-identifying statistics, variable maps and reproducible methods.
+
+## Memory evidence
+
+Cohort history should also preserve first-person evidence.
+
+Start with:
+
+- [Technology First-Encounter Index](INDEX-first-encounters.md)
+- [Generational oral-history interview template](templates/generational-oral-history-interview.md)
+
+Ask concrete ages and transitions, not “What was your generation like?”
 
 ## A major caution: period effects are not generation personalities
 
-A 2026 study using Chinese World Values Survey data from 1990–2018 found that work centrality declined and family/leisure centrality increased, but the models pointed mainly to **period effects**, not clean cohort effects.
+A 2026 study using Chinese World Values Survey data from 1990–2018 finds declining work centrality and rising family/leisure centrality mainly as **period effects**, not a clean “young generation personality” effect.
 
 Source:
 
 - https://link.springer.com/article/10.1186/s40711-026-00262-6
 
-This means all generations can change as society changes.
+So do not write:
 
-Do not say:
+> “The younger generation simply cares less about work.”
 
-> “The younger generation cares less about work.”
-
-Instead ask:
-
-- when did leisure become materially possible?
-- when did job mobility make dissatisfaction actionable?
-- when did housing cease to be employer-provided?
-- when did family care become more important in job/city choice?
-- which cohort met those changes before or after its adult routines stabilized?
-
-## Generations are internally unequal
-
-No cohort is one person.
-
-Always preserve:
-
-- urban / rural;
-- region;
-- class and household resources;
-- education;
-- sex / gender;
-- occupation;
-- migration history;
-- formal / informal employment.
-
-A 1975-born rural migrant and 1975-born urban graduate may share calendar time but not the same life menu.
-
-## Future cohort: AI-taught childhood
-
-The next category may not be “post-2010” in the usual cultural sense.
-
-A more historically useful category may be:
-
-> **AI-taught childhood**
-
-China began formalizing AI education in primary and secondary schools in 2024, and the 2026 AI + Education Action Plan calls for broader school AI education and AI as a public foundational university course.
-
-For these children, “When did you first use AI?” may eventually be difficult to answer.
-
-The relevant historical question will become:
-
-> **Can this person remember learning without AI being part of the curriculum?**
+Ask instead which work, housing, care and leisure systems changed for everyone — and at what age each cohort encountered them.
 
 ## Core rule
 
-Generational history is useful when it reconstructs **timing**.
+Generational history becomes useful when it reconstructs:
 
-For every cohort ask:
+> **age + transition + sequence + institution + resources + historical timing.**
 
-- What infrastructure existed when they were ten?
-- What communication norm existed when they were fifteen?
-- What labor market existed when they were twenty-two?
-- How was housing obtained when they formed a household?
-- What did parents expect them to achieve?
-- What did they later expect from their children?
-- What did midlife require them to finance or care for?
-- What did age 60 mean in their employment/pension system?
-- Which historical break arrived before or after adulthood stabilized?
-- Which technologies had to be learned as novelties, and which were simply assumed?
-
-That is much more informative than saying a generation is nostalgic, pragmatic, individualistic or dependent on technology.
+That is much more informative than describing a generation as nostalgic, pragmatic, individualistic or dependent on technology.
