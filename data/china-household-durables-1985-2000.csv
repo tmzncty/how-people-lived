@@ -1,0 +1,9 @@
+area,item,unit,1985,1990,1995,1998,1999,2000,source
+urban,washing_machine,units_per_100_households,48.29,78.41,88.97,90.57,91.44,90.50,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm
+urban,refrigerator,units_per_100_households,6.58,42.33,66.22,76.08,77.74,80.10,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm
+urban,color_television,units_per_100_households,17.21,59.04,89.79,105.43,111.57,116.60,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm
+urban,electric_fan,units_per_100_households,73.91,135.50,167.35,168.37,171.73,,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB1999e/j06e.htm
+rural,washing_machine,units_per_100_households,1.90,9.12,16.90,22.81,24.32,28.58,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm
+rural,refrigerator,units_per_100_households,0.06,1.22,5.15,9.25,10.64,12.31,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm
+rural,color_television,units_per_100_households,0.80,4.72,16.92,32.59,38.24,48.74,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm
+rural,electric_fan,units_per_100_households,9.66,41.36,88.96,111.59,116.07,,https://www.stats.gov.cn/english/Statisticaldata/yearlydata/YB2000e/J24E.htm
