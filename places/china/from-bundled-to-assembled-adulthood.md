@@ -8,6 +8,36 @@ It proposes a useful historical contrast:
 
 This is not a claim that one system is better. It is a way to understand why the *experience of planning a life* changed so much across a relatively short period.
 
+## Important qualification: assembled does not mean unstructured
+
+The phrase **assembled adulthood** can easily overstate individualization if read carelessly.
+
+A structural analysis using China's 1982, 1990 and 2000 censuses plus the 2005 mini-census examined people aged 18–30 and found that:
+
+- school completion was notably delayed;
+- labor-force entry was notably delayed;
+- marriage and parenthood were delayed much less;
+- urban pathways showed some increased individualization;
+- but the overall transition to adulthood remained highly ordered and relatively structured.
+
+Source:
+
+- Felicia Tian, "Transition to adulthood in China in 1982–2005: A structural view," *Demographic Research* 34 (2016): https://www.demographic-research.org/articles/volume/34/16
+
+This evidence corrects an overly simple story of:
+
+> institutional life → free individual choice.
+
+A better model is:
+
+> **more separately managed projects, but still strong sequencing expectations.**
+
+Education, employment and housing may become less bundled institutionally, while the social expectation that one should complete school, begin work, marry and have children in an intelligible order remains powerful.
+
+Thus the transition is not from a script to no script.
+
+It is from a script with more institutional bundling toward a script with more household coordination.
+
 ## What is bundled adulthood?
 
 In a strongly bundled system, one institutional landing place can solve several life problems at once.
@@ -41,7 +71,7 @@ The person still makes choices and faces uncertainty. But many downstream questi
 
 By the 1990s and early 2000s, several parts of this bundle increasingly separated.
 
-A young adult could now have to solve independently:
+A young adult could now have to solve more independently:
 
 1. **education** — how far to study, where and at what cost;
 2. **employment** — which employer, sector and career path;
@@ -70,6 +100,8 @@ Migration can increase income while weakening daily proximity to parents.
 
 Each improvement can create another planning problem.
 
+But these problems still tend to be solved in a socially recognizable order rather than as completely interchangeable lifestyle choices.
+
 ## Education becomes a separate long project
 
 China's higher-education gross enrollment ratio rose from **3.4% in 1990** to **7.2% in 1995**, **12.5% in 2000**, and **19.0% in 2004**.
@@ -83,6 +115,8 @@ University therefore increasingly moves from an elite-visible path toward a mass
 For parents, this can mean several more years of support and delayed earnings from the child.
 
 For young adults, it delays the moment when school, work, housing and marriage are resolved.
+
+The census-based life-course evidence is consistent with this part of the story: completion of schooling and labor-force entry did move later between 1982 and 2005.
 
 ## Employment becomes a market to navigate
 
@@ -128,6 +162,8 @@ Research on marriage further notes that housing ownership became an important pr
 Source:
 
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC6240985/
+
+This is where institutional unbundling can coexist with strong life-course sequencing: housing becomes a privately solved problem while remaining tightly connected to marriage timing.
 
 ## Migration makes geography a choice — and a cost
 
@@ -202,7 +238,23 @@ A worker can in principle change employers without old-age security being entire
 
 Neither profile describes everyone.
 
-The purpose is to show the growth of **separate decisions**.
+The purpose is to show the growth of **separate decisions**, not the disappearance of social sequence.
+
+## What counts as independence?
+
+This transition also separates several meanings of independence.
+
+A person can be:
+
+- **occupationally independent** — earns their own wage;
+- **residentially dependent** — still lives with parents;
+- **financially interdependent** — receives help for housing while supporting parents in other ways;
+- **geographically independent** — lives far away;
+- **emotionally and socially embedded** — remains in frequent contact and family decision-making.
+
+Research on 1982–2005 adulthood transitions suggests that these milestones do not dissolve into random order even as their timing changes.
+
+The historical task is therefore to reconstruct *which independence mattered in that period*.
 
 ## Why more choice can feel heavier
 
@@ -219,13 +271,19 @@ But it also creates:
 - longer dependence on parents
 - more responsibility for anticipating the future
 
-This repository should therefore avoid a simple modernization narrative such as:
+At the same time, marriage, parenthood and family expectations can continue to impose a strong sequence.
 
-> fewer choices → more choices → better life.
+This repository should therefore avoid both simple stories:
+
+> fewer choices → more choices → better life
+
+and
+
+> traditional script → completely individualized adulthood.
 
 A more useful question is:
 
-> **Which risks moved from institutions to households and individuals as choices expanded?**
+> **Which tasks became individually managed while which life-course expectations remained strongly ordered?**
 
 ## What this means for literature and memory
 
@@ -235,7 +293,9 @@ A character saying "I got a good job" in a later narrative may still have unsolv
 
 The same sentence changes historical meaning.
 
-Likewise, parents saying "study hard" can change from advice about school performance into a long household strategy involving entrance examinations, university expenses, migration and delayed adulthood.
+Likewise, parents saying "study hard" can change from advice about school performance into a long household strategy involving entrance examinations, university expenses, migration and delayed labor-force entry.
+
+But even with expanded education, a family may continue to expect education to lead fairly quickly toward work, marriage and parenthood rather than indefinite experimentation.
 
 ## Research gaps
 
@@ -247,7 +307,8 @@ Likewise, parents saying "study hard" can change from advice about school perfor
 - how marriage advertisements and surveys changed their material criteria
 - changing vocabulary of "career," "development," "stability" and "future"
 - how young adults described decision fatigue or opportunity in diaries, interviews and magazines
+- whether nonstandard sequences were socially accepted or merely statistically more common
 
-The central thesis is intentionally modest:
+The central thesis is therefore narrower than the file title may initially suggest:
 
-> **Between the 1980s and early 2000s, important parts of Chinese adulthood increasingly ceased to arrive as one institutional package and became separate projects that individuals and families had to coordinate.**
+> **Between the 1980s and early 2000s, important parts of Chinese adulthood increasingly ceased to arrive as one institutional package and became separate projects that individuals and families had to coordinate — while the overall sequence from education to work to marriage and parenthood remained surprisingly structured.**
