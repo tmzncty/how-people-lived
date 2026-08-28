@@ -60,6 +60,29 @@ But the new structural evidence shows that this did **not** mean the sequence of
 
 > **more separately managed projects, while school → work → marriage → parenthood remained a powerful sequence.**
 
+### Contemporary youth, 2026
+
+- [Contemporary youth in China, 2026: many visible routes, few automatic bundles](contemporary-youth-life-horizons-2026.md)
+
+This present-day profile treats 2026 as history in progress. It compares:
+
+- a 12.7-million-person graduate cohort
+- the school-to-stable-work transition
+- postgraduate study
+- civil-service examinations
+- private-sector careers
+- flexible employment
+- city choice
+- housing and parental support
+- marriage and children
+- the emerging value of preserving optionality
+
+Its central question is:
+
+> **Which combination gives a young adult a tolerable present without closing too many future options?**
+
+This is not a claim that all contemporary youth think alike. It is a framework for comparing risk strategies.
+
 ## Narrow life-horizon profiles
 
 ### Urban youth, mid-1980s
@@ -114,6 +137,7 @@ These datasets establish constraints and adoption curves. They do **not** by the
 - [What did people save for?](../../topics/what-did-people-save-for.md)
 - [What counted as independence?](../../topics/what-counted-as-independence.md)
 - [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.md)
+- [Optionality as a life goal](../../topics/optionality-as-a-life-goal.md)
 - [Life goals, adulthood and the expected life course](../../topics/life-goals-and-adulthood.md)
 - [Technology exists. Does a person have it?](../../foundations/technology-existence-vs-adoption.md)
 - [Historical breaks can rewrite a life horizon](../../foundations/historical-breaks-and-life-horizons.md)
@@ -141,6 +165,18 @@ These datasets establish constraints and adoption curves. They do **not** by the
 - how long parental support continued after graduation
 - when adult children began regular financial support to parents
 
+### Contemporary
+
+- graduate, age 22–25, 2026: compare postgraduate / civil-service / private-sector / flexible routes
+- renter versus home buyer in a large city
+- return-to-hometown graduate
+- youth in manufacturing and technical occupations
+- flexible worker with voluntary versus involuntary flexibility
+- first job under AI-driven workplace change
+- dual-career couple choosing city and housing
+- young adult supporting aging parents
+- what "work-life balance" means in hours, commute and income rather than slogans
+
 ### Everyday systems
 
 - wages versus appliance prices
@@ -158,7 +194,7 @@ These datasets establish constraints and adoption curves. They do **not** by the
 
 Chinese literature should be read with the same material-restoration method used elsewhere in the repository.
 
-When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment, parental down payment or retirement, ask:
+When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment, parental down payment, postgraduate examination, civil-service examination, platform work or retirement, ask:
 
 1. How common was this for the character's population?
 2. What did it cost?
@@ -167,6 +203,7 @@ When a story mentions a bicycle, work unit, dormitory, train journey, radio, tel
 5. What did possession or access mean for the person's future?
 6. Which other life projects did it solve, create or postpone?
 7. Did it change the sequence of adulthood, or mainly make the existing sequence more expensive to complete?
+8. Was the character trying to reach a stable destination or preserve the ability to change direction later?
 
 The goal is not to turn literature into statistics.
 
