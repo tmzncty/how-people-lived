@@ -8,6 +8,7 @@ This index collects entries about what people thought a life should become.
 - [Historical breaks can rewrite a life horizon](foundations/historical-breaks-and-life-horizons.md)
 - [Life goals, adulthood and the expected life course](topics/life-goals-and-adulthood.md)
 - [What did a "good job" mean?](topics/what-did-a-good-job-mean.md)
+- [When did "I don't like this job" become a sufficient reason to leave?](topics/when-did-liking-your-job-become-a-reason-to-leave.md)
 - [When did university become an ordinary life option?](topics/when-did-university-become-an-ordinary-life-option.md)
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
@@ -40,6 +41,7 @@ This index collects entries about what people thought a life should become.
 - [China, 1985–2005: when the life menu became wider — and more expensive to navigate](places/china/china-1985-2005-life-horizon-shift.md) — education expansion, labour mobility, housing separation, migration, household income, communication and later marriage
 - [China, 1982–2005: adulthood changed, but its sequence remained surprisingly ordered](places/china/transition-to-adulthood-1982-2005.md) — census-based correction showing delayed school/work but much smaller delays in marriage/parenthood and continued ordered sequencing
 - [China, c. 1980s–2000s: from bundled adulthood to assembled adulthood](places/china/from-bundled-to-assembled-adulthood.md) — synthesis of education, employment, city choice, housing, marriage, parents and retirement becoming more separately managed without fully dissolving the life-course script
+- [China, 2020–2023: when ordinary life became contingent](places/china/pandemic-2020-2023-ordinary-life-and-life-horizons.md) — online education, remote work, digital recruitment, household space, precautionary saving, disrupted family schedules and the experience that ordinary processes themselves may stop running on time
 
 ### Narrow profiles
 
@@ -49,7 +51,7 @@ This index collects entries about what people thought a life should become.
 - [Urban households, 1995–2005: saving for the future](places/china/urban-households-saving-for-the-future-1995-2005.md) — housing, education, health, employment uncertainty and why rising income could coexist with rising saving
 - [Contemporary youth in China, 2026](places/china/contemporary-youth-life-horizons-2026.md) — large graduate cohorts, postgraduate and civil-service routes, market careers, flexible employment, city/housing choices, delayed family decisions and preserving optionality
 
-China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, migrant worker, refugee and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
+China needs unusually careful population labels. Do not merge an urban student, rural household member, apprentice, migrant worker, refugee, pandemic graduate and work-unit employee into one generic "Chinese youth." The point of comparison is precisely that several life menus could coexist in the same year.
 
 ## Browse by historical break
 
@@ -57,6 +59,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 
 - before / during / after World War II
 - before / during / after a depression or financial crisis
+- before / during / after a pandemic that disrupts ordinary schedules
 - before / after mass electrification
 - before / after mass secondary education
 - before / after higher education becomes a normal family planning question
@@ -70,6 +73,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after communication makes long-distance family life easier to sustain
 - before / after parents routinely finance education or housing into a child's twenties
 - before / after workers have to manage their own career trajectory
+- before / after subjective work fit becomes a legitimate reason to change jobs
 - before / after adulthood becomes later without necessarily becoming less ordered
 - before / after preserving future options becomes a rational goal in itself
 
@@ -79,11 +83,11 @@ The purpose is not to reduce a life to an event. It is to ask when an event chan
 
 ### What counted as success?
 
-Look for security, respectability, promotion, marriage, household formation, children, education, property, independence, old-age security, geographic mobility, ability to support parents, ability to give children a different life route, and sometimes the ability to preserve future choice.
+Look for security, respectability, promotion, marriage, household formation, children, education, property, independence, old-age security, geographic mobility, ability to support parents, ability to give children a different life route, meaningful work, time outside work, and sometimes the ability to preserve future choice.
 
 ### What counted as failure?
 
-Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, job change that destroys welfare or pension security, or repeated option-preserving delays that eventually become costly.
+Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, job change that destroys welfare or pension security, work that consumes health or family life, or repeated option-preserving delays that eventually become costly.
 
 ### What future was imaginable?
 
@@ -108,10 +112,12 @@ Ask:
 - Did old age become pension-backed retirement or remain child-supported?
 - Did more separate decisions actually change the sequence of adulthood, or only make the old sequence harder to finance?
 - Did the person begin optimizing for reversibility rather than one permanent destination?
+- Did a crisis teach the person that even the ordinary calendar of school, work or recruitment can fail?
+- Could subjective dislike, lack of meaning or work-life conflict become sufficient reason to redesign a career?
 
 ## The core comparison
 
-The repository now has six linked historical questions:
+The repository now has eight linked historical questions:
 
 > **What could this person materially do?**
 
@@ -125,4 +131,8 @@ The repository now has six linked historical questions:
 
 > **Was the person trying to reach a destination, or preserve the ability to choose one later?**
 
-All six are needed to reconstruct an ordinary life.
+> **Could they assume the normal process of school, work, travel and family formation would still run next month?**
+
+> **Was work only a source of livelihood and security, or had fit, enjoyment, meaning and life outside work become legitimate exit criteria?**
+
+All eight are needed to reconstruct an ordinary life.
