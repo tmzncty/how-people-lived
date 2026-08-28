@@ -20,6 +20,10 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Life goals, adulthood and the expected life course](life-goals-and-adulthood.md) — what counted as adulthood, success, failure and a complete life
 - [What did a "good job" mean?](what-did-a-good-job-mean.md) — wages, housing, welfare, stability, status, family formation and geographic mobility as historically variable job qualities
 - [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.md) — the gap between universities existing and ordinary families actually planning around tertiary education
+- [Parents and children's futures](parents-and-childrens-futures.md) — when a child's education, migration and occupation become a long-term household project
+- [When did housing become an adulthood project?](when-did-housing-become-an-adulthood-project.md) — who is responsible for solving housing, and when housing separates from employment or family provision
+- [When did changing jobs become normal?](when-did-changing-jobs-become-normal.md) — the transition from allocated or lifetime employment toward career management and repeated job search
+- [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work requires pensions, savings or intergenerational support and therefore cannot be treated as timeless
 
 ## Planned systems
 
@@ -76,13 +80,11 @@ They are not intended to give one universal history. Their job is to provide reu
 
 ### Life horizons
 
-- what did parents want for children?
 - what did people save for?
 - what made marriage economically possible?
-- when did retirement become an ordinary expected life stage?
-- when did changing jobs become normal?
 - when did moving city become an ordinary career strategy?
-- how did home ownership become tied to adulthood?
+- when did parental support extend into the child's twenties?
+- when did pension planning become separated from one employer?
 
 ## How topic notes should work
 
@@ -101,5 +103,7 @@ A life-horizon topic should ask:
 A university can exist for centuries before "I will probably go to university" becomes a normal adolescent expectation.
 
 A job can pay less but still be preferred if it provides housing, welfare or proximity to family.
+
+A formal retirement age can exist for one population while another population works until health prevents it.
 
 The best topic notes show **coexistence**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen.
