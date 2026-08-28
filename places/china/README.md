@@ -60,6 +60,27 @@ But the new structural evidence shows that this did **not** mean the sequence of
 
 > **more separately managed projects, while school → work → marriage → parenthood remained a powerful sequence.**
 
+### Pandemic break, 2020–2023
+
+- [China, 2020–2023: when ordinary life became contingent](pandemic-2020-2023-ordinary-life-and-life-horizons.md)
+
+This detailed ordinary-life history deliberately avoids political argument and reconstructs:
+
+- school and university moving online;
+- the household becoming education and work infrastructure;
+- first-time mass experience of remote work;
+- online recruitment and interviews;
+- expanding graduate cohorts during an unusually difficult school-to-work transition;
+- precautionary saving;
+- food-delivery and digital-service infrastructure;
+- changed relationship and family-formation schedules;
+- stability, health exposure, commute and remote compatibility becoming more visible job qualities;
+- the experience that ordinary calendars and plans themselves can become contingent.
+
+The core question is:
+
+> **What happens to a life plan when the goal still exists, but the process by which one normally reaches it can no longer be assumed to run on schedule?**
+
 ### Contemporary youth, 2026
 
 - [Contemporary youth in China, 2026: many visible routes, few automatic bundles](contemporary-youth-life-horizons-2026.md)
@@ -129,6 +150,7 @@ These datasets establish constraints and adoption curves. They do **not** by the
 ## Cross-period topics useful for China
 
 - [What did a "good job" mean?](../../topics/what-did-a-good-job-mean.md)
+- [When did "I don't like this job" become a sufficient reason to leave?](../../topics/when-did-liking-your-job-become-a-reason-to-leave.md)
 - [When did university become an ordinary life option?](../../topics/when-did-university-become-an-ordinary-life-option.md)
 - [Parents and children's futures](../../topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](../../topics/when-did-housing-become-an-adulthood-project.md)
@@ -165,6 +187,17 @@ These datasets establish constraints and adoption curves. They do **not** by the
 - how long parental support continued after graduation
 - when adult children began regular financial support to parents
 
+### Pandemic cohort follow-up
+
+- 2020 graduate five and ten years later
+- student who began university online versus adjacent cohorts
+- work-from-home household by dwelling size
+- migrant worker separated from family
+- delivery worker and warehouse worker ordinary life
+- whether 2020–2022 graduates later value stability differently
+- whether living near parents gained value after the pandemic
+- which emergency digital practices remained ordinary afterward
+
 ### Contemporary
 
 - graduate, age 22–25, 2026: compare postgraduate / civil-service / private-sector / flexible routes
@@ -194,7 +227,7 @@ These datasets establish constraints and adoption curves. They do **not** by the
 
 Chinese literature should be read with the same material-restoration method used elsewhere in the repository.
 
-When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment, parental down payment, postgraduate examination, civil-service examination, platform work or retirement, ask:
+When a story mentions a bicycle, work unit, dormitory, train journey, radio, television, refrigerator, telephone, college place, allocated room, migrant job, commercial apartment, parental down payment, postgraduate examination, civil-service examination, platform work, online class, remote interview, video meeting or retirement, ask:
 
 1. How common was this for the character's population?
 2. What did it cost?
@@ -204,6 +237,7 @@ When a story mentions a bicycle, work unit, dormitory, train journey, radio, tel
 6. Which other life projects did it solve, create or postpone?
 7. Did it change the sequence of adulthood, or mainly make the existing sequence more expensive to complete?
 8. Was the character trying to reach a stable destination or preserve the ability to change direction later?
+9. Was ordinary calendar reliability itself part of the character's problem?
 
 The goal is not to turn literature into statistics.
 
