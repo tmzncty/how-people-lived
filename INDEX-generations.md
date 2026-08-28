@@ -92,12 +92,54 @@ Core problem:
 
 > **What should I learn myself, what should I delegate to AI, and what will count as real competence?**
 
+## Cross-generational lenses
+
+Birth year is only one axis. The same cohort should also be read through gender, origin, family transmission and adult milestones.
+
+### Women across cohorts
+
+- [Women across Chinese cohorts: the same adulthood milestones, different constraint systems](places/china/generations/by-domain/women-across-cohorts.md)
+
+Tracks education, employment, childbirth, migration and care. A key result is that women in the 1986–95 cohort reach a new educational position relative to men while work/family constraints remain historically distinct.
+
+### Same birth year, urban versus rural
+
+- [Same birth year, different China](places/china/generations/by-domain/urban-rural-same-cohort.md)
+
+Shows why a generation is a shared clock rather than a shared life. In a 1999 survey, urban residents averaged about 19.9 years of job tenure while rural–urban migrants averaged about 4.5 years.
+
+### Parent–child paired cohorts
+
+- [Paired generations: what parents learned to want for children](places/china/generations/paired-parent-child-cohorts.md)
+
+Useful pairs include parent c.1955 → child c.1985 and parent c.1965 → child c.1995. The main question is how parents transmit a risk model learned under earlier institutions.
+
+### What did age 30 mean?
+
+- [What did age 30 mean across Chinese generations?](places/china/generations/age-30-across-generations.md)
+
+Compares which milestones were expected, affordable or institutionally bundled by age 30. The number and cost of milestones can change even when the broad social sequence remains recognizable.
+
+### First job
+
+- [When did the first job stop being a life sentence — and become a first draft?](topics/first-job-as-a-life-course-anchor.md)
+
+Tracks the shift from first job as institutional destination to career platform and, for some workers, experiment.
+
+### First home
+
+- [The first home: independence financed by interdependence](topics/first-home-and-parental-support.md)
+
+Separates residential, financial, capital, geographic and care independence and tracks the growing role of parental transfers in young-adult homeownership.
+
 ## Machine-readable cohort material
 
 - [`data/china-cohort-age-anchors-1955-2005.csv`](data/china-cohort-age-anchors-1955-2005.csv)
 - [`data/china-generational-life-course-matrix.csv`](data/china-generational-life-course-matrix.csv)
 - [`data/china-housing-space-1978-2005.csv`](data/china-housing-space-1978-2005.csv)
 - [`data/china-household-size-1980-2005.csv`](data/china-household-size-1980-2005.csv)
+- [`data/china-job-tenure-urban-resident-migrant-1999.csv`](data/china-job-tenure-urban-resident-migrant-1999.csv)
+- [`data/china-educational-mobility-1986-1995-selected.csv`](data/china-educational-mobility-1986-1995-selected.csv)
 
 Source guide:
 
