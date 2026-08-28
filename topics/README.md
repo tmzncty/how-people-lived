@@ -20,6 +20,7 @@ They are not intended to give one universal history. Their job is to provide reu
 
 - [Life goals, adulthood and the expected life course](life-goals-and-adulthood.md) — what counted as adulthood, success, failure and a complete life
 - [What did a "good job" mean?](what-did-a-good-job-mean.md) — wages, housing, welfare, stability, status, family formation and geographic mobility as historically variable job qualities
+- [When did "I don't like this job" become a sufficient reason to leave?](when-did-liking-your-job-become-a-reason-to-leave.md) — from material survival and job security to job satisfaction, career fit, calling, passion and work-life integration
 - [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.md) — the gap between universities existing and ordinary families actually planning around tertiary education
 - [Parents and children's futures](parents-and-childrens-futures.md) — when a child's education, migration and occupation become a long-term household project
 - [When did housing become an adulthood project?](when-did-housing-become-an-adulthood-project.md) — who is responsible for solving housing, and when housing separates from employment or family provision
@@ -91,6 +92,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - when did "career" become a project rather than a position?
 - when did a household begin planning several future generations at once?
 - when did keeping options open become valuable enough to postpone another milestone?
+- when did work-life balance become a mainstream reason to accept lower pay or change jobs?
 
 ## How topic notes should work
 
@@ -115,5 +117,7 @@ A formal retirement age can exist for one population while another population wo
 A young couple can live in their own apartment while depending on parental capital to buy it.
 
 A person can delay a permanent choice not because they lack goals, but because reversibility has become valuable under uncertainty.
+
+A worker can dislike a job in any century, but treating that dislike as sufficient reason to resign requires alternatives, portable identity and enough security to survive the transition.
 
 The best topic notes show **coexistence and mismatch**. A household can have electric light and a coal stove, piped water and an outdoor toilet, a radio and no telephone, or a university-educated child whose parents entered work at fifteen. A person can earn their own salary, live far from home, and still remain financially embedded in the parental household.
