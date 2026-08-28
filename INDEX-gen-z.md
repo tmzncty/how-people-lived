@@ -6,6 +6,8 @@ The purpose is not to claim that all post-2000 youth share one personality. It i
 
 > **internet-default childhood → smartphone adolescence → pandemic schooling / early adulthood → generative-AI adulthood**
 
+For comparison across cohorts, see [Generational Life-Course Index](INDEX-generations.md).
+
 ## Main cohort note
 
 - [China, post-2000 cohort: growing up after the Internet became ordinary](places/china/gen-z-cohort-2000-2005-life-course.md)
@@ -16,6 +18,7 @@ The purpose is not to claim that all post-2000 youth share one personality. It i
 - [Adolescence, c. 2012–2019: the smartphone becomes the default terminal](places/china/gen-z/adolescence-2012-2019.md)
 - [Pandemic coming of age, 2020–2022](places/china/gen-z/pandemic-coming-of-age-2020-2022.md)
 - [Generative-AI adulthood, 2022–2026](places/china/gen-z/generative-ai-adulthood-2022-2026.md)
+- [Preserving the first AI-native adulthood before its evidence disappears](places/china/gen-z/ai-memory-archive-guide.md)
 
 ## Cross-period topics
 
