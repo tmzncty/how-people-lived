@@ -37,6 +37,13 @@ For each place, period and population, investigate:
 - [x] Britain 1935–1955 prewar / wartime / postwar comparison
 - [x] United States 1935–1955 prewar / wartime / postwar comparison
 - [x] China 1935–1955 cohort comparison with explicit urban/rural and wartime-displacement cautions
+- [x] China 1985–2005 comparison: education, work, migration, housing, household technology and marriage timing
+- [x] China mid-1980s urban-youth profile
+- [x] China 1990s rural-youth profile
+- [x] cross-period topic: what did a good job mean?
+- [x] cross-period topic: when did university become an ordinary life option?
+- [x] China household income / Engel dataset, 1978–2005
+- [x] China higher-education gross-enrolment dataset, 1990–2004
 
 ## Next high-value life horizons
 
@@ -67,7 +74,7 @@ For each place, period and population, investigate:
 
 ### China — material and ordinary-life focus
 
-Keep entries centered on education, occupation, family, housing, consumption, household formation and old-age expectations rather than political controversy.
+Keep entries centered on education, occupation, family, housing, consumption, household formation, migration and old-age expectations rather than political controversy.
 
 #### Historical-break series
 
@@ -83,25 +90,34 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 
 #### Later transitions
 
-- [ ] urban youth, 1980s: education, employment, marriage, housing and household goods
+- [x] urban youth, mid-1980s: first job, work-unit bundle, housing, education and household goods
+- [x] rural youth, 1990s: household production, local non-farm work, migration, appliances and family strategy
+- [x] 1985–2005 national comparison: bundled adulthood → branching life menu → individually planned education/job/city/housing projects
 - [ ] urban household, 1990s: children's education, housing improvement and consumer durables
-- [ ] rural household, 1990s: household production, migration, housing, appliances and children's prospects
-- [ ] adulthood milestones across 1980 / 1990 / 2000
-- [ ] when university changes from an elite-visible route to a mass family aspiration
+- [ ] urban young adult, 2005: first job, housing, computers/mobile phones, marriage and parental transfers
+- [ ] migrant worker, c. 1995 and c. 2005: compare dormitory, wages, communication, remittances and return plans
+- [ ] rural parents, c. 1995: how migration changes hopes for children
+- [ ] adulthood milestones across 1980 / 1990 / 2000 / 2005
+- [x] when university changes from an elite-visible route to a mass family planning question — framework and national enrolment series
+- [ ] narrow the university transition by city, rural/urban origin, sex and parental education
 - [ ] when changing jobs or careers becomes a normal imagined choice rather than an exceptional rupture
+- [ ] when owning housing becomes part of marriage readiness
+- [ ] when mobile phones change the practical cost of migration and long-distance relationships
 
 ### Cross-period comparison files
 
-- [ ] What did "a good job" mean?
+- [x] What did "a good job" mean?
 - [ ] When did retirement become a normal life stage?
-- [ ] When did university become an ordinary imagined option?
+- [x] When did university become an ordinary imagined option?
 - [ ] What did parents want for children?
 - [ ] What did people save for?
 - [ ] At what age was a person expected to become independent?
 - [ ] What made marriage economically possible?
 - [ ] When did changing careers become thinkable as a normal choice?
 - [ ] What happens when a war, depression or technological transition rewrites the life plan of the same cohort?
-- [ ] What happens when employment becomes a bundle of wage + housing + welfare + social identity?
+- [x] What happens when employment becomes a bundle of wage + housing + welfare + social identity? — initial framework in "good job" topic
+- [ ] What happens when those components are unbundled and the household must purchase or plan them separately?
+- [ ] When does migration become a normal stage rather than a permanent rupture?
 
 ## Historical-break method
 
@@ -131,6 +147,24 @@ For China and other highly heterogeneous settings, add another rule:
 
 The same birth year does not imply the same life menu.
 
+For fast peacetime transitions, also compare **adjacent generations**.
+
+Example:
+
+> parent born c. 1955 enters adulthood in the late 1970s / early 1980s
+>
+> child born c. 1980 enters adulthood around 2000–2005
+
+Ask which components of adulthood changed from bundled to separately planned:
+
+- education
+- job
+- city
+- housing
+- marriage
+- consumer goods
+- retirement
+
 ## Data opportunities
 
 Life goals are qualitative, but many constraints can be made machine-readable:
@@ -138,7 +172,10 @@ Life goals are qualitative, but many constraints can be made machine-readable:
 - school-leaving age
 - marriage age
 - labour-force entry age
+- higher-education gross enrolment
 - occupational wage ladders
+- urban / rural household income
+- Engel coefficients
 - rent / wage ratios
 - savings rates
 - pension eligibility
@@ -149,6 +186,8 @@ Life goals are qualitative, but many constraints can be made machine-readable:
 - intergenerational co-residence
 - educational attainment
 - displacement / migration history
+- rural migrant-worker counts
+- household durables and communication technology
 
 The repository should not reduce a life horizon to numbers, but quantitative constraints help define the boundary of the possible.
 
@@ -165,6 +204,10 @@ or:
 or:
 
 > Chinese urban student, born 1920 — compare 1935 / wartime / 1955, then switch to a rural profile of the same cohort
+
+or:
+
+> Chinese parent entering adulthood in 1980 → child entering adulthood in 2005
 
 and see linked panels:
 
@@ -184,6 +227,7 @@ and see linked panels:
 - education
 - occupation
 - promotion
+- migration
 - marriage
 - independent household or housing allocation
 - children
@@ -200,6 +244,7 @@ and see linked panels:
 - housing
 - technology
 - labor demand
+- migration routes
 - marriage rules
 - social expectations
 
