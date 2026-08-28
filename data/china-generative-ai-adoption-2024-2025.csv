@@ -1,0 +1,13 @@
+period,measure,population,value,unit,source,notes
+2024-06,generative_ai_use_rate,internet_users_age_19_and_under,29.1,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-06,generative_ai_use_rate,internet_users_age_20_29,40.5,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-06,generative_ai_use_rate,internet_users_age_30_39,23.7,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-06,generative_ai_use_rate,internet_users_age_40_49,17.1,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-06,generative_ai_use_rate,internet_users_age_50_59,10.4,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-06,generative_ai_use_rate,internet_users_age_60_plus,5.4,percent,https://www.cnnic.cn/NMediaFile/2025/1210/MAIN176533268100200W084JJXA.pdf,CNNIC 2024 generative AI report
+2024-12,generative_ai_users,china_population,249,million_users,https://www3.cnnic.cn/n4/2025/0117/c88-11229.html,Reported number who had used generative AI products
+2024-12,generative_ai_penetration,china_population,17.7,percent,https://www3.cnnic.cn/n4/2025/0117/c88-11229.html,CNNIC 55th report
+2025-06,generative_ai_users,china_population,515,million_users,https://www3.cnnic.cn/n4/2025/1021/c88-11391.html,CNNIC 2025 generative AI report
+2025-06,generative_ai_penetration,china_population,36.5,percent,https://www3.cnnic.cn/n4/2025/1021/c88-11391.html,CNNIC 2025 generative AI report
+2025-12,generative_ai_users,china_population,602,million_users,https://www3.cnnic.cn/n4/2026/0304/c88-11549.html,CNNIC 57th report
+2025-12,generative_ai_penetration,china_population,42.8,percent,https://www3.cnnic.cn/n4/2026/0304/c88-11549.html,CNNIC 57th report
