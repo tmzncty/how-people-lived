@@ -1,0 +1,7 @@
+offspring_birth_cohort,dyad,origin,measure,value,source,notes
+1986-1995,father_daughter,urban_hukou_origin,parent_child_education_rank_rank_correlation,0.51,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Selected benchmark reported in article text; higher correlation indicates stronger intergenerational persistence, not 'more education'."
+1986-1995,father_daughter,rural_hukou_origin,parent_child_education_rank_rank_correlation,0.27,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Selected benchmark reported in article text; compare only within the study's rank-based framework."
+1976-1985,father_son,all,parent_child_education_rank_rank_correlation,0.41,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Article reports rise to 0.43 in 1986-95 as statistically insignificant."
+1986-1995,father_son,all,parent_child_education_rank_rank_correlation,0.43,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Article reports difference from previous cohort as statistically insignificant."
+1976-1985,mother_daughter,all,parent_child_education_rank_rank_correlation,0.47,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Article reports dip to 0.45 in 1986-95 as statistically insignificant."
+1986-1995,mother_daughter,all,parent_child_education_rank_rank_correlation,0.45,https://link.springer.com/article/10.1007/s11113-024-09887-2,"Article reports difference from previous cohort as statistically insignificant."
