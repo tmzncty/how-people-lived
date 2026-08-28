@@ -1,0 +1,24 @@
+survey_year,measure,population,activity,value_minutes_per_day,unit,notes,source
+2018,average_time,all,paid_labor,264,minutes_per_day,"All surveyed residents; paid labor includes employment work and household production/business",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,male,paid_labor,315,minutes_per_day,"All surveyed men",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,female,paid_labor,215,minutes_per_day,"All surveyed women",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,all,unpaid_labor,162,minutes_per_day,"All surveyed residents",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,male,unpaid_labor,92,minutes_per_day,"All surveyed men",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,female,unpaid_labor,228,minutes_per_day,"All surveyed women",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,male,housework,45,minutes_per_day,"All surveyed men",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,female,housework,126,minutes_per_day,"All surveyed women",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,all,childcare_daily_life,36,minutes_per_day,"Accompanying/caring for children's daily life",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,male,childcare_daily_life,17,minutes_per_day,"All surveyed men",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,female,childcare_daily_life,53,minutes_per_day,"All surveyed women",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,male_age_25_34,childcare_daily_life,29,minutes_per_day,"Age-specific average reported by NBS",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,female_age_25_34,childcare_daily_life,115,minutes_per_day,"Age-specific average reported by NBS",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,participant_average_time,all,employment_work,461,minutes_per_day,"Among participants who did employment work",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,participant_average_time,male,employment_work,472,minutes_per_day,"Among male employment-work participants",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,participant_average_time,female,employment_work,444,minutes_per_day,"Among female employment-work participants",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,all,transport,38,minutes_per_day,"All surveyed residents",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,urban,transport,44,minutes_per_day,"All surveyed urban residents",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,rural,transport,30,minutes_per_day,"All surveyed rural residents",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,participant_average_time,employment_related_transport,transport,66,minutes_per_day,"Among participants traveling for employment work",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,all,internet_use,162,minutes_per_day,"Internet use is an accompanying activity and can overlap primary activities",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,urban,internet_use,203,minutes_per_day,"Internet use is an accompanying activity",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
+2018,average_time,rural,internet_use,98,minutes_per_day,"Internet use is an accompanying activity",https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900224.html
