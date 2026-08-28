@@ -50,6 +50,21 @@ This is a later-period expectation dataset, not evidence that the same percentag
 
 Source: https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
 
+### `china-internet-scale-1997-2011.csv`
+
+Selected CNNIC benchmarks for the rapid transition from rare dial-up Internet to mass and mobile connectivity:
+
+- 1997: 0.62 million Internet users;
+- mid-2000: 16.9 million;
+- mid-2005: 103 million;
+- mid-2008: 253 million;
+- mid-2010: 420 million;
+- end-2011: 513 million Internet users, including 356 million mobile Internet users.
+
+The file is designed for cohort-history work. It shows how a person born around 1990 could move from an almost entirely offline childhood environment to mass mobile connectivity by early adulthood.
+
+Sources are retained row-by-row in the CSV, primarily CNNIC historical reports and retrospectives.
+
 ### `china-pandemic-graduate-cohorts-2020-2023.csv`
 
 Ministry of Education benchmark figures for the ordinary higher-education graduate cohorts entering the labor market during the pandemic period:
@@ -100,6 +115,7 @@ Examples:
 - higher-education gross enrolment tells us how ordinary university attendance could plausibly be;
 - income and food-expenditure shares show how much household budget remained tied to necessities;
 - household durable ownership shows what counted as normal domestic equipment;
+- Internet scale shows whether online life was rare, destination-based, mass or mobile;
 - migration counts show whether "go elsewhere to work" was a marginal or mass route;
 - marriage-age distributions show how the timing of household formation changed;
 - housing tenure shows whether independent housing was mainly allocated, rented, subsidized or market-purchased;
@@ -117,6 +133,9 @@ Numbers do not reveal what a person privately wanted. They help establish what a
 - parental transfers for first-home purchase
 - water and sanitation access
 - telephone ownership
+- urban/rural home-computer and broadband access
+- Internet-café prices and access patterns
+- SMS prices and message volumes
 - transport ownership
 - rural migrant-worker counts by destination and age
 - age at first marriage
