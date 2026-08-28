@@ -13,17 +13,25 @@ The goal is to reconstruct what each cohort encountered at different ages and ho
 - [x] machine-readable age anchors
 - [x] qualitative cohort matrix
 - [x] cross-cohort age-20 comparison
+- [x] cross-cohort age-30 comparison
 - [x] pandemic-at-different-ages comparison
 - [x] domain comparison: education
 - [x] domain comparison: work
 - [x] domain comparison: housing
 - [x] domain comparison: information
 - [x] domain comparison: family and care
+- [x] women-across-cohorts framework
+- [x] same-cohort urban/rural divergence framework
+- [x] parent-child paired-cohort framework
+- [x] first-job-as-life-course-anchor framework
+- [x] first-home / parental-support framework
 - [x] generational source catalog
 - [x] historical housing-space dataset
 - [x] household-size dataset
 - [x] 1977 higher-education scarcity benchmark
 - [x] rural migrant-worker benchmark series
+- [x] selected 1986–95 educational-mobility dataset
+- [x] 1999 urban-resident / migrant job-tenure benchmark
 - [x] millennial archive
 - [x] pandemic archive
 - [x] Gen-Z / AI archive
@@ -45,96 +53,119 @@ Collect or cite:
 
 Where possible, preserve exact birth year, place, occupation and whether testimony is contemporary or retrospective.
 
-### 2. Women across cohorts
+### 2. Women across cohorts — framework complete, evidence expansion needed
 
-Do not let generic cohort profiles default to male work histories.
+Completed:
 
-High-value comparisons:
+- [x] urban women's employment-trajectory cohort comparison;
+- [x] post-childbirth long-run employment trajectory evidence;
+- [x] migration/gender cohort evidence;
+- [x] 1986–95 educational-position turning point.
 
-- schooling duration;
-- first employment;
-- marriage timing;
-- paid work after childbirth;
-- childcare support;
-- housing rights/assets;
-- elder-care responsibilities;
-- retirement;
-- educational investment in daughters;
-- AI and flexible-work use.
+Still needed:
 
-### 3. Rural versus urban people born the same year
+- rural women's life-course profiles;
+- schooling duration by sex and cohort;
+- first employment by sector;
+- marriage / first-birth timing by education;
+- childcare and grandparent care;
+- housing assets/transfers to daughters versus sons;
+- retirement and elder-care expectations;
+- AI/flexible-work use by gender.
 
-Build paired files:
+### 3. Rural versus urban people born the same year — framework complete
 
-- born 1955 urban / rural;
-- born 1965 urban / rural;
-- born 1975 urban / rural;
-- born 1985 urban / rural;
-- born 1995 urban / rural;
-- born 2005 urban / rural or city-tier comparisons.
+Completed:
 
-This is essential because technology and education adoption are often separated by years or decades.
+- [x] educational-mobility divergence;
+- [x] 1999 job-tenure contrast;
+- [x] career-mobility literature;
+- [x] migration and housing-career contrast.
 
-### 4. “Success at 30”
+Next paired files:
 
-Create a source-based comparison of what a 30-year-old was expected to have achieved.
+- [ ] born 1955 urban / rural;
+- [ ] born 1965 urban / rural;
+- [ ] born 1975 urban / rural;
+- [ ] born 1985 urban / rural;
+- [ ] born 1995 urban / rural;
+- [ ] born 2005 urban / rural or city-tier comparison.
 
-Possible dimensions:
+### 4. “Success at 30” — initial comparison complete
 
-- stable job;
-- marriage;
-- children;
-- housing;
-- savings;
-- degree;
-- city status;
-- career direction;
-- elder support.
+Completed:
 
-Avoid relying on retrospective stereotypes.
+- [x] age-30 cross-cohort framework;
+- [x] marriage/parenthood ordering evidence;
+- [x] housing-price/marriage timing evidence.
 
-### 5. Parent-child paired cohorts
+Still needed:
 
-Useful pairs:
+- homeownership at 30 by cohort;
+- marriage/parenthood completion at 30 by rural/urban origin;
+- first-job tenure at 30;
+- co-residence with parents while employed;
+- direct surveys asking what age-30 respondents considered success.
 
-- parent born c.1955 → child born c.1985;
-- parent born c.1965 → child born c.1995;
-- parent born c.1985 → child born c.2010–15.
+### 5. Parent-child paired cohorts — initial framework complete
 
-Ask:
+Completed pairs:
 
-- At what age did each finish education?
-- When did each earn income?
-- How was housing obtained?
-- What did the parent want the child to achieve?
-- Which costs did parents finance that their own parents did not?
-- What care does the child later owe parents?
+- [x] parent born c.1955 → child born c.1985;
+- [x] parent born c.1965 → child born c.1995;
+- [x] parent born c.1985 → child born c.2015 as emerging AI-era pair.
 
-### 6. First job by cohort
+Evidence anchors already include:
 
-Need quantitative and qualitative evidence for:
+- educational mobility;
+- higher-education access;
+- parental housing transfer;
+- three-generation educational persistence.
 
-- age at labor-force entry;
-- first-job duration;
-- voluntary job change;
-- involuntary job loss;
-- job-search channel;
+Next:
+
+- [ ] actual paired family profiles from CFPS/CGSS/CHARLS;
+- [ ] explicit parental aspirations by cohort;
+- [ ] childcare and elder-care exchange;
+- [ ] paired technology memories.
+
+### 6. First job by cohort — framework + one benchmark complete
+
+Completed:
+
+- [x] first job as institutional destination → platform → experiment framework;
+- [x] 1999 urban-resident vs migrant tenure benchmark (19.9 vs 4.5 years);
+- [x] job-search network transition evidence, 1978–2008;
+- [x] recent school-to-work sequence literature.
+
+Still need:
+
+- first-job duration by birth cohort;
+- age at first work;
+- number of employers by age 30/40;
+- voluntary versus involuntary first-job exit;
 - benefit portability;
-- job satisfaction and reason for leaving.
+- job-satisfaction reasons for leaving;
+- AI exposure in entry-level work.
 
-This will strengthen the transition from **position → career → portfolio/AI-augmented work**.
+### 7. Housing formation by cohort — framework complete, direct timing data needed
 
-### 7. Housing formation by cohort
+Completed:
 
-Need:
+- [x] housing marketization / life-course framework;
+- [x] parental-transfer framework;
+- [x] housing-price / marriage-delay evidence;
+- [x] migrant/local housing-career evidence.
+
+Still need:
 
 - age of first independent residence;
-- age of first ownership;
-- allocated/public/market route;
-- parental transfer;
+- age of first ownership by cohort;
+- allocated/public/market route by birth cohort;
+- parental contribution amount;
 - mortgage burden;
 - rent/income ratio;
-- housing and marriage timing.
+- rural self-building versus urban purchase.
 
 ### 8. Care and retirement
 
@@ -253,6 +284,10 @@ Look for:
 - same-age comparison view;
 - same-event/different-age view;
 - parent-child comparison view;
+- urban/rural same-cohort toggle;
+- gender life-course toggle;
+- first-job timeline;
+- first-home timeline;
 - material household dashboard;
 - technology-first-encounter timeline;
 - AI-before/after-skill-formation comparison.
