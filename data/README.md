@@ -80,6 +80,21 @@ Useful for studying when university moves from a rare visible route toward a mas
 
 Source: https://www.moe.gov.cn/jyb_sjzl/moe_560/moe_1389/moe_1390/moe_1393/201002/t20100226_20347.html
 
+### `china-educational-mobility-1986-1995-selected.csv`
+
+Selected rank-rank educational-mobility coefficients from Wu & Marois (2024).
+
+The file includes the article's illustrative father–daughter contrast for the 1986–95 birth cohort:
+
+- urban hukou origin: 0.51;
+- rural hukou origin: 0.27.
+
+It also preserves selected father–son and mother–daughter cohort comparisons explicitly identified in the article as **not statistically significant changes**.
+
+Higher rank-rank correlation means stronger intergenerational persistence. It does **not** mean higher educational attainment.
+
+Source: https://link.springer.com/article/10.1007/s11113-024-09887-2
+
 ### `china-old-age-support-expectations-charls.csv`
 
 Urban/rural differences in expected primary source of economic support in old age from a World Bank analysis using CHARLS.
@@ -88,7 +103,18 @@ This is a later-period expectation dataset, not evidence that the same percentag
 
 Source: https://documents1.worldbank.org/curated/en/099245006232237362/pdf/P1719590c42d060b209a3a0202aaea992e2.pdf
 
-## China — migration
+## China — employment and migration
+
+### `china-job-tenure-urban-resident-migrant-1999.csv`
+
+A small benchmark dataset from the 1999 urban household survey analyzed by Knight & Yueh:
+
+- urban residents: average job tenure 19.9 years;
+- rural–urban migrants: average job tenure 4.5 years.
+
+The values should **not** be generalized to all workers in China. Their value is comparative: two very different employment-time regimes already coexisted in the same historical moment.
+
+Source: https://www.sciencedirect.com/science/article/pii/S0147596704000551
 
 ### `china-rural-urban-migrant-workers-1990-2022.csv`
 
@@ -195,6 +221,8 @@ They help establish what a person was realistically planning around.
 Examples:
 
 - higher-education gross enrolment shows how ordinary university attendance could plausibly be;
+- educational rank correlations show how strongly position persisted across generations within the study framework;
+- job tenure shows how long a worker remained attached to an employer in a specific survey population;
 - housing space shows how much privacy and household separation were physically possible;
 - household size changes the number of people sharing labor and care;
 - durable ownership shows what counted as normal domestic equipment;
@@ -216,7 +244,8 @@ Examples:
 - transport ownership;
 - age at first marriage;
 - school completion and transition rates;
-- first-job duration and job-change rates by birth cohort;
+- first-job duration and job-change rates **by birth cohort**;
+- first-home timing by cohort;
 - pension coverage by cohort;
 - co-residence with elderly parents;
 - household education expenditure;
