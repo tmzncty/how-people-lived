@@ -1,0 +1,3 @@
+survey_year,population,measure,value,unit,source,notes
+1999,urban_residents,average_job_tenure,19.9,years,https://www.sciencedirect.com/science/article/pii/S0147596704000551,"Urban household survey analyzed by Knight & Yueh; do not generalize to all Chinese workers."
+1999,rural_urban_migrants,average_job_tenure,4.5,years,https://www.sciencedirect.com/science/article/pii/S0147596704000551,"Same survey context; demonstrates coexistence of very different employment-time regimes."
