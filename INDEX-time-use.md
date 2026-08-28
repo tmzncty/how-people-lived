@@ -14,6 +14,8 @@ The central question is:
 - [Unpaid labor, care and the hidden household shift](topics/unpaid-labor-and-care-time.md)
 - [Commuting, transport and the price of distance](topics/commuting-and-the-price-of-distance.md)
 - [Where did the saved time go?](topics/where-did-saved-time-go.md)
+- [Leisure, boredom and the disappearance of clean offline time](topics/leisure-boredom-and-the-disappearance-of-offline-time.md)
+- [Shopping, errands and outsourced logistics](topics/shopping-errands-and-outsourced-logistics.md)
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
 
 ## Source and data guides
@@ -114,6 +116,30 @@ Do **not** treat 2018 and 2024 as a perfectly harmonized time series.
 The 2024 survey changed geographic coverage, age coverage, activity classification and collection method.
 
 The two surveys support structural comparison, but precise trend claims require harmonized definitions.
+
+## A new historical problem: the disappearing errand
+
+Shopping used to consume dedicated travel, waiting, carrying and service-arrangement time.
+
+By 2024, the official time-use category for purchasing goods/services explicitly includes Internet shopping, livestream shopping, repair booking, banking, rental and other services.
+
+The household's errand can shrink while logistics labor moves into warehouses, delivery systems and service networks.
+
+See:
+
+- [Shopping, errands and outsourced logistics](topics/shopping-errands-and-outsourced-logistics.md)
+
+## A new historical problem: the disappearing blank interval
+
+Internet/ICT use increasingly overlaps commuting, eating, leisure and work.
+
+This means nominal discretionary time and **unclaimed attention** are not the same thing.
+
+Millennial nostalgia for older devices may partly be nostalgia for intervals in which nobody could reach you and no infinite content feed was available.
+
+See:
+
+- [Leisure, boredom and the disappearance of clean offline time](topics/leisure-boredom-and-the-disappearance-of-offline-time.md)
 
 ## Questions for cohort history
 
