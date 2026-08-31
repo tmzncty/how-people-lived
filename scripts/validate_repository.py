@@ -17,6 +17,7 @@ from urllib.parse import unquote
 
 
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
+SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CSV_FILENAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.csv$")
 MARKDOWN_LINK_PATTERN = re.compile(
@@ -36,6 +37,33 @@ REQUIRED_DATASET_FIELDS = {
 DATASET_CLASSIFICATIONS = {"measured", "research_scaffold"}
 
 
+class StrictJsonError(ValueError):
+    """Raised when a JSON contract uses ambiguous or non-standard constructs."""
+
+
+def _reject_duplicate_json_keys(
+    pairs: list[tuple[str, object]],
+) -> dict[str, object]:
+    result: dict[str, object] = {}
+    for key, value in pairs:
+        if key in result:
+            raise StrictJsonError(f"duplicate key {key!r}")
+        result[key] = value
+    return result
+
+
+def _reject_nonstandard_json_constant(value: str) -> object:
+    raise StrictJsonError(f"non-standard constant {value!r}")
+
+
+def _load_strict_json(path: Path) -> object:
+    return json.loads(
+        path.read_text(encoding="utf-8"),
+        object_pairs_hook=_reject_duplicate_json_keys,
+        parse_constant=_reject_nonstandard_json_constant,
+    )
+
+
 def _nonempty_string(value: object) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
@@ -48,11 +76,40 @@ def _inside_root(path: Path, root: Path) -> bool:
     return True
 
 
+def _validate_manifest_schema(root: Path) -> list[str]:
+    schema_path = root / SCHEMA_RELATIVE_PATH
+    display_path = SCHEMA_RELATIVE_PATH.as_posix()
+    try:
+        resolved_schema_path = schema_path.resolve()
+    except (OSError, RuntimeError) as exc:
+        return [f"{display_path}: cannot resolve: {exc}"]
+    if not _inside_root(resolved_schema_path, root):
+        return [f"{display_path}: path escapes repository"]
+    if not resolved_schema_path.is_file():
+        return [f"{display_path}: missing or not a regular file"]
+
+    try:
+        schema = _load_strict_json(schema_path)
+    except StrictJsonError as exc:
+        return [f"{display_path}: invalid JSON: {exc}"]
+    except json.JSONDecodeError as exc:
+        return [f"{display_path}: invalid JSON: {exc}"]
+    except UnicodeError as exc:
+        return [f"{display_path}: is not valid UTF-8: {exc}"]
+    except OSError as exc:
+        return [f"{display_path}: cannot read: {exc}"]
+
+    if not isinstance(schema, dict):
+        return [f"{display_path}: root must be an object"]
+    return []
+
+
 def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
     """Return manifest/CSV errors and the number of indexed datasets."""
 
     errors: list[str] = []
     root = root.resolve()
+    errors.extend(_validate_manifest_schema(root))
     data_dir = root / "data"
     manifest_path = root / MANIFEST_RELATIVE_PATH
 
@@ -70,9 +127,11 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: path escapes data/"], 0)
 
     try:
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest = _load_strict_json(manifest_path)
     except FileNotFoundError:
         return ([f"missing manifest: {MANIFEST_RELATIVE_PATH.as_posix()}"], 0)
+    except StrictJsonError as exc:
+        return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: invalid JSON: {exc}"], 0)
     except json.JSONDecodeError as exc:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: invalid JSON: {exc}"], 0)
 

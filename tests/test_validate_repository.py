@@ -41,6 +41,17 @@ class RepositoryValidatorTests(unittest.TestCase):
         (data_dir / "dataset-manifest.json").write_text(
             json.dumps(manifest), encoding="utf-8"
         )
+        schema_dir = root / "schemas"
+        schema_dir.mkdir()
+        (schema_dir / "dataset-manifest.schema.json").write_text(
+            json.dumps(
+                {
+                    "$schema": "https://json-schema.org/draft/2020-12/schema",
+                    "type": "object",
+                }
+            ),
+            encoding="utf-8",
+        )
         (root / "README.md").write_text(
             "# Fixture\n\n[Data](data/sample.csv)\n", encoding="utf-8"
         )
@@ -122,6 +133,105 @@ class RepositoryValidatorTests(unittest.TestCase):
 
                     self.assertTrue(
                         any("invalid classification" in error for error in errors),
+                        errors,
+                    )
+
+    def test_duplicate_manifest_keys_are_rejected(self) -> None:
+        replacements = (
+            (
+                '"schema_version": 1',
+                '"schema_version": 999, "schema_version": 1',
+                "schema_version",
+            ),
+            (
+                '"classification": "measured"',
+                '"classification": [], "classification": "measured"',
+                "classification",
+            ),
+        )
+        for original, replacement, duplicated_key in replacements:
+            with self.subTest(duplicated_key=duplicated_key):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    manifest_path = root / "data/dataset-manifest.json"
+                    manifest_text = manifest_path.read_text(encoding="utf-8")
+                    manifest_path.write_text(
+                        manifest_text.replace(original, replacement, 1),
+                        encoding="utf-8",
+                    )
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(
+                            f"duplicate key '{duplicated_key}'" in error
+                            for error in errors
+                        ),
+                        errors,
+                    )
+
+    def test_nonstandard_json_constants_are_rejected(self) -> None:
+        for constant in ("NaN", "Infinity", "-Infinity"):
+            with self.subTest(constant=constant):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    manifest_path = root / "data/dataset-manifest.json"
+                    manifest_text = manifest_path.read_text(encoding="utf-8")
+                    manifest_path.write_text(
+                        manifest_text.replace(
+                            '"schema_version": 1',
+                            f'"schema_version": {constant}',
+                            1,
+                        ),
+                        encoding="utf-8",
+                    )
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(
+                            f"non-standard constant '{constant}'" in error
+                            for error in errors
+                        ),
+                        errors,
+                    )
+
+    def test_missing_manifest_schema_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            (root / "schemas/dataset-manifest.schema.json").unlink()
+
+            errors = validate_repository(root)
+
+            self.assertTrue(
+                any("missing or not a regular file" in error for error in errors),
+                errors,
+            )
+
+    def test_invalid_manifest_schema_is_rejected(self) -> None:
+        cases = (
+            ("{", "invalid JSON"),
+            ("[]", "root must be an object"),
+            ('{"type":"object","type":"array"}', "duplicate key 'type'"),
+            ('{"minimum":NaN}', "non-standard constant 'NaN'"),
+        )
+        for schema_text, expected_error in cases:
+            with self.subTest(schema_text=schema_text):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    (root / "schemas/dataset-manifest.schema.json").write_text(
+                        schema_text,
+                        encoding="utf-8",
+                    )
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(expected_error in error for error in errors),
                         errors,
                     )
 
