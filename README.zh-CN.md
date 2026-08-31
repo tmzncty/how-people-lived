@@ -112,7 +112,7 @@
 见：
 
 - [`literature/around-the-world-in-eighty-days.md`](literature/around-the-world-in-eighty-days.md)
-- [`literature/dracula-information-network.md`](literature/dracula-information-network.md)
+- [`literature/dracula-1897-information-machine.md`](literature/dracula-1897-information-machine.md)
 
 ## 我们希望每一篇都尽量回答
 

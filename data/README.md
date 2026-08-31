@@ -23,6 +23,26 @@ Never confuse the two.
 - Life-horizon statistics establish the boundary of plausible choices; they do not directly measure private desire.
 - Qualitative comparison CSVs must be labeled **research scaffold**.
 
+## Dataset manifest and validation
+
+[`dataset-manifest.json`](dataset-manifest.json) is the machine-readable provenance index for every CSV in this directory. Its contract lives in [`../schemas/dataset-manifest.schema.json`](../schemas/dataset-manifest.schema.json).
+
+The manifest records, without pretending to replace row-level documentation:
+
+- whether a file is measured data or a research scaffold;
+- geographic and temporal scope;
+- the expected record count;
+- which CSV columns carry row-level source locators;
+- a short description suitable for indexing.
+
+Run this before submitting a data or navigation change:
+
+```bash
+python scripts/validate_repository.py
+```
+
+The standard-library validator checks that every `data/*.csv` file is indexed exactly once, declared source columns exist, every measured row retains at least one source locator, record counts stay synchronized, CSV rows have consistent widths, and local Markdown links resolve. Research scaffolds may omit row-level source columns, but must remain explicitly classified as scaffolds.
+
 ## Data sub-indexes
 
 - [Empirical Life-Sequence Data Index](INDEX-life-sequence-data.md)

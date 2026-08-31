@@ -1,0 +1,276 @@
+{
+  "$schema": "../schemas/dataset-manifest.schema.json",
+  "schema_version": 1,
+  "datasets": [
+    {
+      "id": "china-1977-gaokao-benchmark",
+      "path": "china-1977-gaokao-benchmark.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1977",
+      "record_count": 1,
+      "source_columns": ["source"],
+      "description": "Applicants, admissions and the implied admission-rate benchmark for the resumed 1977 examination."
+    },
+    {
+      "id": "china-childbearing-by-birth-cohort-cfps2018",
+      "path": "china-childbearing-by-birth-cohort-cfps2018.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "birth cohorts before 1950 through 1990-1999; observed in CFPS 2018",
+      "record_count": 6,
+      "source_columns": ["source_url"],
+      "description": "Published cohort estimates for first and second births, with younger-cohort censoring preserved."
+    },
+    {
+      "id": "china-cohort-age-anchors-1955-2005",
+      "path": "china-cohort-age-anchors-1955-2005.csv",
+      "classification": "research_scaffold",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "anchor birth years 1955-2005 at selected calendar years 1977-2026",
+      "record_count": 6,
+      "source_columns": [],
+      "description": "Arithmetic age anchors used to keep cohort timing visible; not survey data."
+    },
+    {
+      "id": "china-educational-mobility-1986-1995-selected",
+      "path": "china-educational-mobility-1986-1995-selected.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "offspring birth cohort 1986-1995",
+      "record_count": 6,
+      "source_columns": ["source"],
+      "description": "Selected parent-child education rank-rank correlations by dyad and hukou origin."
+    },
+    {
+      "id": "china-elderly-coresidence-with-adult-children-1982-2010",
+      "path": "china-elderly-coresidence-with-adult-children-1982-2010.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1982 and 2010",
+      "record_count": 2,
+      "source_columns": ["source_url"],
+      "description": "Census-based endpoints for people age 65+ co-residing with adult children."
+    },
+    {
+      "id": "china-first-marriage-age-selected-1990-2021",
+      "path": "china-first-marriage-age-selected-1990-2021.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1990 and 2021",
+      "record_count": 4,
+      "source_columns": ["source_url"],
+      "description": "Selected period mean-age-at-first-marriage endpoints by sex."
+    },
+    {
+      "id": "china-first-marriage-by-birth-cohort-cfps2018",
+      "path": "china-first-marriage-by-birth-cohort-cfps2018.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "birth cohorts before 1950 through 1985-1989; observed in CFPS 2018",
+      "record_count": 12,
+      "source_columns": ["source_url"],
+      "description": "Published cohort marriage timing and cumulative-marriage estimates by sex."
+    },
+    {
+      "id": "china-generational-life-course-matrix",
+      "path": "china-generational-life-course-matrix.csv",
+      "classification": "research_scaffold",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "anchor birth years 1955-2005",
+      "record_count": 6,
+      "source_columns": [],
+      "description": "Qualitative cohort comparison matrix created by the repository; not measured data."
+    },
+    {
+      "id": "china-generative-ai-adoption-2024-2025",
+      "path": "china-generative-ai-adoption-2024-2025.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2024-06 through 2025-12",
+      "record_count": 12,
+      "source_columns": ["source"],
+      "description": "CNNIC benchmarks for generative-AI use and penetration by period and population."
+    },
+    {
+      "id": "china-grandparent-care-urban-rural-charls-2011",
+      "path": "china-grandparent-care-urban-rural-charls-2011.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "CHARLS 2011-2012 baseline",
+      "record_count": 2,
+      "source_columns": ["source_url"],
+      "description": "Grandchild-care participation among rural and urban grandparents in the analytic sample."
+    },
+    {
+      "id": "china-higher-education-gross-enrollment-1990-2004",
+      "path": "china-higher-education-gross-enrollment-1990-2004.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1990-2004",
+      "record_count": 15,
+      "source_columns": ["source"],
+      "description": "Annual higher-education gross-enrolment rates from Ministry of Education historical data."
+    },
+    {
+      "id": "china-household-communication-devices-2000-2010",
+      "path": "china-household-communication-devices-2000-2010.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2000, 2005 and 2010",
+      "record_count": 12,
+      "source_columns": ["source_url"],
+      "description": "Urban/rural household computers and mobile telephones per 100 households."
+    },
+    {
+      "id": "china-household-durables-1985-2000",
+      "path": "china-household-durables-1985-2000.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "selected years 1985-2000",
+      "record_count": 8,
+      "source_columns": ["source_1985_1999", "source_2000"],
+      "description": "Urban/rural ownership benchmarks for four household-durable categories."
+    },
+    {
+      "id": "china-household-income-engel-1978-2005",
+      "path": "china-household-income-engel-1978-2005.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "selected years 1978-2005",
+      "record_count": 19,
+      "source_columns": ["source"],
+      "description": "Urban disposable income, rural net income and urban/rural Engel coefficients."
+    },
+    {
+      "id": "china-household-size-1980-2005",
+      "path": "china-household-size-1980-2005.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "selected years 1980-2005",
+      "record_count": 10,
+      "source_columns": ["source"],
+      "description": "Selected average rural and urban household-size benchmarks."
+    },
+    {
+      "id": "china-housing-space-1978-2005",
+      "path": "china-housing-space-1978-2005.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "selected years 1978-2005",
+      "record_count": 7,
+      "source_columns": ["source"],
+      "description": "Urban/rural per-capita residential floor-space benchmarks."
+    },
+    {
+      "id": "china-internet-scale-1997-2011",
+      "path": "china-internet-scale-1997-2011.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1997-10-31 through 2011-12-31",
+      "record_count": 7,
+      "source_columns": ["source"],
+      "description": "Selected CNNIC Internet-user and mobile-Internet-user scale benchmarks."
+    },
+    {
+      "id": "china-job-tenure-urban-resident-migrant-1999",
+      "path": "china-job-tenure-urban-resident-migrant-1999.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1999 survey",
+      "record_count": 2,
+      "source_columns": ["source"],
+      "description": "Mean job-tenure comparison for surveyed urban residents and rural-urban migrants."
+    },
+    {
+      "id": "china-old-age-support-expectations-charls",
+      "path": "china-old-age-support-expectations-charls.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "CHARLS retirement-expectation survey analysis",
+      "record_count": 4,
+      "source_columns": ["source"],
+      "description": "Urban/rural expectations for pensions or children as primary old-age support."
+    },
+    {
+      "id": "china-pandemic-graduate-cohorts-2020-2023",
+      "path": "china-pandemic-graduate-cohorts-2020-2023.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2020-2023",
+      "record_count": 4,
+      "source_columns": ["source"],
+      "description": "Announced ordinary higher-education graduating-cohort sizes during and after the pandemic shock."
+    },
+    {
+      "id": "china-pandemic-railway-passenger-trips-2019-2023",
+      "path": "china-pandemic-railway-passenger-trips-2019-2023.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2019-2023",
+      "record_count": 5,
+      "source_columns": ["source"],
+      "description": "Annual railway passenger trips and reported year-on-year changes around the pandemic."
+    },
+    {
+      "id": "china-retirement-rates-charls-2018",
+      "path": "china-retirement-rates-charls-2018.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "CHARLS 2018",
+      "record_count": 30,
+      "source_columns": ["source"],
+      "description": "Weighted retirement rates by age group, residence and sex."
+    },
+    {
+      "id": "china-rural-urban-migrant-workers-1990-2022",
+      "path": "china-rural-urban-migrant-workers-1990-2022.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "selected years 1990-2022",
+      "record_count": 5,
+      "source_columns": ["source"],
+      "description": "Selected stock estimates for rural-urban migrant workers."
+    },
+    {
+      "id": "china-time-use-2018-selected",
+      "path": "china-time-use-2018-selected.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2018 national time-use survey",
+      "record_count": 23,
+      "source_columns": ["source"],
+      "description": "Selected resident-average activity times and accompanying Internet-use measures."
+    },
+    {
+      "id": "china-time-use-2024-selected",
+      "path": "china-time-use-2024-selected.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "2024 national time-use survey",
+      "record_count": 24,
+      "source_columns": ["source"],
+      "description": "Selected resident- and participant-average activity times with participation rates."
+    },
+    {
+      "id": "china-urban-homeownership-1988-2002",
+      "path": "china-urban-homeownership-1988-2002.csv",
+      "classification": "measured",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "1988, 1995 and 2002",
+      "record_count": 3,
+      "source_columns": ["source"],
+      "description": "CHIP-based urban homeownership benchmarks, including an explicitly approximate endpoint."
+    },
+    {
+      "id": "us-electric-service-1920-1940",
+      "path": "us-electric-service-1920-1940.csv",
+      "classification": "measured",
+      "geographic_scope": ["United States"],
+      "temporal_coverage": "1920, 1930 and 1940",
+      "record_count": 2,
+      "source_columns": ["source"],
+      "description": "Electric-service prevalence for all dwellings and farm dwellings."
+    }
+  ]
+}
