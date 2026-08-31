@@ -42,7 +42,7 @@ Run this before submitting a data or navigation change:
 python scripts/validate_repository.py
 ```
 
-The standard-library validator checks that every `data/*.csv` file is indexed exactly once, declared source columns exist, every measured row retains at least one source locator, record counts stay synchronized, CSV rows have consistent widths, and local Markdown links resolve. Research scaffolds may omit row-level source columns, but must remain explicitly classified as scaffolds.
+The standard-library validator checks that every `data/*.csv` file is indexed exactly once, declared source columns exist, every measured row retains at least one source locator, record counts stay synchronized, CSV rows have consistent widths, and canonical inline Markdown link destinations stay inside the repository and exist. It also keeps the shipped schema aligned on its closed Draft 2020-12 root and dataset fields; full JSON Schema semantics remain the job of a dedicated implementation. Reference-style links are rejected in favor of inline links; raw HTML links and fragment identifiers are outside the validator's scope. Research scaffolds may omit row-level source columns, but must remain explicitly classified as scaffolds.
 
 ## Data sub-indexes
 

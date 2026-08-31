@@ -2,11 +2,16 @@ from __future__ import annotations
 
 import copy
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.validate_repository import validate_dataset_manifest, validate_repository
+from scripts.validate_repository import (
+    validate_dataset_manifest,
+    validate_markdown_links,
+    validate_repository,
+)
 
 
 class RepositoryValidatorTests(unittest.TestCase):
@@ -43,11 +48,29 @@ class RepositoryValidatorTests(unittest.TestCase):
         )
         schema_dir = root / "schemas"
         schema_dir.mkdir()
+        manifest_fields = list(manifest)
+        dataset_fields = list(manifest["datasets"][0])
+        manifest_properties = {field: {} for field in manifest_fields}
+        manifest_properties["datasets"] = {
+            "type": "array",
+            "items": {"$ref": "#/$defs/dataset"}
+        }
         (schema_dir / "dataset-manifest.schema.json").write_text(
             json.dumps(
                 {
                     "$schema": "https://json-schema.org/draft/2020-12/schema",
                     "type": "object",
+                    "additionalProperties": False,
+                    "required": manifest_fields,
+                    "properties": manifest_properties,
+                    "$defs": {
+                        "dataset": {
+                            "type": "object",
+                            "additionalProperties": False,
+                            "required": dataset_fields,
+                            "properties": {field: {} for field in dataset_fields},
+                        }
+                    },
                 }
             ),
             encoding="utf-8",
@@ -245,6 +268,49 @@ class RepositoryValidatorTests(unittest.TestCase):
                         errors,
                     )
 
+    def test_manifest_schema_contract_drift_is_rejected(self) -> None:
+        cases = (
+            "empty",
+            "wrong-draft",
+            "open-root",
+            "root-required",
+            "datasets-type",
+            "items-ref",
+            "open-dataset",
+            "dataset-properties",
+        )
+        for case in cases:
+            with self.subTest(case=case):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    schema_path = root / "schemas/dataset-manifest.schema.json"
+                    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                    if case == "empty":
+                        schema = {}
+                    elif case == "wrong-draft":
+                        schema["$schema"] = "https://json-schema.org/draft/2019-09/schema"
+                    elif case == "open-root":
+                        schema["additionalProperties"] = True
+                    elif case == "root-required":
+                        schema["required"].remove("schema_version")
+                    elif case == "datasets-type":
+                        schema["properties"]["datasets"]["type"] = "object"
+                    elif case == "items-ref":
+                        schema["properties"]["datasets"]["items"]["$ref"] = "#/$defs/other"
+                    elif case == "open-dataset":
+                        schema["$defs"]["dataset"]["additionalProperties"] = True
+                    else:
+                        del schema["$defs"]["dataset"]["properties"]["description"]
+                    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any("schema contract drift" in error for error in errors),
+                        errors,
+                    )
+
     def test_unindexed_nested_and_mixed_case_csvs_are_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -339,6 +405,21 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             self.assertTrue(any("path escapes data/" in error for error in errors), errors)
 
+    def test_manifest_must_be_a_regular_file(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            manifest_path = root / "data/dataset-manifest.json"
+            manifest_path.unlink()
+            manifest_path.mkdir()
+
+            errors, _ = validate_dataset_manifest(root)
+
+            self.assertTrue(
+                any("missing or not a regular file" in error for error in errors),
+                errors,
+            )
+
     def test_two_manifest_paths_cannot_resolve_to_the_same_csv(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -369,6 +450,167 @@ class RepositoryValidatorTests(unittest.TestCase):
             )
             errors = validate_repository(root)
             self.assertTrue(any("missing local link target" in error for error in errors), errors)
+
+    def test_balanced_and_angle_inline_destinations_are_supported(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            (root / "nested(name).md").write_text("# Nested\n", encoding="utf-8")
+            nested_dir = root / "dir"
+            nested_dir.mkdir()
+            (nested_dir / "a (b).md").write_text("# Angled\n", encoding="utf-8")
+            (root / "escaped(name).md").write_text("# Escaped\n", encoding="utf-8")
+            (root / "README.md").write_text(
+                "[Nested](nested(name).md)\n"
+                "[Angled](<dir/a (b).md>)\n"
+                "[Escaped](escaped\\(name\\).md)\n",
+                encoding="utf-8",
+            )
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(errors, [])
+            self.assertEqual(checked, 3)
+
+    def test_all_uri_schemes_and_network_paths_are_external(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            (root / "README.md").write_text(
+                "[FTP](ftp://host/a) [Custom](custom:opaque) "
+                "[Network](//host/a)\n",
+                encoding="utf-8",
+            )
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(errors, [])
+            self.assertEqual(checked, 0)
+
+    def test_windows_absolute_markdown_destinations_are_rejected(self) -> None:
+        for target in ("C:/missing.md", r"C:\missing.md"):
+            with self.subTest(target=target):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    (root / "README.md").write_text(
+                        f"[Missing]({target})\n",
+                        encoding="utf-8",
+                    )
+
+                    errors, checked = validate_markdown_links(root)
+
+                    self.assertEqual(checked, 1)
+                    self.assertTrue(
+                        any("local link escapes repository" in error for error in errors),
+                        errors,
+                    )
+
+    def test_reference_style_links_are_rejected_with_guidance(self) -> None:
+        cases = (
+            "[Missing][target]\n[target]: missing.md\n",
+            "[Missing][]\n",
+        )
+        for markdown in cases:
+            with self.subTest(markdown=markdown):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    (root / "README.md").write_text(markdown, encoding="utf-8")
+
+                    errors, checked = validate_markdown_links(root)
+
+                    self.assertTrue(
+                        any(
+                            "unsupported reference-style link; use inline form"
+                            in error
+                            for error in errors
+                        ),
+                        errors,
+                    )
+                    self.assertEqual(checked, 0)
+
+    def test_markdown_source_must_be_a_regular_file(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            readme = root / "README.md"
+            readme.unlink()
+            readme.mkdir()
+
+            errors, _ = validate_markdown_links(root)
+
+            self.assertTrue(
+                any("not a regular file" in error for error in errors),
+                errors,
+            )
+
+    def test_non_utf8_markdown_source_is_rejected_without_crashing(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            (root / "README.md").write_bytes(b"\xff")
+
+            errors, _ = validate_markdown_links(root)
+
+            self.assertTrue(any("cannot decode as UTF-8" in error for error in errors), errors)
+
+    def test_markdown_symlinks_cannot_escape_or_dangle(self) -> None:
+        cases = ("external", "dangling")
+        for case in cases:
+            with self.subTest(case=case):
+                with tempfile.TemporaryDirectory() as directory:
+                    parent = Path(directory)
+                    root = parent / "repository"
+                    root.mkdir()
+                    self.make_fixture(root)
+                    link_path = root / f"{case}.md"
+                    if case == "external":
+                        target = parent / "outside.md"
+                        target.write_text("# Outside\n", encoding="utf-8")
+                    else:
+                        target = root / "missing.md"
+                    try:
+                        link_path.symlink_to(target)
+                    except OSError as exc:
+                        self.skipTest(f"file symlinks unavailable: {exc}")
+
+                    errors, _ = validate_markdown_links(root)
+
+                    expected = (
+                        "escapes repository" if case == "external" else "cannot resolve"
+                    )
+                    self.assertTrue(any(expected in error for error in errors), errors)
+
+    def test_unresolvable_markdown_link_target_is_reported(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            loop = root / "loop"
+            try:
+                loop.symlink_to(loop)
+            except OSError as exc:
+                self.skipTest(f"file symlinks unavailable: {exc}")
+            (root / "README.md").write_text("[Loop](loop)\n", encoding="utf-8")
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(checked, 1)
+            self.assertTrue(
+                any("cannot resolve local link target: loop" in error for error in errors),
+                errors,
+            )
+
+    @unittest.skipUnless(hasattr(os, "mkfifo"), "FIFOs unavailable")
+    def test_markdown_fifo_is_rejected_without_being_opened(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            os.mkfifo(root / "pipe.md")
+
+            errors, _ = validate_markdown_links(root)
+
+            self.assertTrue(any("not a regular file" in error for error in errors), errors)
 
 
 if __name__ == "__main__":

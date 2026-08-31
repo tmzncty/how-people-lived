@@ -18,11 +18,15 @@ from urllib.parse import unquote
 
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
 SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
+DRAFT_2020_12_URI = "https://json-schema.org/draft/2020-12/schema"
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CSV_FILENAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.csv$")
-MARKDOWN_LINK_PATTERN = re.compile(
-    r"!?\[[^\]]*\]\((?P<target><[^>\n]+>|[^)\n]+)\)"
-)
+INLINE_LINK_START_PATTERN = re.compile(r"!?\[[^\]\n]*\]\(")
+REFERENCE_LINK_PATTERN = re.compile(r"!?\[[^\]\n]+\]\s*\[[^\]\n]*\]")
+REFERENCE_DEFINITION_PATTERN = re.compile(r"^[ \t]{0,3}\[[^\]\n]+\]:")
+URI_SCHEME_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
+WINDOWS_ABSOLUTE_PATH_PATTERN = re.compile(r"^[A-Za-z]:[\\/]")
+MARKDOWN_DESTINATION_ESCAPE_PATTERN = re.compile(r"\\([\\()])")
 REQUIRED_MANIFEST_FIELDS = {"$schema", "schema_version", "datasets"}
 REQUIRED_DATASET_FIELDS = {
     "id",
@@ -39,6 +43,10 @@ DATASET_CLASSIFICATIONS = {"measured", "research_scaffold"}
 
 class StrictJsonError(ValueError):
     """Raised when a JSON contract uses ambiguous or non-standard constructs."""
+
+
+class MarkdownLinkSyntaxError(ValueError):
+    """Raised when an inline Markdown destination is not closed."""
 
 
 def _reject_duplicate_json_keys(
@@ -76,6 +84,15 @@ def _inside_root(path: Path, root: Path) -> bool:
     return True
 
 
+def _has_exact_string_members(value: object, expected: set[str]) -> bool:
+    return (
+        isinstance(value, list)
+        and all(isinstance(item, str) for item in value)
+        and len(value) == len(set(value))
+        and set(value) == expected
+    )
+
+
 def _validate_manifest_schema(root: Path) -> list[str]:
     schema_path = root / SCHEMA_RELATIVE_PATH
     display_path = SCHEMA_RELATIVE_PATH.as_posix()
@@ -101,6 +118,49 @@ def _validate_manifest_schema(root: Path) -> list[str]:
 
     if not isinstance(schema, dict):
         return [f"{display_path}: root must be an object"]
+
+    root_properties = schema.get("properties")
+    datasets_schema = (
+        root_properties.get("datasets")
+        if isinstance(root_properties, dict)
+        else None
+    )
+    dataset_items = (
+        datasets_schema.get("items") if isinstance(datasets_schema, dict) else None
+    )
+    definitions = schema.get("$defs")
+    dataset_schema = (
+        definitions.get("dataset") if isinstance(definitions, dict) else None
+    )
+    dataset_properties = (
+        dataset_schema.get("properties")
+        if isinstance(dataset_schema, dict)
+        else None
+    )
+    contract_is_current = (
+        schema.get("$schema") == DRAFT_2020_12_URI
+        and schema.get("type") == "object"
+        and schema.get("additionalProperties") is False
+        and _has_exact_string_members(
+            schema.get("required"), REQUIRED_MANIFEST_FIELDS
+        )
+        and isinstance(root_properties, dict)
+        and set(root_properties) == REQUIRED_MANIFEST_FIELDS
+        and isinstance(datasets_schema, dict)
+        and datasets_schema.get("type") == "array"
+        and isinstance(dataset_items, dict)
+        and dataset_items.get("$ref") == "#/$defs/dataset"
+        and isinstance(dataset_schema, dict)
+        and dataset_schema.get("type") == "object"
+        and dataset_schema.get("additionalProperties") is False
+        and _has_exact_string_members(
+            dataset_schema.get("required"), REQUIRED_DATASET_FIELDS
+        )
+        and isinstance(dataset_properties, dict)
+        and set(dataset_properties) == REQUIRED_DATASET_FIELDS
+    )
+    if not contract_is_current:
+        return [f"{display_path}: schema contract drift"]
     return []
 
 
@@ -125,6 +185,14 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: cannot resolve: {exc}"], 0)
     if not _inside_root(resolved_manifest_path, resolved_data_dir):
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: path escapes data/"], 0)
+    if not resolved_manifest_path.is_file():
+        return (
+            [
+                f"{MANIFEST_RELATIVE_PATH.as_posix()}: "
+                "missing or not a regular file"
+            ],
+            0,
+        )
 
     try:
         manifest = _load_strict_json(manifest_path)
@@ -136,6 +204,8 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: invalid JSON: {exc}"], 0)
     except UnicodeError as exc:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: is not valid UTF-8: {exc}"], 0)
+    except OSError as exc:
+        return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: cannot read: {exc}"], 0)
 
     if not isinstance(manifest, dict):
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: root must be an object"], 0)
@@ -371,43 +441,138 @@ def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
             yield line_number, line
 
 
+def _inline_markdown_targets(line: str) -> Iterator[str]:
+    cursor = 0
+    while match := INLINE_LINK_START_PATTERN.search(line, cursor):
+        target_start = match.end()
+        if target_start < len(line) and line[target_start] == "<":
+            index = target_start + 1
+            while index < len(line):
+                if line[index] == "\\":
+                    index += 2
+                    continue
+                if line[index] == ">":
+                    break
+                index += 1
+            if index >= len(line):
+                raise MarkdownLinkSyntaxError("unterminated angle destination")
+            target = line[target_start + 1 : index]
+            closing = index + 1
+            while closing < len(line) and line[closing].isspace():
+                closing += 1
+            if closing >= len(line) or line[closing] != ")":
+                raise MarkdownLinkSyntaxError("angle destination must end with ')'")
+            yield target
+            cursor = closing + 1
+            continue
+
+        depth = 1
+        index = target_start
+        while index < len(line):
+            character = line[index]
+            if character == "\\":
+                index += 2
+                continue
+            if character == "(":
+                depth += 1
+            elif character == ")":
+                depth -= 1
+                if depth == 0:
+                    break
+            index += 1
+        if depth:
+            raise MarkdownLinkSyntaxError("unterminated parenthesized destination")
+
+        raw_target = line[target_start:index].strip()
+        parts = raw_target.split(maxsplit=1)
+        target = parts[0] if parts else ""
+        yield MARKDOWN_DESTINATION_ESCAPE_PATTERN.sub(r"\1", target)
+        cursor = index + 1
+
+
 def validate_markdown_links(root: Path) -> tuple[list[str], int]:
-    """Return broken/escaping local-link errors and number of local links checked."""
+    """Validate canonical inline Markdown link destinations used by the repository."""
 
     errors: list[str] = []
     checked = 0
     root = root.resolve()
 
-    for markdown_path in sorted(root.rglob("*.md")):
-        if ".git" in markdown_path.parts:
+    try:
+        candidates = sorted(root.rglob("*"))
+    except (OSError, RuntimeError) as exc:
+        return ([f"repository: cannot enumerate Markdown sources: {exc}"], 0)
+
+    for markdown_path in candidates:
+        display_path = markdown_path.relative_to(root).as_posix()
+        if ".git" in markdown_path.relative_to(root).parts:
+            continue
+        if markdown_path.suffix.casefold() != ".md":
             continue
         try:
-            lines = _markdown_lines_outside_fences(markdown_path)
+            resolved_markdown_path = markdown_path.resolve(strict=True)
+        except (OSError, RuntimeError) as exc:
+            errors.append(f"{display_path}: cannot resolve Markdown source: {exc}")
+            continue
+        if not _inside_root(resolved_markdown_path, root):
+            errors.append(f"{display_path}: Markdown source escapes repository")
+            continue
+        if not resolved_markdown_path.is_file():
+            errors.append(f"{display_path}: Markdown source is not a regular file")
+            continue
+
+        try:
+            lines = _markdown_lines_outside_fences(resolved_markdown_path)
             for line_number, line in lines:
-                for match in MARKDOWN_LINK_PATTERN.finditer(line):
-                    target = match.group("target").strip()
-                    if target.startswith("<") and target.endswith(">"):
-                        target = target[1:-1]
-                    else:
-                        parts = target.split(maxsplit=1)
-                        if not parts:
-                            continue
-                        target = parts[0]
-                    lowered = target.lower()
-                    if lowered.startswith(("http://", "https://", "mailto:", "data:")):
+                has_reference_style = bool(
+                    REFERENCE_LINK_PATTERN.search(line)
+                    or REFERENCE_DEFINITION_PATTERN.match(line)
+                )
+                if has_reference_style:
+                    errors.append(
+                        f"{display_path}:{line_number}: unsupported reference-style "
+                        "link; use inline form"
+                    )
+                try:
+                    targets = list(_inline_markdown_targets(line))
+                except MarkdownLinkSyntaxError as exc:
+                    errors.append(
+                        f"{display_path}:{line_number}: unsupported inline link: {exc}"
+                    )
+                    continue
+
+                for target in targets:
+                    target = target.strip()
+                    if not target:
+                        continue
+                    if WINDOWS_ABSOLUTE_PATH_PATTERN.match(target):
+                        checked += 1
+                        errors.append(
+                            f"{display_path}:{line_number}: local link escapes "
+                            f"repository: {target}"
+                        )
+                        continue
+                    if target.startswith("//") or URI_SCHEME_PATTERN.match(target):
                         continue
 
                     path_part = target.split("#", 1)[0].split("?", 1)[0]
                     if not path_part:
                         continue
                     path_part = unquote(path_part)
-                    if path_part.startswith("/"):
-                        resolved = (root / path_part.lstrip("/")).resolve()
-                    else:
-                        resolved = (markdown_path.parent / path_part).resolve()
                     checked += 1
+                    try:
+                        if path_part.startswith("/"):
+                            resolved = (root / path_part.lstrip("/")).resolve()
+                        else:
+                            resolved = (
+                                resolved_markdown_path.parent / path_part
+                            ).resolve()
+                    except (OSError, RuntimeError) as exc:
+                        errors.append(
+                            f"{display_path}:{line_number}: cannot resolve local "
+                            f"link target: {target} ({exc})"
+                        )
+                        continue
 
-                    display_path = markdown_path.relative_to(root).as_posix()
                     if not _inside_root(resolved, root):
                         errors.append(
                             f"{display_path}:{line_number}: local link escapes repository: {target}"
@@ -417,8 +582,9 @@ def validate_markdown_links(root: Path) -> tuple[list[str], int]:
                             f"{display_path}:{line_number}: missing local link target: {target}"
                         )
         except UnicodeError as exc:
-            display_path = markdown_path.relative_to(root).as_posix()
             errors.append(f"{display_path}: cannot decode as UTF-8: {exc}")
+        except OSError as exc:
+            errors.append(f"{display_path}: cannot read Markdown source: {exc}")
 
     return (errors, checked)
 
@@ -443,7 +609,7 @@ def main() -> int:
 
     print(
         f"Repository validation passed: {dataset_count} datasets indexed; "
-        f"{link_count} local Markdown links resolved."
+        f"{link_count} canonical inline Markdown links resolved."
     )
     return 0
 
