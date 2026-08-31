@@ -21,6 +21,7 @@ ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 MARKDOWN_LINK_PATTERN = re.compile(
     r"!?\[[^\]]*\]\((?P<target><[^>\n]+>|[^)\n]+)\)"
 )
+REQUIRED_MANIFEST_FIELDS = {"$schema", "schema_version", "datasets"}
 REQUIRED_DATASET_FIELDS = {
     "id",
     "path",
@@ -63,6 +64,12 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
 
     if not isinstance(manifest, dict):
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: root must be an object"], 0)
+    extra_manifest_fields = sorted(manifest.keys() - REQUIRED_MANIFEST_FIELDS)
+    if extra_manifest_fields:
+        errors.append(
+            "dataset manifest has unexpected fields: "
+            + ", ".join(extra_manifest_fields)
+        )
     if manifest.get("$schema") != "../schemas/dataset-manifest.schema.json":
         errors.append("dataset manifest has an unexpected $schema path")
     if manifest.get("schema_version") != 1:

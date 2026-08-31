@@ -58,6 +58,22 @@ class RepositoryValidatorTests(unittest.TestCase):
             errors = validate_repository(root)
             self.assertTrue(any("not listed" in error for error in errors), errors)
 
+    def test_manifest_root_with_unknown_field_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            manifest_path = root / "data/dataset-manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["unexpected"] = True
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
+            errors = validate_repository(root)
+
+            self.assertTrue(
+                any("unexpected fields: unexpected" in error for error in errors),
+                errors,
+            )
+
     def test_measured_row_without_source_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
