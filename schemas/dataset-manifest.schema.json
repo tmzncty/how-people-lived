@@ -15,6 +15,7 @@
       "const": "../schemas/dataset-manifest.schema.json"
     },
     "schema_version": {
+      "type": "integer",
       "const": 1
     },
     "datasets": {
@@ -45,7 +46,7 @@
         },
         "path": {
           "type": "string",
-          "pattern": "^[^/\\\\]+\\.csv$"
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.csv$"
         },
         "classification": {
           "enum": [

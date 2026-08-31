@@ -18,6 +18,7 @@ from urllib.parse import unquote
 
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+CSV_FILENAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.csv$")
 MARKDOWN_LINK_PATTERN = re.compile(
     r"!?\[[^\]]*\]\((?P<target><[^>\n]+>|[^)\n]+)\)"
 )
@@ -56,6 +57,19 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
     manifest_path = root / MANIFEST_RELATIVE_PATH
 
     try:
+        resolved_data_dir = data_dir.resolve()
+    except (OSError, RuntimeError) as exc:
+        return ([f"data/: cannot resolve data directory: {exc}"], 0)
+    if not _inside_root(resolved_data_dir, root):
+        return (["data/: data directory escapes repository"], 0)
+    try:
+        resolved_manifest_path = manifest_path.resolve()
+    except (OSError, RuntimeError) as exc:
+        return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: cannot resolve: {exc}"], 0)
+    if not _inside_root(resolved_manifest_path, resolved_data_dir):
+        return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: path escapes data/"], 0)
+
+    try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except FileNotFoundError:
         return ([f"missing manifest: {MANIFEST_RELATIVE_PATH.as_posix()}"], 0)
@@ -72,8 +86,13 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         )
     if manifest.get("$schema") != "../schemas/dataset-manifest.schema.json":
         errors.append("dataset manifest has an unexpected $schema path")
-    if manifest.get("schema_version") != 1:
-        errors.append("dataset manifest schema_version must be 1")
+    schema_version = manifest.get("schema_version")
+    if (
+        isinstance(schema_version, bool)
+        or not isinstance(schema_version, int)
+        or schema_version != 1
+    ):
+        errors.append("dataset manifest schema_version must be the integer 1")
 
     datasets = manifest.get("datasets")
     if not isinstance(datasets, list):
@@ -82,6 +101,7 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
 
     seen_ids: set[str] = set()
     seen_paths: set[str] = set()
+    seen_csv_targets: dict[Path, str] = {}
 
     for index, entry in enumerate(datasets):
         prefix = f"datasets[{index}]"
@@ -107,13 +127,12 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         relative_path = entry.get("path")
         path_is_safe = (
             _nonempty_string(relative_path)
-            and relative_path.endswith(".csv")
-            and "/" not in relative_path
-            and "\\" not in relative_path
-            and relative_path not in {".", ".."}
+            and CSV_FILENAME_PATTERN.fullmatch(relative_path)
         )
         if not path_is_safe:
-            errors.append(f"{prefix}: path must name one CSV directly inside data/")
+            errors.append(
+                f"{prefix}: path must name one portable CSV directly inside data/"
+            )
             continue
         if relative_path in seen_paths:
             errors.append(f"{prefix}: duplicate path '{relative_path}'")
@@ -123,7 +142,10 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
             errors.append(f"{prefix}: id must match the CSV filename stem")
 
         classification = entry.get("classification")
-        if classification not in DATASET_CLASSIFICATIONS:
+        if (
+            not isinstance(classification, str)
+            or classification not in DATASET_CLASSIFICATIONS
+        ):
             errors.append(f"{prefix}: invalid classification '{classification}'")
 
         geographic_scope = entry.get("geographic_scope")
@@ -154,17 +176,29 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         elif classification == "measured" and not source_columns:
             errors.append(f"{prefix}: measured datasets require at least one source column")
 
-        csv_path = (data_dir / relative_path).resolve()
-        if not _inside_root(csv_path, data_dir.resolve()):
+        try:
+            csv_path = (data_dir / relative_path).resolve()
+        except (OSError, RuntimeError) as exc:
+            errors.append(f"{prefix}: cannot resolve '{relative_path}': {exc}")
+            continue
+        if not _inside_root(csv_path, resolved_data_dir):
             errors.append(f"{prefix}: path escapes data/")
             continue
         if not csv_path.is_file():
             errors.append(f"{prefix}: missing CSV '{relative_path}'")
             continue
+        previous_path = seen_csv_targets.get(csv_path)
+        if previous_path is not None:
+            errors.append(
+                f"{prefix}: '{relative_path}' resolves to the same CSV as "
+                f"'{previous_path}'"
+            )
+        else:
+            seen_csv_targets[csv_path] = relative_path
 
         try:
             with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
-                rows = list(csv.reader(handle))
+                rows = list(csv.reader(handle, strict=True))
         except (OSError, UnicodeError, csv.Error) as exc:
             errors.append(f"{prefix}: cannot parse '{relative_path}': {exc}")
             continue
@@ -184,6 +218,17 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
                 errors.append(
                     f"{prefix}: record_count is {record_count}, CSV contains {len(data_rows)} rows"
                 )
+
+        blank_rows = [
+            line_number
+            for line_number, row in enumerate(data_rows, start=2)
+            if not any(cell.strip() for cell in row)
+        ]
+        if blank_rows:
+            errors.append(
+                f"{prefix}: '{relative_path}' has blank data rows at lines "
+                + ", ".join(map(str, blank_rows))
+            )
 
         malformed_rows = [
             line_number
@@ -219,7 +264,27 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
                         + ", ".join(map(str, rows_without_source))
                     )
 
-    actual_csv_paths = {path.name for path in data_dir.glob("*.csv")}
+    actual_csv_paths: set[str] = set()
+    try:
+        for candidate in data_dir.rglob("*"):
+            relative_candidate = candidate.relative_to(data_dir).as_posix()
+            if candidate.is_symlink():
+                try:
+                    resolved_candidate = candidate.resolve()
+                except (OSError, RuntimeError) as exc:
+                    errors.append(
+                        f"data/{relative_candidate}: cannot resolve symlink: {exc}"
+                    )
+                    continue
+                if not _inside_root(resolved_candidate, resolved_data_dir):
+                    errors.append(f"data/{relative_candidate}: symlink escapes data/")
+            if candidate.suffix.casefold() == ".csv" and (
+                candidate.is_file() or candidate.is_symlink()
+            ):
+                actual_csv_paths.add(relative_candidate)
+    except OSError as exc:
+        errors.append(f"data/: cannot enumerate CSV files: {exc}")
+
     for unlisted in sorted(actual_csv_paths - seen_paths):
         errors.append(f"data/{unlisted}: CSV is not listed in the dataset manifest")
     for absent in sorted(seen_paths - actual_csv_paths):

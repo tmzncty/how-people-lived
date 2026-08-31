@@ -22,6 +22,7 @@ Never confuse the two.
 - Mark censored younger cohorts explicitly.
 - Life-horizon statistics establish the boundary of plausible choices; they do not directly measure private desire.
 - Qualitative comparison CSVs must be labeled **research scaffold**.
+- Keep dataset filenames as lowercase kebab-case CSVs directly inside `data/`; nested or mixed-case CSVs fail validation.
 
 ## Dataset manifest and validation
 
