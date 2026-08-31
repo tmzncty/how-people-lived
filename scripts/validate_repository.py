@@ -134,6 +134,8 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: invalid JSON: {exc}"], 0)
     except json.JSONDecodeError as exc:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: invalid JSON: {exc}"], 0)
+    except UnicodeError as exc:
+        return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: is not valid UTF-8: {exc}"], 0)
 
     if not isinstance(manifest, dict):
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: root must be an object"], 0)

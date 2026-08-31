@@ -198,6 +198,16 @@ class RepositoryValidatorTests(unittest.TestCase):
                         errors,
                     )
 
+    def test_non_utf8_manifest_is_rejected_without_crashing(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            (root / "data/dataset-manifest.json").write_bytes(b"\xff")
+
+            errors = validate_repository(root)
+
+            self.assertTrue(any("is not valid UTF-8" in error for error in errors), errors)
+
     def test_missing_manifest_schema_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
