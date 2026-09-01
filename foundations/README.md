@@ -134,8 +134,22 @@ Do not write history as if every new technology instantly replaces the previous 
 
 The transition itself is often the most interesting part of ordinary life.
 
+## Digital traces are also part of the material record
+
+For recent history, ordinary life may survive not only in surveys, diaries and oral histories but in forum threads, blogs, personal homepages and public social-media posts.
+
+These sources can preserve fine-grained details about shelter, casual work, rent, food, transport, device access, boredom, stigma, mutual aid and day-to-day uncertainty that formal archives often miss. They also have severe problems of pseudonymity, deletion, platform selection, retrospective memory, performance and privacy.
+
+Treat a surviving post as evidence that **someone publicly made a claim in a particular platform context**, not automatic proof that every biographical detail is independently verified.
+
+See: [The Internet as an Archive of Ordinary Life](internet-as-an-archive-of-ordinary-life.md).
+
 ## Current foundation notes
 
 - [Technology exists. Does a person have it?](technology-existence-vs-adoption.md)
+- [Life horizons and goals](life-horizons-and-goals.md)
+- [Historical breaks and life horizons](historical-breaks-and-life-horizons.md)
+- [Generations are timing, not personality](generations-are-timing-not-personality.md)
+- [The Internet as an Archive of Ordinary Life](internet-as-an-archive-of-ordinary-life.md)
 
 Future foundation notes should cover wages/prices, water, electricity, transport access, household floor area and time-use reconstruction.
