@@ -21,7 +21,6 @@ SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
 DRAFT_2020_12_URI = "https://json-schema.org/draft/2020-12/schema"
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CSV_FILENAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.csv$")
-INLINE_LINK_START_PATTERN = re.compile(r"!?\[[^\]\n]*\]\(")
 REFERENCE_LINK_PATTERN = re.compile(r"!?\[[^\]\n]+\]\s*\[[^\]\n]*\]")
 REFERENCE_DEFINITION_PATTERN = re.compile(r"^[ \t]{0,3}\[[^\]\n]+\]:")
 URI_SCHEME_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
@@ -442,9 +441,27 @@ def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
 
 
 def _inline_markdown_targets(line: str) -> Iterator[str]:
+    label_stack: list[int] = []
     cursor = 0
-    while match := INLINE_LINK_START_PATTERN.search(line, cursor):
-        target_start = match.end()
+    while cursor < len(line):
+        character = line[cursor]
+        if character == "\\":
+            cursor += 2
+            continue
+        if character == "[":
+            label_stack.append(cursor)
+            cursor += 1
+            continue
+        if character != "]" or not label_stack:
+            cursor += 1
+            continue
+
+        label_stack.pop()
+        if cursor + 1 >= len(line) or line[cursor + 1] != "(":
+            cursor += 1
+            continue
+
+        target_start = cursor + 2
         if target_start < len(line) and line[target_start] == "<":
             index = target_start + 1
             while index < len(line):
