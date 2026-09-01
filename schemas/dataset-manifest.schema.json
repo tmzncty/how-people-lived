@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tmzncty/how-people-lived/schemas/dataset-manifest.schema.json",
+  "title": "How People Lived dataset manifest",
+  "description": "A lightweight provenance index for machine-readable datasets in data/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "schema_version",
+    "datasets"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../schemas/dataset-manifest.schema.json"
+    },
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dataset"
+      }
+    }
+  },
+  "$defs": {
+    "dataset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "path",
+        "classification",
+        "geographic_scope",
+        "temporal_coverage",
+        "record_count",
+        "source_columns",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.csv$"
+        },
+        "classification": {
+          "enum": [
+            "measured",
+            "research_scaffold"
+          ],
+          "description": "Measured values and repository-created research scaffolds must remain distinguishable."
+        },
+        "geographic_scope": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "temporal_coverage": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A human-readable period or cohort range. It is intentionally not forced into calendar dates."
+        },
+        "record_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of CSV data records, excluding the header row."
+        },
+        "source_columns": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Columns that carry a URL, bibliographic identifier or other row-level source locator."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "classification": {
+                "const": "measured"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_columns": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

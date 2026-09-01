@@ -102,5 +102,6 @@ An AI-assisted contribution should still provide checkable sources for factual c
 4. Explain the lived consequence.
 5. List what the source does **not** tell us.
 6. Cross-link relevant technologies, places and literature.
+7. Run `python scripts/validate_repository.py` when changing data files or local links.
 
 The repository should grow like a map: many small, reliable connections rather than one giant claim to explain all of human life.

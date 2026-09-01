@@ -22,6 +22,27 @@ Never confuse the two.
 - Mark censored younger cohorts explicitly.
 - Life-horizon statistics establish the boundary of plausible choices; they do not directly measure private desire.
 - Qualitative comparison CSVs must be labeled **research scaffold**.
+- Keep dataset filenames as lowercase kebab-case CSVs directly inside `data/`; nested or mixed-case CSVs fail validation.
+
+## Dataset manifest and validation
+
+[`dataset-manifest.json`](dataset-manifest.json) is the machine-readable provenance index for every CSV in this directory. Its contract lives in [`../schemas/dataset-manifest.schema.json`](../schemas/dataset-manifest.schema.json).
+
+The manifest records, without pretending to replace row-level documentation:
+
+- whether a file is measured data or a research scaffold;
+- geographic and temporal scope;
+- the expected record count;
+- which CSV columns carry row-level source locators;
+- a short description suitable for indexing.
+
+Run this before submitting a data or navigation change:
+
+```bash
+python scripts/validate_repository.py
+```
+
+The standard-library validator checks that every `data/*.csv` file is indexed exactly once, declared source columns exist, every measured row retains at least one source locator, record counts stay synchronized, CSV rows have consistent widths, and canonical inline Markdown link destinations stay inside the repository and exist. It also keeps the shipped schema aligned on its closed Draft 2020-12 root and dataset fields; full JSON Schema semantics remain the job of a dedicated implementation. Reference-style links are rejected in favor of inline links; raw HTML links and fragment identifiers are outside the validator's scope. Research scaffolds may omit row-level source columns, but must remain explicitly classified as scaffolds.
 
 ## Data sub-indexes
 

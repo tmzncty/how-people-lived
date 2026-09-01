@@ -17,7 +17,8 @@ Status: **in progress**
 - [x] second structured adoption dataset (U.S. electrification)
 - [x] first literature context note
 - [ ] citation-format consistency pass
-- [ ] lightweight metadata schema for machine-readable indexing
+- [x] lightweight metadata schema and provenance manifest for machine-readable datasets
+- [ ] extend machine-readable metadata indexing to narrative content
 
 ## Phase 2 — Household foundations
 
