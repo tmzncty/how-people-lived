@@ -9,6 +9,9 @@ import unittest
 from pathlib import Path
 
 from scripts.validate_repository import (
+    _canonical_json,
+    _schema_annotation_error,
+    _schema_behavior_projection,
     validate_dataset_manifest,
     validate_markdown_links,
     validate_repository,
@@ -611,6 +614,211 @@ class RepositoryValidatorTests(unittest.TestCase):
             errors = validate_repository(root)
 
             self.assertEqual(errors, [])
+
+    def test_manifest_schema_annotation_shapes_cover_draft_vocabulary(self) -> None:
+        string_keywords = (
+            "$comment",
+            "contentEncoding",
+            "contentMediaType",
+            "description",
+            "title",
+        )
+        for keyword in string_keywords:
+            with self.subTest(shape="string", keyword=keyword):
+                self.assertIsNone(_schema_annotation_error({keyword: ""}))
+                error = _schema_annotation_error({keyword: 7})
+                self.assertIsNotNone(error)
+                self.assertIn(f"/{keyword}: annotation must be a string", error)
+
+        boolean_keywords = ("deprecated", "readOnly", "writeOnly")
+        for keyword in boolean_keywords:
+            for value in (False, True):
+                with self.subTest(
+                    shape="boolean-valid",
+                    keyword=keyword,
+                    value=value,
+                ):
+                    self.assertIsNone(
+                        _schema_annotation_error({keyword: value})
+                    )
+            for value in (0, 1):
+                with self.subTest(
+                    shape="boolean-int-invalid",
+                    keyword=keyword,
+                    value=value,
+                ):
+                    error = _schema_annotation_error({keyword: value})
+                    self.assertIsNotNone(error)
+                    self.assertIn(
+                        f"/{keyword}: annotation must be a boolean",
+                        error,
+                    )
+
+        instance_payload = {
+            "title": 7,
+            "readOnly": 0,
+            "properties": {"field": {"description": 9}},
+        }
+        self.assertIsNone(
+            _schema_annotation_error(
+                {
+                    "default": instance_payload,
+                    "examples": [instance_payload],
+                }
+            )
+        )
+        examples_error = _schema_annotation_error({"examples": {}})
+        self.assertIsNotNone(examples_error)
+        self.assertIn("/examples: annotation must be an array", examples_error)
+
+    def test_manifest_schema_annotation_recursion_covers_all_subschemas(self) -> None:
+        map_keywords = (
+            "$defs",
+            "dependentSchemas",
+            "patternProperties",
+            "properties",
+        )
+        for keyword in map_keywords:
+            with self.subTest(container="map", keyword=keyword):
+                error = _schema_annotation_error(
+                    {keyword: {"title": {"readOnly": 0}}}
+                )
+                self.assertIsNotNone(error)
+                self.assertIn(f"/{keyword}/title/readOnly", error)
+                self.assertEqual(
+                    _schema_behavior_projection(
+                        {
+                            keyword: {
+                                "title": {
+                                    "type": "string",
+                                    "title": "Ignored child annotation",
+                                }
+                            }
+                        }
+                    ),
+                    {keyword: {"title": {"type": "string"}}},
+                )
+
+        single_child_keywords = (
+            "additionalProperties",
+            "contains",
+            "else",
+            "if",
+            "items",
+            "not",
+            "propertyNames",
+            "then",
+            "unevaluatedItems",
+            "unevaluatedProperties",
+        )
+        for keyword in single_child_keywords:
+            with self.subTest(container="single", keyword=keyword):
+                self.assertIsNone(_schema_annotation_error({keyword: False}))
+                self.assertIsNone(_schema_annotation_error({keyword: True}))
+                error = _schema_annotation_error(
+                    {keyword: {"writeOnly": 1}}
+                )
+                self.assertIsNotNone(error)
+                self.assertIn(f"/{keyword}/writeOnly", error)
+                self.assertEqual(
+                    _schema_behavior_projection(
+                        {
+                            keyword: {
+                                "type": "string",
+                                "title": "Ignored child annotation",
+                            }
+                        }
+                    ),
+                    {keyword: {"type": "string"}},
+                )
+
+        array_child_keywords = ("allOf", "anyOf", "oneOf", "prefixItems")
+        for keyword in array_child_keywords:
+            with self.subTest(container="array", keyword=keyword):
+                error = _schema_annotation_error(
+                    {keyword: [False, {"deprecated": 0}, True]}
+                )
+                self.assertIsNotNone(error)
+                self.assertIn(f"/{keyword}/1/deprecated", error)
+                self.assertEqual(
+                    _schema_behavior_projection(
+                        {
+                            keyword: [
+                                {
+                                    "type": "string",
+                                    "title": "Ignored child annotation",
+                                }
+                            ]
+                        }
+                    ),
+                    {keyword: [{"type": "string"}]},
+                )
+
+    def test_manifest_schema_projection_preserves_opaque_json(self) -> None:
+        content_schema = {
+            "title": "Locked content annotation",
+            "properties": {
+                "default": {"const": {"examples": [1, 2]}},
+            },
+        }
+        projected = _schema_behavior_projection(
+            {
+                "title": "Ignored schema annotation",
+                "default": {"title": 7},
+                "examples": [{"readOnly": 0}],
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "title": "Ignored child annotation",
+                    },
+                    "default": {
+                        "type": "number",
+                        "default": {"title": 7},
+                    },
+                    "examples": {
+                        "type": "boolean",
+                        "examples": [{"description": 9}],
+                    },
+                },
+                "const": {"title": 7, "readOnly": 0},
+                "enum": [{"title": 7}, {"description": 9}],
+                "contentSchema": content_schema,
+                "format": "date-time",
+            }
+        )
+
+        self.assertEqual(
+            projected,
+            {
+                "properties": {
+                    "title": {"type": "string"},
+                    "default": {"type": "number"},
+                    "examples": {"type": "boolean"},
+                },
+                "const": {"title": 7, "readOnly": 0},
+                "enum": [{"description": 9}, {"title": 7}],
+                "contentSchema": content_schema,
+                "format": "date-time",
+            },
+        )
+
+        first = _schema_behavior_projection(
+            {
+                "required": ["second", "first"],
+                "type": ["null", "string"],
+                "enum": [{"title": 7}, True, 1],
+            }
+        )
+        reordered = _schema_behavior_projection(
+            {
+                "required": ["first", "second"],
+                "type": ["string", "null"],
+                "enum": [1, {"title": 7}, True],
+            }
+        )
+        self.assertEqual(_canonical_json(first), _canonical_json(reordered))
+        self.assertNotEqual(_canonical_json(True), _canonical_json(1))
+        self.assertNotEqual(_canonical_json(False), _canonical_json(0))
 
     def test_unindexed_nested_and_mixed_case_csvs_are_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

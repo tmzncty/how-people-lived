@@ -272,27 +272,34 @@ def _schema_behavior_projection(
 ) -> object:
     """Return validation behavior while omitting shape-checked annotations."""
 
-    if isinstance(value, dict):
-        if parent_keyword in SCHEMA_MAP_KEYWORDS:
-            return {
-                key: _schema_behavior_projection(item)
-                for key, item in value.items()
-            }
+    if parent_keyword in SCHEMA_MAP_KEYWORDS:
+        if not isinstance(value, dict):
+            return value
         return {
-            key: _schema_behavior_projection(item, parent_keyword=key)
+            key: _schema_behavior_projection(item)
             for key, item in value.items()
-            if key not in SCHEMA_ANNOTATION_KEYWORDS
         }
-    if isinstance(value, list):
-        projected = [
-            _schema_behavior_projection(item) for item in value
-        ]
-        if parent_keyword in SCHEMA_UNORDERED_ARRAY_KEYWORDS:
-            projected.sort(
-                key=_canonical_json
-            )
-        return projected
-    return value
+    if parent_keyword in SCHEMA_SINGLE_CHILD_KEYWORDS:
+        return _schema_behavior_projection(value)
+    if parent_keyword in SCHEMA_ARRAY_CHILD_KEYWORDS:
+        if not isinstance(value, list):
+            return value
+        return [_schema_behavior_projection(item) for item in value]
+    if parent_keyword in SCHEMA_UNORDERED_ARRAY_KEYWORDS:
+        if not isinstance(value, list):
+            return value
+        return sorted(value, key=_canonical_json)
+    if parent_keyword is not None or not isinstance(value, dict):
+        # Values of all other keywords are opaque JSON, not schemas. Keeping
+        # them intact prevents instance properties such as `title` inside a
+        # `const`/`enum`, and the full `contentSchema`, from being mistaken for
+        # annotations of the enclosing schema.
+        return value
+    return {
+        key: _schema_behavior_projection(item, parent_keyword=key)
+        for key, item in value.items()
+        if key not in SCHEMA_ANNOTATION_KEYWORDS
+    }
 
 
 def _canonical_json(value: object) -> str:
