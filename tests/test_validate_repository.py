@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import json
 import os
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -48,31 +49,12 @@ class RepositoryValidatorTests(unittest.TestCase):
         )
         schema_dir = root / "schemas"
         schema_dir.mkdir()
-        manifest_fields = list(manifest)
-        dataset_fields = list(manifest["datasets"][0])
-        manifest_properties = {field: {} for field in manifest_fields}
-        manifest_properties["datasets"] = {
-            "type": "array",
-            "items": {"$ref": "#/$defs/dataset"}
-        }
+        canonical_schema = (
+            Path(__file__).resolve().parents[1]
+            / "schemas/dataset-manifest.schema.json"
+        )
         (schema_dir / "dataset-manifest.schema.json").write_text(
-            json.dumps(
-                {
-                    "$schema": "https://json-schema.org/draft/2020-12/schema",
-                    "type": "object",
-                    "additionalProperties": False,
-                    "required": manifest_fields,
-                    "properties": manifest_properties,
-                    "$defs": {
-                        "dataset": {
-                            "type": "object",
-                            "additionalProperties": False,
-                            "required": dataset_fields,
-                            "properties": {field: {} for field in dataset_fields},
-                        }
-                    },
-                }
-            ),
+            canonical_schema.read_text(encoding="utf-8"),
             encoding="utf-8",
         )
         (root / "README.md").write_text(
@@ -83,6 +65,118 @@ class RepositoryValidatorTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             self.make_fixture(root)
+            self.assertEqual(validate_repository(root), [])
+
+    def test_manifest_schema_and_python_reject_the_same_whitespace_values(self) -> None:
+        schema = json.loads(
+            (
+                Path(__file__).resolve().parents[1]
+                / "schemas/dataset-manifest.schema.json"
+            ).read_text(encoding="utf-8")
+        )
+        properties = schema["$defs"]["dataset"]["properties"]
+        schema_cases = (
+            ("geographic_scope item", properties["geographic_scope"]["items"]),
+            ("temporal_coverage", properties["temporal_coverage"]),
+            ("source_columns item", properties["source_columns"]["items"]),
+            ("description", properties["description"]),
+        )
+        python_whitespace_code_points = (
+            *range(0x0009, 0x000E),
+            *range(0x001C, 0x0021),
+            0x0085,
+            0x00A0,
+            0x1680,
+            *range(0x2000, 0x200B),
+            0x2028,
+            0x2029,
+            0x202F,
+            0x205F,
+            0x3000,
+        )
+        whitespace_values = (
+            "",
+            *(chr(code_point) for code_point in python_whitespace_code_points),
+            "".join(chr(code_point) for code_point in python_whitespace_code_points),
+        )
+        for field, field_schema in schema_cases:
+            with self.subTest(contract="schema", field=field):
+                pattern = field_schema["pattern"]
+                for whitespace in whitespace_values:
+                    self.assertIsNone(re.search(pattern, whitespace))
+                for non_whitespace in ("value", "\u200b", "\ufeff"):
+                    self.assertIsNotNone(re.search(pattern, non_whitespace))
+
+        manifest_cases = (
+            (
+                "geographic_scope",
+                [" \t\r\n"],
+                "geographic_scope must contain unique non-empty strings",
+            ),
+            (
+                "temporal_coverage",
+                " \t\r\n",
+                "temporal_coverage must be a non-empty string",
+            ),
+            (
+                "source_columns",
+                [" \t\r\n"],
+                "source_columns must contain unique non-empty strings",
+            ),
+            (
+                "description",
+                " \t\r\n",
+                "description must be a non-empty string",
+            ),
+        )
+        for field, whitespace_value, expected_error in manifest_cases:
+            with self.subTest(contract="python", field=field):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    manifest_path = root / "data/dataset-manifest.json"
+                    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                    manifest["datasets"][0][field] = whitespace_value
+                    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(expected_error in error for error in errors),
+                        errors,
+                    )
+
+        for whitespace in ("\u001c", "\u001d", "\u001e", "\u001f", "\u0085"):
+            with self.subTest(
+                contract="python-ecma-difference",
+                value=ord(whitespace),
+            ):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    manifest_path = root / "data/dataset-manifest.json"
+                    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+                    manifest["datasets"][0]["description"] = whitespace
+                    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(
+                            "description must be a non-empty string" in error
+                            for error in errors
+                        ),
+                        errors,
+                    )
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            manifest_path = root / "data/dataset-manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["datasets"][0]["description"] = "\ufeff"
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+
             self.assertEqual(validate_repository(root), [])
 
     def test_unindexed_csv_is_rejected(self) -> None:
@@ -310,6 +404,213 @@ class RepositoryValidatorTests(unittest.TestCase):
                         any("schema contract drift" in error for error in errors),
                         errors,
                     )
+
+    def test_manifest_schema_behavior_mutants_are_rejected(self) -> None:
+        delete = object()
+        cases = (
+            ("root-id-non-string", ("$id",), 7),
+            (
+                "nested-id-rebases-ref",
+                ("properties", "datasets", "$id"),
+                "https://example.test/nested-datasets",
+            ),
+            ("manifest-schema-const", ("properties", "$schema", "const"), "other"),
+            ("schema-version-type", ("properties", "schema_version", "type"), "number"),
+            ("schema-version-const", ("properties", "schema_version", "const"), 2),
+            ("schema-version-const-boolean", ("properties", "schema_version", "const"), True),
+            ("id-type", ("$defs", "dataset", "properties", "id", "type"), "number"),
+            ("id-pattern-removed", ("$defs", "dataset", "properties", "id", "pattern"), delete),
+            ("id-pattern-weakened", ("$defs", "dataset", "properties", "id", "pattern"), ".*"),
+            ("path-pattern-removed", ("$defs", "dataset", "properties", "path", "pattern"), delete),
+            ("path-pattern-weakened", ("$defs", "dataset", "properties", "path", "pattern"), ".*"),
+            ("classification-enum-removed", ("$defs", "dataset", "properties", "classification", "enum"), delete),
+            (
+                "classification-enum-weakened",
+                ("$defs", "dataset", "properties", "classification", "enum"),
+                ["measured", "research_scaffold", "other"],
+            ),
+            ("geographic-min-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), delete),
+            ("geographic-min-items-weakened", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), 0),
+            ("geographic-min-items-boolean", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), True),
+            ("geographic-unique-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"), delete),
+            ("geographic-unique-items-weakened", ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"), False),
+            ("geographic-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "items"), delete),
+            ("geographic-item-type", ("$defs", "dataset", "properties", "geographic_scope", "items", "type"), "number"),
+            ("geographic-item-pattern", ("$defs", "dataset", "properties", "geographic_scope", "items", "pattern"), ".*"),
+            ("temporal-pattern-removed", ("$defs", "dataset", "properties", "temporal_coverage", "pattern"), delete),
+            ("temporal-pattern-weakened", ("$defs", "dataset", "properties", "temporal_coverage", "pattern"), ".*"),
+            ("record-count-type", ("$defs", "dataset", "properties", "record_count", "type"), "number"),
+            ("record-count-minimum-removed", ("$defs", "dataset", "properties", "record_count", "minimum"), delete),
+            ("record-count-minimum-weakened", ("$defs", "dataset", "properties", "record_count", "minimum"), 0),
+            ("record-count-minimum-boolean", ("$defs", "dataset", "properties", "record_count", "minimum"), True),
+            ("source-unique-items", ("$defs", "dataset", "properties", "source_columns", "uniqueItems"), False),
+            ("source-items-removed", ("$defs", "dataset", "properties", "source_columns", "items"), delete),
+            ("source-item-type", ("$defs", "dataset", "properties", "source_columns", "items", "type"), "number"),
+            ("source-item-pattern-removed", ("$defs", "dataset", "properties", "source_columns", "items", "pattern"), delete),
+            ("source-item-pattern-weakened", ("$defs", "dataset", "properties", "source_columns", "items", "pattern"), ".*"),
+            ("description-pattern-removed", ("$defs", "dataset", "properties", "description", "pattern"), delete),
+            ("description-pattern-weakened", ("$defs", "dataset", "properties", "description", "pattern"), ".*"),
+            ("measured-conditional-removed", ("$defs", "dataset", "allOf"), delete),
+            (
+                "measured-condition-const",
+                ("$defs", "dataset", "allOf", 0, "if", "properties", "classification", "const"),
+                "research_scaffold",
+            ),
+            (
+                "measured-min-items-removed",
+                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                delete,
+            ),
+            (
+                "measured-min-items-weakened",
+                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                0,
+            ),
+            (
+                "measured-min-items-boolean",
+                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                True,
+            ),
+        )
+        for case, path, replacement in cases:
+            with self.subTest(case=case):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    schema_path = root / "schemas/dataset-manifest.schema.json"
+                    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                    target = schema
+                    for key in path[:-1]:
+                        target = target[key]
+                    final_key = path[-1]
+                    if replacement is delete:
+                        del target[final_key]
+                    else:
+                        target[final_key] = copy.deepcopy(replacement)
+                    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any("schema contract drift" in error for error in errors),
+                        errors,
+                    )
+
+    def test_manifest_schema_invalid_annotation_shapes_are_rejected(self) -> None:
+        cases = (
+            ("root-title", (), "title", 7),
+            ("root-description", (), "description", 7),
+            ("root-examples", (), "examples", {}),
+            ("root-read-only", (), "readOnly", "yes"),
+            ("root-comment", (), "$comment", []),
+            (
+                "nested-title",
+                ("$defs", "dataset", "properties", "id"),
+                "title",
+                7,
+            ),
+            (
+                "nested-description",
+                ("$defs", "dataset", "properties", "id"),
+                "description",
+                7,
+            ),
+            (
+                "nested-examples",
+                ("$defs", "dataset", "properties", "id"),
+                "examples",
+                {},
+            ),
+            (
+                "nested-read-only",
+                ("$defs", "dataset", "properties", "id"),
+                "readOnly",
+                "yes",
+            ),
+            (
+                "nested-comment",
+                ("$defs", "dataset", "properties", "id"),
+                "$comment",
+                [],
+            ),
+        )
+        for case, parent_path, keyword, replacement in cases:
+            with self.subTest(case=case):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    schema_path = root / "schemas/dataset-manifest.schema.json"
+                    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                    target = schema
+                    for key in parent_path:
+                        target = target[key]
+                    target[keyword] = copy.deepcopy(replacement)
+                    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any(
+                            "invalid schema" in error and keyword in error
+                            for error in errors
+                        ),
+                        errors,
+                    )
+
+    def test_manifest_schema_unchecked_annotations_are_locked(self) -> None:
+        cases = (
+            ("root-content-schema", (), "contentSchema", {"type": "string"}),
+            (
+                "nested-format",
+                ("$defs", "dataset", "properties", "id"),
+                "format",
+                "date-time",
+            ),
+        )
+        for case, parent_path, keyword, value in cases:
+            with self.subTest(case=case):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    schema_path = root / "schemas/dataset-manifest.schema.json"
+                    schema = json.loads(schema_path.read_text(encoding="utf-8"))
+                    target = schema
+                    for key in parent_path:
+                        target = target[key]
+                    target[keyword] = copy.deepcopy(value)
+                    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+                    errors = validate_repository(root)
+
+                    self.assertTrue(
+                        any("schema contract drift" in error for error in errors),
+                        errors,
+                    )
+
+    def test_manifest_schema_annotations_can_change_without_contract_drift(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            schema_path = root / "schemas/dataset-manifest.schema.json"
+            schema = json.loads(schema_path.read_text(encoding="utf-8"))
+            schema["title"] = "Renamed manifest schema"
+            schema["description"] = "Updated public documentation."
+            schema["examples"] = [
+                {"schema_version": 1, "datasets": [], "title": 7}
+            ]
+            schema["readOnly"] = True
+            schema["$comment"] = "Updated root maintainer note."
+            id_schema = schema["$defs"]["dataset"]["properties"]["id"]
+            id_schema["title"] = "Portable dataset identifier"
+            id_schema["description"] = "Updated field documentation."
+            id_schema["examples"] = ["sample", {"description": 7}]
+            id_schema["readOnly"] = False
+            id_schema["$comment"] = "Updated nested maintainer note."
+            schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+            errors = validate_repository(root)
+
+            self.assertEqual(errors, [])
 
     def test_unindexed_nested_and_mixed_case_csvs_are_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

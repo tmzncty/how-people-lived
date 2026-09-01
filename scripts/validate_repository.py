@@ -19,6 +19,10 @@ from urllib.parse import unquote
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
 SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
 DRAFT_2020_12_URI = "https://json-schema.org/draft/2020-12/schema"
+MANIFEST_SCHEMA_ID = (
+    "https://github.com/tmzncty/how-people-lived/"
+    "schemas/dataset-manifest.schema.json"
+)
 ID_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CSV_FILENAME_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.csv$")
 INLINE_LINK_START_PATTERN = re.compile(r"!?\[[^\]\n]*\]\(")
@@ -39,6 +43,121 @@ REQUIRED_DATASET_FIELDS = {
     "description",
 }
 DATASET_CLASSIFICATIONS = {"measured", "research_scaffold"}
+# JSON Schema patterns use ECMA-262 whitespace semantics, whose `\s` set
+# differs from Python's `str.strip()`. Spell out Python's whitespace code
+# points so the public schema and `_nonempty_string` agree across engines.
+PYTHON_STRIP_NONEMPTY_PATTERN = (
+    r"[^\u0009-\u000d\u001c-\u0020\u0085\u00a0\u1680"
+    r"\u2000-\u200a\u2028-\u2029\u202f\u205f\u3000]"
+)
+SCHEMA_STRING_ANNOTATION_KEYWORDS = {
+    "$comment",
+    "contentEncoding",
+    "contentMediaType",
+    "description",
+    "title",
+}
+SCHEMA_BOOLEAN_ANNOTATION_KEYWORDS = {
+    "deprecated",
+    "readOnly",
+    "writeOnly",
+}
+# Omit only annotations whose complete Draft 2020-12 shape can be checked
+# below with the standard library. `contentSchema` can embed an arbitrary
+# schema, while `format` semantics vary with the enabled vocabulary; both stay
+# in the projection and therefore require an explicit contract change.
+SCHEMA_ANNOTATION_KEYWORDS = (
+    SCHEMA_STRING_ANNOTATION_KEYWORDS
+    | SCHEMA_BOOLEAN_ANNOTATION_KEYWORDS
+    | {"default", "examples"}
+)
+SCHEMA_MAP_KEYWORDS = {"$defs", "dependentSchemas", "patternProperties", "properties"}
+SCHEMA_SINGLE_CHILD_KEYWORDS = {
+    "additionalProperties",
+    "contains",
+    "else",
+    "if",
+    "items",
+    "not",
+    "propertyNames",
+    "then",
+    "unevaluatedItems",
+    "unevaluatedProperties",
+}
+SCHEMA_ARRAY_CHILD_KEYWORDS = {"allOf", "anyOf", "oneOf", "prefixItems"}
+SCHEMA_UNORDERED_ARRAY_KEYWORDS = {"enum", "required", "type"}
+EXPECTED_MANIFEST_SCHEMA_BEHAVIOR = {
+    "$schema": DRAFT_2020_12_URI,
+    "$id": MANIFEST_SCHEMA_ID,
+    "type": "object",
+    "additionalProperties": False,
+    "required": sorted(REQUIRED_MANIFEST_FIELDS),
+    "properties": {
+        "$schema": {"const": "../schemas/dataset-manifest.schema.json"},
+        "schema_version": {"type": "integer", "const": 1},
+        "datasets": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/dataset"},
+        },
+    },
+    "$defs": {
+        "dataset": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": sorted(REQUIRED_DATASET_FIELDS),
+            "properties": {
+                "id": {"type": "string", "pattern": ID_PATTERN.pattern},
+                "path": {
+                    "type": "string",
+                    "pattern": CSV_FILENAME_PATTERN.pattern,
+                },
+                "classification": {"enum": sorted(DATASET_CLASSIFICATIONS)},
+                "geographic_scope": {
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": True,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": PYTHON_STRIP_NONEMPTY_PATTERN,
+                    },
+                },
+                "temporal_coverage": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": PYTHON_STRIP_NONEMPTY_PATTERN,
+                },
+                "record_count": {"type": "integer", "minimum": 1},
+                "source_columns": {
+                    "type": "array",
+                    "uniqueItems": True,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": PYTHON_STRIP_NONEMPTY_PATTERN,
+                    },
+                },
+                "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": PYTHON_STRIP_NONEMPTY_PATTERN,
+                },
+            },
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "classification": {"const": "measured"}
+                        }
+                    },
+                    "then": {
+                        "properties": {"source_columns": {"minItems": 1}}
+                    },
+                }
+            ],
+        }
+    },
+}
 
 
 class StrictJsonError(ValueError):
@@ -84,12 +203,106 @@ def _inside_root(path: Path, root: Path) -> bool:
     return True
 
 
-def _has_exact_string_members(value: object, expected: set[str]) -> bool:
-    return (
-        isinstance(value, list)
-        and all(isinstance(item, str) for item in value)
-        and len(value) == len(set(value))
-        and set(value) == expected
+def _schema_annotation_error(
+    schema: object,
+    *,
+    path: str = "$",
+) -> str | None:
+    """Return the first invalid Draft 2020-12 annotation shape.
+
+    The behavior projection locks every keyword outside the narrow annotation
+    set above to a known-valid schema. Validating the metaschema-defined shapes
+    of only the omitted annotations is therefore sufficient without adding a
+    runtime package.
+    """
+
+    if not isinstance(schema, dict):
+        return None
+
+    for keyword in sorted(SCHEMA_STRING_ANNOTATION_KEYWORDS):
+        if keyword in schema and not isinstance(schema[keyword], str):
+            return f"{path}/{keyword}: annotation must be a string"
+    for keyword in sorted(SCHEMA_BOOLEAN_ANNOTATION_KEYWORDS):
+        if keyword in schema and not isinstance(schema[keyword], bool):
+            return f"{path}/{keyword}: annotation must be a boolean"
+    if "examples" in schema and not isinstance(schema["examples"], list):
+        return f"{path}/examples: annotation must be an array"
+
+    for keyword in sorted(SCHEMA_MAP_KEYWORDS):
+        children = schema.get(keyword)
+        if not isinstance(children, dict):
+            continue
+        for name, child in children.items():
+            error = _schema_annotation_error(
+                child,
+                path=f"{path}/{keyword}/{name}",
+            )
+            if error is not None:
+                return error
+
+    for keyword in sorted(SCHEMA_SINGLE_CHILD_KEYWORDS):
+        if keyword not in schema:
+            continue
+        error = _schema_annotation_error(
+            schema[keyword],
+            path=f"{path}/{keyword}",
+        )
+        if error is not None:
+            return error
+
+    for keyword in sorted(SCHEMA_ARRAY_CHILD_KEYWORDS):
+        children = schema.get(keyword)
+        if not isinstance(children, list):
+            continue
+        for index, child in enumerate(children):
+            error = _schema_annotation_error(
+                child,
+                path=f"{path}/{keyword}/{index}",
+            )
+            if error is not None:
+                return error
+
+    return None
+
+
+def _schema_behavior_projection(
+    value: object,
+    *,
+    parent_keyword: str | None = None,
+) -> object:
+    """Return validation behavior while omitting shape-checked annotations."""
+
+    if isinstance(value, dict):
+        if parent_keyword in SCHEMA_MAP_KEYWORDS:
+            return {
+                key: _schema_behavior_projection(item)
+                for key, item in value.items()
+            }
+        return {
+            key: _schema_behavior_projection(item, parent_keyword=key)
+            for key, item in value.items()
+            if key not in SCHEMA_ANNOTATION_KEYWORDS
+        }
+    if isinstance(value, list):
+        projected = [
+            _schema_behavior_projection(item) for item in value
+        ]
+        if parent_keyword in SCHEMA_UNORDERED_ARRAY_KEYWORDS:
+            projected.sort(
+                key=_canonical_json
+            )
+        return projected
+    return value
+
+
+def _canonical_json(value: object) -> str:
+    """Serialize JSON values without Python's bool/int equality coercion."""
+
+    return json.dumps(
+        value,
+        ensure_ascii=True,
+        sort_keys=True,
+        separators=(",", ":"),
     )
 
 
@@ -119,45 +332,14 @@ def _validate_manifest_schema(root: Path) -> list[str]:
     if not isinstance(schema, dict):
         return [f"{display_path}: root must be an object"]
 
-    root_properties = schema.get("properties")
-    datasets_schema = (
-        root_properties.get("datasets")
-        if isinstance(root_properties, dict)
-        else None
-    )
-    dataset_items = (
-        datasets_schema.get("items") if isinstance(datasets_schema, dict) else None
-    )
-    definitions = schema.get("$defs")
-    dataset_schema = (
-        definitions.get("dataset") if isinstance(definitions, dict) else None
-    )
-    dataset_properties = (
-        dataset_schema.get("properties")
-        if isinstance(dataset_schema, dict)
-        else None
-    )
-    contract_is_current = (
-        schema.get("$schema") == DRAFT_2020_12_URI
-        and schema.get("type") == "object"
-        and schema.get("additionalProperties") is False
-        and _has_exact_string_members(
-            schema.get("required"), REQUIRED_MANIFEST_FIELDS
-        )
-        and isinstance(root_properties, dict)
-        and set(root_properties) == REQUIRED_MANIFEST_FIELDS
-        and isinstance(datasets_schema, dict)
-        and datasets_schema.get("type") == "array"
-        and isinstance(dataset_items, dict)
-        and dataset_items.get("$ref") == "#/$defs/dataset"
-        and isinstance(dataset_schema, dict)
-        and dataset_schema.get("type") == "object"
-        and dataset_schema.get("additionalProperties") is False
-        and _has_exact_string_members(
-            dataset_schema.get("required"), REQUIRED_DATASET_FIELDS
-        )
-        and isinstance(dataset_properties, dict)
-        and set(dataset_properties) == REQUIRED_DATASET_FIELDS
+    annotation_error = _schema_annotation_error(schema)
+    if annotation_error is not None:
+        return [f"{display_path}: invalid schema {annotation_error}"]
+
+    contract_is_current = _canonical_json(
+        _schema_behavior_projection(schema)
+    ) == _canonical_json(
+        _schema_behavior_projection(EXPECTED_MANIFEST_SCHEMA_BEHAVIOR)
     )
     if not contract_is_current:
         return [f"{display_path}: schema contract drift"]
