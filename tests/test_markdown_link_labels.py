@@ -33,7 +33,7 @@ class MarkdownLinkLabelTests(unittest.TestCase):
         cases = (
             ("[Outer [context]](does-not-exist.md)", 1),
             ("[Closing \\] bracket](does-not-exist.md)", 1),
-            ("[Outer [inner](does-not-exist.md)](outer.md)", 2),
+            ("[Outer [inner](does-not-exist.md)](outer.md)", 1),
             ("[![Diagram](does-not-exist.md)](outer.md)", 2),
         )
         for markdown, expected_checked in cases:
@@ -51,6 +51,23 @@ class MarkdownLinkLabelTests(unittest.TestCase):
                         errors,
                     )
 
+    def test_nested_constructs_follow_github_link_precedence(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for target in ("inner.md", "diagram.png", "page.md", "outer.png"):
+                (root / target).write_text("fixture\n", encoding="utf-8")
+            (root / "README.md").write_text(
+                "[Outer [inner](inner.md)](literal.md)\n"
+                "[![Diagram](diagram.png)](page.md)\n"
+                "![Outer [inner](ignored.md)](outer.png)\n",
+                encoding="utf-8",
+            )
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(errors, [])
+            self.assertEqual(checked, 4)
+
     def test_parser_returns_each_destination_after_complex_labels(self) -> None:
         line = (
             "[Outer [context]](first.md) "
@@ -65,11 +82,15 @@ class MarkdownLinkLabelTests(unittest.TestCase):
                 "first.md",
                 "second.md",
                 "third.md",
-                "fourth.md",
                 "fifth.png",
                 "sixth.md",
             ],
         )
+
+    def test_deeply_nested_labels_do_not_depend_on_python_recursion(self) -> None:
+        line = "[" * 1_500 + "label" + "]" * 1_500 + "(target.md)"
+
+        self.assertEqual(list(_inline_markdown_targets(line)), ["target.md"])
 
 
 if __name__ == "__main__":

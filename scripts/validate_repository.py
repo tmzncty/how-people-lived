@@ -441,23 +441,32 @@ def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
 
 
 def _inline_markdown_targets(line: str) -> Iterator[str]:
-    label_stack: list[int] = []
+    label_stack: list[tuple[int, bool]] = []
+    inactive_links: set[int] = set()
+    targets: list[tuple[int, str]] = []
     cursor = 0
     while cursor < len(line):
         character = line[cursor]
         if character == "\\":
             cursor += 2
             continue
+        if character == "!" and cursor + 1 < len(line) and line[cursor + 1] == "[":
+            label_stack.append((cursor, True))
+            cursor += 2
+            continue
         if character == "[":
-            label_stack.append(cursor)
+            label_stack.append((cursor, False))
             cursor += 1
             continue
         if character != "]" or not label_stack:
             cursor += 1
             continue
 
-        label_stack.pop()
+        label_start, is_image = label_stack.pop()
         if cursor + 1 >= len(line) or line[cursor + 1] != "(":
+            cursor += 1
+            continue
+        if not is_image and label_start in inactive_links:
             cursor += 1
             continue
 
@@ -479,32 +488,40 @@ def _inline_markdown_targets(line: str) -> Iterator[str]:
                 closing += 1
             if closing >= len(line) or line[closing] != ")":
                 raise MarkdownLinkSyntaxError("angle destination must end with ')'")
-            yield target
             cursor = closing + 1
-            continue
+        else:
+            depth = 1
+            index = target_start
+            while index < len(line):
+                character = line[index]
+                if character == "\\":
+                    index += 2
+                    continue
+                if character == "(":
+                    depth += 1
+                elif character == ")":
+                    depth -= 1
+                    if depth == 0:
+                        break
+                index += 1
+            if depth:
+                raise MarkdownLinkSyntaxError("unterminated parenthesized destination")
 
-        depth = 1
-        index = target_start
-        while index < len(line):
-            character = line[index]
-            if character == "\\":
-                index += 2
-                continue
-            if character == "(":
-                depth += 1
-            elif character == ")":
-                depth -= 1
-                if depth == 0:
-                    break
-            index += 1
-        if depth:
-            raise MarkdownLinkSyntaxError("unterminated parenthesized destination")
+            raw_target = line[target_start:index].strip()
+            parts = raw_target.split(maxsplit=1)
+            target = parts[0] if parts else ""
+            target = MARKDOWN_DESTINATION_ESCAPE_PATTERN.sub(r"\1", target)
+            cursor = index + 1
 
-        raw_target = line[target_start:index].strip()
-        parts = raw_target.split(maxsplit=1)
-        target = parts[0] if parts else ""
-        yield MARKDOWN_DESTINATION_ESCAPE_PATTERN.sub(r"\1", target)
-        cursor = index + 1
+        if is_image:
+            targets = [item for item in targets if item[0] < label_start]
+        else:
+            inactive_links.update(
+                start for start, opener_is_image in label_stack if not opener_is_image
+            )
+        targets.append((label_start, target))
+
+    yield from (target for _, target in targets)
 
 
 def validate_markdown_links(root: Path) -> tuple[list[str], int]:
