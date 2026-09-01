@@ -613,5 +613,44 @@ class RepositoryValidatorTests(unittest.TestCase):
             self.assertTrue(any("not a regular file" in error for error in errors), errors)
 
 
+class ManifestCoverageRegressionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        root = Path(__file__).resolve().parents[1]
+        manifest = json.loads(
+            (root / "data/dataset-manifest.json").read_text(encoding="utf-8")
+        )
+        cls.datasets = {dataset["id"]: dataset for dataset in manifest["datasets"]}
+
+    def test_educational_mobility_includes_comparison_cohort(self) -> None:
+        dataset = self.datasets["china-educational-mobility-1986-1995-selected"]
+
+        self.assertEqual(
+            dataset["temporal_coverage"],
+            "offspring birth cohorts 1976-1985 (comparison rows) and 1986-1995",
+        )
+        self.assertIn(
+            "the 1976-1985 rows provide comparisons for 1986-1995",
+            dataset["description"],
+        )
+
+    def test_old_age_support_names_the_charls_2018_wave(self) -> None:
+        dataset = self.datasets["china-old-age-support-expectations-charls"]
+
+        self.assertEqual(
+            dataset["temporal_coverage"],
+            "CHARLS 2018 retirement-expectation survey analysis",
+        )
+
+    def test_2018_time_use_names_both_average_types(self) -> None:
+        dataset = self.datasets["china-time-use-2018-selected"]
+
+        self.assertEqual(
+            dataset["description"],
+            "Selected resident- and participant-average activity times with "
+            "accompanying Internet-use measures.",
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
