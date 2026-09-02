@@ -37,10 +37,10 @@
       "path": "china-educational-mobility-1986-1995-selected.csv",
       "classification": "measured",
       "geographic_scope": ["China"],
-      "temporal_coverage": "offspring birth cohort 1986-1995",
+      "temporal_coverage": "offspring birth cohorts 1976-1985 (comparison rows) and 1986-1995",
       "record_count": 6,
       "source_columns": ["source"],
-      "description": "Selected parent-child education rank-rank correlations by dyad and hukou origin."
+      "description": "Selected parent-child education rank-rank correlations by dyad and hukou origin; the 1976-1985 rows provide comparisons for 1986-1995."
     },
     {
       "id": "china-elderly-coresidence-with-adult-children-1982-2010",
@@ -187,7 +187,7 @@
       "path": "china-old-age-support-expectations-charls.csv",
       "classification": "measured",
       "geographic_scope": ["China"],
-      "temporal_coverage": "CHARLS retirement-expectation survey analysis",
+      "temporal_coverage": "CHARLS 2018 retirement-expectation survey analysis",
       "record_count": 4,
       "source_columns": ["source"],
       "description": "Urban/rural expectations for pensions or children as primary old-age support."
@@ -240,7 +240,7 @@
       "temporal_coverage": "2018 national time-use survey",
       "record_count": 23,
       "source_columns": ["source"],
-      "description": "Selected resident-average activity times and accompanying Internet-use measures."
+      "description": "Selected resident- and participant-average activity times with accompanying Internet-use measures."
     },
     {
       "id": "china-time-use-2024-selected",
