@@ -53,8 +53,7 @@ class RepositoryValidatorTests(unittest.TestCase):
         schema_dir = root / "schemas"
         schema_dir.mkdir()
         canonical_schema = (
-            Path(__file__).resolve().parents[1]
-            / "schemas/dataset-manifest.schema.json"
+            Path(__file__).resolve().parents[1] / "schemas/dataset-manifest.schema.json"
         )
         (schema_dir / "dataset-manifest.schema.json").write_text(
             canonical_schema.read_text(encoding="utf-8"),
@@ -218,7 +217,9 @@ class RepositoryValidatorTests(unittest.TestCase):
             root = Path(directory)
             self.make_fixture(root, record_count=2)
             errors = validate_repository(root)
-            self.assertTrue(any("CSV contains 1 rows" in error for error in errors), errors)
+            self.assertTrue(
+                any("CSV contains 1 rows" in error for error in errors), errors
+            )
 
     def test_schema_version_requires_integer_one(self) -> None:
         for invalid_version in (True, 1.0):
@@ -234,7 +235,10 @@ class RepositoryValidatorTests(unittest.TestCase):
                     errors = validate_repository(root)
 
                     self.assertTrue(
-                        any("schema_version must be the integer 1" in error for error in errors),
+                        any(
+                            "schema_version must be the integer 1" in error
+                            for error in errors
+                        ),
                         errors,
                     )
 
@@ -326,7 +330,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors = validate_repository(root)
 
-            self.assertTrue(any("is not valid UTF-8" in error for error in errors), errors)
+            self.assertTrue(
+                any("is not valid UTF-8" in error for error in errors), errors
+            )
 
     def test_missing_manifest_schema_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -386,7 +392,9 @@ class RepositoryValidatorTests(unittest.TestCase):
                     if case == "empty":
                         schema = {}
                     elif case == "wrong-draft":
-                        schema["$schema"] = "https://json-schema.org/draft/2019-09/schema"
+                        schema["$schema"] = (
+                            "https://json-schema.org/draft/2019-09/schema"
+                        )
                     elif case == "open-root":
                         schema["additionalProperties"] = True
                     elif case == "root-required":
@@ -394,7 +402,9 @@ class RepositoryValidatorTests(unittest.TestCase):
                     elif case == "datasets-type":
                         schema["properties"]["datasets"]["type"] = "object"
                     elif case == "items-ref":
-                        schema["properties"]["datasets"]["items"]["$ref"] = "#/$defs/other"
+                        schema["properties"]["datasets"]["items"][
+                            "$ref"
+                        ] = "#/$defs/other"
                     elif case == "open-dataset":
                         schema["$defs"]["dataset"]["additionalProperties"] = True
                     else:
@@ -420,58 +430,223 @@ class RepositoryValidatorTests(unittest.TestCase):
             ("manifest-schema-const", ("properties", "$schema", "const"), "other"),
             ("schema-version-type", ("properties", "schema_version", "type"), "number"),
             ("schema-version-const", ("properties", "schema_version", "const"), 2),
-            ("schema-version-const-boolean", ("properties", "schema_version", "const"), True),
+            (
+                "schema-version-const-boolean",
+                ("properties", "schema_version", "const"),
+                True,
+            ),
             ("id-type", ("$defs", "dataset", "properties", "id", "type"), "number"),
-            ("id-pattern-removed", ("$defs", "dataset", "properties", "id", "pattern"), delete),
-            ("id-pattern-weakened", ("$defs", "dataset", "properties", "id", "pattern"), ".*"),
-            ("path-pattern-removed", ("$defs", "dataset", "properties", "path", "pattern"), delete),
-            ("path-pattern-weakened", ("$defs", "dataset", "properties", "path", "pattern"), ".*"),
-            ("classification-enum-removed", ("$defs", "dataset", "properties", "classification", "enum"), delete),
+            (
+                "id-pattern-removed",
+                ("$defs", "dataset", "properties", "id", "pattern"),
+                delete,
+            ),
+            (
+                "id-pattern-weakened",
+                ("$defs", "dataset", "properties", "id", "pattern"),
+                ".*",
+            ),
+            (
+                "path-pattern-removed",
+                ("$defs", "dataset", "properties", "path", "pattern"),
+                delete,
+            ),
+            (
+                "path-pattern-weakened",
+                ("$defs", "dataset", "properties", "path", "pattern"),
+                ".*",
+            ),
+            (
+                "classification-enum-removed",
+                ("$defs", "dataset", "properties", "classification", "enum"),
+                delete,
+            ),
             (
                 "classification-enum-weakened",
                 ("$defs", "dataset", "properties", "classification", "enum"),
                 ["measured", "research_scaffold", "other"],
             ),
-            ("geographic-min-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), delete),
-            ("geographic-min-items-weakened", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), 0),
-            ("geographic-min-items-boolean", ("$defs", "dataset", "properties", "geographic_scope", "minItems"), True),
-            ("geographic-unique-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"), delete),
-            ("geographic-unique-items-weakened", ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"), False),
-            ("geographic-items-removed", ("$defs", "dataset", "properties", "geographic_scope", "items"), delete),
-            ("geographic-item-type", ("$defs", "dataset", "properties", "geographic_scope", "items", "type"), "number"),
-            ("geographic-item-pattern", ("$defs", "dataset", "properties", "geographic_scope", "items", "pattern"), ".*"),
-            ("temporal-pattern-removed", ("$defs", "dataset", "properties", "temporal_coverage", "pattern"), delete),
-            ("temporal-pattern-weakened", ("$defs", "dataset", "properties", "temporal_coverage", "pattern"), ".*"),
-            ("record-count-type", ("$defs", "dataset", "properties", "record_count", "type"), "number"),
-            ("record-count-minimum-removed", ("$defs", "dataset", "properties", "record_count", "minimum"), delete),
-            ("record-count-minimum-weakened", ("$defs", "dataset", "properties", "record_count", "minimum"), 0),
-            ("record-count-minimum-boolean", ("$defs", "dataset", "properties", "record_count", "minimum"), True),
-            ("source-unique-items", ("$defs", "dataset", "properties", "source_columns", "uniqueItems"), False),
-            ("source-items-removed", ("$defs", "dataset", "properties", "source_columns", "items"), delete),
-            ("source-item-type", ("$defs", "dataset", "properties", "source_columns", "items", "type"), "number"),
-            ("source-item-pattern-removed", ("$defs", "dataset", "properties", "source_columns", "items", "pattern"), delete),
-            ("source-item-pattern-weakened", ("$defs", "dataset", "properties", "source_columns", "items", "pattern"), ".*"),
-            ("description-pattern-removed", ("$defs", "dataset", "properties", "description", "pattern"), delete),
-            ("description-pattern-weakened", ("$defs", "dataset", "properties", "description", "pattern"), ".*"),
+            (
+                "geographic-min-items-removed",
+                ("$defs", "dataset", "properties", "geographic_scope", "minItems"),
+                delete,
+            ),
+            (
+                "geographic-min-items-weakened",
+                ("$defs", "dataset", "properties", "geographic_scope", "minItems"),
+                0,
+            ),
+            (
+                "geographic-min-items-boolean",
+                ("$defs", "dataset", "properties", "geographic_scope", "minItems"),
+                True,
+            ),
+            (
+                "geographic-unique-items-removed",
+                ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"),
+                delete,
+            ),
+            (
+                "geographic-unique-items-weakened",
+                ("$defs", "dataset", "properties", "geographic_scope", "uniqueItems"),
+                False,
+            ),
+            (
+                "geographic-items-removed",
+                ("$defs", "dataset", "properties", "geographic_scope", "items"),
+                delete,
+            ),
+            (
+                "geographic-item-type",
+                ("$defs", "dataset", "properties", "geographic_scope", "items", "type"),
+                "number",
+            ),
+            (
+                "geographic-item-pattern",
+                (
+                    "$defs",
+                    "dataset",
+                    "properties",
+                    "geographic_scope",
+                    "items",
+                    "pattern",
+                ),
+                ".*",
+            ),
+            (
+                "temporal-pattern-removed",
+                ("$defs", "dataset", "properties", "temporal_coverage", "pattern"),
+                delete,
+            ),
+            (
+                "temporal-pattern-weakened",
+                ("$defs", "dataset", "properties", "temporal_coverage", "pattern"),
+                ".*",
+            ),
+            (
+                "record-count-type",
+                ("$defs", "dataset", "properties", "record_count", "type"),
+                "number",
+            ),
+            (
+                "record-count-minimum-removed",
+                ("$defs", "dataset", "properties", "record_count", "minimum"),
+                delete,
+            ),
+            (
+                "record-count-minimum-weakened",
+                ("$defs", "dataset", "properties", "record_count", "minimum"),
+                0,
+            ),
+            (
+                "record-count-minimum-boolean",
+                ("$defs", "dataset", "properties", "record_count", "minimum"),
+                True,
+            ),
+            (
+                "source-unique-items",
+                ("$defs", "dataset", "properties", "source_columns", "uniqueItems"),
+                False,
+            ),
+            (
+                "source-items-removed",
+                ("$defs", "dataset", "properties", "source_columns", "items"),
+                delete,
+            ),
+            (
+                "source-item-type",
+                ("$defs", "dataset", "properties", "source_columns", "items", "type"),
+                "number",
+            ),
+            (
+                "source-item-pattern-removed",
+                (
+                    "$defs",
+                    "dataset",
+                    "properties",
+                    "source_columns",
+                    "items",
+                    "pattern",
+                ),
+                delete,
+            ),
+            (
+                "source-item-pattern-weakened",
+                (
+                    "$defs",
+                    "dataset",
+                    "properties",
+                    "source_columns",
+                    "items",
+                    "pattern",
+                ),
+                ".*",
+            ),
+            (
+                "description-pattern-removed",
+                ("$defs", "dataset", "properties", "description", "pattern"),
+                delete,
+            ),
+            (
+                "description-pattern-weakened",
+                ("$defs", "dataset", "properties", "description", "pattern"),
+                ".*",
+            ),
             ("measured-conditional-removed", ("$defs", "dataset", "allOf"), delete),
             (
                 "measured-condition-const",
-                ("$defs", "dataset", "allOf", 0, "if", "properties", "classification", "const"),
+                (
+                    "$defs",
+                    "dataset",
+                    "allOf",
+                    0,
+                    "if",
+                    "properties",
+                    "classification",
+                    "const",
+                ),
                 "research_scaffold",
             ),
             (
                 "measured-min-items-removed",
-                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                (
+                    "$defs",
+                    "dataset",
+                    "allOf",
+                    0,
+                    "then",
+                    "properties",
+                    "source_columns",
+                    "minItems",
+                ),
                 delete,
             ),
             (
                 "measured-min-items-weakened",
-                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                (
+                    "$defs",
+                    "dataset",
+                    "allOf",
+                    0,
+                    "then",
+                    "properties",
+                    "source_columns",
+                    "minItems",
+                ),
                 0,
             ),
             (
                 "measured-min-items-boolean",
-                ("$defs", "dataset", "allOf", 0, "then", "properties", "source_columns", "minItems"),
+                (
+                    "$defs",
+                    "dataset",
+                    "allOf",
+                    0,
+                    "then",
+                    "properties",
+                    "source_columns",
+                    "minItems",
+                ),
                 True,
             ),
         )
@@ -590,7 +765,9 @@ class RepositoryValidatorTests(unittest.TestCase):
                         errors,
                     )
 
-    def test_manifest_schema_annotations_can_change_without_contract_drift(self) -> None:
+    def test_manifest_schema_annotations_can_change_without_contract_drift(
+        self,
+    ) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             self.make_fixture(root)
@@ -598,9 +775,7 @@ class RepositoryValidatorTests(unittest.TestCase):
             schema = json.loads(schema_path.read_text(encoding="utf-8"))
             schema["title"] = "Renamed manifest schema"
             schema["description"] = "Updated public documentation."
-            schema["examples"] = [
-                {"schema_version": 1, "datasets": [], "title": 7}
-            ]
+            schema["examples"] = [{"schema_version": 1, "datasets": [], "title": 7}]
             schema["readOnly"] = True
             schema["$comment"] = "Updated root maintainer note."
             id_schema = schema["$defs"]["dataset"]["properties"]["id"]
@@ -638,9 +813,7 @@ class RepositoryValidatorTests(unittest.TestCase):
                     keyword=keyword,
                     value=value,
                 ):
-                    self.assertIsNone(
-                        _schema_annotation_error({keyword: value})
-                    )
+                    self.assertIsNone(_schema_annotation_error({keyword: value}))
             for value in (0, 1):
                 with self.subTest(
                     shape="boolean-int-invalid",
@@ -680,9 +853,7 @@ class RepositoryValidatorTests(unittest.TestCase):
         )
         for keyword in map_keywords:
             with self.subTest(container="map", keyword=keyword):
-                error = _schema_annotation_error(
-                    {keyword: {"title": {"readOnly": 0}}}
-                )
+                error = _schema_annotation_error({keyword: {"title": {"readOnly": 0}}})
                 self.assertIsNotNone(error)
                 self.assertIn(f"/{keyword}/title/readOnly", error)
                 self.assertEqual(
@@ -715,9 +886,7 @@ class RepositoryValidatorTests(unittest.TestCase):
             with self.subTest(container="single", keyword=keyword):
                 self.assertIsNone(_schema_annotation_error({keyword: False}))
                 self.assertIsNone(_schema_annotation_error({keyword: True}))
-                error = _schema_annotation_error(
-                    {keyword: {"writeOnly": 1}}
-                )
+                error = _schema_annotation_error({keyword: {"writeOnly": 1}})
                 self.assertIsNotNone(error)
                 self.assertIn(f"/{keyword}/writeOnly", error)
                 self.assertEqual(
@@ -831,8 +1000,12 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors = validate_repository(root)
 
-            self.assertTrue(any("data/nested/unindexed.csv" in error for error in errors), errors)
-            self.assertTrue(any("data/UNINDEXED.CSV" in error for error in errors), errors)
+            self.assertTrue(
+                any("data/nested/unindexed.csv" in error for error in errors), errors
+            )
+            self.assertTrue(
+                any("data/UNINDEXED.CSV" in error for error in errors), errors
+            )
 
     def test_windows_drive_relative_manifest_path_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -877,7 +1050,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors = validate_repository(root)
 
-            self.assertTrue(any("cannot parse 'sample.csv'" in error for error in errors), errors)
+            self.assertTrue(
+                any("cannot parse 'sample.csv'" in error for error in errors), errors
+            )
 
     def test_data_directory_symlink_cannot_escape_repository(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -894,7 +1069,10 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors, _ = validate_dataset_manifest(root)
 
-            self.assertTrue(any("data directory escapes repository" in error for error in errors), errors)
+            self.assertTrue(
+                any("data directory escapes repository" in error for error in errors),
+                errors,
+            )
 
     def test_manifest_symlink_cannot_escape_data_directory(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -912,7 +1090,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors, _ = validate_dataset_manifest(root)
 
-            self.assertTrue(any("path escapes data/" in error for error in errors), errors)
+            self.assertTrue(
+                any("path escapes data/" in error for error in errors), errors
+            )
 
     def test_manifest_must_be_a_regular_file(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -948,7 +1128,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors, _ = validate_dataset_manifest(root)
 
-            self.assertTrue(any("resolves to the same CSV" in error for error in errors), errors)
+            self.assertTrue(
+                any("resolves to the same CSV" in error for error in errors), errors
+            )
 
     def test_broken_local_markdown_link_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -958,7 +1140,9 @@ class RepositoryValidatorTests(unittest.TestCase):
                 "# Fixture\n\n[Missing](does-not-exist.md)\n", encoding="utf-8"
             )
             errors = validate_repository(root)
-            self.assertTrue(any("missing local link target" in error for error in errors), errors)
+            self.assertTrue(
+                any("missing local link target" in error for error in errors), errors
+            )
 
     def test_balanced_and_angle_inline_destinations_are_supported(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -986,8 +1170,7 @@ class RepositoryValidatorTests(unittest.TestCase):
             root = Path(directory)
             self.make_fixture(root)
             (root / "README.md").write_text(
-                "[FTP](ftp://host/a) [Custom](custom:opaque) "
-                "[Network](//host/a)\n",
+                "[FTP](ftp://host/a) [Custom](custom:opaque) " "[Network](//host/a)\n",
                 encoding="utf-8",
             )
 
@@ -1011,7 +1194,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
                     self.assertEqual(checked, 1)
                     self.assertTrue(
-                        any("local link escapes repository" in error for error in errors),
+                        any(
+                            "local link escapes repository" in error for error in errors
+                        ),
                         errors,
                     )
 
@@ -1031,8 +1216,7 @@ class RepositoryValidatorTests(unittest.TestCase):
 
                     self.assertTrue(
                         any(
-                            "unsupported reference-style link; use inline form"
-                            in error
+                            "unsupported reference-style link; use inline form" in error
                             for error in errors
                         ),
                         errors,
@@ -1062,7 +1246,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors, _ = validate_markdown_links(root)
 
-            self.assertTrue(any("cannot decode as UTF-8" in error for error in errors), errors)
+            self.assertTrue(
+                any("cannot decode as UTF-8" in error for error in errors), errors
+            )
 
     def test_markdown_symlinks_cannot_escape_or_dangle(self) -> None:
         cases = ("external", "dangling")
@@ -1106,7 +1292,10 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             self.assertEqual(checked, 1)
             self.assertTrue(
-                any("cannot resolve local link target: loop" in error for error in errors),
+                any(
+                    "cannot resolve local link target: loop" in error
+                    for error in errors
+                ),
                 errors,
             )
 
@@ -1119,7 +1308,9 @@ class RepositoryValidatorTests(unittest.TestCase):
 
             errors, _ = validate_markdown_links(root)
 
-            self.assertTrue(any("not a regular file" in error for error in errors), errors)
+            self.assertTrue(
+                any("not a regular file" in error for error in errors), errors
+            )
 
 
 if __name__ == "__main__":

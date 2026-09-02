@@ -15,7 +15,6 @@ from collections.abc import Iterator
 from pathlib import Path
 from urllib.parse import unquote
 
-
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
 SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
 DRAFT_2020_12_URI = "https://json-schema.org/draft/2020-12/schema"
@@ -145,14 +144,8 @@ EXPECTED_MANIFEST_SCHEMA_BEHAVIOR = {
             },
             "allOf": [
                 {
-                    "if": {
-                        "properties": {
-                            "classification": {"const": "measured"}
-                        }
-                    },
-                    "then": {
-                        "properties": {"source_columns": {"minItems": 1}}
-                    },
+                    "if": {"properties": {"classification": {"const": "measured"}}},
+                    "then": {"properties": {"source_columns": {"minItems": 1}}},
                 }
             ],
         }
@@ -275,10 +268,7 @@ def _schema_behavior_projection(
     if parent_keyword in SCHEMA_MAP_KEYWORDS:
         if not isinstance(value, dict):
             return value
-        return {
-            key: _schema_behavior_projection(item)
-            for key, item in value.items()
-        }
+        return {key: _schema_behavior_projection(item) for key, item in value.items()}
     if parent_keyword in SCHEMA_SINGLE_CHILD_KEYWORDS:
         return _schema_behavior_projection(value)
     if parent_keyword in SCHEMA_ARRAY_CHILD_KEYWORDS:
@@ -345,9 +335,7 @@ def _validate_manifest_schema(root: Path) -> list[str]:
 
     contract_is_current = _canonical_json(
         _schema_behavior_projection(schema)
-    ) == _canonical_json(
-        _schema_behavior_projection(EXPECTED_MANIFEST_SCHEMA_BEHAVIOR)
-    )
+    ) == _canonical_json(_schema_behavior_projection(EXPECTED_MANIFEST_SCHEMA_BEHAVIOR))
     if not contract_is_current:
         return [f"{display_path}: schema contract drift"]
     return []
@@ -376,10 +364,7 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
         return ([f"{MANIFEST_RELATIVE_PATH.as_posix()}: path escapes data/"], 0)
     if not resolved_manifest_path.is_file():
         return (
-            [
-                f"{MANIFEST_RELATIVE_PATH.as_posix()}: "
-                "missing or not a regular file"
-            ],
+            [f"{MANIFEST_RELATIVE_PATH.as_posix()}: " "missing or not a regular file"],
             0,
         )
 
@@ -445,10 +430,9 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
             seen_ids.add(dataset_id)
 
         relative_path = entry.get("path")
-        path_is_safe = (
-            _nonempty_string(relative_path)
-            and CSV_FILENAME_PATTERN.fullmatch(relative_path)
-        )
+        path_is_safe = _nonempty_string(
+            relative_path
+        ) and CSV_FILENAME_PATTERN.fullmatch(relative_path)
         if not path_is_safe:
             errors.append(
                 f"{prefix}: path must name one portable CSV directly inside data/"
@@ -475,14 +459,20 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
             and all(_nonempty_string(value) for value in geographic_scope)
             and len(geographic_scope) == len(set(geographic_scope))
         ):
-            errors.append(f"{prefix}: geographic_scope must contain unique non-empty strings")
+            errors.append(
+                f"{prefix}: geographic_scope must contain unique non-empty strings"
+            )
 
         for field in ("temporal_coverage", "description"):
             if not _nonempty_string(entry.get(field)):
                 errors.append(f"{prefix}: {field} must be a non-empty string")
 
         record_count = entry.get("record_count")
-        if isinstance(record_count, bool) or not isinstance(record_count, int) or record_count < 1:
+        if (
+            isinstance(record_count, bool)
+            or not isinstance(record_count, int)
+            or record_count < 1
+        ):
             errors.append(f"{prefix}: record_count must be a positive integer")
 
         source_columns = entry.get("source_columns")
@@ -492,9 +482,13 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
             and len(source_columns) == len(set(source_columns))
         )
         if not source_columns_are_valid:
-            errors.append(f"{prefix}: source_columns must contain unique non-empty strings")
+            errors.append(
+                f"{prefix}: source_columns must contain unique non-empty strings"
+            )
         elif classification == "measured" and not source_columns:
-            errors.append(f"{prefix}: measured datasets require at least one source column")
+            errors.append(
+                f"{prefix}: measured datasets require at least one source column"
+            )
 
         try:
             csv_path = (data_dir / relative_path).resolve()
@@ -576,7 +570,9 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
                 rows_without_source = [
                     line_number
                     for line_number, row in enumerate(data_rows, start=2)
-                    if not any(row[source_index].strip() for source_index in source_indexes)
+                    if not any(
+                        row[source_index].strip() for source_index in source_indexes
+                    )
                 ]
                 if rows_without_source:
                     errors.append(
@@ -791,7 +787,10 @@ def main() -> int:
     errors = dataset_errors + link_errors
 
     if errors:
-        print(f"Repository validation failed with {len(errors)} error(s):", file=sys.stderr)
+        print(
+            f"Repository validation failed with {len(errors)} error(s):",
+            file=sys.stderr,
+        )
         for error in errors:
             print(f"- {error}", file=sys.stderr)
         return 1
