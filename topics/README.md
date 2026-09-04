@@ -17,6 +17,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md) — how telephone access, job information and family contact can make migration itself easier
 - [From scheduled information to ambient information](from-scheduled-to-ambient-information.md) — broadcast schedules, destination Internet, logged-in social presence, portable connectivity and the disappearance of clean offline time
 - [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md) — cafés, school/public terminals, access without ownership, identity/billing sessions, the move toward home/mobile access and later device optionality
+- [Home broadband and address-bound connectivity](home-broadband-address-bound-connectivity-installation-and-household-network-readiness-china-1999-2026.zh-CN.md) — dial-up-to-utility conversion, address/port constraints, installation state stacks, household network readiness, moving and termination closure
 - [Owned media versus platform access](owned-media-vs-platform-access.md) — objects, locally owned files and platform access as different relationships between culture, memory and possession
 
 ### Time and labor systems
@@ -119,7 +120,6 @@ China cohort map:
 - radio
 - television
 - fax
-- home broadband
 - mobile phones
 - streaming and owned media
 - app notifications and always-on reachability
