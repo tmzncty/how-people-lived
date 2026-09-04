@@ -48,6 +48,7 @@ Related indexes:
 - [When did the first job become a starting point rather than a permanent placement?](first-job-as-a-life-course-anchor.md) — destination, career platform, experiment and AI-era apprenticeship
 - [School-to-work transition as a life stage](school-to-work-transition-as-a-life-stage.md) — when graduation and stable occupational landing cease to be one moment
 - [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.md) — the gap between universities existing and ordinary families planning around them
+- [From paper credentials to searchable proof](from-paper-credential-to-searchable-proof-education-verification-and-credential-stacking-china-1993-2026.zh-CN.md) — how paper diplomas, electronic registration, online verification and credential portfolios made qualifications more portable while creating new record, identity and database-boundary work
 - [Parents and children's futures](parents-and-childrens-futures.md) — education, migration and occupation as long-term household projects
 - [When did housing become an adulthood project?](when-did-housing-become-an-adulthood-project.md) — who solves housing and when housing separates from employment/family provision
 - [The first home: independence financed by interdependence](first-home-and-parental-support.md) — ownership, parental help and multiple kinds of independence
