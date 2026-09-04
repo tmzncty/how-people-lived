@@ -24,6 +24,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [The 24-hour life: time as a material resource](time-as-a-material-resource.md) — who controls the hours of the day and how technology shifts rather than simply removes labor
 - [Unpaid labor, care and the hidden household shift](unpaid-labor-and-care-time.md) — housework, childcare, elder care, grandparent care and gendered time budgets
 - [Commuting, transport and the price of distance](commuting-and-the-price-of-distance.md) — door-to-door time, travel energy, family distance and how mobile connectivity changes transit time
+- [Queues, waiting and release-time synchronization](queues-waiting-release-time-synchronization-and-delegated-waiting-china-1980s-2026.zh-CN.md) — physical queues, phone/Web refresh labor, backend queues, delegated waiting, waitlists and the shift from active to infrastructure-managed waiting
 - [Shift work, rotating calendars and social-time desynchronization](shift-work-rotating-calendars-and-social-desynchronization-china-1952-2026.zh-CN.md) — schedule topology, night work, rotating rest days, credential-bound schedules and the mismatch between free hours and shared social time
 - [Paid domestic service and cross-household time transfer](paid-domestic-service-care-time-substitution-and-cross-household-time-transfer-china-1985-2025.zh-CN.md) — how one household purchases another worker's time, trust/credential stacks, care-market executability and the two-household clock
 - [Repair time, maintenance debt and household uptime](repair-time-maintenance-debt-remote-diagnosis-and-household-uptime-china-1987-2025.zh-CN.md) — breakdowns, repair records, service continuity, support/download routes, remote diagnosis and repair-versus-replace thresholds
@@ -94,7 +95,6 @@ China cohort map:
 
 ### Time and labor
 
-- queues and waiting
 - sleep schedules by cohort
 - remote-work time budgets
 - AI and task-time substitution
