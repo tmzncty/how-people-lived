@@ -19,6 +19,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [From scheduled information to ambient information](from-scheduled-to-ambient-information.md) — broadcast schedules, destination Internet, logged-in social presence, portable connectivity and the disappearance of clean offline time
 - [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md) — cafés, school/public terminals, access without ownership, identity/billing sessions, the move toward home/mobile access and later device optionality
 - [Home broadband and address-bound connectivity](home-broadband-address-bound-connectivity-installation-and-household-network-readiness-china-1999-2026.zh-CN.md) — dial-up-to-utility conversion, address/port constraints, installation state stacks, household network readiness, moving and termination closure
+- [When an unfamiliar city became searchable: routefinding, local search and navigation](searchable-city-routefinding-local-search-and-navigation-china-1983-2026.zh-CN.md) — people and paper maps as wayfinding infrastructure, searchable POIs, route externalization, mobile GPS, real-world execution gaps and commute-time spatialization
 - [Owned media versus platform access](owned-media-vs-platform-access.md) — objects, locally owned files and platform access as different relationships between culture, memory and possession
 
 ### Time and labor systems
