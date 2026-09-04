@@ -15,6 +15,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Cooking fuel and stoves](cooking-fuel-and-stoves.md) — wood, coal, gas, oil and electricity as household energy systems rather than just stove types
 - [Post, telegraph and information delay](post-telegraph-and-information-delay.md) — collection schedules, last-mile delivery, telegrams and lived information speed
 - [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md) — how telephone access, job information and family contact can make migration itself easier
+- [Telephone reachability, number identity and contact-state maintenance](telephone-household-reachability-number-identity-and-contact-state-china-1980-2026.zh-CN.md) — how fixed lines addressed places and households, mobile numbers followed people, contact fields became institutional signals, and phone numbers later hardened into cross-platform identity keys
 - [Pagers, asymmetric reachability and callback labor](pagers-asymmetric-reachability-callback-labor-and-the-mobile-summons-china-1984-2026.zh-CN.md) — how portable receiving arrived before portable reply, how public telephones and paging formed one system, how 1999 Web/email gateways crossed into paging networks, and how reachability later became a boundary problem
 - [From scheduled information to ambient information](from-scheduled-to-ambient-information.md) — broadcast schedules, destination Internet, logged-in social presence, portable connectivity and the disappearance of clean offline time
 - [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md) — cafés, school/public terminals, access without ownership, identity/billing sessions, the move toward home/mobile access and later device optionality
@@ -119,7 +120,6 @@ China cohort map:
 ### Information
 
 - newspapers
-- telephone
 - radio
 - television
 - fax
