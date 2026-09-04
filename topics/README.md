@@ -23,6 +23,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [The 24-hour life: time as a material resource](time-as-a-material-resource.md) — who controls the hours of the day and how technology shifts rather than simply removes labor
 - [Unpaid labor, care and the hidden household shift](unpaid-labor-and-care-time.md) — housework, childcare, elder care, grandparent care and gendered time budgets
 - [Commuting, transport and the price of distance](commuting-and-the-price-of-distance.md) — door-to-door time, travel energy, family distance and how mobile connectivity changes transit time
+- [Repair time, maintenance debt and household uptime](repair-time-maintenance-debt-remote-diagnosis-and-household-uptime-china-1987-2025.zh-CN.md) — breakdowns, repair records, service continuity, support/download routes, remote diagnosis and repair-versus-replace thresholds
 
 Related indexes:
 
@@ -91,7 +92,6 @@ China cohort map:
 ### Time and labor
 
 - queues and waiting
-- repair time
 - sleep schedules by cohort
 - shift work and irregular schedules
 - paid domestic services and time substitution
