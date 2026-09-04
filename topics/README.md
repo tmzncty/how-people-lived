@@ -16,6 +16,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Post, telegraph and information delay](post-telegraph-and-information-delay.md) — collection schedules, last-mile delivery, telegrams and lived information speed
 - [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md) — how telephone access, job information and family contact can make migration itself easier
 - [From scheduled information to ambient information](from-scheduled-to-ambient-information.md) — broadcast schedules, destination Internet, logged-in social presence, portable connectivity and the disappearance of clean offline time
+- [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md) — cafés, school/public terminals, access without ownership, identity/billing sessions, the move toward home/mobile access and later device optionality
 - [Owned media versus platform access](owned-media-vs-platform-access.md) — objects, locally owned files and platform access as different relationships between culture, memory and possession
 
 ### Time and labor systems
@@ -23,6 +24,8 @@ They are not intended to give one universal history. Their job is to provide reu
 - [The 24-hour life: time as a material resource](time-as-a-material-resource.md) — who controls the hours of the day and how technology shifts rather than simply removes labor
 - [Unpaid labor, care and the hidden household shift](unpaid-labor-and-care-time.md) — housework, childcare, elder care, grandparent care and gendered time budgets
 - [Commuting, transport and the price of distance](commuting-and-the-price-of-distance.md) — door-to-door time, travel energy, family distance and how mobile connectivity changes transit time
+- [Shift work, rotating calendars and social-time desynchronization](shift-work-rotating-calendars-and-social-desynchronization-china-1952-2026.zh-CN.md) — schedule topology, night work, rotating rest days, credential-bound schedules and the mismatch between free hours and shared social time
+- [Paid domestic service and cross-household time transfer](paid-domestic-service-care-time-substitution-and-cross-household-time-transfer-china-1985-2025.zh-CN.md) — how one household purchases another worker's time, trust/credential stacks, care-market executability and the two-household clock
 - [Repair time, maintenance debt and household uptime](repair-time-maintenance-debt-remote-diagnosis-and-household-uptime-china-1987-2025.zh-CN.md) — breakdowns, repair records, service continuity, support/download routes, remote diagnosis and repair-versus-replace thresholds
 
 Related indexes:
@@ -93,8 +96,6 @@ China cohort map:
 
 - queues and waiting
 - sleep schedules by cohort
-- shift work and irregular schedules
-- paid domestic services and time substitution
 - remote-work time budgets
 - AI and task-time substitution
 
@@ -118,7 +119,6 @@ China cohort map:
 - radio
 - television
 - fax
-- Internet cafés
 - home broadband
 - mobile phones
 - streaming and owned media
