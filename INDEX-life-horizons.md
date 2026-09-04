@@ -13,6 +13,7 @@ This index collects entries about what people thought a life should become.
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
 - [When did changing jobs become normal?](topics/when-did-changing-jobs-become-normal.md)
+- [When did moving city become an ordinary career strategy?](topics/moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md)
 - [Retirement as a historical life stage](topics/retirement-as-a-life-stage.md)
 - [What did people save for?](topics/what-did-people-save-for.md)
 - [What counted as independence?](topics/what-counted-as-independence.md)
