@@ -41,6 +41,7 @@ Related indexes:
 ### Life-horizon systems
 
 - [Life goals, adulthood and the expected life course](life-goals-and-adulthood.md) — what counted as adulthood, success, failure and a complete life
+- [Mediated partner search, personals and searchable intimacy](mediated-partner-search-personals-online-dating-and-searchable-intimacy-china-1981-2026.zh-CN.md) — how newspaper personals, marriage agencies and online dating widened stranger reach, serialized life-course attributes into searchable fields, and shifted partner search into screening, verification and cross-channel relationship work
 - [What did a "good job" mean?](what-did-a-good-job-mean.md) — wages, housing, welfare, stability, status, family formation and geographic mobility
 - [When did "I don't like this job" become a sufficient reason to leave?](when-did-liking-your-job-become-a-reason-to-leave.md) — from survival and security to job satisfaction, fit, calling and work-life integration
 - [When did the first job become a starting point rather than a permanent placement?](first-job-as-a-life-course-anchor.md) — destination, career platform, experiment and AI-era apprenticeship
