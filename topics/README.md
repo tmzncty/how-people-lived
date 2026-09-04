@@ -53,6 +53,7 @@ Related indexes:
 - [The first home: independence financed by interdependence](first-home-and-parental-support.md) — ownership, parental help and multiple kinds of independence
 - [Leaving the parental home as a life stage](leaving-parental-home-as-a-life-stage.md) — why residential and economic independence can occur at different ages
 - [When did changing jobs become normal?](when-did-changing-jobs-become-normal.md) — from allocated/lifetime employment toward career management and repeated job search
+- [When did moving city become an ordinary career strategy?](moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md) — move-first versus search-first mobility, job-market addressability, personnel-file/body decoupling, interview travel, destination portfolios, remote selection and reversible migration
 - [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work depends on pensions, savings or family support
 - [What did people save for?](what-did-people-save-for.md) — savings as evidence of which future costs households expect to finance themselves
 - [What counted as independence?](what-counted-as-independence.md) — economic, residential, occupational, geographic and intergenerational independence
@@ -130,7 +131,6 @@ China cohort map:
 ### Life horizons
 
 - what made marriage economically possible?
-- when did moving city become an ordinary career strategy?
 - when did parental support extend into the child's twenties?
 - when did pension planning become separated from one employer?
 - when did "career" become a project rather than a position?
