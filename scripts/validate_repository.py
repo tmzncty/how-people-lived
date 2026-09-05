@@ -29,6 +29,10 @@ REFERENCE_DEFINITION_PATTERN = re.compile(r"^[ \t]{0,3}\[[^\]\n]+\]:")
 URI_SCHEME_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
 WINDOWS_ABSOLUTE_PATH_PATTERN = re.compile(r"^[A-Za-z]:[\\/]")
 MARKDOWN_DESTINATION_ESCAPE_PATTERN = re.compile(r"\\([\\()])")
+MARKDOWN_FENCE_OPEN_PATTERN = re.compile(
+    r"^ {0,3}(?P<marker>`{3,}|~{3,})(?P<info>[^\r\n]*)$"
+)
+MARKDOWN_FENCE_CLOSE_PATTERN = re.compile(r"^ {0,3}(?P<marker>`{3,}|~{3,})[ \t]*$")
 REQUIRED_MANIFEST_FIELDS = {"$schema", "schema_version", "datasets"}
 REQUIRED_DATASET_FIELDS = {
     "id",
@@ -609,20 +613,33 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
 
 
 def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
-    fence: str | None = None
-    for line_number, line in enumerate(
-        path.read_text(encoding="utf-8").splitlines(), start=1
-    ):
-        stripped = line.lstrip()
-        if stripped.startswith(("```", "~~~")):
-            marker = stripped[:3]
-            if fence is None:
-                fence = marker
-            elif marker == fence:
-                fence = None
+    fence_marker: str | None = None
+    fence_length = 0
+    # Universal-newline decoding normalizes CR, LF, and CRLF to "\n".
+    # Split only that delimiter; CommonMark does not treat other separators as lines.
+    markdown_lines = path.read_text(encoding="utf-8").split("\n")
+    if markdown_lines[-1] == "":
+        markdown_lines.pop()
+    for line_number, line in enumerate(markdown_lines, start=1):
+        if fence_marker is None:
+            opener = MARKDOWN_FENCE_OPEN_PATTERN.fullmatch(line)
+            if opener is not None:
+                marker = opener.group("marker")
+                info = opener.group("info")
+                if marker[0] != "`" or "`" not in info:
+                    fence_marker = marker[0]
+                    fence_length = len(marker)
+                    continue
+        else:
+            closer = MARKDOWN_FENCE_CLOSE_PATTERN.fullmatch(line)
+            if closer is not None:
+                marker = closer.group("marker")
+                if marker[0] == fence_marker and len(marker) >= fence_length:
+                    fence_marker = None
+                    fence_length = 0
+            # Content and non-matching marker lines inside a fence are inert.
             continue
-        if fence is None:
-            yield line_number, line
+        yield line_number, line
 
 
 def _inline_markdown_targets(line: str) -> Iterator[str]:
