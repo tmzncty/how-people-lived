@@ -29,6 +29,7 @@ REFERENCE_DEFINITION_PATTERN = re.compile(r"^[ \t]{0,3}\[[^\]\n]+\]:")
 URI_SCHEME_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
 WINDOWS_ABSOLUTE_PATH_PATTERN = re.compile(r"^[A-Za-z]:[\\/]")
 MARKDOWN_DESTINATION_ESCAPE_PATTERN = re.compile(r"\\([\\()])")
+MARKDOWN_FENCE_MARKER_PATTERN = re.compile(r"^ {0,3}(?P<marker>`{3,}|~{3,})")
 REQUIRED_MANIFEST_FIELDS = {"$schema", "schema_version", "datasets"}
 REQUIRED_DATASET_FIELDS = {
     "id",
@@ -613,9 +614,9 @@ def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
     for line_number, line in enumerate(
         path.read_text(encoding="utf-8").splitlines(), start=1
     ):
-        stripped = line.lstrip()
-        if stripped.startswith(("```", "~~~")):
-            marker = stripped[:3]
+        fence_match = MARKDOWN_FENCE_MARKER_PATTERN.match(line)
+        if fence_match is not None:
+            marker = fence_match.group("marker")[:3]
             if fence is None:
                 fence = marker
             elif marker == fence:

@@ -1144,6 +1144,71 @@ class RepositoryValidatorTests(unittest.TestCase):
                 any("missing local link target" in error for error in errors), errors
             )
 
+    def test_only_gfm_fence_indentation_hides_markdown_links(self) -> None:
+        cases = (
+            ("flush left", "", True),
+            ("one space", " ", True),
+            ("two spaces", "  ", True),
+            ("three spaces", "   ", True),
+            ("four spaces", "    ", False),
+            ("tab", "\t", False),
+            ("non-breaking space", "\u00a0", False),
+        )
+        for marker in ("```", "~~~"):
+            for name, prefix, is_fence in cases:
+                with self.subTest(marker=marker, indentation=name):
+                    with tempfile.TemporaryDirectory() as directory:
+                        root = Path(directory)
+                        self.make_fixture(root)
+                        (root / "README.md").write_text(
+                            f"{prefix}{marker}\n"
+                            "[Missing](does-not-exist.md)\n"
+                            f"{prefix}{marker}\n",
+                            encoding="utf-8",
+                        )
+
+                        errors, checked = validate_markdown_links(root)
+
+                        if is_fence:
+                            self.assertEqual(errors, [])
+                            self.assertEqual(checked, 0)
+                        else:
+                            self.assertEqual(checked, 1)
+                            self.assertTrue(
+                                any(
+                                    "missing local link target" in error
+                                    for error in errors
+                                ),
+                                errors,
+                            )
+
+    def test_four_space_marker_cannot_close_a_gfm_fence(self) -> None:
+        for marker in ("```", "~~~"):
+            with self.subTest(marker=marker):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    (root / "README.md").write_text(
+                        f"{marker}\n"
+                        f"    {marker}\n"
+                        "[Inside](missing-inside.md)\n"
+                        f"{marker}\n"
+                        "[Outside](missing-outside.md)\n",
+                        encoding="utf-8",
+                    )
+
+                    errors, checked = validate_markdown_links(root)
+
+                    self.assertEqual(checked, 1)
+                    self.assertTrue(
+                        any("missing-outside.md" in error for error in errors),
+                        errors,
+                    )
+                    self.assertFalse(
+                        any("missing-inside.md" in error for error in errors),
+                        errors,
+                    )
+
     def test_balanced_and_angle_inline_destinations_are_supported(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
