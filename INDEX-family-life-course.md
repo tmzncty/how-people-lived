@@ -51,6 +51,23 @@ Source:
 
 - https://www.sciencedirect.com/science/article/pii/S1568484922000120
 
+## Childcare as work infrastructure
+
+- [From nurseries to childcare points: childcare slots, care-time compatibility and parental work executability](topics/childcare-slots-care-time-compatibility-and-parental-work-executability-china-1952-2026.zh-CN.md)
+
+Childcare is not only a child-development question. It can determine whether adults can keep a job, migrate, survive school holidays, or return to work after birth.
+
+Key questions:
+
+- Does a usable care slot actually exist for this child and household?
+- Can the family afford it?
+- Do opening hours cover work and commuting hours?
+- Who absorbs care when the institution closes or the child is sick?
+- Is the household using one stable arrangement, or a portfolio of grandparents, institutions, paid care and parental leave?
+- Did Internet information merely make institutions searchable, or did it also enter application and scarce-slot allocation?
+
+This topic should be read together with grandparent care and paid domestic service rather than treating formal childcare as a complete substitute for either.
+
 ## Grandparents as infrastructure
 
 - [Grandparent care and later life across Chinese generations](places/china/generations/by-domain/grandparent-care-and-later-life.md)
