@@ -11,6 +11,7 @@ This index collects entries about what people thought a life should become.
 - [When did "I don't like this job" become a sufficient reason to leave?](topics/when-did-liking-your-job-become-a-reason-to-leave.md)
 - [Career gaps, holding states and re-entry](topics/career-gaps-holding-states-reentry-and-discontinuous-life-courses-china-1997-2026.zh-CN.md)
 - [When did university become an ordinary life option?](topics/when-did-university-become-an-ordinary-life-option.md)
+- [Education re-entry, adult continuing learning and recursive life courses](topics/education-reentry-adult-continuing-learning-and-recursive-life-courses-china-1979-2026.zh-CN.md) — how broadcast/TV university, self-study exams, Web learning platforms, continuing education and youth night schools let education recur after work rather than remain a one-time youth stage
 - [From paper credentials to searchable proof](topics/from-paper-credential-to-searchable-proof-education-verification-and-credential-stacking-china-1993-2026.zh-CN.md)
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
@@ -67,6 +68,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after mass electrification
 - before / after mass secondary education
 - before / after higher education becomes a normal family planning question
+- before / after education can re-enter adult life without requiring a full exit from work
 - before / after widespread household refrigeration
 - before / after motorization
 - before / after mass home ownership
@@ -113,6 +115,8 @@ Ask:
 - Which forms became household responsibilities?
 - Did material improvement become expected?
 - Did education lengthen economic dependence?
+- Could education recur after labour-force entry, or was the first schooling exit effectively final?
+- Could a worker test a new educational or skill route without first surrendering their current job and income?
 - Did housing become a prerequisite rather than a benefit?
 - Did old age become pension-backed retirement or remain child-supported?
 - Did more separate decisions actually change the sequence of adulthood, or only make the old sequence harder to finance?
@@ -123,7 +127,7 @@ Ask:
 
 ## The core comparison
 
-The repository now has eight linked historical questions:
+The repository now has nine linked historical questions:
 
 > **What could this person materially do?**
 
@@ -141,4 +145,6 @@ The repository now has eight linked historical questions:
 
 > **Was work only a source of livelihood and security, or had fit, enjoyment, meaning and life outside work become legitimate exit criteria?**
 
-All eight are needed to reconstruct an ordinary life.
+> **If the first educational route ended, could learning become an ordinary adult life stage again without requiring a complete reset?**
+
+All nine are needed to reconstruct an ordinary life.
