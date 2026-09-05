@@ -19,6 +19,7 @@ They are not intended to give one universal history. Their job is to provide reu
 - [Telephone reachability, number identity and contact-state maintenance](telephone-household-reachability-number-identity-and-contact-state-china-1980-2026.zh-CN.md) — how fixed lines addressed places and households, mobile numbers followed people, contact fields became institutional signals, and phone numbers later hardened into cross-platform identity keys
 - [Pagers, asymmetric reachability and callback labor](pagers-asymmetric-reachability-callback-labor-and-the-mobile-summons-china-1984-2026.zh-CN.md) — how portable receiving arrived before portable reply, how public telephones and paging formed one system, how 1999 Web/email gateways crossed into paging networks, and how reachability later became a boundary problem
 - [Electronic mail, portable addresses and the high-consequence inbox](electronic-mail-portable-address-webmail-formal-inbox-and-institutional-reachability-china-1986-2026.zh-CN.md) — research email before full Internet, free Webmail, terminal-independent addresses, inbox polling, job/institutional uses, channel specialization and provider/account continuity
+- [From fax to data reuse: documentary reachability, remote submission and proof mobility](from-fax-to-data-reuse-documentary-reachability-remote-submission-and-proof-mobility-china-1985-2026.zh-CN.md) — how public/office fax endpoints, fax/e-mail/Web hybrid applications, electronic signatures, online government and reusable digital records changed whether formal paperwork could reach a distant institution before the person did
 - [From “knowing where to look” to typing a question: directories, search engines and retrieval labor](from-knowing-where-to-look-to-typing-a-question-directories-search-engines-and-retrieval-labor-china-1980-2026.zh-CN.md) — how paper/institutional navigation, Web directories, full-text search, ranking, platform search and freshness checks changed what ordinary people could find and how much verification work remained
 - [Stranger life scripts, forums and alternative life-course visibility](stranger-life-scripts-forums-peer-advice-and-alternative-life-course-visibility-china-1980-2026.zh-CN.md) — from postal reader-letter discussions to campus BBS, forums, groups and feeds: how strangers' first-person paths became discoverable, how visible possibilities expanded faster than executable ones, and how lurkers/edits/platform ranking distort the historical record
 - [From reader letters to personal pages: self-publishing and platformed public identity](personal-homepages-self-publishing-and-platformed-public-identity-china-1980-2026.zh-CN.md) — how editor-gated publication, hosted homepages, counters and guestbooks, SNS profiles, creator accounts and defensive identity compartmentalization changed who could become publicly addressable and how that public self survived
@@ -133,7 +134,6 @@ China cohort map:
 - newspapers
 - radio
 - television
-- fax
 - mobile phones
 - streaming and owned media
 - app notifications and always-on reachability
