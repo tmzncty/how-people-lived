@@ -9,6 +9,7 @@ This index collects entries about what people thought a life should become.
 - [Life goals, adulthood and the expected life course](topics/life-goals-and-adulthood.md)
 - [What did a "good job" mean?](topics/what-did-a-good-job-mean.md)
 - [When did "I don't like this job" become a sufficient reason to leave?](topics/when-did-liking-your-job-become-a-reason-to-leave.md)
+- [Career gaps, holding states and re-entry](topics/career-gaps-holding-states-reentry-and-discontinuous-life-courses-china-1997-2026.zh-CN.md)
 - [When did university become an ordinary life option?](topics/when-did-university-become-an-ordinary-life-option.md)
 - [From paper credentials to searchable proof](topics/from-paper-credential-to-searchable-proof-education-verification-and-credential-stacking-china-1993-2026.zh-CN.md)
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
@@ -76,6 +77,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after communication makes long-distance family life easier to sustain
 - before / after parents routinely finance education or housing into a child's twenties
 - before / after workers have to manage their own career trajectory
+- before / after a non-continuous work history can still be connected back to education or employment through a holding state, buffer or re-entry route
 - before / after subjective work fit becomes a legitimate reason to change jobs
 - before / after adulthood becomes later without necessarily becoming less ordered
 - before / after preserving future options becomes a rational goal in itself
@@ -116,6 +118,7 @@ Ask:
 - Did more separate decisions actually change the sequence of adulthood, or only make the old sequence harder to finance?
 - Did the person begin optimizing for reversibility rather than one permanent destination?
 - Did a crisis teach the person that even the ordinary calendar of school, work or recruitment can fail?
+- If a standard sequence broke, did the person have an institutional or economic route back into work, school, housing or family formation?
 - Could subjective dislike, lack of meaning or work-life conflict become sufficient reason to redesign a career?
 
 ## The core comparison
