@@ -16,6 +16,7 @@ This index collects entries about what people thought a life should become.
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
 - [From rental listings to stranger households: renting, roommates and household assembly](topics/from-rental-listings-to-stranger-households-renting-roommates-and-household-assembly-china-1980-2026.zh-CN.md)
+- [Living alone and solo-household executability](topics/living-alone-one-person-households-solo-household-executability-and-service-rebundling-china-1977-2026.zh-CN.md) — how unit dorm/canteen bundling, private household fixed costs, service outsourcing, emergency fallback and chosen non-kin co-living changed whether one resident could keep a household running
 - [When did changing jobs become normal?](topics/when-did-changing-jobs-become-normal.md)
 - [When did moving city become an ordinary career strategy?](topics/moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md)
 - [Retirement as a historical life stage](topics/retirement-as-a-life-stage.md)
@@ -78,6 +79,8 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after retirement becomes an ordinary expected life stage
 - before / after employment becomes bundled with housing, welfare or other institutional services
 - before / after job and housing become separate household decisions
+- before / after living away from parents requires a full private household rather than an institutionally bundled dorm/canteen route
+- before / after one resident can keep a private household running through a mix of self-provision, market services and remote coordination
 - before / after long-distance labour migration becomes common
 - before / after communication makes long-distance family life easier to sustain
 - before / after parents routinely finance education or housing into a child's twenties
@@ -122,6 +125,8 @@ Ask:
 - Could education recur after labour-force entry, or was the first schooling exit effectively final?
 - Could a worker test a new educational or skill route without first surrendering their current job and income?
 - Did housing become a prerequisite rather than a benefit?
+- Could a person live away from kin without first assembling a full private household support stack?
+- If living alone, which chores, risks and fixed costs were self-supplied, shared, institutionally bundled or outsourced to services?
 - Did old age become pension-backed retirement or remain child-supported?
 - Did more separate decisions actually change the sequence of adulthood, or only make the old sequence harder to finance?
 - Did the person begin optimizing for reversibility rather than one permanent destination?
@@ -132,7 +137,7 @@ Ask:
 
 ## The core comparison
 
-The repository now has ten linked historical questions:
+The repository now has eleven linked historical questions:
 
 > **What could this person materially do?**
 
@@ -154,4 +159,6 @@ The repository now has ten linked historical questions:
 
 > **If an opportunity was digitally present, could this person perceive, authenticate and complete it independently rather than through a human proxy?**
 
-All ten are needed to reconstruct an ordinary life.
+> **If only one person lived in the dwelling, could the household remain operational without a mandatory co-resident, and what external service or support stack made that possible?**
+
+All eleven are needed to reconstruct an ordinary life.
