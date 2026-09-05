@@ -615,9 +615,12 @@ def validate_dataset_manifest(root: Path) -> tuple[list[str], int]:
 def _markdown_lines_outside_fences(path: Path) -> Iterator[tuple[int, str]]:
     fence_marker: str | None = None
     fence_length = 0
-    for line_number, line in enumerate(
-        path.read_text(encoding="utf-8").splitlines(), start=1
-    ):
+    # Universal-newline decoding normalizes CR, LF, and CRLF to "\n".
+    # Split only that delimiter; CommonMark does not treat other separators as lines.
+    markdown_lines = path.read_text(encoding="utf-8").split("\n")
+    if markdown_lines[-1] == "":
+        markdown_lines.pop()
+    for line_number, line in enumerate(markdown_lines, start=1):
         if fence_marker is None:
             opener = MARKDOWN_FENCE_OPEN_PATTERN.fullmatch(line)
             if opener is not None:
