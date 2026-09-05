@@ -20,6 +20,9 @@ This index collects entries about what people thought a life should become.
 - [When did moving city become an ordinary career strategy?](topics/moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md)
 - [Retirement as a historical life stage](topics/retirement-as-a-life-stage.md)
 - [What did people save for?](topics/what-did-people-save-for.md)
+- [From proof of income to credit history: borrowed futures and financial legibility](topics/credit-history-borrowing-future-income-and-financial-legibility-china-1985-2026.zh-CN.md)
+- [Commercial insurance, shock absorption and covered futures](topics/commercial-insurance-risk-pooling-shock-absorption-and-life-course-optionality-china-1979-2026.zh-CN.md) — how risk pooling, premiums, claims and online insurance changed whether a low-probability shock had to be financed entirely from the household's own future
+- [From human readers to screen-reader independence: visual impairment, assistive technology and interface executability](topics/from-human-readers-to-screen-reader-independence-visual-impairment-assistive-technology-and-interface-executability-china-1953-2026.zh-CN.md) — how braille/audio/human readers, screen readers, Web standards, authentication and fallbacks changed whether digital opportunities could be independently executed rather than merely exist
 - [What counted as independence?](topics/what-counted-as-independence.md)
 - [Communication and the cost of living far away](topics/communication-and-the-cost-of-living-far-away.md)
 - [Optionality as a life goal](topics/optionality-as-a-life-goal.md)
@@ -83,6 +86,7 @@ The same cohort can carry several different life horizons across one lifetime. U
 - before / after subjective work fit becomes a legitimate reason to change jobs
 - before / after adulthood becomes later without necessarily becoming less ordered
 - before / after preserving future options becomes a rational goal in itself
+- before / after digital interfaces can be independently completed through assistive technology rather than a human proxy
 
 The purpose is not to reduce a life to an event. It is to ask when an event changes the practical menu of adulthood.
 
@@ -124,10 +128,11 @@ Ask:
 - Did a crisis teach the person that even the ordinary calendar of school, work or recruitment can fail?
 - If a standard sequence broke, did the person have an institutional or economic route back into work, school, housing or family formation?
 - Could subjective dislike, lack of meaning or work-life conflict become sufficient reason to redesign a career?
+- Did an online opportunity remain merely visible, or could this person independently execute its interface, authentication and final transaction?
 
 ## The core comparison
 
-The repository now has nine linked historical questions:
+The repository now has ten linked historical questions:
 
 > **What could this person materially do?**
 
@@ -147,4 +152,6 @@ The repository now has nine linked historical questions:
 
 > **If the first educational route ended, could learning become an ordinary adult life stage again without requiring a complete reset?**
 
-All nine are needed to reconstruct an ordinary life.
+> **If an opportunity was digitally present, could this person perceive, authenticate and complete it independently rather than through a human proxy?**
+
+All ten are needed to reconstruct an ordinary life.
