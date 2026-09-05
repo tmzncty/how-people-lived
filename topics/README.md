@@ -68,6 +68,7 @@ Related indexes:
 - [When did moving city become an ordinary career strategy?](moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md) — move-first versus search-first mobility, job-market addressability, personnel-file/body decoupling, interview travel, destination portfolios, remote selection and reversible migration
 - [Retirement as a historical life stage](retirement-as-a-life-stage.md) — why stopping work depends on pensions, savings or family support
 - [What did people save for?](what-did-people-save-for.md) — savings as evidence of which future costs households expect to finance themselves
+- [From proof of income to credit history: borrowed futures and financial legibility](credit-history-borrowing-future-income-and-financial-legibility-china-1985-2026.zh-CN.md) — how housing/student loans, credit cards, shared credit records, online self-query, repayment calendars and record repair changed whether future income could be pulled into present life projects without making debt or credit access universally beneficial
 - [What counted as independence?](what-counted-as-independence.md) — economic, residential, occupational, geographic and intergenerational independence
 - [Optionality as a life goal](optionality-as-a-life-goal.md) — preserving the ability to change job, city, education or household plan
 
