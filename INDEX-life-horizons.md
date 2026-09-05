@@ -13,6 +13,7 @@ This index collects entries about what people thought a life should become.
 - [From paper credentials to searchable proof](topics/from-paper-credential-to-searchable-proof-education-verification-and-credential-stacking-china-1993-2026.zh-CN.md)
 - [Parents and children's futures](topics/parents-and-childrens-futures.md)
 - [When did housing become an adulthood project?](topics/when-did-housing-become-an-adulthood-project.md)
+- [From rental listings to stranger households: renting, roommates and household assembly](topics/from-rental-listings-to-stranger-households-renting-roommates-and-household-assembly-china-1980-2026.zh-CN.md)
 - [When did changing jobs become normal?](topics/when-did-changing-jobs-become-normal.md)
 - [When did moving city become an ordinary career strategy?](topics/moving-city-as-career-strategy-job-search-relocation-and-reversible-mobility-china-1980-2026.zh-CN.md)
 - [Retirement as a historical life stage](topics/retirement-as-a-life-stage.md)
