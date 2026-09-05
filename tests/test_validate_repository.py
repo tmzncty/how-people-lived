@@ -1209,6 +1209,67 @@ class RepositoryValidatorTests(unittest.TestCase):
                         errors,
                     )
 
+    def test_gfm_fence_closers_require_sufficient_length_and_no_info(self) -> None:
+        for character in ("`", "~"):
+            opener = character * 4
+            for name, pseudo_closer in (
+                ("shorter marker", character * 3),
+                ("trailing info", f"{opener} not-a-closer"),
+            ):
+                with self.subTest(character=character, closer=name):
+                    with tempfile.TemporaryDirectory() as directory:
+                        root = Path(directory)
+                        self.make_fixture(root)
+                        (root / "README.md").write_text(
+                            f"{opener}\n"
+                            f"{pseudo_closer}\n"
+                            "[Inside](missing-inside.md)\n"
+                            f"{character * 5}\n"
+                            "[Outside](missing-outside.md)\n",
+                            encoding="utf-8",
+                        )
+
+                        errors, checked = validate_markdown_links(root)
+
+                        self.assertEqual(checked, 1)
+                        self.assertTrue(
+                            any("missing-outside.md" in error for error in errors),
+                            errors,
+                        )
+                        self.assertFalse(
+                            any("missing-inside.md" in error for error in errors),
+                            errors,
+                        )
+
+    def test_backtick_fence_info_cannot_contain_backticks(self) -> None:
+        cases = (
+            ("backtick", "```yaml`invalid", "```", False),
+            ("tilde control", "~~~yaml`valid", "~~~", True),
+        )
+        for name, opener, closer, is_fence in cases:
+            with self.subTest(case=name):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    self.make_fixture(root)
+                    (root / "README.md").write_text(
+                        f"{opener}\n" "[Missing](does-not-exist.md)\n" f"{closer}\n",
+                        encoding="utf-8",
+                    )
+
+                    errors, checked = validate_markdown_links(root)
+
+                    if is_fence:
+                        self.assertEqual(errors, [])
+                        self.assertEqual(checked, 0)
+                    else:
+                        self.assertEqual(checked, 1)
+                        self.assertTrue(
+                            any(
+                                "missing local link target" in error for error in errors
+                            ),
+                            errors,
+                        )
+
     def test_balanced_and_angle_inline_destinations_are_supported(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
