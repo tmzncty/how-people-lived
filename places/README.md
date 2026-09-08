@@ -24,6 +24,16 @@ Uses rural durable-goods data to show that refrigerators and washing machines re
 
 Key lesson: national technological existence does not erase urban-rural distribution.
 
+## Soviet Union
+
+### Urban household utilities and durables, c. 1975
+
+[`soviet-union/urban-household-1975.md`](soviet-union/urban-household-1975.md)
+
+Anchors a mid-1970s urban household in official housing-infrastructure, durable-stock, wage and city floor-area series while keeping their incompatible denominators explicit.
+
+Key lesson: appliance ownership, utility infrastructure and executable consumer access are separate clocks. A washing-machine count does not by itself imply a fully automatic laundry system.
+
 ## United States
 
 ### 1930s household refrigeration transition
