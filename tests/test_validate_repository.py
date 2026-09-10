@@ -1377,6 +1377,95 @@ class RepositoryValidatorTests(unittest.TestCase):
             self.assertEqual(errors, [])
             self.assertEqual(checked, 0)
 
+    def test_invalid_percent_encoded_paths_are_rejected_deterministically(
+        self,
+    ) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "replacement-\ufffd.md").write_text(
+                "# Replacement character\n",
+                encoding="utf-8",
+            )
+            (root / "README.md").write_text(
+                "[Uppercase invalid byte](replacement-%FF.md)\n"
+                "[Lowercase invalid byte](replacement-%ff.md)\n"
+                "[Mixed invalid UTF-8](mixed-%E4%B8%AD-%FF.md)\n"
+                "[Overlong encoding](overlong-%C0%AF.md)\n"
+                "[Surrogate encoding](surrogate-%ED%A0%80.md)\n"
+                "[Out-of-range encoding](out-of-range-%F4%90%80%80.md)\n"
+                "[Truncated encoding](truncated-%E2%82.md)\n"
+                "[Embedded NUL](embedded%00nul.md)\n",
+                encoding="utf-8",
+            )
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(checked, 8)
+            self.assertEqual(
+                errors,
+                [
+                    "README.md:1: invalid local link target: "
+                    "replacement-%FF.md (invalid UTF-8 percent encoding)",
+                    "README.md:2: invalid local link target: "
+                    "replacement-%ff.md (invalid UTF-8 percent encoding)",
+                    "README.md:3: invalid local link target: "
+                    "mixed-%E4%B8%AD-%FF.md (invalid UTF-8 percent encoding)",
+                    "README.md:4: invalid local link target: "
+                    "overlong-%C0%AF.md (invalid UTF-8 percent encoding)",
+                    "README.md:5: invalid local link target: "
+                    "surrogate-%ED%A0%80.md (invalid UTF-8 percent encoding)",
+                    "README.md:6: invalid local link target: "
+                    "out-of-range-%F4%90%80%80.md "
+                    "(invalid UTF-8 percent encoding)",
+                    "README.md:7: invalid local link target: "
+                    "truncated-%E2%82.md (invalid UTF-8 percent encoding)",
+                    "README.md:8: invalid local link target: "
+                    "embedded%00nul.md (decoded path contains NUL)",
+                ],
+            )
+
+    def test_valid_percent_encoded_paths_preserve_link_components(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            nested = root / "nested"
+            nested.mkdir()
+            (root / "root-\u4e2d.md").write_text("# Root\n", encoding="utf-8")
+            (root / "replacement-\ufffd.md").write_text(
+                "# Replacement character\n",
+                encoding="utf-8",
+            )
+            (nested / "\u6df7\u5408-\u4e2d.md").write_text(
+                "# Mixed\n",
+                encoding="utf-8",
+            )
+            (nested / "literal-%GG.md").write_text(
+                "# Literal percent\n",
+                encoding="utf-8",
+            )
+            (nested / "encoded-%.md").write_text(
+                "# Encoded percent\n",
+                encoding="utf-8",
+            )
+            (nested / "source.md").write_text(
+                '[Uppercase](/root-%E4%B8%AD.md?raw=%FF#part "Title %FF")\n'
+                "[Lowercase](/root-%e4%b8%ad.md#part?raw=%ff)\n"
+                "[Mixed raw and encoded](\u6df7\u5408-%E4%B8%AD.md)\n"
+                "[Uppercase encoded slash](%2Froot-%E4%B8%AD.md)\n"
+                "[Lowercase encoded slash](%2froot-%e4%b8%ad.md)\n"
+                "[Encoded replacement](%2Freplacement-%EF%BF%BD.md)\n"
+                "[Lowercase replacement](%2freplacement-%ef%bf%bd.md)\n"
+                "[Literal invalid escape](literal-%GG.md)\n"
+                "[Encoded percent](encoded-%25.md)\n"
+                "[Fragment only](#part-%FF)\n"
+                "[Query only](?raw=%FF#part)\n",
+                encoding="utf-8",
+            )
+
+            errors, checked = validate_markdown_links(root)
+
+            self.assertEqual(errors, [])
+            self.assertEqual(checked, 9)
+
     def test_windows_absolute_markdown_destinations_are_rejected(self) -> None:
         for target in ("C:/missing.md", r"C:\missing.md"):
             with self.subTest(target=target):

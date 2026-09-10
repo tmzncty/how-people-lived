@@ -13,7 +13,7 @@ import re
 import sys
 from collections.abc import Iterator
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import unquote_to_bytes
 
 MANIFEST_RELATIVE_PATH = Path("data/dataset-manifest.json")
 SCHEMA_RELATIVE_PATH = Path("schemas/dataset-manifest.schema.json")
@@ -162,6 +162,10 @@ class StrictJsonError(ValueError):
 
 class MarkdownLinkSyntaxError(ValueError):
     """Raised when an inline Markdown destination is not closed."""
+
+
+class MarkdownLinkPathError(ValueError):
+    """Raised when a local Markdown destination cannot name a Git path."""
 
 
 def _reject_duplicate_json_keys(
@@ -726,6 +730,18 @@ def _inline_markdown_targets(line: str) -> Iterator[str]:
     yield from (target for _, target in targets)
 
 
+def _decode_markdown_path(path_part: str) -> str:
+    """Decode a URL path without replacing bytes that are not valid UTF-8."""
+
+    try:
+        decoded = unquote_to_bytes(path_part).decode("utf-8")
+    except UnicodeDecodeError as exc:
+        raise MarkdownLinkPathError("invalid UTF-8 percent encoding") from exc
+    if "\0" in decoded:
+        raise MarkdownLinkPathError("decoded path contains NUL")
+    return decoded
+
+
 def validate_markdown_links(root: Path) -> tuple[list[str], int]:
     """Validate canonical inline Markdown link destinations used by the repository."""
 
@@ -793,8 +809,15 @@ def validate_markdown_links(root: Path) -> tuple[list[str], int]:
                     path_part = target.split("#", 1)[0].split("?", 1)[0]
                     if not path_part:
                         continue
-                    path_part = unquote(path_part)
                     checked += 1
+                    try:
+                        path_part = _decode_markdown_path(path_part)
+                    except MarkdownLinkPathError as exc:
+                        errors.append(
+                            f"{display_path}:{line_number}: invalid local link "
+                            f"target: {target} ({exc})"
+                        )
+                        continue
                     try:
                         if path_part.startswith("/"):
                             resolved = (root / path_part.lstrip("/")).resolve()
