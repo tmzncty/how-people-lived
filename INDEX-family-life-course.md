@@ -68,6 +68,24 @@ Key questions:
 
 This topic should be read together with grandparent care and paid domestic service rather than treating formal childcare as a complete substitute for either.
 
+## Paid domestic service as household and care infrastructure
+
+- [From “finding a nanny” to domestic-service platforms: paid household labor, care addressability, time outsourcing and trust infrastructure](topics/paid-domestic-service-care-labor-addressability-household-time-outsourcing-and-trust-infrastructure-china-1984-2026.zh-CN.md)
+
+Paid domestic service is not merely a consumer service. It can determine whether another adult can stay in paid work, migrate, care for several generations, or keep a household running through illness, childbirth or schedule mismatch.
+
+Key questions:
+
+- Is the need for childcare, eldercare, patient care, cooking or cleaning being met by kin, an institution, a paid worker, or a portfolio of all three?
+- Is the worker live-in, daytime, hourly or shared across households?
+- Who finds whom: relatives, neighborhood organizations, an agency, telephone hotline, Web profile, messaging service or platform?
+- Does a digital profile make the worker independently digitally capable, or is an agency worker acting as a proxy?
+- Which identity, training, health, insurance or background fields are actually verified, and which remain claims?
+- Does online matching reduce only search and interview cost, or also improve continuity after the worker enters the home?
+- Whose time and health absorb the household's newly purchased flexibility?
+
+This topic should be read with childcare, grandparent care, migration, informal work and later-life care. A dual-earner household can be sustained by a third person's paid labor, and that labor should not disappear from the life-course model.
+
 ## Distributed parenting and remote care
 
 - [From “parents on the phone” to mediated co-presence: care bandwidth, caregiver relay and the physical-actuator gap](topics/remote-parenting-left-behind-children-care-bandwidth-and-mediated-copresence-china-1995-2026.zh-CN.md) — how telephone, school video rooms, QQ/WeChat, asynchronous voice, location, transfers and shared digital activity let migrant parents keep participating in family life while grandparents, teachers and other nearby adults remained necessary for embodied care
