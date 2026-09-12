@@ -106,8 +106,6 @@ Look for security, respectability, promotion, marriage, household formation, chi
 
 Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, job change that destroys welfare or pension security, work that consumes health or family life, or repeated option-preserving delays that eventually become costly.
 
-A modern reader may rank these differently from the people being studied.
-
 ### What future was imaginable?
 
 Each future entry should distinguish:
