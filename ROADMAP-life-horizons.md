@@ -114,7 +114,7 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 - [x] urban household saving and future burdens, 1995–2005
 - [ ] urban household, c. 1995: children, housing, transport, appliances and neighborhood life
 - [ ] urban young adult, c. 2005: first job, housing, computers/mobile phones, marriage and parental transfers
-- [ ] migrant worker, c. 1995 and c. 2005: dormitory, wages, communication, remittances and return plans
+- [x] migrant worker, c. 1995 and c. 2005: dormitory, wages, communication, remittances and return plans — [completed profile](places/china/migrant-worker-life-horizons-1995-2005.zh-CN.md)
 - [ ] first-generation university student, c. 2000–2005
 - [ ] first commercial-home buyer cohort
 - [ ] marriage and housing readiness by city and income
