@@ -122,7 +122,7 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 - [ ] rural parents, c. 1995: how migration changes hopes for children
 - [ ] adulthood milestones across 1980 / 1990 / 2000 / 2005 with timing data
 - [ ] parental financial support for housing, 2000–2010
-- [ ] transition from parent-supported education to child-supported old age
+- [x] transition from parent-supported education to child-supported old age — [completed synthesis: support overlap and channel-specific reversal](topics/intergenerational-support-overlap-flow-reversal-and-multigenerational-horizons-china-1989-2024.zh-CN.md)
 
 ### Cross-period comparison files
 
@@ -139,8 +139,8 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 - [x] When does communication reduce the social cost of migration?
 - [ ] When does migration become a normal stage rather than a permanent rupture?
 - [ ] When does a parent's support for a child extend from childhood into housing and early marriage?
-- [ ] When does the child-to-parent flow reverse?
-- [ ] How many future generations is one household financially planning for at once?
+- [x] When does the child-to-parent flow reverse? — [answer: no single household-wide flip; reversals are channel- and event-specific](topics/intergenerational-support-overlap-flow-reversal-and-multigenerational-horizons-china-1989-2024.zh-CN.md)
+- [x] How many future generations is one household financially planning for at once? — [three-generation overlap is directly visible in 2007, 2019 and 2024 evidence](topics/intergenerational-support-overlap-flow-reversal-and-multigenerational-horizons-china-1989-2024.zh-CN.md)
 
 ## Historical-break method
 
