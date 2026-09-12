@@ -113,7 +113,7 @@ Keep entries centered on education, occupation, family, housing, consumption, ho
 - [x] rural parental educational aspirations, Gansu, early 2000s
 - [x] urban household saving and future burdens, 1995–2005
 - [ ] urban household, c. 1995: children, housing, transport, appliances and neighborhood life
-- [ ] urban young adult, c. 2005: first job, housing, computers/mobile phones, marriage and parental transfers
+- [x] urban young adult, c. 2005: first job, housing, computers/mobile phones, marriage and parental transfers — [completed profile](places/china/urban-young-adult-life-horizons-2005.zh-CN.md)
 - [x] migrant worker, c. 1995 and c. 2005: dormitory, wages, communication, remittances and return plans — [completed profile](places/china/migrant-worker-life-horizons-1995-2005.zh-CN.md)
 - [x] first-generation university student, c. 2000–2005 — [completed profile](places/china/first-generation-university-student-life-horizons-2000-2005.zh-CN.md)
 - [ ] first commercial-home buyer cohort
