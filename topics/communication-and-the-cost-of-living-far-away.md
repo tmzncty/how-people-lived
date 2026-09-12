@@ -148,6 +148,40 @@ This is a useful warning against assuming:
 
 Sometimes better communication makes **distributed family life** possible.
 
+## Between the household landline and the personal mobile: portable long-distance service
+
+The transition did not move directly from `no telephone` to `household telephone` to `personal mobile`.
+
+Around 1999–2008, prepaid IP telephone cards, campus 201 systems and commercial public phone bars created an important intermediate state:
+
+```text
+shared / borrowed / public telephone terminal
++
+personal card / account / PIN / prepaid balance
+=
+a portable right to place a long-distance call
+```
+
+This matters especially for students, migrant workers, travelers and collective-dorm residents who could obtain temporary access to a terminal without owning the line.
+
+The detailed source slice is:
+
+- [`../sources/contemporaneous-prepaid-ip-telephone-cards-public-phone-bars-and-portable-long-distance-access-china-1999-2008.zh-CN.md`](../sources/contemporaneous-prepaid-ip-telephone-cards-public-phone-bars-and-portable-long-distance-access-china-1999-2008.zh-CN.md)
+
+Two distinctions should remain visible in future life slices:
+
+```text
+terminal ownership != communication-service entitlement
+```
+
+and
+
+```text
+cheap outbound calling != personal inbound reachability
+```
+
+A migrant could become much better able to call home before acquiring a stable personal number through which home could reach the migrant at any moment. That is a different stage of distributed family life from later always-carried mobile reachability.
+
 ## Questions for a life slice
 
 - What is the fastest affordable communication method?
@@ -159,6 +193,8 @@ Sometimes better communication makes **distributed family life** possible.
 - Does job information arrive by letter, phone, newspaper, recruiter or personal network?
 - Can money be sent without physically returning?
 - Does communication technology change how often the person travels home?
+- Does the person own the terminal, or merely carry a card/account that can be used from a shared terminal?
+- Can the person place an outgoing call cheaply without having a stable number for incoming calls?
 
 ## Literature question
 
@@ -188,6 +224,8 @@ The emotional structure of migration can change dramatically.
 - remittance technologies
 - smartphones and video calling
 - how communication changes frequency of home visits
+- portable prepaid calling identities before personal mobile ownership
+- outgoing-versus-incoming reachability under shared-terminal communication
 
 The central principle is:
 
