@@ -58,6 +58,7 @@ This index collects entries about what people thought a life should become.
 - [Urban youth in China, mid-1980s](places/china/1980s-urban-youth-life-horizons.md) — first job, work-unit bundle, housing scarcity, selective higher education and household formation
 - [Rural youth in China, 1990s](places/china/1990s-rural-youth-life-horizons.md) — farming, local non-farm work, migration, remittances, household strategy and uneven appliance adoption
 - [Rural parents in Gansu, early 2000s](places/china/rural-parents-gansu-educational-horizons-2000s.md) — educational aspirations for sons and daughters, household investment and old-age reciprocity
+- [Family first-generation university students in China, c. 2000–2005](places/china/first-generation-university-student-life-horizons-2000-2005.zh-CN.md) — family financing, institutional-navigation inheritance gaps, campus support bundles, peer/BBS navigation and the graduation-to-city unbundling cliff
 - [Urban households, 1995–2005: saving for the future](places/china/urban-households-saving-for-the-future-1995-2005.md) — housing, education, health, employment uncertainty and why rising income could coexist with rising saving
 - [Contemporary youth in China, 2026](places/china/contemporary-youth-life-horizons-2026.md) — large graduate cohorts, postgraduate and civil-service routes, market careers, flexible employment, city/housing choices, delayed family decisions and preserving optionality
 
@@ -104,6 +105,8 @@ Look for security, respectability, promotion, marriage, household formation, chi
 ### What counted as failure?
 
 Look for unemployment, debt, dependence, downward mobility, inability to establish a household, family breakdown, loss of reputation, failed migration, education that does not produce the expected route, housing costs that postpone household formation, job change that destroys welfare or pension security, work that consumes health or family life, or repeated option-preserving delays that eventually become costly.
+
+A modern reader may rank these differently from the people being studied.
 
 ### What future was imaginable?
 
