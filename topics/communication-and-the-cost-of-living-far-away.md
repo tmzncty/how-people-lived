@@ -182,6 +182,43 @@ cheap outbound calling != personal inbound reachability
 
 A migrant could become much better able to call home before acquiring a stable personal number through which home could reach the migrant at any moment. That is a different stage of distributed family life from later always-carried mobile reachability.
 
+## Between fixed-location reachability and the personal mobile: pager addressability
+
+Wireless paging filled the opposite half of that gap.
+
+By the late 1990s, a person could carry a pager and therefore remain individually **addressable while away from a household, dorm or office telephone**, even though the pager usually could not complete a two-way conversation on its own.
+
+The practical stack was often:
+
+```text
+someone pages me
+→ my pager displays a callback number or short message
+→ I find a public / borrowed / workplace telephone
+→ I call back
+```
+
+The detailed research slice is:
+
+- [`../sources/contemporaneous-pager-callback-choreography-and-web-email-bridges-china-1998-2001.zh-CN.md`](../sources/contemporaneous-pager-callback-choreography-and-web-email-bridges-china-1998-2001.zh-CN.md)
+
+This adds two distinctions to the communication timeline:
+
+```text
+personal incoming addressability != personal two-way terminal
+```
+
+and
+
+```text
+alert mobility != reply mobility
+```
+
+The social effect matters. A person no longer had to remain beside one known telephone to be reachable; but a page could still create a new obligation to stop what they were doing, locate a telephone and return the call.
+
+By 1999, Web and email gateways were also feeding messages into Chinese paging networks. This means Internet-mediated communication could already affect a recipient who was not themselves an Internet user: the sender might use a browser or email while the recipient still saw only a pager alert and then replied through the PSTN.
+
+This is an important pre-smartphone intermediate state in distributed family, work and travel life.
+
 ## Questions for a life slice
 
 - What is the fastest affordable communication method?
@@ -195,6 +232,9 @@ A migrant could become much better able to call home before acquiring a stable p
 - Does communication technology change how often the person travels home?
 - Does the person own the terminal, or merely carry a card/account that can be used from a shared terminal?
 - Can the person place an outgoing call cheaply without having a stable number for incoming calls?
+- Can the person be paged while moving, and if so where can they actually find a telephone to reply?
+- Does a pager show only a callback number, or enough text to avoid a call?
+- Can an Internet user send a message into the person's non-Internet communication endpoint?
 
 ## Literature question
 
@@ -209,6 +249,8 @@ Ask:
 - How long does uncertainty last?
 - What does a missed letter or telegram mean?
 - Could someone simply phone before traveling?
+- Could someone page them without knowing which telephone they were currently near?
+- If their pager beeped, how far did they have to walk before they could answer?
 
 The emotional structure of migration can change dramatically.
 
@@ -217,7 +259,9 @@ The emotional structure of migration can change dramatically.
 - village landline adoption
 - public telephone shops
 - long-distance calling prices
-- pager adoption
+- pager adoption and callback practices
+- numeric versus alphanumeric paging
+- Web / email gateways into paging networks
 - mobile phone ownership by rural/urban households
 - SMS and migrant communication
 - internet cafes and migrant job search
