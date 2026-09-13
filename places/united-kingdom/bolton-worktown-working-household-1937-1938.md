@@ -18,7 +18,7 @@ The strongest result is methodological. Bolton gives unusually dense local obser
 | Evidence scale | Place / population | What it can establish | What it cannot establish |
 |---|---|---|---|
 | Mass-Observation Worktown Collection | Bolton and Blackpool, 1937–1940 | locally observed routines, conversations, shopping, housing, work, leisure; existence of specific household-budget and rent records | a population-representative Bolton average unless a particular M-O count/survey has a defensible sampling frame |
-| Ministry of Labour household-budget inquiry | working-class households across Great Britain, 1937–1938 | national expenditure structure and a carefully designed working-household sample | Bolton-specific expenditure, and the experience of households whose head was unemployed |
+| Ministry of Labour household-budget inquiry | working-class households across Great Britain, 1937–1938; the selected person was not necessarily the household head | expenditure structure within the survey's recruitment boundaries; separately recorded employment of the head and other wage earners | Bolton-specific expenditure or a representative account of all poor households, including the long-term unemployed |
 | Lancashire cotton evidence in parliamentary debate | Lancashire weaving districts, 1937–1938 | contemporary descriptions of a 48-hour week, piece-rate dependence and underemployment | an official Bolton wage mean or a representative household budget |
 
 This separation matters because the archive is unusually vivid. Vividness is not the same thing as representativeness.
@@ -54,6 +54,8 @@ Modern reconstruction of the surviving returns gives the scale of the completed 
 
 The preserved microdata are only a random subsample of that much larger original collection. A later Economic History Review article notes that **623 households** were randomly selected for preservation, producing 2,492 weekly budgets across the four survey weeks. Quantitative results from the surviving files therefore reconstruct the original survey from that preserved subsample rather than from all 10,762 complete four-wave households.
 
+The [official Study 7916 guide](https://doc.ukdataservice.ac.uk/doc/7916/mrdoc/pdf/7916uguide.pdf#page=31), in its 1937–1938 codebook (printed pp. 3–5; PDF pp. 31–33), confirms the 10,762 complete households and 623 surviving household summaries / 2,492 quarterly records. It describes the surviving summaries as a closely representative subsample; it does not itself establish random selection for preservation. The stronger random-preservation description above retains its separate journal attribution. Checking the codebook is not a new verification of the journal tables, their analytical sample restrictions or weighting.
+
 For the surviving 1937–1938 Ministry of Labour returns, the reported household characteristics include:
 
 | Measure | Mean | Median | 10th percentile | 90th percentile |
@@ -65,17 +67,19 @@ For the surviving 1937–1938 Ministry of Labour returns, the reported household
 
 The original monetary unit is pence (`d.`), under the pre-decimal system of 12d = 1s and 20s = £1. The figures are left in their reported unit so that the underlying table remains auditable.
 
-The first-order lived consequence is simple: **food alone absorbed about 43 percent of expenditure for the mean and median working household in the surviving sample.** A household could therefore have a much higher real standard of living than an Edwardian household while still having relatively little room for errors, illness, unemployment or a sudden large purchase.
+The table reports a **mean household food-expenditure share of 43 percent and a median share of 43 percent**. These are summaries of household shares, not the ratio of the two mean expenditure amounts. A household could therefore have a much higher real standard of living than an Edwardian household while still having relatively little room for errors, illness, unemployment or a sudden large purchase.
 
 ### Evidence boundary
 
-This Ministry of Labour survey is unusually strong for **working households**. It should not be used as if it sampled every poor household. The 1937 first-wave sampling frame centered on households headed by employed manual and non-manual workers below the stated income ceiling, with supplementary occupational groups. Households without a working head are not represented by the main survey in the same way.
+The official codebook says that **manual workers generally** were recruited, while the **£250 salary ceiling applied to non-manual workers** (printed p. 3; PDF p. 31). Its instructions also state that the **selected person was not necessarily the household head** (printed p. 11; PDF p. 39). `q3_EmploymentGroups` records the head's and other wage earners' employment separately, including a category for a head not at work during the survey week; `q4_StatusGroup` separately describes the selected person's household situation. These are recruitment and coding definitions, not counts of observed household types.
+
+The guide says the survey excluded the **long-term unemployed**. That limitation must remain, but it does not imply that every sampled household's head was at work. Nor do the codebook's available categories establish which observations a later journal article retained for a particular expenditure or nutrition table. Those analytical populations need their own table notes and methods; the survey should not be treated as representative of every poor household.
 
 That boundary is crucial in an industrial town where unemployment and short-time work were real risks.
 
 ### Evidence strength
 
-**A for the contemporary survey design; A-/B+ for modern calculations from the preserved random subsample.** Hansard records the government’s planned design contemporaneously. Gazeley, Newell, Reynolds and Rufrancos reconstruct the surviving household files in peer-reviewed research and identify the preservation/sampling limits.
+**A for the contemporary survey design; A-/B+ for modern calculations from the preserved summaries.** Hansard records the government’s planned design contemporaneously. The institutional codebook documents recruitment, surviving-record counts and coding definitions. Gazeley, Newell, Reynolds and Rufrancos reconstruct the surviving household files in peer-reviewed research; their table-specific populations and preservation claims remain distinct from the codebook evidence.
 
 ## Food quality changed sharply with income even inside the working population
 
@@ -123,9 +127,11 @@ This evidence should be handled cautiously:
 The key life-history variable is therefore not merely `hours_present_at_work` but also something like:
 
 ```text
-productive-equipment-hours
-= worker attendance hours × share of assigned machinery actually operating
+equivalent full-assignment operating hours
+= worker attendance hours × average share of assigned looms actually operating
 ```
+
+Here the operating share is averaged over the attendance period. This is a schematic capacity normalization, not measured total loom-hours or a wage formula: summing loom-hours would also require the number of assigned looms.
 
 A household budget can be squeezed without the adult gaining free time. **Underemployment can exist inside a 48-hour attendance week.**
 
@@ -263,7 +269,7 @@ Not automatically. Some mill photographs were arranged and staged; even candid p
 
 ### “The 1930s poor were one population”
 
-No. The Ministry of Labour evidence is strongest for employed working households. Households with unemployed heads or female heads could have materially different diets and budgets and require separate evidence.
+No. Survey recruitment, the head's employment during a particular week, and the population retained in a later analysis are different questions. The codebook does not categorically exclude a household merely because its head was not at work that week. Comparisons involving unemployed-headed or female-headed households still need explicit subgroup definitions and evidence; the existence of a coding category is not a measured prevalence or a subgroup budget.
 
 ## Immediate household goals that the evidence supports
 
@@ -328,8 +334,9 @@ That would turn this first framework note into an actual household microhistory.
 |---|---|---|---|
 | University of Sussex, Mass-Observation Worktown Collection finding aids | institutional archive catalogue | **A- for provenance / contents** | scope of Worktown study; existence of shopping, budget, price and rent files |
 | UK Hansard, Household Budgets (Inquiry), 22 July 1937 | contemporaneous government statement | **A for survey design** | 30,000-household invitation plan; four survey weeks; purpose of inquiry |
+| UK Data Service, Study 7916 guide, 1937–1938 MoL codebook, printed pp. 3–5 and 11 (PDF pp. 31–33 and 39) | institutional data documentation | **documented recruitment / coding / preservation counts** | occupational salary-ceiling distinction; selected person versus head; employment categories, not frequencies; 10,762 / 623 / 2,492 counts; not an independent check of journal table values or random preservation |
 | Gazeley, Newell, Reynolds & Rufrancos, “How hungry were the poor in late 1930s Britain?”, *Economic History Review* 75(1) | peer-reviewed reanalysis of surviving household files | **A-/B+** | completed sample counts, expenditure distribution, nutrition, selection boundaries |
-| Gazeley, “Household structure, labour participation, and economic inequality in Britain, 1937–61,” *Economic History Review* | peer-reviewed survey-method reconstruction | **B+** | 623-household preserved random subsample / 2,492 weekly budgets |
+| Gazeley et al., “Household structure, labour participation, and economic inequality in Britain, 1937–61,” *Economic History Review* | peer-reviewed survey-method reconstruction | **B+** | journal attribution for the 623-household preserved random subsample / 2,492 weekly budgets; distinct from what the guide alone establishes |
 | UK Hansard, Lancashire cotton debates, 3 Feb. 1937 and 17 May 1938 | contemporaneous parliamentary testimony | **B-** | weaver wage claims, 48-hour attendance, piece-rate / idle-loom mechanism |
 | Bolton Museums / Bolton Worktown, Humphrey Spender photo catalogue | institutional museum catalogue + documentary photographs | **A-/documented local cases** | washing day, pavement cleaning, Happy Homes exhibition, photographic staging caveat |
 
@@ -351,8 +358,8 @@ That would turn this first framework note into an actual household microhistory.
 
 - UK Hansard, “Household Budgets (Inquiry),” 22 July 1937: https://hansard.parliament.uk/Commons/1937-07-22/debates/77199bd4-ae5c-448c-89a3-06650fb22ae4/HouseholdBudgets%28Inquiry%29
 - Ian Gazeley, Andrew Newell, Kevin Reynolds and Hector Rufrancos, “How hungry were the poor in late 1930s Britain?”, *The Economic History Review* 75, no. 1 (2022): https://onlinelibrary.wiley.com/doi/10.1111/ehr.13079
-- Ian Gazeley, “Household structure, labour participation, and economic inequality in Britain, 1937–61,” *The Economic History Review* (2024): https://onlinelibrary.wiley.com/doi/10.1111/ehr.13248
-- UK Data Service, *Living standards of working households in Britain, 1904–1954*, DOI 10.5255/UKDA-SN-7916-1.
+- Ian Gazeley, Andrew Newell, Kevin Reynolds and Hector Rufrancos, “Household structure, labour participation, and economic inequality in Britain, 1937–61,” *The Economic History Review* 77, no. 1 (2024): 41–59. https://doi.org/10.1111/ehr.13248
+- UK Data Service, *Living standards of working households in Britain, 1904–1954*, DOI 10.5255/UKDA-SN-7916-1; [official user guide](https://doc.ukdataservice.ac.uk/doc/7916/mrdoc/pdf/7916uguide.pdf), 1937–1938 MoL codebook (2013), printed pp. 3–5 and 11 (PDF pp. 31–33 and 39).
 
 ### Lancashire cotton work comparator
 
