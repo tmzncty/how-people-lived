@@ -148,3 +148,101 @@ opened capture = false
 5. 只有真的出现新的生活路径/制度接口/时间机制/跨国差异，才重置饱和计数。
 
 这比继续扩张专题数更接近当前阶段真正的研究瓶颈。
+
+---
+
+## 8. Artifact-first 复查：第二轮（2026-09-14）
+
+上一轮之后，仓库又补过一轮新浪职业规划材料的 provenance 校正：第一人称正文作者、共享出版账号、实际发布者、显示发布时间与原始写作时间必须分开。那一轮同样属于证据升级而非新机制，因此进入本轮时，跨仓连续 no-new-mechanism 计数仍为 `1/3`。
+
+本轮再次先读两仓最新 HEAD、最近提交、方法文件、ROADMAP / INDEX、既有 saturation audit 与已有专题，然后才选择 artifact。这个顺序产生了一个直接的去重收益：原本候选的“拨号上网怎样占用家庭电话、怎样按连接时长计算成本”已经有专门研究包：
+
+- `sources/contemporaneous-dial-up-household-time-bills-and-phone-line-decoupling-china-1997-2003.zh-CN.md`
+- `topics/from-dial-up-session-budgeting-to-always-on-household-connectivity-home-internet-provisioning-china-1986-2026.zh-CN.md`
+- OWA 对应 `research/dial-up-metered-session-phone-line-contention-and-access-context-loss-1997-2003.md`
+
+因此本轮明确放弃再写“占线 / 猫叫 / 按分钟上网”的同义专题。
+
+## 9. 西祠精确 memento：重试仍未取得可核验 artifact
+
+本轮按上一检查点给出的第一优先级，重新追：
+
+- 原始 URL：`http://www.xici.net/b373044/d50430566.htm`
+- candidate memento：`https://web.archive.org/web/20110724135817/http://www.xici.net/b373044/d50430566.htm`
+
+当前 3rabica 参考页仍然直接暴露这条精确 Wayback locator，可再次确认“这个 locator 确实存在于后出的参考链中”。但沿该链接获取历史 replay 时，本轮返回的是当前研究通路的 fetch/cache failure，主文档没有被取回；另一路 archive index 查询也遇到当前环境的网络解析失败。
+
+所以证据状态**没有升级**：
+
+```text
+exact locator independently re-confirmed
+opened historical main document = false
+HTTP / DOM / charset / board chrome / post metadata = unknown
+capture absence = NOT established
+```
+
+这次失败应只理解为 `replay not obtained in this run`，不能改写为“Wayback 没存”“历史页不存在”或“西祠 artifact 已经恢复”。OWA 同一 artifact note 已追加这次 retry 结果，不另造新的状态缺口文件。
+
+## 10. Carboy 的一个新 artifact lead：1997 年确有整站本地下载行为，但副本尚未恢复
+
+本轮检查另一个已有具体对象 `完全上网手册 / Carboy` 时，找到一条接近时代的一手/记者材料，可把“本地副本可能参与旧网页保存”从一般方法假设收窄到具体人物与年份。
+
+刘韧在新浪科技 2000-11-06 的《杨震霆广州网事》中写到：1997 年王峻涛为了学习做网站，把“完全上网手册”整个下载到本机，在家集中研读数日。
+
+来源：
+
+- <https://tech.sina.com.cn/path/2000-11-06/491.shtml>
+
+同年 12 月，杨震霆自己的文章又给出历史路径 `business.gznet.com/carboy/`，并回顾“完全上网手册”的内容、托管迁移和后来只剩碎片的状态：
+
+- <https://tech.sina.com.cn/r/m/46310.shtml>
+
+这带来一个**artifact recovery lead**：至少在 1997 年曾存在某个用户侧的整站本地副本，旧个人主页的后续恢复不必只盯 Wayback，也可以检查公开捐赠的硬盘镜像、CD-ROM、离线网页包、软件附盘、个人公开镜像或后来合法公开的保存副本。
+
+但必须严格限制结论：
+
+- 2000 年报道能证明“1997 年有人整站下载并离线阅读”这一叙述进入了接近时代的公开文本；
+- 它**不能证明**那份 1997 本地副本今天仍然存在；
+- 不能据此去追私人硬盘、私人账号或未公开个人文件；
+- 仓库已经有 offline browser / local corpus / personal homepage preservation 相关机制，因此这不是新的生活路径或新的通信机制，只是把既有保存路径钉到一个具体历史对象上。
+
+## 11. 海外 artifact 对照：GeoCities 的保存依赖“抢救生态”，不是原站天然幸存
+
+本轮重新检查 GeoCities 的保存路径作为海外对照。Archive Team 的 GeoCities Project 记录：Yahoo 宣布关闭后，项目从 2009 年 4 月持续抢救到 10 月关闭前；与此同时 Internet Archive 进行了大规模 deep crawl。Archive Team 的后续说明还明确说，不同抢救项目得到的 GeoCities 子集并不相同，彼此需要交换数据和寻找缺口。
+
+来源：
+
+- <https://wiki.archiveteam.org/index.php/GeoCities_Project>
+- <https://wiki.archiveteam.org/index.php/Geocities>
+
+这对 Carboy / 中文个人主页的意义主要是**保存生态对照**：
+
+- 原始托管服务消失，并不意味着 artifact 必然消失；
+- 历史可见性可能取决于停站前的大规模抓取、用户侧下载、镜像站、离线介质和后来数据整理；
+- 反过来，没有出现类似 GeoCities 大规模协调抢救的中文个人主页集合，会造成更严重的 survivor bias。
+
+但本轮没有取得一个新的中国历史页面本体，也没有证明 Carboy 存在仍可读取的私人/公开副本。因此这个海外比较仍属于方法和保存路径上的确认，不应被夸大为新的跨国生活机制。
+
+## 12. 第二轮后的饱和判断
+
+本轮取得了两类进展：
+
+1. 西祠精确 memento 的 replay 失败被再次结构化确认，没有再制造一个新的 state-gap 文件；
+2. Carboy 得到一个 1997 年“整站下载到本机”的具体 preservation lead，可指导未来寻找公开 derivative artifact。
+
+但按用户定义的研究饱和标准，本轮仍然：
+
+- 没有发现新的生活路径类别；
+- 没有发现新的制度接口；
+- 没有发现新的时代时间感机制；
+- 没有发现新的通信 / Internet 转折机制；
+- GeoCities 主要强化既有 preservation ecology 判断；
+- 没有取得足以实质改变当前 HPL 结论的新一手 artifact。
+
+因此，本轮应把连续饱和计数推进为：
+
+**阶段饱和连续计数：`2/3`。**
+
+尚未达到 closure 条件，因此现在仍不应关闭本阶段研究。
+
+下一轮的判断阈值应更严格：优先继续尝试**实际可打开、可检查 DOM / charset / headers / subresources 的历史 artifact**，或取得同一对象第二历史时点。如果下一轮再次只有 locator、后出回忆或已有机制的佐证，而没有新路径 / 新接口 / 新时间机制 / 新通信转折 / 结论改变型一手证据，则应按既定标准进入 `3/3`，先做 coverage audit，然后写阶段性 closure / synthesis，而不是继续靠新名词延长专题列表。
