@@ -34,6 +34,16 @@ Anchors a mid-1970s urban household in official housing-infrastructure, durable-
 
 Key lesson: appliance ownership, utility infrastructure and executable consumer access are separate clocks. A washing-machine count does not by itself imply a fully automatic laundry system.
 
+## Transatlantic routes
+
+### Liverpool–New York steerage passenger, c. 1875
+
+[`transatlantic/liverpool-new-york-steerage-c1875.md`](transatlantic/liverpool-new-york-steerage-c1875.md)
+
+Reconstructs a steerage crossing as a chained migration system: Liverpool ticket and equipment costs, communal berth and meal rules, a documented 12-day 1875 voyage, Castle Garden processing, baggage handling, communication and onward rail ticketing.
+
+Key lesson: by the 1870s steam passage could be a mature, behaviorally integrated transport service without making the passenger's daily living conditions private or modern.
+
 ## United States
 
 ### 1930s household refrigeration transition
