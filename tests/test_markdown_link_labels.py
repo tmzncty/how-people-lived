@@ -87,6 +87,37 @@ class MarkdownLinkLabelTests(unittest.TestCase):
             ],
         )
 
+    def test_citation_separators_preserve_reference_link_policy(self) -> None:
+        cases = (
+            ("enumeration comma", "、", False),
+            ("ASCII comma", ", ", False),
+            ("adjacent", "", True),
+            ("space only", " ", True),
+            ("tab only", "\t", True),
+        )
+        for name, separator, rejects_reference in cases:
+            with self.subTest(separator=name):
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    (root / "source.md").write_text("# Source\n", encoding="utf-8")
+                    (root / "README.md").write_text(
+                        f"Sources [S1]{separator}[S2]. [Source](source.md)\n",
+                        encoding="utf-8",
+                    )
+
+                    errors, checked = validate_markdown_links(root)
+
+                    self.assertEqual(checked, 1)
+                    expected_errors = (
+                        [
+                            "README.md:1: unsupported reference-style link; "
+                            "use inline form"
+                        ]
+                        if rejects_reference
+                        else []
+                    )
+                    self.assertEqual(errors, expected_errors)
+
     def test_deeply_nested_labels_do_not_depend_on_python_recursion(self) -> None:
         line = "[" * 1_500 + "label" + "]" * 1_500 + "(target.md)"
 
