@@ -36,6 +36,14 @@ Key lesson: appliance ownership, utility infrastructure and executable consumer 
 
 ## United States
 
+### Rural Tennessee radio access, 1930–1931
+
+[`united-states/tennessee-rural-radio-1930-1931.md`](united-states/tennessee-rural-radio-1930-1931.md)
+
+Reconstructs the thin early distribution of radio among Tennessee rural-farm families and the battery-powered technical path around missing household mains electricity.
+
+Key lesson: commercial availability and technical executability can outrun affordability and social distribution; radio did not require the grid, but that did not make it ordinary.
+
 ### 1930s household refrigeration transition
 
 [`united-states/1930s-household-refrigeration.md`](united-states/1930s-household-refrigeration.md)
