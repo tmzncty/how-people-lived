@@ -158,8 +158,8 @@ Initial sequence:
 - [ ] Atlantic steamship passenger, 1870s
 - [x] U.S. urban household, 1930s refrigeration transition
 - [x] U.S. 1920–1940 urban/farm electrification divide
-- [ ] British household, late 1930s, using Mass Observation material
-- [ ] U.S. factory worker, c. 1910
+- [x] British household, late 1930s, using Mass Observation material — first Bolton/Worktown pass
+- [x] U.S. factory worker, c. 1910 — first Southern cotton-mill family pass
 - [ ] Japanese urban household, 1960s
 - [ ] Soviet urban household, 1970s
 - [ ] Indian urban household, 1980s
