@@ -36,6 +36,14 @@ Key lesson: appliance ownership, utility infrastructure and executable consumer 
 
 ## United States
 
+### Lower East Side public bathing, 1901–1902
+
+[`united-states/lower-east-side-public-bath-1901-1902.md`](united-states/lower-east-side-public-bath-1901-1902.md)
+
+Reconstructs bathing as an externalized household service for New York tenement residents around the opening of the Rivington Street Municipal Bath.
+
+Key lesson: a household can live inside a modern water-and-sewer city while the final usable bathing interface remains outside the dwelling, turning cleanliness into a trip, queue and timed public service.
+
 ### Rural Tennessee radio access, 1930–1931
 
 [`united-states/tennessee-rural-radio-1930-1931.md`](united-states/tennessee-rural-radio-1930-1931.md)
