@@ -155,7 +155,7 @@ Each note should answer:
 Initial sequence:
 
 - [x] London clerk, c. 1872 — infrastructure frame; wage/rent/time-use pass still needed
-- [ ] Atlantic steamship passenger, 1870s
+- [x] Atlantic steamship passenger, 1870s — first Liverpool–New York steerage/emigrant-system pass; cabin-class and wage-affordability comparison still needed
 - [x] U.S. urban household, 1930s refrigeration transition
 - [x] U.S. 1920–1940 urban/farm electrification divide
 - [ ] British household, late 1930s, using Mass Observation material
