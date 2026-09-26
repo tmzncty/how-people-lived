@@ -34,6 +34,16 @@ Anchors a mid-1970s urban household in official housing-infrastructure, durable-
 
 Key lesson: appliance ownership, utility infrastructure and executable consumer access are separate clocks. A washing-machine count does not by itself imply a fully automatic laundry system.
 
+## United Kingdom
+
+### Walthamstow workmen's-train commute, 1901–1903
+
+[`united-kingdom/london/walthamstow-workmens-trains-1901-1903.md`](united-kingdom/london/walthamstow-workmens-trains-1901-1903.md)
+
+Reconstructs cheap Great Eastern Railway commuting as a combined fare-and-timetable system: low cash prices could be paired with early departures, restricted ticket validity, crowding and unpaid waiting before work.
+
+Key lesson: transport affordability is not only a fare-to-wage ratio; schedule compatibility and time costs determine whether a nominally cheap service is actually usable.
+
 ## United States
 
 ### Lower East Side public bathing, 1901–1902

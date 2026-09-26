@@ -60,7 +60,7 @@ Build topic notes that can be reused across many life slices.
 ## Phase 3 — Time, work and money
 
 - [ ] historical working-day length
-- [ ] commuting
+- [ ] commuting — first Walthamstow/Liverpool Street workmen's-train micro-slice added; broader coverage still needed
 - [ ] household budgets
 - [ ] wage-to-price comparisons
 - [ ] paid domestic service
@@ -80,7 +80,7 @@ The aim is to be able to answer: **where did a person's 24 hours go?**
 - [x] horse omnibus — initial London evidence
 - [ ] horse and carriage more broadly
 - [ ] tram and streetcar
-- [ ] railway classes and fares
+- [ ] railway classes and fares — first workmen's-fare/schedule case added; broader class and fare coverage still needed
 - [ ] steamship classes and timetables
 - [ ] buses
 - [ ] motorcycles
