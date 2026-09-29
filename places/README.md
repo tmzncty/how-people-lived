@@ -24,6 +24,16 @@ Uses rural durable-goods data to show that refrigerators and washing machines re
 
 Key lesson: national technological existence does not erase urban-rural distribution.
 
+## Japan
+
+### Household durables at the Tokyo Olympics, 1964
+
+[`japan/household-durables-tokyo-olympics-1964.md`](japan/household-durables-tokyo-olympics-1964.md)
+
+Reconstructs the uneven household diffusion of television, washing machines and refrigerators around the 1964 Tokyo Olympics.
+
+Key lesson: the “three sacred treasures” were not one synchronized adoption event. Television could already coordinate national behavior while refrigerators were still in a rapid household transition.
+
 ## Soviet Union
 
 ### Urban household utilities and durables, c. 1975
