@@ -16,7 +16,7 @@ The decade changed very quickly.
 - **Early 1930s:** aircraft such as the Ford Tri-Motor were still representative of the sensory world of early airline travel: intense engine noise, low-altitude flight and strong exposure to weather.
 - **Mid-1930s:** all-metal monoplanes such as the Boeing 247, DC-2 and then DC-3 sharply improved speed, reliability and passenger comfort.
 - **1935-1936:** the Douglas DC-3 emerged as a 21-seat transport capable of making passenger service much more economically viable.
-- **Late 1938:** the Boeing 307 Stratoliner first flew. It was the first airliner with a pressurized fuselage and could cruise above much of the weather that made earlier flights rough.
+- **Late 1938:** the Boeing 307 Stratoliner first flew. It was the first airliner with a pressurized fuselage, but scheduled passenger operation of the type belongs to 1940. For a 1930s passenger, pressurization was therefore a visible technological frontier rather than yet a normal cabin experience.
 - **By 1939:** the Smithsonian notes that DC-3s accounted for about 90 percent of world airline traffic.
 
 A photograph from 1930 and a passenger account from 1938 may therefore describe materially different systems.
@@ -138,9 +138,9 @@ Primary source:
 
 - UK Parliament, Hansard, 4 May 1938, “Imperial Airways, Limited (Schedules)”: https://hansard.parliament.uk/commons/1938-05-04/debates/05872c71-5dcb-45c9-8a46-e53acde68bff/ImperialAirwaysLimited%28Schedules%29
 
-## Pressurization changed the meaning of weather
+## Pressurization was the next boundary — not yet the normal 1930s passenger experience
 
-The Boeing 307 is a useful boundary marker because it shows exactly what earlier passengers did **not** have.
+The Boeing 307 is a useful boundary marker because it shows exactly what 1930s passengers generally did **not** have. The prototype first flew at the end of 1938, but TWA did not place pressurized Stratoliners into airline service until 1940.
 
 The Smithsonian records that the Stratoliner:
 
@@ -152,13 +152,14 @@ The Smithsonian records that the Stratoliner:
 
 Only ten were built.
 
-So “1930s flying” should not be summarized as simply “unpressurized.” The more precise statement is:
+So “1930s flying” can be summarized more precisely as:
 
-> For most of the decade, scheduled airline passengers experienced the limits of unpressurized flight directly; at the very end of the decade, pressurization appeared as a rare high-end technological boundary that pointed toward the postwar system.
+> Scheduled airline passengers in the 1930s normally experienced the limits of unpressurized flight directly. Pressurization had reached the prototype/airliner-design stage by the end of 1938, but routine airline passengers did not begin receiving that benefit until the following decade.
 
-Source:
+Sources:
 
 - Smithsonian National Air and Space Museum, Boeing 307 Stratoliner object record: https://airandspace.si.edu/collection-objects/boeing-307-stratoliner-clipper-flying-cloud/nasm_A19730267000
+- Smithsonian Annals of Flight, noting TWA's 1940 introduction of pressurized Boeing 307 service: https://repository.si.edu/server/api/core/bitstreams/ad1b4ecf-0b1a-400a-8c72-b87d4634560d/content
 
 ## A reconstructed life slice: an affluent U.S. passenger, mid-to-late 1930s
 
@@ -209,7 +210,7 @@ It is:
 - Long-distance services were multi-day systems of repeated flight legs and ground stops.
 - Day-scale delays were common enough to appear clearly in contemporary operating reports.
 - DC-3-class aircraft substantially improved the economics and comfort of passenger service.
-- Pressurization appeared at the very end of the decade but was not yet normal.
+- Pressurization reached the airliner prototype stage at the very end of the decade; scheduled pressurized passenger service followed in 1940.
 
 ### What we can reasonably infer
 
@@ -249,6 +250,8 @@ Future research should recover route- and airline-specific evidence for:
   https://airandspace.si.edu/collection-objects/douglas-dc-3/nasm_A19530075000
 - Smithsonian National Air and Space Museum, Boeing 307 Stratoliner object record  
   https://airandspace.si.edu/collection-objects/boeing-307-stratoliner-clipper-flying-cloud/nasm_A19730267000
+- Smithsonian Annals of Flight, discussion of TWA introducing pressurized Boeing 307 service in 1940  
+  https://repository.si.edu/server/api/core/bitstreams/ad1b4ecf-0b1a-400a-8c72-b87d4634560d/content
 
 ### Contemporary / primary evidence
 
