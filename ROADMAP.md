@@ -132,6 +132,28 @@ Keep this section focused on material and everyday conditions rather than politi
 
 The key theme is **uneven adoption**: technologies can be old globally but new in ordinary household life.
 
+## Cross-cutting axis — death, loss and household continuity
+
+Death should not appear only as the final endpoint of a life course. Build comparative life slices around the practical work created by mortality.
+
+- [x] establish the living-with-death research framework
+- [x] connect modern death administration and digital afterlife notes
+- [ ] age-specific mortality and life-table source guide
+- [ ] infant and child death as household experience
+- [ ] widowhood, orphanhood and replacement household labor
+- [ ] dying at home versus institutional dying
+- [ ] body handling, funeral labor and funeral cost by place/period
+- [ ] cemetery capacity, grave reuse, secondary burial and cremation
+- [ ] battlefield dead, wounded, missing and post-battle cleanup
+- [ ] epidemic/famine/disaster aftermath from the survivor's next-day perspective
+- [ ] literature context cases: lament, battlefield writing, burial conflict and mourning
+
+The research question is not simply **how many people died?**
+
+It is:
+
+> **How did people continue ordinary life while death repeatedly entered the household and community?**
+
 ## Phase 6 — Literature companion
 
 Build notes around works where infrastructure changes how the plot is understood.
