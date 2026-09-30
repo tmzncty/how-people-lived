@@ -35,6 +35,7 @@ They are not intended to give one universal history. Their job is to provide reu
 ### Movement systems
 
 - [Flying before pressurization: what a 1930s airline passenger actually experienced](air-travel-passenger-experience-1930s.md) — who could afford to fly, cabin noise and airsickness, luxury service, multi-day long-distance itineraries, weather delays, the DC-3 transition and the late-decade technological frontier of pressurization
+- [Travel as temporary life: tickets, baggage, transfers, hotels and waiting](travel-as-temporary-life-tickets-baggage-transfers-hotels-and-waiting.md) — a reusable door-to-door journey stack, beginning with 1930s aviation: special trains, passenger/baggage weighing, docks, hotels, stopovers, delay and the last mile
 
 ### Time and labor systems
 
