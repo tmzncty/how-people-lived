@@ -130,10 +130,39 @@ A traveler might spend several hours in a town because the aircraft itself could
 
 Source:
 
-- Anne-Gaëlle Weber? / tourism-history article, "Incidental tourism: British Imperial air travel in the 1930s," *Journal of Tourism History*:  
+- Gordon Pirie, "Incidental tourism: British Imperial air travel in the 1930s," *Journal of Tourism History* 1:1 (2009), pp. 49–66:  
   https://www.tandfonline.com/doi/full/10.1080/17551820902742772
 
-## 6. Airlines sometimes had to build the world their route required
+## 6. Most long-distance passengers were not holidaymakers
+
+The social distribution matters as much as the itinerary.
+
+Gordon Pirie's study cites a June 1938 British Air Ministry survey of passengers handled at the Southampton Empire flying-boat base. The reported trip-purpose distribution was:
+
+| Reported purpose / group | Share |
+|---|---:|
+| businessmen | 40% |
+| government officials and army officers | 30% |
+| travelling for pleasure | 20% |
+| urgent private journeys | 5% |
+| unaccounted | 5% |
+
+Pirie also compares several datasets and concludes that work-related Empire flights substantially outnumbered leisure flights.
+
+This changes how the luxurious photographs should be read. The long-distance air traveler was often not a tourist who had chosen an extravagant new holiday technology. They might be a company employee, official or officer whose work required an unusually expensive and time-saving journey.
+
+A useful repository question is therefore:
+
+> **Who paid for the ticket — the traveler, an employer, a government, or a household?**
+
+A transport service can be economically inaccessible to most households while still becoming operationally important to organizations.
+
+Source:
+
+- Gordon Pirie, "Incidental tourism: British Imperial air travel in the 1930s," *Journal of Tourism History* 1:1 (2009), especially the discussion of the June 1938 Southampton passenger survey:  
+  https://www.tandfonline.com/doi/full/10.1080/17551820902742772
+
+## 8. Airlines sometimes had to build the world their route required
 
 Pan American's transpacific service is an extreme example of infrastructure making travel possible.
 
@@ -162,7 +191,7 @@ Sources:
 - Smithsonian National Air and Space Museum, "The First Transpacific Passenger Flight":  
   https://airandspace.si.edu/stories/editorial/first-transpacific-passenger-flight
 
-## 7. The vehicle could be only one room in a much longer journey
+## 8. The vehicle could be only one room in a much longer journey
 
 William John Eck's 1939 trip on Pan American's inaugural transatlantic passenger service is useful because his scrapbook preserves more than an aircraft ride.
 
@@ -177,7 +206,7 @@ Source:
 - Smithsonian National Air and Space Museum, "\"Passenger Number One\" on Pan American's First Transatlantic Flight":  
   https://airandspace.si.edu/stories/editorial/passenger-number-one-pan-american-first-transatlantic-flight
 
-## 8. Waiting time belongs in transport history
+## 9. Waiting time belongs in transport history
 
 A timetable tells us the intended journey. Ordinary life also contains the failed timetable.
 
@@ -202,7 +231,7 @@ Primary source:
 - UK Parliament, Hansard, 4 May 1938, "Imperial Airways, Limited (Schedules)":  
   https://hansard.parliament.uk/commons/1938-05-04/debates/05872c71-5dcb-45c9-8a46-e53acde68bff/ImperialAirwaysLimited%28Schedules%29
 
-## 9. "The airport" was not yet one standardized object
+## 10. "The airport" was not yet one standardized object
 
 The 1930s contained several different departure environments:
 
@@ -222,7 +251,7 @@ Source:
 - St. Louis Lambert International Airport, airport history:  
   https://www.flystl.com/about/history/
 
-## 10. A reconstructed 1938 journey: London to the Empire
+## 11. A reconstructed 1938 journey: London to the Empire
 
 **Evidence status: synthesis of route and infrastructure evidence, not the diary of one named passenger. Details varied by date and destination.**
 
@@ -248,7 +277,7 @@ The aircraft has been important, but your actual journey has consisted of:
 
 That is why the history of travel must be larger than the history of vehicles.
 
-## 11. A reusable "journey stack" for this repository
+## 12. A reusable "journey stack" for this repository
 
 For any historical trip, reconstruct the following layers where evidence allows.
 
@@ -273,7 +302,7 @@ For any historical trip, reconstruct the following layers where evidence allows.
 
 The repository should treat these as one system whenever possible.
 
-## 12. Why this matters for literature and fiction
+## 13. Why this matters for literature and fiction
 
 Travel scenes are often misread because modern readers silently erase the logistics.
 
