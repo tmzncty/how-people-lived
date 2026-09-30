@@ -34,7 +34,7 @@ They are not intended to give one universal history. Their job is to provide reu
 
 ### Movement systems
 
-- [Flying before pressurization: what a 1930s airline passenger actually experienced](air-travel-passenger-experience-1930s.md) — who could afford to fly, cabin noise and airsickness, luxury service, multi-day long-distance itineraries, weather delays, the DC-3 transition and the late-decade arrival of pressurization
+- [Flying before pressurization: what a 1930s airline passenger actually experienced](air-travel-passenger-experience-1930s.md) — who could afford to fly, cabin noise and airsickness, luxury service, multi-day long-distance itineraries, weather delays, the DC-3 transition and the late-decade technological frontier of pressurization
 
 ### Time and labor systems
 
