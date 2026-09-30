@@ -192,6 +192,7 @@ Scope: cross-period and cross-regional; intended to connect demographic history,
 本专题是一个更宽的历史框架。仓库已经有几条现代中国的细分研究：
 
 - [死亡之后还有多少工作：家庭收尾、身后身份、网络纪念与无近亲属托底](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+- [从“一个人”到“一个单位”：纳济诺、行政分类、强制迁移与统计失踪（苏联，1933）](from-person-to-record-administrative-sorting-deportation-and-statistical-disappearance-nazino-1933.zh-CN.md)
 - [从死亡证明到“账号还活着”：死亡登记、远程追思、数字身后身份与生命终点接口](death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
 - [从“回坟”到持续联结：线上纪念、远程哀悼与身后记忆](from-grave-return-to-continuing-bond-address-online-memorial-remote-mourning-and-posthumous-memory-china-2000-2026.zh-CN.md)
 - [从墓地到数字身后世界：哀悼可寻址性、纪念持续性与身后账号治理](from-graves-to-digital-afterlives-mourning-addressability-memorial-persistence-and-posthumous-account-governance-china-1980-2026.zh-CN.md)
