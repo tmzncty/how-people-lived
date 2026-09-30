@@ -43,7 +43,20 @@ Start with:
 
 Follow:
 
-> partnership → household formation → children → midlife transfers → grandparent care → retirement / continued work → old-age support.
+> partnership → household formation → children → midlife transfers → grandparent care → retirement / continued work → old-age support → death / bereavement → household reorganization.
+
+### Death and household continuity
+
+Start with:
+
+- [Living with death: mortality, bereavement, burial and ordinary life](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [Death as household work](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+
+This branch asks a question that a life-course atlas can otherwise accidentally hide:
+
+> **How did people live in a world where other people kept dying?**
+
+It follows mortality exposure, body and burial logistics, widowhood and orphanhood, lost household labor, war/epidemic aftermath, mourning, and the practical work by which survivors kept a household or community going.
 
 ## 5. Who owned the 24 hours of an ordinary day?
 
@@ -187,7 +200,7 @@ Examples already include:
 - *Around the World in Eighty Days* — transport bandwidth;
 - *Dracula* — information-processing infrastructure.
 
-The growing life-course archive also lets literature be read through marriage timing, co-residence, job mobility, childcare, time budgets and retirement.
+The growing life-course archive also lets literature be read through marriage timing, co-residence, job mobility, childcare, time budgets, retirement, mortality exposure, burial practice, bereavement and the household consequences of war or epidemic.
 
 ## 14. China
 
@@ -224,6 +237,9 @@ The project now asks at least these linked questions:
 10. **How did paid work, unpaid care, commuting and digital reachability compete for time?**
 11. **How did the answer differ for urban/rural, women/men, migrants/non-migrants and different family resources?**
 12. **Which technologies were learned as novelties, and which were already background infrastructure?**
-13. **Which memories and artifacts are about to disappear if nobody preserves them?**
+13. **How often did death enter this person's family and social world, and at what ages?**
+14. **When someone died, who handled the body, the funeral, the lost labor, the care work and the household reorganization?**
+15. **After war, epidemic, famine or disaster, what did survivors have to do the next day to keep living?**
+16. **Which memories and artifacts are about to disappear if nobody preserves them?**
 
 That is the working definition of an atlas of ordinary life.
