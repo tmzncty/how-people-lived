@@ -6,7 +6,7 @@ The purpose is not to treat family as a fixed institution.
 
 It asks:
 
-> **How were partnership, household formation, children, parent support, grandchild care and old age connected in different periods?**
+> **How were partnership, household formation, children, parent support, grandchild care, old age, bereavement and household continuity connected in different periods?**
 
 ## Marriage and household formation
 
@@ -131,6 +131,29 @@ CHARLS 2018 retirement rates for ages 60–64 were about:
 
 So age 60 can mean retirement, continued work, agricultural labor, grandchild care or several of these at once.
 
+## Death, bereavement and household continuity
+
+- [Living with death: mortality, bereavement, burial and ordinary life](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [Death as household work: posthumous identity and kinless administration](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+- [Death registration, online mourning and posthumous identity](topics/death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
+
+A family life course does not end neatly at retirement. Members die at different ages, and each death can redistribute:
+
+- income;
+- domestic labor;
+- childcare and elder care;
+- housing;
+- inheritance and debt;
+- administrative work;
+- ritual and memory;
+- the composition of the household itself.
+
+For earlier periods, mortality must also be treated as an environment in which people lived. Ask how often a person could expect to lose siblings, children, parents, spouses or friends; where people died; who handled the body; how burial space worked; and how surviving households continued work after loss.
+
+Key question:
+
+> **When someone died, what practical work began for everyone who remained alive?**
+
 ## Co-residence and living nearby
 
 The share of Chinese people aged 65+ living with adult children declined from about:
@@ -241,6 +264,20 @@ ask:
 - Did grandchild care begin or increase?
 - Was a pension enough to support independent living?
 - Did adult children still send money?
+
+When someone says:
+
+> “He/she died.”
+
+ask:
+
+- Where did the person die, and who was present?
+- Who handled, transported and buried or cremated the body?
+- How much work, money and time did the funeral require?
+- Which income, care work or household role disappeared?
+- Who took over that work the next day?
+- Did children, a spouse or older relatives have to move or change household?
+- How long did mourning remain part of the household calendar?
 
 ## Core historical insight
 
