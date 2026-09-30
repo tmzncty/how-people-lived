@@ -43,6 +43,7 @@ It is also a **context companion for reading literature**. If a novel mentions a
 
 - [Living with death: mortality, bereavement, burial and ordinary life](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
 - [Death as household work](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+- [From a person to a record: Nazino, administrative sorting, forced movement and statistical disappearance](topics/from-person-to-record-administrative-sorting-deportation-and-statistical-disappearance-nazino-1933.zh-CN.md)
 
 ### Literature
 
