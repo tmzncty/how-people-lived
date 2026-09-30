@@ -162,7 +162,7 @@ Source:
 - Gordon Pirie, "Incidental tourism: British Imperial air travel in the 1930s," *Journal of Tourism History* 1:1 (2009), especially the discussion of the June 1938 Southampton passenger survey:  
   https://www.tandfonline.com/doi/full/10.1080/17551820902742772
 
-## 8. Airlines sometimes had to build the world their route required
+## 7. Airlines sometimes had to build the world their route required
 
 Pan American's transpacific service is an extreme example of infrastructure making travel possible.
 
