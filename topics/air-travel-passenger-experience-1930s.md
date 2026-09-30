@@ -6,6 +6,8 @@ A well-off passenger could be served meals, use a sleeper berth, read or play ca
 
 This note reconstructs the **passenger experience**, not just the aircraft technology.
 
+Companion framework: [Travel as temporary life: tickets, baggage, transfers, hotels and waiting](travel-as-temporary-life-tickets-baggage-transfers-hotels-and-waiting.md).
+
 Its main examples are U.S. domestic airlines and Imperial Airways/Qantas long-distance services because those systems have unusually good surviving evidence. They should not be treated as universal descriptions of every airline or country.
 
 ## First rule: “the 1930s” was not one stable flying experience
