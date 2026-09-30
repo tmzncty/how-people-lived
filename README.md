@@ -39,6 +39,11 @@ It is also a **context companion for reading literature**. If a novel mentions a
 - [Pandemic Everyday-Life Index](INDEX-pandemic.md)
 - [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.md)
 
+### Death, loss and household continuity
+
+- [Living with death: mortality, bereavement, burial and ordinary life](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [Death as household work](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+
 ### Literature
 
 - [Literature Context Notes](literature/README.md)
@@ -141,6 +146,10 @@ See: [Generational Life-Course Index](INDEX-generations.md).
 - how often people traveled and how far
 - what information reached them, and how quickly
 - what people feared, hoped for, saved for, or expected from adulthood
+- how often death entered families and friendship networks
+- who cared for the dying, handled bodies and organized burial or cremation
+- how households reorganized after losing a child, parent, spouse or worker
+- how ordinary life resumed after war, epidemic, famine or disaster
 - what choices were realistically available
 - what was normal, luxurious, shameful, dangerous or impossible
 

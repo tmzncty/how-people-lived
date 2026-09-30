@@ -48,6 +48,17 @@ Related indexes:
 - [`../data/INDEX-time-use-data.md`](../data/INDEX-time-use-data.md)
 - [`../sources/time-use-source-guide.md`](../sources/time-use-source-guide.md)
 
+### Death, loss and household continuity
+
+- [Living with death: mortality, bereavement, burial and ordinary life](living-with-death-mortality-bereavement-burial-and-ordinary-life.md) — research framework for mortality exposure, corpse and burial logistics, bereavement, household reorganization, war/epidemic aftermath and the practical question of how survivors continued ordinary life
+- [Death as household work: posthumous identity and kinless administration](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md) — death as survivor-executed administrative, financial, material and memorial work rather than a single terminal event
+- [Death registration, online mourning and posthumous identity](death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md) — how biological death propagates unevenly through household registration, institutions, platforms and social networks
+- [From grave return to continuing bonds](from-grave-return-to-continuing-bond-address-online-memorial-remote-mourning-and-posthumous-memory-china-2000-2026.zh-CN.md) — remote mourning, memorial addressability and continuing bonds
+- [From graves to digital afterlives](from-graves-to-digital-afterlives-mourning-addressability-memorial-persistence-and-posthumous-account-governance-china-1980-2026.zh-CN.md) — memorial persistence and posthumous account governance
+- [From visiting a grave to keeping an account alive](from-visiting-a-grave-to-keeping-an-account-alive-mourning-digital-remains-and-posthumous-social-presence-china-1980-2026.zh-CN.md) — mourning, digital remains and posthumous social presence
+
+This axis treats death as part of ordinary life rather than as the point where ordinary-life history stops. It asks both how people died and, more importantly for this repository, what surviving people had to do afterward.
+
 ### Life-horizon systems
 
 - [Life goals, adulthood and the expected life course](life-goals-and-adulthood.md) — what counted as adulthood, success, failure and a complete life
