@@ -32,6 +32,10 @@ They are not intended to give one universal history. Their job is to provide reu
 - [From rental listings to stranger households: renting, roommates and household assembly](from-rental-listings-to-stranger-households-renting-roommates-and-household-assembly-china-1980-2026.zh-CN.md) — how paper notices, online rental listings, roommate search, cost pooling, verification, remote viewing and exit work let temporary urban households be assembled without making housing automatically safe, truthful or stable
 - [Owned media versus platform access](owned-media-vs-platform-access.md) — objects, locally owned files and platform access as different relationships between culture, memory and possession
 
+### Movement systems
+
+- [Flying before pressurization: what a 1930s airline passenger actually experienced](air-travel-passenger-experience-1930s.md) — who could afford to fly, cabin noise and airsickness, luxury service, multi-day long-distance itineraries, weather delays, the DC-3 transition and the late-decade arrival of pressurization
+
 ### Time and labor systems
 
 - [The 24-hour life: time as a material resource](time-as-a-material-resource.md) — who controls the hours of the day and how technology shifts rather than simply removes labor
@@ -141,7 +145,6 @@ China cohort map:
 - buses
 - motorcycles
 - automobiles
-- aviation
 
 ### Information
 
