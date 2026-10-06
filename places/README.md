@@ -24,6 +24,16 @@ Uses rural durable-goods data to show that refrigerators and washing machines re
 
 Key lesson: national technological existence does not erase urban-rural distribution.
 
+## Japan
+
+### Automatic rice cooker, 1955–1963
+
+[`japan/automatic-rice-cooker-1955-1963.md`](japan/automatic-rice-cooker-1955-1963.md)
+
+Tracks the automatic rice cooker from commercial launch into rapid but uneven household diffusion, including the 1963 urban-rural ownership gap and the distinction between automatic shutoff, timer use and later keep-warm functions.
+
+Key lesson: an appliance can reorganize domestic time by converting supervised work into unattended machine time, while remaining unevenly distributed across households and infrastructures.
+
 ## Soviet Union
 
 ### Urban household utilities and durables, c. 1975
