@@ -54,6 +54,14 @@ Reconstructs bathing as an externalized household service for New York tenement 
 
 Key lesson: a household can live inside a modern water-and-sewer city while the final usable bathing interface remains outside the dwelling, turning cleanliness into a trip, queue and timed public service.
 
+### New York City employed-family housing, 1934–1936
+
+[`united-states/new-york-employed-household-housing-1934-1936.md`](united-states/new-york-employed-household-housing-1934-1936.md)
+
+Uses the BLS wage-earner and clerical-worker expenditure survey to reconstruct rent bundles, rooms, heat, hot water, sanitation, lighting, cooking, refrigeration and telephone access among families that remained attached to employment during the Depression.
+
+Key lesson: an apartment could have indoor running water and electric light while central heat, hot tap water, mechanical refrigeration, private toilet use and telephone service remained separate, income-stratified adoption clocks. The survey excludes relief-dependent families, so its denominator must not be mistaken for all New Yorkers.
+
 ### Rural Tennessee radio access, 1930–1931
 
 [`united-states/tennessee-rural-radio-1930-1931.md`](united-states/tennessee-rural-radio-1930-1931.md)
