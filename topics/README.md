@@ -32,6 +32,10 @@ They are not intended to give one universal history. Their job is to provide reu
 - [From rental listings to stranger households: renting, roommates and household assembly](from-rental-listings-to-stranger-households-renting-roommates-and-household-assembly-china-1980-2026.zh-CN.md) — how paper notices, online rental listings, roommate search, cost pooling, verification, remote viewing and exit work let temporary urban households be assembled without making housing automatically safe, truthful or stable
 - [Owned media versus platform access](owned-media-vs-platform-access.md) — objects, locally owned files and platform access as different relationships between culture, memory and possession
 
+### Household survival and budget systems
+
+- [When cash income shrank: household survival during the U.S. Great Depression, 1929–1939](when-cash-income-shrank-household-survival-great-depression-us-1929-1939.zh-CN.md) — how low-income households kept ordinary life running through delayed durable replacement, repair and reuse, home production and canning, kin transfers, unpaid bills, borrowing and drawing down savings, while preserving urban/rural and resource differences
+
 ### Movement systems
 
 - [Flying before pressurization: what a 1930s airline passenger actually experienced](air-travel-passenger-experience-1930s.md) — who could afford to fly, cabin noise and airsickness, luxury service, multi-day long-distance itineraries, weather delays, the DC-3 transition and the late-decade technological frontier of pressurization
