@@ -44,6 +44,16 @@ Anchors a mid-1970s urban household in official housing-infrastructure, durable-
 
 Key lesson: appliance ownership, utility infrastructure and executable consumer access are separate clocks. A washing-machine count does not by itself imply a fully automatic laundry system.
 
+## United Kingdom
+
+### Bolton food shopping and household routine, summer 1939
+
+[`united-kingdom/bolton-food-shopping-1939.md`](united-kingdom/bolton-food-shopping-1939.md)
+
+Uses the Mass-Observation Worktown food-and-shopping interviews to reconstruct daily local provisioning, stable shop relationships, household budgeting, childcare constraints and one household-specific food-spending anchor immediately before wartime rationing.
+
+Key lesson: food access was a repeated time-and-labor interface, not merely a question of whether goods were sold. In this non-random interview set, neighborhood shops were woven into daily household routine; prevalence beyond the sample remains unresolved.
+
 ## United States
 
 ### Lower East Side public bathing, 1901–1902
