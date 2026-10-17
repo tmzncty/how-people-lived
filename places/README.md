@@ -64,6 +64,14 @@ Reconstructs bathing as an externalized household service for New York tenement 
 
 Key lesson: a household can live inside a modern water-and-sewer city while the final usable bathing interface remains outside the dwelling, turning cleanliness into a trip, queue and timed public service.
 
+### Chicago women in candy factories, 1908–1910
+
+[`united-states/chicago-women-candy-factories-1908-1910.md`](united-states/chicago-women-candy-factories-1908-1910.md)
+
+Uses the 1910 federal investigation of eight Chicago candy factories to reconstruct the gap between a roughly mid-50-hour normal week and holiday rush schedules that could extend adult women's work into the night and, in some establishments, toward 90 hours a week.
+
+Key lesson: historical working time needs a seasonal distribution, not one weekly average. The production calendar could transform the same job into a different daily life for several weeks of the year.
+
 ### New York City employed-family housing, 1934–1936
 
 [`united-states/new-york-employed-household-housing-1934-1936.md`](united-states/new-york-employed-household-housing-1934-1936.md)
