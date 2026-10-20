@@ -72,6 +72,14 @@ Uses the 1910 federal investigation of eight Chicago candy factories to reconstr
 
 Key lesson: historical working time needs a seasonal distribution, not one weekly average. The production calendar could transform the same job into a different daily life for several weeks of the year.
 
+### New York City public telephone access, 1911–1912
+
+[`united-states/new-york-public-telephone-1911-1912.md`](united-states/new-york-public-telephone-1911-1912.md)
+
+Reconstructs the coin-operated public telephone as a temporary network interface for people who could not be assumed to have a telephone terminating in their own dwelling.
+
+Key lesson: ability to originate a call, ability to be reached at a known place, and continuous household reachability are different adoption stages. A mass-scale public network can make a technology usable without making it privately owned.
+
 ### New York City employed-family housing, 1934–1936
 
 [`united-states/new-york-employed-household-housing-1934-1936.md`](united-states/new-york-employed-household-housing-1934-1936.md)
