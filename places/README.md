@@ -24,6 +24,16 @@ Uses rural durable-goods data to show that refrigerators and washing machines re
 
 Key lesson: national technological existence does not erase urban-rural distribution.
 
+## Indonesia
+
+### Kawah Ijen sulfur miners, labor and tourism, c. 2010–2026
+
+[`indonesia/kawah-ijen-sulfur-miners-labor-tourism-2010-2026.zh-CN.md`](indonesia/kawah-ijen-sulfur-miners-labor-tourism-2010-2026.zh-CN.md)
+
+Reconstructs the coexistence of manually collected volcanic sulfur, heavy human transport, measured SO₂ exposure and a mature geotourism economy at Kawah Ijen. It follows the reuse of miners' wheeled sulfur carts as tourist “taxis,” and audits the widely repeated but weakly sourced claim that miners' average life expectancy is below 50.
+
+Key lesson: global industrial technology can already exist while a local work routine remains organized around terrain, capital, bodies and alternative income. Older labor does not simply survive unchanged; it can be recombined into new service markets.
+
 ## Japan
 
 ### Household durables at the Tokyo Olympics, 1964
