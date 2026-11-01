@@ -166,6 +166,9 @@ Build notes around works where infrastructure changes how the plot is understood
 
 - [x] Jules Verne, *Around the World in Eighty Days* — global steam/rail network
 - [x] Bram Stoker, *Dracula* — telegraph, phonograph, typewriter, press and railway information stack
+- [x] screen fiction as ordinary-life evidence — F1/F2/F3/F4 representation-role method plus pilot cases
+- [x] *Home with Kids / 家有儿女* — first contemporaneous family-sitcom pilot on narrative normality, household class signals and digital life
+- [x] *Wenzhou Family / 温州一家人* — retrospective-period television case on migration, entrepreneurship, family separation and life horizons
 - [ ] nineteenth-century novels — letters and postal delay
 - [ ] railway novels — classes, fares, stations and timetables
 - [ ] urban fiction — lighting and nightlife
@@ -193,7 +196,8 @@ Initial research lines:
 - [x] songs as everyday-life archives — first China 2010–2020 note
 - [x] exam-season songs as documented school use events — first sourced event dataset
 - [x] grassroots VOCALOID / prosumer production — first 2016–2018 China note
-- [ ] television serial as household life — first case: *Home with Kids / 家有儿女*, c. 2005–2007
+- [ ] *Home with Kids / 家有儿女* audience-use history — broadcast schedule, reruns, local stations, discs, co-viewing and later streaming; representation-side pilot already exists
+- [ ] *Wenzhou Family / 温州一家人* reception/use history — distinguish its 2012 audience from the 1980s–2000s world it retrospectively represents
 - [ ] fixed television schedules, family co-viewing and rerun audiences
 - [ ] cinema-going as a life slice: ticket, travel, venue, company and screening schedule
 - [ ] mobile / rural / factory / military film screenings
