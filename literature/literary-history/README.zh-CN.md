@@ -124,11 +124,10 @@ Source snapshot: `The-Paper-Cosmos@8b84bc333bb42752ebf7555db1c4434399f20560`（2
 - `../dracula-1897-information-machine.md`：通信与信息处理如何成为小说结构；
 - `../../topics/fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md`：虚构作品作为 ordinary-life evidence 的方法论；
 - `../../topics/from-mail-submission-to-serialized-platform-authorship-publishing-addressability-reader-feedback-and-second-careers-china-1980-2026.zh-CN.md`：投稿、出版地址性与作者—读者反馈；
-- `../../topics/from-dialup-bbs-to-vocaloid-grassroots-online-music-making-community-authorship-and-discovery-china-1995-2026.zh-CN.md`：网络草根创作与社区作者身份；
 - `../../topics/songs-as-everyday-life-archives-china-2010-2020.zh-CN.md`：歌曲作为日常生活与代际记忆材料；
 - `../../topics/wenzhou-family-retrospective-period-drama-mobility-family-separation-and-life-horizons-1980s-2012.zh-CN.md`：影视作品、迁徙、家庭分离与 life horizons。
 
-下一步不是另外造一套“文学区”，而是让这些页面和文学史骨架互相反向链接。
+下一步不是另外造一套“文学区”，而是让这些页面和文学史骨架互相反向链接，并继续补出 BBS、博客、同人、VOCALOID/网络歌曲等社区创作实践的专题页。
 
 ---
 
