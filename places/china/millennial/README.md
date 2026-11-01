@@ -35,6 +35,7 @@ This makes the cohort especially useful for reconstructing the **transition from
 
 - [Late-1990s / early-2000s childhood: before the Internet became ambient](childhood-1997-2003.md)
 - [2003–2010 adolescence: PC Internet, QQ, Internet cafés and owned media files](adolescence-2003-2010.md)
+- [Nanjing, 2010: future horizons of a selective urban high-school graduate](../nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md) — graduation, domestic/overseas university routes, PC-Internet circulation, mobile transition and the unequal executability of “many futures”
 - [2010–2019 young adulthood: smartphones, mobile Internet, e-commerce and compressed distance](young-adulthood-2010-2019.md)
 
 ## Related pandemic archive

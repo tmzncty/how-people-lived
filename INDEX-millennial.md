@@ -15,6 +15,7 @@ The most useful anchor is a person born around **1990**.
 - [Millennial-era archive overview](places/china/millennial/README.md)
 - [Late-1990s / early-2000s childhood: before the Internet became ambient](places/china/millennial/childhood-1997-2003.md)
 - [2003–2010 adolescence: PC Internet, QQ, Internet cafés and owned media files](places/china/millennial/adolescence-2003-2010.md)
+- [Nanjing, 2010: future horizons of a selective urban high-school graduate](places/china/nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md) — uses the *Beijing East Road* graduation-song case as a contemporary micro-source, then grounds it in education expansion, overseas study, household resources, PC-Internet circulation and mobile-phone transition
 - [2010–2019 young adulthood: smartphones, mobile Internet, e-commerce and compressed distance](places/china/millennial/young-adulthood-2010-2019.md)
 
 ## Related topic
@@ -55,6 +56,8 @@ Internet users exceed 100 million. QQ, Internet cafés, broadband, QQ Space, onl
 ### Age ~20 — 2010
 
 China has hundreds of millions of Internet users. Mobile phones are ubiquitous, but smartphone/mobile Internet is still in rapid transition.
+
+For a highly resourced urban-school graduate, the same year could also make several geographically different next steps visible at once: domestic university, another Chinese city, or overseas study. The [Nanjing 2010 graduate slice](places/china/nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md) treats this as a distributed life-horizon question rather than a claim that all young people shared the same optimism or resources.
 
 ### Age ~21 — 2011
 
@@ -98,6 +101,7 @@ Many of these systems were mature for only a few years before being replaced.
 - When did online shopping become the default route for niche goods in small cities?
 - How did smartphones change dating and long-distance relationships?
 - How did the pandemic alter a cohort that still remembered an offline childhood?
+- How did 2010 high-school graduates in ordinary urban schools, county schools and vocational tracks differ from selective-school graduates in the futures they could actually execute?
 
 ## Core historical insight
 
