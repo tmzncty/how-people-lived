@@ -53,6 +53,16 @@
       "description": "Census-based endpoints for people age 65+ co-residing with adult children."
     },
     {
+      "id": "china-exam-season-song-events",
+      "path": "china-exam-season-song-events.csv",
+      "classification": "research_scaffold",
+      "geographic_scope": ["China"],
+      "temporal_coverage": "documented school use events, 2010-2026",
+      "record_count": 16,
+      "source_columns": ["source_url"],
+      "description": "Curated, sourced use-event sample linking exam stage, school ritual, song, actor and function; this is not a popularity or prevalence dataset."
+    },
+    {
       "id": "china-first-marriage-age-selected-1990-2021",
       "path": "china-first-marriage-age-selected-1990-2021.csv",
       "classification": "measured",
