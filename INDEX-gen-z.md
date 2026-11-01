@@ -25,6 +25,7 @@ For comparison across cohorts, see [Generational Life-Course Index](INDEX-genera
 - [AI as cognitive infrastructure](topics/ai-as-cognitive-infrastructure.md)
 - [From search to collaboration: what changes when the first step is asking AI?](topics/from-search-to-ai-collaboration.md)
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
+- [Songs as everyday-life archives: from *Beijing East Road* to *Past Song*, 2010–2020](topics/songs-as-everyday-life-archives-china-2010-2020.zh-CN.md) — uses songs to recover media objects, youth time horizons, platform transitions and the moment a generation begins treating its own recent past as history
 - [Optionality as a life goal](topics/optionality-as-a-life-goal.md)
 - [When did liking your job become a reason to leave?](topics/when-did-liking-your-job-become-a-reason-to-leave.md)
 
