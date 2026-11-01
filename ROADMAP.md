@@ -1,6 +1,6 @@
 # Roadmap
 
-This project can grow indefinitely. The goal is not to "finish history" but to build enough well-sourced life slices that readers can move through time without losing the material world beneath events and literature.
+This project can grow indefinitely. The goal is not to "finish history" but to build enough well-sourced life slices that readers can move through time without losing the material world beneath events, literature and cultural memory.
 
 ## Phase 1 — Establish the research grammar
 
@@ -12,10 +12,12 @@ Status: **in progress**
 - [x] contribution guide
 - [x] life-slice template
 - [x] technology-adoption template
+- [x] cultural-work life-slice template
 - [x] initial source catalog
 - [x] first structured adoption dataset
 - [x] second structured adoption dataset (U.S. electrification)
 - [x] first literature context note
+- [x] cultural-life / shared-works research axis
 - [ ] citation-format consistency pass
 - [x] lightweight metadata schema and provenance manifest for machine-readable datasets
 - [ ] extend machine-readable metadata indexing to narrative content
@@ -154,7 +156,11 @@ It is:
 
 > **How did people continue ordinary life while death repeatedly entered the household and community?**
 
-## Phase 6 — Literature companion
+## Phase 6 — Literature, cultural life and shared works
+
+Cultural works enter the repository in two directions.
+
+### A. Restore the world assumed by a work
 
 Build notes around works where infrastructure changes how the plot is understood.
 
@@ -171,6 +177,46 @@ Build notes around works where infrastructure changes how the plot is understood
 Each note should answer:
 
 > Which parts of the plot rely on material systems that a modern reader may no longer notice?
+
+### B. Reconstruct works as part of ordinary life
+
+Do not stop at what a song, serial, film, play or hymn depicts. Study the act of encountering it.
+
+Core rule:
+
+> **Release history is not use history.**
+
+Track production, distribution infrastructure, economic access, audience distribution, repeated use, ritualization and memory afterlife.
+
+Initial research lines:
+
+- [x] songs as everyday-life archives — first China 2010–2020 note
+- [x] exam-season songs as documented school use events — first sourced event dataset
+- [x] grassroots VOCALOID / prosumer production — first 2016–2018 China note
+- [ ] television serial as household life — first case: *Home with Kids / 家有儿女*, c. 2005–2007
+- [ ] fixed television schedules, family co-viewing and rerun audiences
+- [ ] cinema-going as a life slice: ticket, travel, venue, company and screening schedule
+- [ ] mobile / rural / factory / military film screenings
+- [ ] theatre, opera and local performance actually seen by ordinary audiences
+- [ ] hymns and sacred song as repeated practice in worship, school, funeral and home settings
+- [ ] radio drama, variety and scheduled listening
+- [ ] cassette / CD / MP3 / VCD / DVD circulation and copying
+- [ ] karaoke / KTV repertories as social-use evidence
+- [ ] school, work-unit, military, congregation and community cultural events
+- [ ] later reruns, remakes, memes and streaming as second-life audiences
+
+For each case, ask:
+
+- Where could an ordinary person actually encounter the work?
+- What device, venue or institution was required?
+- What did it cost in money, travel and time?
+- Who actually encountered it, and who did not?
+- Was access private, familial, communal, institutional or public?
+- Was it repeated, sung, quoted, copied, replayed or built into a ritual?
+- Did it become attached to graduation, exams, worship, mourning, migration or another life-course transition?
+- When did later memory begin treating it as a marker of an earlier era?
+
+See [Cultural Life, Shared Works, and Memory Index](INDEX-cultural-life.md).
 
 ## Phase 7 — Global life slices
 
@@ -196,9 +242,10 @@ Once enough entries exist:
 - [ ] normalized source identifiers
 - [x] multiple adoption-series CSV files
 - [ ] price/wage datasets
-- [ ] cross-links by technology and literature work
+- [ ] cultural-use event datasets with explicit denominators and source dates
+- [ ] cross-links by technology, cultural work and literature work
 - [ ] static site or GitHub Pages index
-- [ ] interactive timeline without reducing adoption to one date
+- [ ] interactive timeline without reducing adoption or cultural reach to one date
 
 A future interface should let a reader ask questions such as:
 
@@ -207,6 +254,8 @@ A future interface should let a reader ask questions such as:
 - "What transport network makes this novel's plot possible?"
 - "How long did it take news to arrive here?"
 - "How many technological eras coexisted in one city or household?"
+- "Where did a teenager in 2005 actually watch this television series, and with whom?"
+- "When did this song become part of a graduation ritual rather than merely a released recording?"
 
 ## Research principle for every phase
 
@@ -214,4 +263,8 @@ The project should always move from:
 
 **economic and productive foundation → infrastructure → access → routine → subjective horizon**
 
-rather than jumping directly from "technology invented" or "historical event happened" to an imagined everyday life.
+For cultural works, extend the chain to:
+
+**production → distribution → access → encounter → repeated use → shared reference → memory afterlife**
+
+rather than jumping directly from "technology invented", "historical event happened" or "famous work released" to an imagined everyday life.
