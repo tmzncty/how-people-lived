@@ -27,6 +27,7 @@ For comparison across cohorts, see [Generational Life-Course Index](INDEX-genera
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
 - [Optionality as a life goal](topics/optionality-as-a-life-goal.md)
 - [When did liking your job become a reason to leave?](topics/when-did-liking-your-job-become-a-reason-to-leave.md)
+- [From *Beijing East Road* to *Graduation Notice*: graduation songs as generational micro-sources, 2010–2023](topics/graduation-songs-as-generational-micro-sources-china-2010-2023.zh-CN.md) — uses the 2023 Luo Tianyi song as a platform-era campus-memory source while keeping representation distinct from population prevalence
 
 ## Machine-readable data
 
