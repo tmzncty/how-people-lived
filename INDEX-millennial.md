@@ -21,6 +21,7 @@ The most useful anchor is a person born around **1990**.
 ## Related topic
 
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
+- [From *Beijing East Road* to *Graduation Notice*: graduation songs as generational micro-sources, 2010–2023](topics/graduation-songs-as-generational-micro-sources-china-2010-2023.zh-CN.md) — compares a real 2010 class recording with a 2023 virtual-singer production without treating either song as a population survey
 
 ## Pandemic continuation
 
