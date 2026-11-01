@@ -28,6 +28,11 @@ This is the existing literature-context method used in:
 - [*Around the World in Eighty Days*](literature/around-the-world-in-eighty-days.md)
 - [*Dracula* (1897)](literature/dracula-1897-information-machine.md)
 
+For screen fiction, the repository already has a more explicit representation method:
+
+- [Fiction as ordinary-life evidence: narrative baselines, class normalization, and latent identity stacks](topics/fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md) — introduces F1/F2/F3/F4 representation roles and pilot cases including *Home with Kids / 家有儿女*, *Big-Eared Tutu / 大耳朵图图*, *Malcolm in the Middle* and *Everybody Hates Chris*.
+- [《温州一家人》：把一家人拆开以后](topics/wenzhou-family-retrospective-period-drama-mobility-family-separation-and-life-horizons-1980s-2012.zh-CN.md) — a standalone F4 retrospective-period case on migration, entrepreneurship, family separation and life horizons.
+
 ### 2. Work as lived cultural practice
 
 Ask how the work itself became part of ordinary life:
@@ -122,25 +127,39 @@ Use [`templates/cultural-work-life-slice.md`](templates/cultural-work-life-slice
 
 ## Existing research that already belongs to this axis
 
+### Screen fiction and representation
+
+- [Fiction as ordinary-life evidence: narrative baselines, class normalization, and latent identity stacks](topics/fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md) — screen-fiction method plus *家有儿女*, *大耳朵图图* and U.S. sitcom pilot comparisons.
+- [《温州一家人》：把一家人拆开以后](topics/wenzhou-family-retrospective-period-drama-mobility-family-separation-and-life-horizons-1980s-2012.zh-CN.md) — retrospective television drama as evidence for how 2012 narrativized three decades of migration, entrepreneurship and family separation.
+
+### Songs, sound and cultural production
+
 - [Songs as everyday-life archives: from *Beijing East Road* to *Past Song*, 2010–2020](topics/songs-as-everyday-life-archives-china-2010-2020.zh-CN.md)
 - [Grassroots VOCALOID creation and short social distance, China, 2016–2018](topics/grassroots-vocaloid-creation-and-short-social-distance-china-2016-2018.zh-CN.md)
 - [Exams, Educational Gates and Life-Course Transitions Index](INDEX-exams.md)
 - [Exam-season music source guide](sources/exam-season-music-source-guide-china.zh-CN.md)
 - [Graduation Notice / 《毕业通知》 case](topics/graduation-notice-song-campus-memory-and-virtual-singer-production-china-2023.zh-CN.md)
+
+### Literature context
+
 - [Literature Context Notes](literature/README.md)
 
 ## Priority research lines
 
 ### Television and serial drama
 
-Start with works that became household or school-age reference points, but reconstruct access before making generational claims.
+The repository already has a representation-side foundation. The next step is **not** to redo *Home with Kids / 家有儿女* from scratch. It is to add the missing audience-use layer.
 
-Candidate questions:
+Priority questions:
 
-- *Home with Kids / 家有儿女*: what kind of Beijing household did it depict, who could watch it, when and where was it broadcast, and which parts of the apartment, parenting, school and consumption world were ordinary versus aspirational?
+- For *家有儿女*, when and where was it actually broadcast, rerun and encountered by different cohorts?
+- How much of its later “childhood classic” status came from first broadcast versus reruns, local stations, discs, online video and later streaming?
 - What did fixed broadcast schedules mean before on-demand viewing?
-- How did reruns create audiences younger than the original release cohort?
-- When did family co-viewing give way to bedroom, computer and phone viewing?
+- How did family co-viewing interact with one-TV households, multiple-TV households and later computer/phone viewing?
+- How did *温州一家人* circulate and get received differently from a child/family sitcom?
+- Which other dramas became shared references because of repeated broadcast rather than only high-profile premieres?
+
+Keep the existing F1/F2/F3/F4 representation-role scheme. Add a separate **encounter/use history** rather than merging representation evidence with audience evidence.
 
 ### Songs and shared soundscapes
 
