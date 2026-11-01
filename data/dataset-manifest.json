@@ -58,7 +58,7 @@
       "classification": "research_scaffold",
       "geographic_scope": ["China"],
       "temporal_coverage": "documented school use events, 2010-2026",
-      "record_count": 16,
+      "record_count": 34,
       "source_columns": ["source_url"],
       "description": "Curated, sourced use-event sample linking exam stage, school ritual, song, actor and function; this is not a popularity or prevalence dataset."
     },

@@ -7,6 +7,7 @@ The current China-focused research line begins with **zhongkao / junior-secondar
 ## Start here
 
 - [考试季为什么会有自己的歌：中考、高考、毕业与人生分流的声音史，中国，1994–2026](topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)
+- [从“喊楼”到送考：中高考如何被做成一套集体仪式，中国，2010–2026](topics/from-shout-building-to-exam-sendoff-ritualization-china-2010-2026.zh-CN.md) — traces student-led shout-building, final evening study, school institutionalization, “civilized” rituals, zhongkao/gaokao overlap and singing as an attention-management tool
 - [Exam-season music source guide](sources/exam-season-music-source-guide-china.zh-CN.md)
 - [Machine-readable exam-season song/event sample](data/china-exam-season-song-events.csv)
 
@@ -62,6 +63,8 @@ Build life slices around:
 
 The exam should be studied as a **multi-month household and institutional process**, not only the hours spent in the exam room.
 
+The [shout-building and exam-sendoff deep dive](topics/from-shout-building-to-exam-sendoff-ritualization-china-2010-2026.zh-CN.md) now separates student-led rituals, school-curated rituals, song-as-signal, pressure-release claims, exam-day sendoff and inter-grade transmission.
+
 ### 4. Sound and music
 
 Track song **use events**, not retrospective playlists.
@@ -81,6 +84,12 @@ For each event preserve:
 The core distinction is:
 
 > **release history is not use history.**
+
+A second distinction is now necessary:
+
+> **soundtrack is not function.**
+
+A song may be background music, a collective reply, a school-identity marker, the trigger signal that starts an event, or a deliberate attention-shift between exam sessions.
 
 ### 5. Media technology
 
