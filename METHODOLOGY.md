@@ -138,7 +138,53 @@ When creating a literature context note:
 4. explain what a contemporary reader may have taken for granted;
 5. avoid using a protagonist's lifestyle as representative of everyone.
 
-## 9. Politics enters only where it changes the life model
+## 9. Cultural works can be lived practice, not only contextual evidence
+
+Songs, television, film, theatre, opera, hymns, radio, games and platform-native works can be evidence in a second sense: **encountering them was itself part of ordinary life**.
+
+For this mode of research, distinguish at least:
+
+- production;
+- release or performance availability;
+- distribution infrastructure;
+- economic and practical access;
+- audience distribution;
+- repeated use or ritual;
+- shared reference;
+- later memory and revival.
+
+The central rule is:
+
+> **Release history is not use history.**
+
+A premiere, upload, publication or broadcast date proves existence. It does not prove that ordinary people encountered the work, that a household owned the required device, or that the work mattered in the same way to everyone.
+
+Useful questions include:
+
+- Where did people actually encounter the work?
+- What device, venue, institution or network was required?
+- Was access private, familial, communal, institutional or public?
+- Did the work arrive on a fixed schedule or on demand?
+- Was it repeated, memorized, sung, quoted, copied, taped, downloaded, reposted or re-performed?
+- Did it attach itself to graduation, exams, worship, mourning, courtship, migration, military service or another life-course transition?
+- Did later reruns, streaming, memes or nostalgia create a second audience?
+
+Preserve denominator boundaries:
+
+- broadcast coverage is not viewership;
+- viewership is not household ownership;
+- sales are not unique audience size;
+- cultural recognizability is not prevalence;
+- collective singing does not prove private belief;
+- lyrics and fictional depictions are not surveys.
+
+Retrospective memory is valuable evidence, but it has its own date. A person remembering a television series in 2026 is evidence for memory afterlife in 2026, not automatically direct evidence for audience behavior in 2005.
+
+Do not write “the song of a generation” or “everyone watched it” unless the evidence actually supports that scope. Ask instead which cohorts encountered it at what age, through which medium, in what social setting, and who remained outside its reach.
+
+See [Cultural Life, Shared Works, and Memory Index](INDEX-cultural-life.md) and [`templates/cultural-work-life-slice.md`](templates/cultural-work-life-slice.md).
+
+## 10. Politics enters only where it changes the life model
 
 The repository does not aim to reproduce political-event history. However, institutions and public policy sometimes directly determine rationing, schooling, migration, work assignment, housing, transport access, prices, or infrastructure.
 
@@ -151,7 +197,7 @@ When such context is indispensable:
 
 The unit of analysis remains ordinary life.
 
-## 10. Record uncertainty
+## 11. Record uncertainty
 
 Each substantial entry should contain a section such as:
 
@@ -161,7 +207,7 @@ Each substantial entry should contain a section such as:
 
 Absence of evidence is especially common for domestic labor, children, poor households, informal work, private emotion, and routine activities that contemporaries considered too ordinary to record.
 
-## 11. Prefer primary or institutional sources for numbers
+## 12. Prefer primary or institutional sources for numbers
 
 A rough source hierarchy:
 
@@ -173,7 +219,7 @@ A rough source hierarchy:
 
 For everyday-life reconstruction, lower-status documents such as advertisements, catalogues, household manuals, menus and timetables can be extremely valuable primary evidence, but they must be read for what they actually prove.
 
-## 12. A useful final test
+## 13. A useful final test
 
 After drafting an entry, ask:
 
