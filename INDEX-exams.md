@@ -8,6 +8,7 @@ The current China-focused research line begins with **zhongkao / junior-secondar
 
 - [考试季为什么会有自己的歌：中考、高考、毕业与人生分流的声音史，中国，1994–2026](topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)
 - [从“喊楼”到送考：中高考如何被做成一套集体仪式，中国，2010–2026](topics/from-shout-building-to-exam-sendoff-ritualization-china-2010-2026.zh-CN.md) — traces student-led shout-building, final evening study, school institutionalization, “civilized” rituals, zhongkao/gaokao overlap and singing as an attention-management tool
+- [《高考恋爱一百天》与《文科班篇》：把高考前一百天做成可以选择、可以失败、可以回看的生活](topics/gaokao-love-100-days-and-humanities-class-interactive-exam-life-china-2014-2018.zh-CN.md) — uses a visual novel and its official humanities-class spin-off to study countdown time, mock exams, tutoring, exam hotels, branching futures, media life and the gradual dissolution of a graduating class
 - [Exam-season music source guide](sources/exam-season-music-source-guide-china.zh-CN.md)
 - [Machine-readable exam-season song/event sample](data/china-exam-season-song-events.csv)
 
@@ -65,6 +66,8 @@ The exam should be studied as a **multi-month household and institutional proces
 
 The [shout-building and exam-sendoff deep dive](topics/from-shout-building-to-exam-sendoff-ritualization-china-2010-2026.zh-CN.md) now separates student-led rituals, school-curated rituals, song-as-signal, pressure-release claims, exam-day sendoff and inter-grade transmission.
 
+The [*Gaokao.Love.100Days* / *Humanities Class* case](topics/gaokao-love-100-days-and-humanities-class-interactive-exam-life-china-2014-2018.zh-CN.md) adds a cultural-work layer: it asks how a hundred-day countdown can be represented as both a **decision system** and a **dense ordinary-life sequence** of mock exams, tutoring, classroom clearance, hotel booking, media use, family negotiation and peer-network dissolution.
+
 ### 4. Sound and music
 
 Track song **use events**, not retrospective playlists.
@@ -91,7 +94,26 @@ A second distinction is now necessary:
 
 A song may be background music, a collective reply, a school-identity marker, the trigger signal that starts an event, or a deliberate attention-shift between exam sessions.
 
-### 5. Media technology
+### 5. Cultural works and interactive exam memory
+
+Exam history should not stop at policy, statistics, school ritual or music.
+
+Games, novels, comics, films, television episodes and online fiction can also reveal how an exam is **imagined, rehearsed, replayed and remembered**.
+
+For exam-related cultural works, distinguish at least four layers:
+
+1. **Representation** — what school routines, family expectations and future paths the work depicts;
+2. **Mechanics / narrative structure** — whether the exam becomes a countdown, score threshold, branching gate, failure state or repeated attempt;
+3. **Encounter history** — who actually played/read/watched the work, on what device/platform and at what age;
+4. **Memory afterlife** — whether people return to the work after their own exam and use it as a memory anchor.
+
+The key rule is:
+
+> **fictional recognizability is not demographic prevalence.**
+
+A game mechanic or novel scene can show that a pressure, joke, object or routine was legible to its intended audience. It cannot by itself prove that all examinees experienced it.
+
+### 6. Media technology
 
 Compare how exam-season memory circulates through:
 
@@ -105,11 +127,13 @@ Compare how exam-season memory circulates through:
 - music streaming;
 - Bilibili;
 - short-video platforms;
+- visual novels and independent games;
+- online light-novel platforms;
 - AI / singing-synthesis communities.
 
 This can connect the exam archive to the repository's existing work on owned media, platform access and ambient information.
 
-### 6. Repeat and re-entry examinations
+### 7. Repeat and re-entry examinations
 
 The first expansion beyond school-age exams should include:
 
@@ -121,6 +145,8 @@ The first expansion beyond school-age exams should include:
 - degree upgrading and transfer routes.
 
 This matters because an examination can become a life-course gate **again** in adulthood.
+
+Interactive works are especially useful here because they can make “try again” literal. A future research pass should compare game restart / route optimization with the lived experience of retaking an exam, while keeping the two analytically separate.
 
 ## Comparison principle
 
@@ -136,7 +162,7 @@ Ask:
 4. **How long did uncertainty continue after the exam?**
 5. **Which relationships and routines ended when the result became actionable?**
 6. **Could the person try again, or was this effectively a one-way gate?**
-7. **What songs, objects, routes and rituals later became memory anchors for that transition?**
+7. **What songs, objects, routes, rituals and cultural works later became memory anchors for that transition?**
 
 ## Why this belongs in How People Lived
 
@@ -144,6 +170,8 @@ Examinations are one of the places where abstract institutions become ordinary l
 
 They change sleep, meals, household spending, travel, family expectations, friendship time, school schedules, future geography and the story a person tells about what comes next.
 
+They also produce culture: songs, jokes, games, novels, videos, rituals and remembered scenes through which people rehearse and revisit the gate.
+
 The long-term aim is therefore not a history of examination papers.
 
-It is a history of **what it felt like to live toward, through and after a gate that could rearrange the next years of life**.
+It is a history of **what it felt like to live toward, through and after a gate that could rearrange the next years of life — and how people later made that experience playable, readable, singable and memorable**.
