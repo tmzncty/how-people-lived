@@ -10,6 +10,7 @@ A third layer follows from these two: literature can also provide **life scripts
 For the repository-wide integration with the literary-history material in `tmzncty/The-Paper-Cosmos`, see:
 
 - [文学史 × 日常生活史：整合框架](literary-history/README.zh-CN.md)
+- [文学史 → 日常生活史：研究映射表](literary-history/CROSSWALK.zh-CN.md)
 - [文学实践：人怎样写、传、读、听和记住作品](practices/README.zh-CN.md)
 - [Fiction as ordinary-life evidence: narrative baselines, class normalization, and latent identity stacks](../topics/fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md)
 
