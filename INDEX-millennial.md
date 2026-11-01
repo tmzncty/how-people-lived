@@ -21,6 +21,7 @@ The most useful anchor is a person born around **1990**.
 ## Related topic
 
 - [From scheduled information to ambient information](topics/from-scheduled-to-ambient-information.md)
+- [Songs as everyday-life archives: from *Beijing East Road* to *Past Song*, 2010–2020](topics/songs-as-everyday-life-archives-china-2010-2020.zh-CN.md) — treats graduation songs, virtual-singer works, obsolete media references and youth nostalgia as historical evidence without confusing cultural recognizability with population prevalence
 
 ## Pandemic continuation
 
