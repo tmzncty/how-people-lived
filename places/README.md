@@ -98,6 +98,14 @@ Uses the BLS wage-earner and clerical-worker expenditure survey to reconstruct r
 
 Key lesson: an apartment could have indoor running water and electric light while central heat, hot tap water, mechanical refrigeration, private toilet use and telephone service remained separate, income-stratified adoption clocks. The survey excludes relief-dependent families, so its denominator must not be mistaken for all New Yorkers.
 
+### Detroit wartime housing pressure, 1940–1944
+
+[`united-states/detroit-wartime-housing-1940-1944.md`](united-states/detroit-wartime-housing-1940-1944.md)
+
+Reconstructs the collision between wartime labor migration and a racially segmented housing market, using Census Bureau migration, vacancy and crowding evidence plus the 1942 Sojourner Truth Homes move-in crisis.
+
+Key lesson: a dwelling can exist, be completed and even be leased without becoming executable household access. For wartime Black Detroiters, the effective housing inventory was constrained by vacancy, habitability, racial exclusion and the physical ability to occupy the unit.
+
 ### Rural Tennessee radio access, 1930–1931
 
 [`united-states/tennessee-rural-radio-1930-1931.md`](united-states/tennessee-rural-radio-1930-1931.md)
