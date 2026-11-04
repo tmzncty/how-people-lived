@@ -136,6 +136,7 @@ So age 60 can mean retirement, continued work, agricultural labor, grandchild ca
 - [Living with death: mortality, bereavement, burial and ordinary life](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
 - [Death as household work: posthumous identity and kinless administration](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
 - [Death registration, online mourning and posthumous identity](topics/death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
+- [Bai Baoguo, 2026: teacher labor, evaluation, and public memory after a death](topics/bai-baoguo-art-teaching-evaluation-public-letter-and-death-2026.zh-CN.md) — distinguish a confirmed death, contested letter, and unresolved causal questions
 
 A family life course does not end neatly at retirement. Members die at different ages, and each death can redistribute:
 
