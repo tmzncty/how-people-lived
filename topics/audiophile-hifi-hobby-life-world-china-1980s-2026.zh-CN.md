@@ -4,9 +4,9 @@
 >
 > 本题不是高级音响器材史，也不把“发烧友”当成一代人的统计平均。它把深度玩家当作一种高可见度剖面，用来观察 **discretionary life / 可支配生活**：工资剩余、住宅空间、连续时间、维修能力、信息网络和家庭协商如何共同决定一种兴趣能否持续。
 
-方法 companion：[`../foundations/hobby-life-worlds-and-discretionary-life.md`](../foundations/hobby-life-worlds-and-discretionary-life.md)
+方法 companion：[`../foundations/hobby-life-worlds-and-discretionary-life.md`](../foundations/hobby-life-worlds-and-discretionary-life.zh-CN.md)
 
-相关索引：[`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.md)
+相关索引：[`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.zh-CN.md)
 
 old-Web companion：`tmzncty/old-web-archaeology/docs/HIFI_AUDIO_FORUM_REVIEWS_DIY_SECONDHAND_AND_LISTENING_STATE_GAPS_2001_2015.md`
 

@@ -912,7 +912,7 @@ BBS：小时 / 天
 - [当创作者和听众离得很近：2016—2018 年中文 VOCALOID 民间创作](grassroots-vocaloid-creation-and-short-social-distance-china-2016-2018.zh-CN.md)
 - [当一首歌变成时代档案：从《北京东路的日子》到《过去的歌》](songs-as-everyday-life-archives-china-2010-2020.zh-CN.md)
 - [From reader letters to personal pages: self-publishing and platformed public identity](personal-homepages-self-publishing-and-platformed-public-identity-china-1980-2026.zh-CN.md)
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
 
 ---
 

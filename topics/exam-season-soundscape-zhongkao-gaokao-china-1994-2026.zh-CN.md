@@ -457,11 +457,11 @@
 ## 直接关联
 
 - [南京，2010：选择性城市高中毕业生的未来地平线](../places/china/nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md)
-- [当大学成为普通人生选项](when-did-university-become-an-ordinary-life-option.md)
-- [父母与孩子的未来](parents-and-childrens-futures.md)
-- [学校到工作的过渡作为人生阶段](school-to-work-transition-as-a-life-stage.md)
-- [拥有媒体与平台访问](owned-media-vs-platform-access.md)
-- [从定时信息到环境信息](from-scheduled-to-ambient-information.md)
+- [当大学成为普通人生选项](when-did-university-become-an-ordinary-life-option.zh-CN.md)
+- [父母与孩子的未来](parents-and-childrens-futures.zh-CN.md)
+- [学校到工作的过渡作为人生阶段](school-to-work-transition-as-a-life-stage.zh-CN.md)
+- [拥有媒体与平台访问](owned-media-vs-platform-access.zh-CN.md)
+- [从定时信息到环境信息](from-scheduled-to-ambient-information.zh-CN.md)
 
 ## 一句话结论
 

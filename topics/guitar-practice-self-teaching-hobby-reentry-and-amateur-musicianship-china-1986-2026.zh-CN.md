@@ -2,7 +2,7 @@
 
 > 研究问题：一把吉他进入家庭、宿舍或出租屋以后，什么条件才能把“我有一把琴”变成持续数月、数年甚至几十年的演奏生活？报刊、电视、有声教材、琴行老师、论坛、曲谱库、视频和夜校分别减少了哪种学习摩擦；工作、结婚、生育、出差、住房噪声和迁移又怎样让技能中断、变形或重新启动？
 >
-> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.md) 的兴趣生活世界研究。它与 Hi-Fi、摄影、PC DIY 的器材栈不同：吉他的核心资产不仅是物件，而是需要反复练习才能积累、也可能在长期中断中衰退的 **embodied skill / 身体化技能**。
+> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.zh-CN.md) 的兴趣生活世界研究。它与 Hi-Fi、摄影、PC DIY 的器材栈不同：吉他的核心资产不仅是物件，而是需要反复练习才能积累、也可能在长期中断中衰退的 **embodied skill / 身体化技能**。
 >
 > old-Web companion：`tmzncty/old-web-archaeology/docs/GUITAR_FORUM_TAB_LEARNING_MEDIA_SECONDHAND_AND_PRACTICE_STATE_GAPS_2000_2015.md`
 

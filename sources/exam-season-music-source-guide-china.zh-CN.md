@@ -1,6 +1,6 @@
 # 中国中考 / 高考季歌曲与仪式：来源指南
 
-本指南服务于 [`INDEX-exams.md`](../INDEX-exams.md) 与 [`topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md`](../topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)。
+本指南服务于 [`INDEX-exams.md`](../INDEX-exams.zh-CN.md) 与 [`topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md`](../topics/exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)。
 
 目标不是建立“经典高考歌曲排行榜”，而是建立可追溯的**使用事件档案**：某年、某校、某场景、某首歌、由谁发起、承担什么功能。
 

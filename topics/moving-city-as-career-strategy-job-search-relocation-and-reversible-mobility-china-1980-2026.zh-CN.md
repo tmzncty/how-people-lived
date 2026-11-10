@@ -19,9 +19,9 @@
 
 它与仓库已有专题有交叉，但研究单位不同：
 
-- [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md) 研究通信怎样降低离家生活的成本；
+- [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md) 研究通信怎样降低离家生活的成本；
 - [`searchable-city-routefinding-local-search-and-navigation-china-1983-2026.zh-CN.md`](searchable-city-routefinding-local-search-and-navigation-china-1983-2026.zh-CN.md) 研究陌生城市怎样变得可搜索、可计算；
-- [`when-did-changing-jobs-become-normal.md`](when-did-changing-jobs-become-normal.md) 研究换雇主怎样从重大断裂变成常见职业动作；
+- [`when-did-changing-jobs-become-normal.md`](when-did-changing-jobs-become-normal.zh-CN.md) 研究换雇主怎样从重大断裂变成常见职业动作；
 - 本专题研究的是：**城市本身什么时候成为职业选择中的一个可操作变量。**
 
 ---

@@ -289,10 +289,10 @@ VOCALOID 路径：
 ## 相关条目
 
 - [当一首歌变成时代档案：从《北京东路的日子》到《过去的歌》](songs-as-everyday-life-archives-china-2010-2020.zh-CN.md)
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
 - [From reader letters to personal pages: self-publishing and platformed public identity](personal-homepages-self-publishing-and-platformed-public-identity-china-1980-2026.zh-CN.md)
 - [Stranger life scripts, forums and alternative life-course visibility](stranger-life-scripts-forums-peer-advice-and-alternative-life-course-visibility-china-1980-2026.zh-CN.md)
-- [Adolescence, c. 2012–2019: the smartphone becomes the default terminal](../places/china/gen-z/adolescence-2012-2019.md)
+- [Adolescence, c. 2012–2019: the smartphone becomes the default terminal](../places/china/gen-z/adolescence-2012-2019.zh-CN.md)
 
 ---
 

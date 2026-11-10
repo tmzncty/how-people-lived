@@ -532,7 +532,7 @@ Steam 商店对游戏的自我描述非常直接：
 
 它可以直接连接：
 
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
 - 中文互联网民间创作与平台迁移研究
 - 本仓库对 VOCALOID 原投稿、歌词版本和平台消失的保存问题
 
@@ -677,10 +677,10 @@ Steam 商店对游戏的自我描述非常直接：
 
 ## 相关仓库材料
 
-- [Exams, Educational Gates and Life-Course Transitions Index](../INDEX-exams.md)
+- [Exams, Educational Gates and Life-Course Transitions Index](../INDEX-exams.zh-CN.md)
 - [考试季为什么会有自己的歌：中考、高考、毕业与人生分流的声音史，中国，1994–2026](exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)
 - [从“喊楼”到送考：中高考如何被做成一套集体仪式，中国，2010–2026](from-shout-building-to-exam-sendoff-ritualization-china-2010-2026.zh-CN.md)
 - [南京，2010：选择性城市高中毕业生的未来地平线](../places/china/nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md)
-- [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.md)
-- [Parents and children's futures](parents-and-childrens-futures.md)
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [When did university become an ordinary life option?](when-did-university-become-an-ordinary-life-option.zh-CN.md)
+- [Parents and children's futures](parents-and-childrens-futures.zh-CN.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)

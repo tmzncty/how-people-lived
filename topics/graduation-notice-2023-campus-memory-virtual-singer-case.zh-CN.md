@@ -217,8 +217,8 @@ VCPedia 记录，作品原先曾使用“关于洛天依的毕业通知”这一
 
 相关主题：
 
-- [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md)
-- [From scheduled information to ambient information](from-scheduled-to-ambient-information.md)
+- [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.zh-CN.md)
+- [From scheduled information to ambient information](from-scheduled-to-ambient-information.zh-CN.md)
 
 ---
 

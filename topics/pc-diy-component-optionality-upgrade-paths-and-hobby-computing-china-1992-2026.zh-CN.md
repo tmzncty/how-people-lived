@@ -2,7 +2,7 @@
 
 > 研究问题：一个普通人什么时候开始不把“电脑”当成一个只能整机购买的黑盒，而是把 CPU、主板、内存、显卡、硬盘、电源、机箱、散热和软件环境当成可以自己组合、替换、维修、升级和再出售的长期系统？这种实践怎样占用工资、桌面、夜晚、技术注意力与未来预算；报刊、电脑城、论坛、模拟攒机、电商、视频和二手平台又分别改变了哪一层摩擦？
 >
-> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.md) 的兴趣生活世界研究。它不把“家庭拥有电脑”自动写成“DIY 玩家很多”，也不把组装一次电脑的人都称为长期硬件爱好者。
+> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.zh-CN.md) 的兴趣生活世界研究。它不把“家庭拥有电脑”自动写成“DIY 玩家很多”，也不把组装一次电脑的人都称为长期硬件爱好者。
 >
 > old-Web companion：`tmzncty/old-web-archaeology/docs/PC_DIY_CONFIGURATOR_PRICE_DATABASE_FORUM_AND_PHYSICAL_BUILD_STATE_GAPS_2002_2015.md`
 

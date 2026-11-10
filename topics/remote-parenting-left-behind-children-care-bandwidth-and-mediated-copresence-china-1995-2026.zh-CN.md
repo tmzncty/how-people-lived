@@ -4,7 +4,7 @@
 
 这篇笔记接续：
 
-- [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md)：通信怎样降低离乡的社会成本；
+- [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md)：通信怎样降低离乡的社会成本；
 - [`remitting-home-split-household-finance-migration-and-payment-rails-china-1995-2026.zh-CN.md`](remitting-home-split-household-finance-migration-and-payment-rails-china-1995-2026.zh-CN.md)：汇款怎样维持分居家庭的经济运行。
 
 这里不再问“能不能联系到家里”，而问一个更窄、也更难的问题：

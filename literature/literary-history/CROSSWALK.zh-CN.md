@@ -56,8 +56,8 @@ Parent: [`README.zh-CN.md`](README.zh-CN.md)
 
 ### 作品生活世界
 
-- [`../around-the-world-in-eighty-days.md`](../around-the-world-in-eighty-days.md)：情节与全球交通基础设施。
-- [`../dracula-1897-information-machine.md`](../dracula-1897-information-machine.md)：小说结构与电报、打字、记录、信息汇总。
+- [`../around-the-world-in-eighty-days.md`](../around-the-world-in-eighty-days.zh-CN.md)：情节与全球交通基础设施。
+- [`../dracula-1897-information-machine.md`](../dracula-1897-information-machine.zh-CN.md)：小说结构与电报、打字、记录、信息汇总。
 - [`../../topics/wenzhou-family-retrospective-period-drama-mobility-family-separation-and-life-horizons-1980s-2012.zh-CN.md`](../../topics/wenzhou-family-retrospective-period-drama-mobility-family-separation-and-life-horizons-1980s-2012.zh-CN.md)：影视再现、迁移、创业与家庭分离。
 
 ### 文学实践

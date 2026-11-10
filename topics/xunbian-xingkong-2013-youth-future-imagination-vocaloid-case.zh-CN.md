@@ -288,7 +288,7 @@ VCPedia 与萌娘百科的作品资料均记录：
 
 - [《毕业通知》（2023）：当毕业记忆由虚拟歌手来唱](graduation-notice-2023-campus-memory-virtual-singer-case.zh-CN.md)
 - [考试季的声音景观](exam-season-soundscape-zhongkao-gaokao-china-1994-2026.zh-CN.md)
-- [School-to-work transition as a life stage](school-to-work-transition-as-a-life-stage.md)
+- [School-to-work transition as a life stage](school-to-work-transition-as-a-life-stage.zh-CN.md)
 
 ---
 

@@ -1144,6 +1144,34 @@ class RepositoryValidatorTests(unittest.TestCase):
                 any("missing local link target" in error for error in errors), errors
             )
 
+    def test_chinese_page_must_link_an_existing_chinese_target(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.make_fixture(root)
+            topics = root / "topics"
+            topics.mkdir()
+            (topics / "alpha.md").write_text("# Alpha\n", encoding="utf-8")
+            (topics / "alpha.zh-CN.md").write_text("# 甲\n", encoding="utf-8")
+            (topics / "english-only.md").write_text("# Only\n", encoding="utf-8")
+            chinese_page = topics / "beta.zh-CN.md"
+            chinese_page.write_text(
+                "# 乙\n\n[甲](alpha.md)\n[Only](english-only.md)\n",
+                encoding="utf-8",
+            )
+
+            errors = validate_repository(root)
+
+            self.assertEqual(len(errors), 1, errors)
+            self.assertIn("link the Chinese version that exists", errors[0])
+            self.assertIn("alpha.md -> alpha.zh-CN.md", errors[0])
+
+            chinese_page.write_text(
+                "# 乙\n\n[甲](alpha.zh-CN.md)\n[Only](english-only.md)\n",
+                encoding="utf-8",
+            )
+            errors, _ = validate_markdown_links(root)
+            self.assertEqual(errors, [])
+
     def test_only_gfm_fence_indentation_hides_markdown_links(self) -> None:
         cases = (
             ("flush left", "", True),

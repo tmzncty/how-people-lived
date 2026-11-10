@@ -2,7 +2,7 @@
 
 > 研究问题：当普通人的兴趣不是“消费一种媒介”，而是自己架天线、取得操作资格、申请电台执照、获得呼号，并用一套并不依赖公众蜂窝网络的物理系统与陌生人通信时，这还是一种普通 hobby 吗？它需要怎样的钱、空间、时间、制度接口、技术知识与同好网络？Internet 到来以后，它究竟被替代了，还是反过来成为这套无线电生活的协调层、资料层与身份层？
 >
-> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.md) 的“技术 / 制作型兴趣”分支，并与 [`from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md`](from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md) 区分：后者问“怎样找到一起做事的人”，本题问“怎样把一套通信能力长期做成自己的生活”。
+> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.zh-CN.md) 的“技术 / 制作型兴趣”分支，并与 [`from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md`](from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md) 区分：后者问“怎样找到一起做事的人”，本题问“怎样把一套通信能力长期做成自己的生活”。
 >
 > Old-Web companion：[`tmzncty/old-web-archaeology/docs/AMATEUR_RADIO_CALLSIGN_FORUM_APPLICATION_AND_RF_STATE_GAPS_2000_2015.md`](https://github.com/tmzncty/old-web-archaeology/blob/main/docs/AMATEUR_RADIO_CALLSIGN_FORUM_APPLICATION_AND_RF_STATE_GAPS_2000_2015.md)
 

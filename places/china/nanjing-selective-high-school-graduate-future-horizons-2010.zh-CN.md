@@ -174,7 +174,7 @@ CNNIC 第 27 次互联网报告还显示，2010 年底网民中：
 
 这与仓库已有的 2003–2010 青少年 PC 互联网切片相接：
 
-- [China, 2003–2010: adolescence in the PC-Internet transition](millennial/adolescence-2003-2010.md)
+- [China, 2003–2010: adolescence in the PC-Internet transition](millennial/adolescence-2003-2010.zh-CN.md)
 
 ---
 
@@ -398,12 +398,12 @@ PC 互联网已经形成全国青年文化空间，QQ、博客、论坛、贴吧
 
 这篇切片与以下内容直接相连：
 
-- [Millennial-Era Ordinary Life Index](../../INDEX-millennial.md)
-- [Life Horizons Index](../../INDEX-life-horizons.md)
-- [China ordinary-life map](README.md)
-- [China, 2003–2010: adolescence in the PC-Internet transition](millennial/adolescence-2003-2010.md)
-- [When did university become an ordinary life option?](../../topics/when-did-university-become-an-ordinary-life-option.md)
-- [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.md)
+- [Millennial-Era Ordinary Life Index](../../INDEX-millennial.zh-CN.md)
+- [Life Horizons Index](../../INDEX-life-horizons.zh-CN.md)
+- [China ordinary-life map](README.zh-CN.md)
+- [China, 2003–2010: adolescence in the PC-Internet transition](millennial/adolescence-2003-2010.zh-CN.md)
+- [When did university become an ordinary life option?](../../topics/when-did-university-become-an-ordinary-life-option.zh-CN.md)
+- [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.zh-CN.md)
 
 ## 研究状态
 

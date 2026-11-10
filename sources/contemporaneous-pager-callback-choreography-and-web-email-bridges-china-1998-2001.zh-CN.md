@@ -8,7 +8,7 @@
 
 仓库已有 canonical topic：
 
-- [`../topics/communication-and-the-cost-of-living-far-away.md`](../topics/communication-and-the-cost-of-living-far-away.md)
+- [`../topics/communication-and-the-cost-of-living-far-away.md`](../topics/communication-and-the-cost-of-living-far-away.zh-CN.md)
 
 其中已经建立：
 

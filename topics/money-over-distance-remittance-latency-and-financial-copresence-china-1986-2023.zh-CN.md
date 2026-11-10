@@ -4,7 +4,7 @@
 >
 > 本专题承接：
 >
-> - [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md)：远距离生活的通信成本；
+> - [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md)：远距离生活的通信成本；
 > - [`reunion-latency-co-presence-stack-and-coordination-by-separation-china-1980-2019.zh-CN.md`](reunion-latency-co-presence-stack-and-coordination-by-separation-china-1980-2019.zh-CN.md)：多地家庭、团聚延迟与共同预算；
 > - [`reachability-bridges-pagers-public-phones-and-intermittent-internet-china-1983-2002.zh-CN.md`](reachability-bridges-pagers-public-phones-and-intermittent-internet-china-1983-2002.zh-CN.md)：人如何在移动中变得可联系；
 > - [`job-market-addressability-search-radius-and-attention-bottlenecks-china-1984-2024.zh-CN.md`](job-market-addressability-search-radius-and-attention-bottlenecks-china-1984-2024.zh-CN.md)：远方岗位怎样变得可发现。

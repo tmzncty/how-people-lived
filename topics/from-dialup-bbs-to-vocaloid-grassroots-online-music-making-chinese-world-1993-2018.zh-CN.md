@@ -876,7 +876,7 @@ RockaCola 已经消失；Cmidi 已关闭；分贝网退出历史；虾米后来�
 - [Stranger life scripts, forums and alternative life-course visibility](stranger-life-scripts-forums-peer-advice-and-alternative-life-course-visibility-china-1980-2026.zh-CN.md)
 - [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md)
 - [Home broadband and address-bound connectivity](home-broadband-address-bound-connectivity-installation-and-household-network-readiness-china-1999-2026.zh-CN.md)
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
 
 ---
 

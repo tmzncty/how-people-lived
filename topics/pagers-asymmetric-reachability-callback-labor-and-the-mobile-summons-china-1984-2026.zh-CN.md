@@ -668,8 +668,8 @@ Evidence grade: B（同期第一人称/劳动报道）。
 
 ## Cross-links
 
-- [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.md)
-- [From scheduled information to ambient information](from-scheduled-to-ambient-information.md)
+- [Communication and the cost of living far away](communication-and-the-cost-of-living-far-away.zh-CN.md)
+- [From scheduled information to ambient information](from-scheduled-to-ambient-information.zh-CN.md)
 - [Shared-terminal Internet access and place-bound connectivity](shared-terminal-internet-access-place-bound-connectivity-and-device-optionality-china-1987-2023.zh-CN.md)
 - [Home broadband and address-bound connectivity](home-broadband-address-bound-connectivity-installation-and-household-network-readiness-china-1999-2026.zh-CN.md)
 - [Queues, waiting and release-time synchronization](queues-waiting-release-time-synchronization-and-delegated-waiting-china-1980s-2026.zh-CN.md)

@@ -388,10 +388,10 @@ Vsinger 官方资料说明，上海禾念在 2012 年推出洛天依，并将其
 ## 相关条目
 
 - [南京，2010：选择性城市高中毕业生的未来地平线](../places/china/nanjing-selective-high-school-graduate-future-horizons-2010.zh-CN.md)
-- [2003–2010 adolescence: PC Internet, QQ, Internet cafés and owned media files](../places/china/millennial/adolescence-2003-2010.md)
-- [Adolescence, c. 2012–2019: the smartphone becomes the default terminal](../places/china/gen-z/adolescence-2012-2019.md)
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
-- [From scheduled information to ambient information](from-scheduled-to-ambient-information.md)
+- [2003–2010 adolescence: PC Internet, QQ, Internet cafés and owned media files](../places/china/millennial/adolescence-2003-2010.zh-CN.md)
+- [Adolescence, c. 2012–2019: the smartphone becomes the default terminal](../places/china/gen-z/adolescence-2012-2019.zh-CN.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
+- [From scheduled information to ambient information](from-scheduled-to-ambient-information.zh-CN.md)
 
 ---
 

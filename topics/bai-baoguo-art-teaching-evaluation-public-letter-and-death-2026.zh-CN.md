@@ -120,7 +120,7 @@
 
 ## 7. 与仓库现有研究的连接
 
-- [与死亡共处：死亡率、丧亲、遗体处理与普通生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.md)：本篇从“死亡后的公共叙述与职业记忆”补充其生命过程与社会后果。
+- [与死亡共处：死亡率、丧亲、遗体处理与普通生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.zh-CN.md)：本篇从“死亡后的公共叙述与职业记忆”补充其生命过程与社会后果。
 - [死亡之后还有多少工作](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)：该篇讲亲属和机构的身后事务；本篇讲去世后证据、申诉和公共记忆的边界。
 - [从“知道自己有权”到“真的能把工作关系结束”](from-labor-rights-information-to-claim-executability-workplace-disputes-evidence-and-employment-exit-china-1993-2026.zh-CN.md)：对照劳动者可否获得文件、申诉、复核；高校聘用法律关系与普通企业劳动关系不能直接等同。
 - [诊断之后，人生脚本怎样改写](chronic-illness-parallel-calendars-patient-peer-networks-and-life-course-rerouting-china-1989-2026.zh-CN.md)：提示健康与职业日程可能相互影响，但不能把该主题的机制直接加到这位教师身上。

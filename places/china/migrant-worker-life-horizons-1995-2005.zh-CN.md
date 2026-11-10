@@ -210,7 +210,7 @@ Liu 与 Reilly 后来使用 1995 年夏季济南市男性迁移劳动者调查�
 
 > **劳动者身体离开家庭，不等于工资从家庭经济中分离。**
 
-这和仓库已有的 [1990s rural youth](1990s-rural-youth-life-horizons.md) 可以直接接起来：地理分离甚至可能是家庭共同策略的一部分。
+这和仓库已有的 [1990s rural youth](1990s-rural-youth-life-horizons.zh-CN.md) 可以直接接起来：地理分离甚至可能是家庭共同策略的一部分。
 
 ---
 

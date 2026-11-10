@@ -3,7 +3,7 @@
 Status: research note / screen-fiction case study  
 Scope: China / Wenzhou-linked migration and entrepreneurship / 1980s–2000s as reconstructed in 2012  
 Representation role: **F4 retrospective period representation**, supplemented by **F2 production/paratext evidence** and limited **F3 contemporary reception evidence**  
-Related method: [`fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md`](fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md)
+Related method: [`fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.md`](fiction-as-ordinary-life-evidence-narrative-baselines-and-latent-identity-stacks.zh-CN.md)
 
 ---
 

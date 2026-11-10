@@ -2,7 +2,7 @@
 
 > 核心问题：一个家庭必须每天住在同一个地址，才算“在一起”吗？如果工作、住房、照护和职业机会无法在同一城市对齐，人们会不会先维持一个跨地点家庭，再用电话、火车、周末往返和代际照护把它勉强接起来？
 
-本专题承接已有的 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md) 与 [`settlement-stack-and-coordination-congestion-china-2008-2019.zh-CN.md`](settlement-stack-and-coordination-congestion-china-2008-2019.zh-CN.md)，但研究单位不同：前者已经指出通信可以维持 distributed family life，后者讨论多个成人项目难以在同一城市同时协调；这里进一步追问 **家庭成员实际上睡在哪里、多久才能重新见面、谁承担跨城与照护成本，以及“暂时不解决地点冲突”本身是否是一种协调办法。**
+本专题承接已有的 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md) 与 [`settlement-stack-and-coordination-congestion-china-2008-2019.zh-CN.md`](settlement-stack-and-coordination-congestion-china-2008-2019.zh-CN.md)，但研究单位不同：前者已经指出通信可以维持 distributed family life，后者讨论多个成人项目难以在同一城市同时协调；这里进一步追问 **家庭成员实际上睡在哪里、多久才能重新见面、谁承担跨城与照护成本，以及“暂时不解决地点冲突”本身是否是一种协调办法。**
 
 ## 结论先行
 

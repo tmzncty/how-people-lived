@@ -2,7 +2,7 @@
 
 > 研究问题：同一辆自行车，为什么在一个时代首先是上班、买菜、接孩子的交通工具，在另一个时代又可以成为周末训练、长途旅行、社交、减脂、亲子活动甚至暂时中断学校/工作的理由？Internet 到来以前，骑行者怎样获得路线、维修、住宿和同伴信息；论坛、GPS、运动 App 到来以后，又真正改变了哪一层？
 >
-> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.md) 的“户外、移动与身体型兴趣”，但必须严格区分 **bicycle ownership / 自行车拥有**、**utility cycling / 工具性骑行** 和 **cycling as hobby / 作为兴趣的骑行**。拥有自行车、每天骑车上班，都不能自动推出“骑行爱好者”。
+> 本题属于 [`../INDEX-hobby-life-worlds.md`](../INDEX-hobby-life-worlds.zh-CN.md) 的“户外、移动与身体型兴趣”，但必须严格区分 **bicycle ownership / 自行车拥有**、**utility cycling / 工具性骑行** 和 **cycling as hobby / 作为兴趣的骑行**。拥有自行车、每天骑车上班，都不能自动推出“骑行爱好者”。
 >
 > Old-Web companion：[`tmzncty/old-web-archaeology/docs/CYCLING_FORUM_ROUTE_RIDE_REPORT_CLUB_AND_OFFLINE_RIDE_STATE_GAPS_2002_2015.md`](https://github.com/tmzncty/old-web-archaeology/blob/main/docs/CYCLING_FORUM_ROUTE_RIDE_REPORT_CLUB_AND_OFFLINE_RIDE_STATE_GAPS_2002_2015.md)
 

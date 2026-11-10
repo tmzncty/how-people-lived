@@ -327,7 +327,7 @@ VCPedia 还记录，该曲次日投稿至 niconico，后来成为 VOCALOID 中�
 - [《寻遍星空》（2013）：从年少星空到城市独居](xunbian-xingkong-2013-youth-future-imagination-vocaloid-case.zh-CN.md)
 - [《毕业通知》（2023）：当毕业记忆由虚拟歌手来唱](graduation-notice-2023-vocal-synth-graduation-memory.zh-CN.md)
 - [Career gaps, holding states and re-entry](career-gaps-holding-states-reentry-and-discontinuous-life-courses-china-1997-2026.zh-CN.md)
-- [School-to-work transition as a life stage](school-to-work-transition-as-a-life-stage.md)
+- [School-to-work transition as a life stage](school-to-work-transition-as-a-life-stage.zh-CN.md)
 - [从拨号 BBS 到洛天依：中文世界普通人在线做歌的基础设施史](from-dialup-bbs-to-vocaloid-grassroots-online-music-making-chinese-world-1993-2018.zh-CN.md)
 
 ---

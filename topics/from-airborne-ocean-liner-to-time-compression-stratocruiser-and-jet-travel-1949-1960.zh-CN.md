@@ -411,7 +411,7 @@ FAA 列出的事件包括：
 
 ## 与仓库其他专题的连接
 
-- [Commuting, transport and the price of distance](commuting-and-the-price-of-distance.md)
+- [Commuting, transport and the price of distance](commuting-and-the-price-of-distance.zh-CN.md)
 - [Air-ticket dematerialization, self check-in and boarding executability](air-ticket-dematerialization-self-checkin-and-boarding-executability-china-1979-2026.zh-CN.md)
 - [Independent travel, forums, gap years and self-authored mobility](independent-travel-forums-gap-years-working-holidays-and-self-authored-mobility-china-1980-2026.zh-CN.md)
 

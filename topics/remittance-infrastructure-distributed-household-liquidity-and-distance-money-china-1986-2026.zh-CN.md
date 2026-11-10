@@ -4,9 +4,9 @@
 >
 > 更窄地说：**工资在甲地，人和父母/配偶/孩子在乙地时，钱怎样跨过距离，多久能到，谁能取出来，失败时还有什么退路？**
 
-本专题接在 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md) 之后。前一稿已经指出，通信会降低迁移后维持家庭关系的成本，并把“remittance technologies”列为后续议题；这里把“钱的移动”从通信的附属问题提升为独立生活基础设施。
+本专题接在 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md) 之后。前一稿已经指出，通信会降低迁移后维持家庭关系的成本，并把“remittance technologies”列为后续议题；这里把“钱的移动”从通信的附属问题提升为独立生活基础设施。
 
-它也回应 [`../ROADMAP-life-horizons.md`](../ROADMAP-life-horizons.md) 仍未完成的两个问题：
+它也回应 [`../ROADMAP-life-horizons.md`](../ROADMAP-life-horizons.zh-CN.md) 仍未完成的两个问题：
 
 - migrant worker, c. 1995 and c. 2005: wages, communication, **remittances** and return plans；
 - **when does the child-to-parent flow reverse?**

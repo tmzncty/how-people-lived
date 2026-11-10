@@ -148,9 +148,9 @@
 
 **仓库内关联阅读：**
 
-- [AI 作为认知基础设施](ai-as-cognitive-infrastructure.md)
-- [从搜索到协作](from-search-to-ai-collaboration.md)
-- [2022—2026 年生成式 AI 进入成年生活](../places/china/gen-z/generative-ai-adulthood-2022-2026.md)
+- [AI 作为认知基础设施](ai-as-cognitive-infrastructure.zh-CN.md)
+- [从搜索到协作](from-search-to-ai-collaboration.zh-CN.md)
+- [2022—2026 年生成式 AI 进入成年生活](../places/china/gen-z/generative-ai-adulthood-2022-2026.zh-CN.md)
 - [互联网作为普通生活史档案](../foundations/internet-as-an-archive-of-ordinary-life.zh-CN.md)
 
 > **待保留的开放问题**：也许与其先问「AI 是否是主体」，不如先问：**在什么日常关系、技术条件和制度需求下，人们开始觉得必须提出「主体性」这个问题？又有什么问题，其实不必通过它才能解决？**

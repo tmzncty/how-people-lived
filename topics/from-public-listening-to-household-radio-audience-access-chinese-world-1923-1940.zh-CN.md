@@ -677,7 +677,7 @@ How People Lived 应继续区分：
 
 参见仓库已有专题：
 
-- [Owned media versus platform access](owned-media-vs-platform-access.md)
+- [Owned media versus platform access](owned-media-vs-platform-access.zh-CN.md)
 
 ---
 

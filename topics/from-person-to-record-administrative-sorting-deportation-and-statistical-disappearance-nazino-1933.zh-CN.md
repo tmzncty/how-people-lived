@@ -407,9 +407,9 @@ Werth 特别指出，与其他大规模强制迁移相比，纳济诺事件属�
 
 ## 12. 与本仓其他条目的关系
 
-- [与死亡共处：死亡率、丧亲、遗体处理与普通生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [与死亡共处：死亡率、丧亲、遗体处理与普通生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.zh-CN.md)
 - [死亡之后还有多少工作：家庭收尾、身后身份、网络纪念与无近亲属托底](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
-- [通勤、交通与距离的代价](commuting-and-the-price-of-distance.md)
+- [通勤、交通与距离的代价](commuting-and-the-price-of-distance.zh-CN.md)
 - [排队、等待与放行时间同步](queues-waiting-release-time-synchronization-and-delegated-waiting-china-1980s-2026.zh-CN.md)
 
 纳济诺提醒本仓：

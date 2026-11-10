@@ -790,8 +790,8 @@ vs
 - [武清，1994–2026：当户口、住房、高铁、工作与家庭不再位于同一座城市](wuqing-hukou-housing-rail-commuting-and-split-households-1994-2026.zh-CN.md)
 - [雄安新区，2017–2026：从“功能承接”到“生活之地”](xiongan-relocation-public-services-and-lived-city-2017-2026.zh-CN.md)
 - [雄安研究补充框架：从财政与建设指标下沉到个人和家庭](xiongan-person-household-level-indicators.zh-CN.md)
-- [China, c.1980s–2000s: from bundled adulthood to assembled adulthood](from-bundled-to-assembled-adulthood.md)
-- [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.md)
+- [China, c.1980s–2000s: from bundled adulthood to assembled adulthood](from-bundled-to-assembled-adulthood.zh-CN.md)
+- [Communication and the cost of living far away](../../topics/communication-and-the-cost-of-living-far-away.zh-CN.md)
 
 ---
 

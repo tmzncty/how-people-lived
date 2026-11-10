@@ -29,6 +29,7 @@ REFERENCE_DEFINITION_PATTERN = re.compile(r"^[ \t]{0,3}\[[^\]\n]+\]:")
 URI_SCHEME_PATTERN = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
 WINDOWS_ABSOLUTE_PATH_PATTERN = re.compile(r"^[A-Za-z]:[\\/]")
 MARKDOWN_DESTINATION_ESCAPE_PATTERN = re.compile(r"\\([\\()])")
+CHINESE_SUFFIX = ".zh-CN.md"
 MARKDOWN_FENCE_OPEN_PATTERN = re.compile(
     r"^ {0,3}(?P<marker>`{3,}|~{3,})(?P<info>[^\r\n]*)$"
 )
@@ -742,6 +743,30 @@ def _decode_markdown_path(path_part: str) -> str:
     return decoded
 
 
+def _chinese_mirror_name(source: Path, target: Path) -> str | None:
+    """Return the Chinese sibling a Chinese page should link instead.
+
+    Repository convention: a ``.zh-CN.md`` page links the ``.zh-CN.md`` target
+    whenever that file exists, so a Chinese reader stays inside the Chinese set.
+    The rule only applies when the Chinese file is actually present, so pages
+    may still link documents that exist in English only.
+    """
+
+    if not source.name.endswith(CHINESE_SUFFIX):
+        return None
+    if target.name.endswith(CHINESE_SUFFIX):
+        return None
+    if not target.name.endswith(".md"):
+        return None
+    mirrored = target.with_name(target.name[: -len(".md")] + CHINESE_SUFFIX)
+    try:
+        if mirrored.is_file():
+            return mirrored.name
+    except OSError:
+        return None
+    return None
+
+
 def validate_markdown_links(root: Path) -> tuple[list[str], int]:
     """Validate canonical inline Markdown link destinations used by the repository."""
 
@@ -840,6 +865,15 @@ def validate_markdown_links(root: Path) -> tuple[list[str], int]:
                         errors.append(
                             f"{display_path}:{line_number}: missing local link target: {target}"
                         )
+                    else:
+                        chinese_mirror = _chinese_mirror_name(
+                            resolved_markdown_path, resolved
+                        )
+                        if chinese_mirror is not None:
+                            errors.append(
+                                f"{display_path}:{line_number}: link the Chinese "
+                                f"version that exists: {target} -> {chinese_mirror}"
+                            )
         except UnicodeError as exc:
             errors.append(f"{display_path}: cannot decode as UTF-8: {exc}")
         except OSError as exc:

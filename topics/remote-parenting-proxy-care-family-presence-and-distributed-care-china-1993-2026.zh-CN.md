@@ -4,7 +4,7 @@
 
 本条目研究 **distributed care / 分布式照护** 和 **remote parenting / 远程育儿**，而不是把“留守儿童”当成一种固定人格类型。
 
-它与 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.md) 的分工是：后者问通信怎样降低迁移的社会成本；本条目继续往下拆，问 **信息真的传到以后，照护是否能够被执行**。
+它与 [`communication-and-the-cost-of-living-far-away.md`](communication-and-the-cost-of-living-far-away.zh-CN.md) 的分工是：后者问通信怎样降低迁移的社会成本；本条目继续往下拆，问 **信息真的传到以后，照护是否能够被执行**。
 
 一个最小状态机可以写成：
 
