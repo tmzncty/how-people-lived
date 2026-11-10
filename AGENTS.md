@@ -96,6 +96,14 @@ Examples:
 
 Never treat a wealthy protagonist as a statistical average.
 
+## Bilingual layout
+
+- `NAME.md` holds the English version; `NAME.zh-CN.md` holds the Chinese version of the same document.
+- A Chinese-original document occupies only `NAME.zh-CN.md` until an English translation exists. Do not rename it to `NAME.md` to fill the gap.
+- Index and cross-reference pages link the best available version: the English page links `NAME.md` when an English version exists and `NAME.zh-CN.md` when only Chinese exists; the `.zh-CN.md` page links `NAME.zh-CN.md` whenever that file exists.
+- Never rewrite a link toward a language version that does not exist. Verify a link set against the pre-commit baseline with `git show <baseline>:<path>`; do not compare against a working copy that may have been regenerated, and do not treat `HEAD` as the baseline for a file that was just regenerated.
+- Before committing, run `python -m unittest discover -s tests` and `python scripts/validate_repository.py`.
+
 ## Evidence rules
 
 For quantitative claims:
