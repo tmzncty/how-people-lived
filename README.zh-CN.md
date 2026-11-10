@@ -35,23 +35,23 @@
 
 ### 人生目标、代际与可能的人生
 
-- [Life Horizons Index](INDEX-life-horizons.md)
-- [人生目标与可见未来](foundations/life-horizons-and-goals.md)
-- [一代人的问题如何变化](topics/how-the-problem-of-adulthood-changed-across-generations.md)
-- [Generational Life-Course Index](INDEX-generations.md)
-- [中国约 1955—2005 出生队列地图](places/china/generations/README.md)
+- [Life Horizons Index](INDEX-life-horizons.zh-CN.md)
+- [人生目标与可见未来](foundations/life-horizons-and-goals.zh-CN.md)
+- [一代人的问题如何变化](topics/how-the-problem-of-adulthood-changed-across-generations.zh-CN.md)
+- [Generational Life-Course Index](INDEX-generations.zh-CN.md)
+- [中国约 1955—2005 出生队列地图](places/china/generations/README.zh-CN.md)
 
 ### 最近几十年的普通生活档案
 
-- [Millennial-Era Ordinary Life Index](INDEX-millennial.md)
-- [Pandemic Everyday-Life Index](INDEX-pandemic.md)
-- [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.md)
+- [Millennial-Era Ordinary Life Index](INDEX-millennial.zh-CN.md)
+- [Pandemic Everyday-Life Index](INDEX-pandemic.zh-CN.md)
+- [Gen-Z / Post-2000 Ordinary-Life Index](INDEX-gen-z.zh-CN.md)
 
 ### 文学与现实世界
 
-- [文学背景笔记](literature/README.md)
-- [《八十天环游地球》：被时刻表组织起来的全球交通](literature/around-the-world-in-eighty-days.md)
-- [《德古拉》作为 1897 年的信息机器](literature/dracula-1897-information-machine.md)
+- [文学背景笔记](literature/README.zh-CN.md)
+- [《八十天环游地球》：被时刻表组织起来的全球交通](literature/around-the-world-in-eighty-days.zh-CN.md)
+- [《德古拉》作为 1897 年的信息机器](literature/dracula-1897-information-machine.zh-CN.md)
 
 > 当前中文化仍在推进中。中文入口、方法论、基础框架与数字生活史已经可以独立阅读；其余专题文件会逐步补充中文版本。
 
