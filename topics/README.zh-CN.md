@@ -66,7 +66,7 @@
 
 ### 死亡、丧失与家庭的连续性
 
-- [与死亡共处：死亡率、丧亲、丧葬与日常生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.md) — 关于死亡暴露、遗体与丧葬物流、丧亲、家庭重组、战争／疫病之后，以及幸存者如何继续日常生活的实际问题的研究框架
+- [与死亡共处：死亡率、丧亲、丧葬与日常生活](living-with-death-mortality-bereavement-burial-and-ordinary-life.zh-CN.md) — 关于死亡暴露、遗体与丧葬物流、丧亲、家庭重组、战争／疫病之后，以及幸存者如何继续日常生活的实际问题的研究框架
 - [一位钢琴教师、考核指标与死亡：白宝国，2026](bai-baoguo-art-teaching-evaluation-public-letter-and-death-2026.zh-CN.md) — 一个当代的、来源分离的案例，涉及艺术教学、公开指控与身后记忆，不假设死因
 - [死亡作为家庭工作：身后身份与无亲属的行政处理](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md) — 把死亡视为由幸存者执行的行政、财务、物质与纪念工作，而非单一的终止事件
 - [从一个人到一条记录：纳济诺、行政分类、强制迁移与统计性消失](from-person-to-record-administrative-sorting-deportation-and-statistical-disappearance-nazino-1933.zh-CN.md) — 重建 1933 年证件核查失败、运输、按人头交接、供给缺口与不确定的死亡／逃亡记录，如何使一个有名字的人脱离行政记录

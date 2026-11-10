@@ -4,7 +4,7 @@
 >
 > 不只问**历史上发生了什么**，还问：**一个人当时实际能吃什么、穿什么、买什么、用什么、知道什么、期待什么、做什么，以及觉得自己这一辈子可能过成什么样。**
 
-[English README](README.md)
+[English README](README.zh-CN.md)
 
 很多历史叙述按照国家、战争、制度、发明和名人组织。它们当然重要，但往往没有回答一个非常简单的问题：
 
@@ -31,7 +31,7 @@
 - [方法论（中文版）](METHODOLOGY.zh-CN.md)
 - [普通生活的物质底座（中文版）](foundations/README.zh-CN.md)
 - [互联网作为普通人生活的档案（中文版）](foundations/internet-as-an-archive-of-ordinary-life.zh-CN.md)
-- [英文原版方法论](METHODOLOGY.md)
+- [英文原版方法论](METHODOLOGY.zh-CN.md)
 
 ### 人生目标、代际与可能的人生
 

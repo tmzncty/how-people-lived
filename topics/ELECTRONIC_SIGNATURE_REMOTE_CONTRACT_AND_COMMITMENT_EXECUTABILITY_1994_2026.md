@@ -1,51 +1,51 @@
-# 从“把两份合同寄来寄去”到“手机上几分钟签完”：电子签名、远程合同与承诺可执行性（中国，1995—2026；含全球前史）
+# From "mailing two copies of a contract back and forth" to "signed on a phone in a few minutes": electronic signatures, remote contracts and commitment executability (China, 1995–2026; with a global prehistory)
 
 > Cross-repo companion: `tmzncty/old-web-archaeology/docs/ELECTRONIC_SIGNATURE_ECONTRACT_CA_BROWSER_AND_CONSENT_STATE_GAPS_2004_2015.md`
 
-## 0. 为什么这是一个 life-horizon 问题
+## 0. Why this is a life-horizon problem
 
-合同很容易被法律史写成条文，被信息安全史写成算法，被企业数字化史写成“无纸化”。但对普通人的生命历程，更基础的问题其实是：
+Legal history easily reduces a contract to a set of articles, information-security history to an algorithm, and corporate digitalization history to "paperlessness". But for an ordinary person's life course, the more basic question is actually:
 
-> **一个未来的工作、租住、贷款、交易或合作，必须等双方身体出现在同一个地方以后才能正式成立吗？**
+> **Does a future job, tenancy, loan, transaction or collaboration have to wait until both parties' bodies appear in the same place before it can formally come into existence?**
 
-纸质合同并不意味着远距离无法缔约：邮寄、传真、代理人、电话协商等都早于大众 Internet。互联网与电子签名真正改变的，是越来越多原本分散在不同媒介和地点里的功能，可以压缩进同一条数字事务链：
+A paper contract did not mean distant parties could not conclude an agreement: post, fax, agents and telephone negotiation all predate the mass Internet. What the Internet and electronic signatures actually changed is that more and more functions once scattered across different media and different places could be compressed into a single digital transaction chain:
 
 ```text
-看到文本
-→ 确认“是谁”
-→ 表达“我同意”
-→ 固化“我同意的是哪一版”
-→ 记录“什么时候签”
-→ 把结果送达另一方
-→ 双方以后还能调取
-→ 发生争议时还能证明
+see the text
+→ confirm "who this is"
+→ express "I agree"
+→ fix "which version I agreed to"
+→ record "when it was signed"
+→ deliver the result to the other party
+→ let both parties retrieve it later
+→ let them prove it if a dispute arises
 ```
 
-本专题把这种能力称为：
+This topic calls that capability:
 
-**`remote commitment executability / 远程承诺可执行性`**。
+**`remote commitment executability`**
 
-它改变的不是“人是否需要承诺”，而是承诺进入未来生活的空间与时间条件。
+What it changes is not whether people need to make commitments, but the spatial and temporal conditions under which a commitment enters a future life.
 
 ---
 
-## 1. 核心概念
+## 1. Core concepts
 
-### 1.1 `signature-function unbundling / 签署功能拆解`
+### 1.1 `signature-function unbundling`
 
-纸面上的“签字”看似一个动作，实际承担了若干不同功能：
+A "signature" on paper looks like one action, but it actually carries several different functions:
 
-- 身份识别：是谁签的；
-- 意思表示：是否确实同意；
-- 文本完整性：签后有没有被改；
-- 时间：何时签；
-- 送达：另一方是否收到；
-- 保管：以后还能否拿出同一份文本；
-- 证据：争议时能否证明上述状态。
+- identity: who signed;
+- declaration of intent: whether the person actually agreed;
+- textual integrity: whether the text was altered after signing;
+- time: when it was signed;
+- delivery: whether the other party received it;
+- custody: whether the same text can still be produced later;
+- evidence: whether those states can be proven in a dispute.
 
-电子签名不是把笔迹扫描进 PDF 就自动完成这些功能。
+An electronic signature does not perform these functions automatically just because a handwriting image has been scanned into a PDF.
 
-因此必须区分：
+So we must distinguish:
 
 ```text
 visible signature image
@@ -55,54 +55,54 @@ visible signature image
 != durable contract evidence
 ```
 
-### 1.2 `commitment mobility / 承诺可移动性`
+### 1.2 `commitment mobility`
 
-一个人是否必须为了正式承诺而：
+Must a person, in order to make a formal commitment:
 
-- 回公司；
-- 去中介门店；
-- 到银行柜台；
-- 等纸件寄到；
-- 把合同再寄回去；
-- 找人代签或代递。
+- return to the office;
+- go to an agency branch;
+- go to a bank counter;
+- wait for paper to arrive by post;
+- post the contract back again;
+- find someone to sign or deliver on their behalf.
 
-如果身份、文本、签署与送达都可以远程完成，那么迁移、异地求职、出差、跨城家庭与长期流动中的人，可以更早锁定下一步。
+If identity, text, signing and delivery can all be completed remotely, then people who are migrating, job-hunting in another city, on business trips, in cross-city families or in long-term mobility can lock in the next step earlier.
 
-### 1.3 `contract custody / 合同保管`
+### 1.3 `contract custody`
 
-纸质时代的一个重要事实是：合同常常是一件真正“拿在手里”的东西。
+One important fact about the paper era is that a contract was often something a person literally held in their hand.
 
-电子合同则可能存在于：
+An electronic contract, by contrast, may exist in:
 
-- 企业 HR 系统；
-- 第三方电子签平台；
-- 政府人社平台；
-- 邮箱；
-- App 账号；
-- 云端文档；
-- 本地下载副本。
+- a company HR system;
+- a third-party e-signature platform;
+- a government human-resources and social-security platform;
+- an email inbox;
+- an app account;
+- a cloud document;
+- a locally downloaded copy.
 
-因此：
+Therefore:
 
-**`contract exists != party can still retrieve it later`**。
+**`contract exists != party can still retrieve it later`**.
 
-离职、换手机号、账号注销、平台关闭或权限取消以后，“我曾签过”与“我今天还能拿出那份合同”是两个状态。
+After leaving a job, changing a phone number, closing an account, a platform shutting down or permissions being revoked, "I once signed it" and "I can still produce that contract today" are two different states.
 
-### 1.4 `consent evidence chain / 合意证据链`
+### 1.4 `consent evidence chain`
 
-电子合同尤其容易诱发一个错误推理：
+Electronic contracts are especially prone to one faulty inference:
 
 ```text
-系统里有一份带签名的 PDF
-→ 这个人一定看过
-→ 一定是本人操作
-→ 一定知道条款
-→ 一定自愿同意
+there is a signed PDF in the system
+→ this person must have read it
+→ it must have been the person themselves
+→ they must have known the terms
+→ they must have voluntarily agreed
 ```
 
-这些结论都不能自动成立。
+None of these conclusions follows automatically.
 
-更稳妥的链条是：
+A more defensible chain is:
 
 ```text
 identity proof
@@ -115,137 +115,137 @@ identity proof
 → later verification
 ```
 
-### 1.5 `commitment acceleration / 承诺加速`
+### 1.5 `commitment acceleration`
 
-远程签署降低邮寄、往返和排队时间，但也可能把“慢慢看、拿回去想、再签”压缩成手机上的几次点击。
+Remote signing cuts postal, travel and queueing time, but it can also compress "read it slowly, take it home to think, then sign" into a few taps on a phone.
 
-所以：
+Therefore:
 
-**`faster execution != better bargaining != better comprehension`**。
+**`faster execution != better bargaining != better comprehension`**.
 
-### 1.6 `contractualization gap / 契约覆盖缺口`
+### 1.6 `contractualization gap`
 
-即使可靠电子签名已经存在，也不意味着非正规劳动者都会因此得到正式合同。
+Even where reliable electronic signatures already exist, it does not follow that informal workers will all obtain formal contracts.
 
-技术只能降低某些签署成本，不能自动解决：
+Technology can only lower some signing costs; it cannot automatically resolve:
 
-- 企业是否愿意签；
-- 劳动关系是否被承认；
-- 平台是否把劳动者定义为雇员；
-- 双方议价权是否对称；
-- 劳动者是否敢要求合同。
+- whether the employer is willing to sign;
+- whether the employment relationship is recognized;
+- whether the platform defines the worker as an employee;
+- whether bargaining power is symmetrical;
+- whether the worker dares to ask for a contract.
 
-因此：
+Therefore:
 
-**`e-signature availability != formalization of informal work`**。
+**`e-signature availability != formalization of informal work`**.
 
 ---
 
-## 2. 全球前史：Internet 没有发明“远程承诺”，但开始把承诺做成可验证数据
+## 2. Global prehistory: the Internet did not invent "remote commitment", but it began turning commitment into verifiable data
 
-### 2.1 1994：数字签名标准先解决“数据是谁签的、有没有被改”
+### 2.1 1994: the digital signature standard first settled "who signed the data, and was it altered"
 
-NIST 1994 年 5 月公布 FIPS 186 Digital Signature Standard。官方说明明确把数字签名用于验证电子数据完整性和签名人身份，并指出电子消息、表单、合同等可以受益于这种认证能力；标准依赖公钥/私钥密码体系。
+NIST published FIPS 186, the Digital Signature Standard, in May 1994. The official description explicitly assigns digital signatures to verifying the integrity of electronic data and the identity of the signer, and notes that electronic messages, forms and contracts can benefit from this authentication capability; the standard relies on public-key/private-key cryptography.
 
 Source:
 - NIST, `NIST Announces "Digital Signature" Standard For Computer Security`, 1994-05-20: https://www.nist.gov/news-events/news/1994/05/nist-announces-digital-signature-standard-computer-security
 - NIST CSRC, `FIPS 186 Digital Signature Standard`, 1994-05-19: https://csrc.nist.gov/pubs/fips/186/final
 
-**Grade:** A — 官方标准与同期机构公告。
+**Grade:** A — official standard and contemporaneous agency announcement.
 
-但这只能证明数字签名技术与标准存在，不能推出 1994 年普通家庭已经在网上签合同。
+But this only proves that digital signature technology and a standard existed; it does not support the inference that ordinary households were already signing contracts online in 1994.
 
-### 2.2 1996：法律开始把“纸”拆成功能，而不是材料
+### 2.2 1996: the law began to break "paper" into functions rather than material
 
-UNCITRAL 1996 年《电子商务示范法》提出非歧视、技术中立与功能等同原则，目标之一正是让电子信息在满足相应功能时能够承担纸面文书的法律角色；它还处理数据电文的归属、发送、接收时间与地点等问题。
+UNCITRAL's 1996 Model Law on Electronic Commerce set out the principles of non-discrimination, technological neutrality and functional equivalence; one of its aims was precisely to let electronic information carry the legal role of a paper document when it performs the corresponding functions. It also dealt with the attribution of data messages and the time and place of their sending and receipt.
 
 Source:
 - UNCITRAL, `Model Law on Electronic Commerce (1996)`: https://uncitral.un.org/en/texts/ecommerce/modellaw/electronic_commerce
 
-**Grade:** A — 国际组织原始法律文本说明。
+**Grade:** A — original explanatory text of an international organization's legal instrument.
 
-这意味着数字化的关键问题从“有没有一张纸”逐渐转向：
+This meant the key question of digitalization gradually shifted from "is there a sheet of paper" to:
 
-> **电子记录是否完成了法律要求纸张、签名、原件、送达所承担的功能。**
+> **whether the electronic record performs the functions that the law assigns to paper, signature, original and delivery.**
 
-### 2.3 2000—2001：无纸化也必须证明普通人真的能取得记录
+### 2.3 2000–2001: paperlessness also had to prove that ordinary people could actually obtain the record
 
-美国 ESIGN 法案 2000 年通过。FTC 2001 年在讨论消费者同意条款时明确指出：依法需要书面提供的信息若改用电子记录，消费者同意的方式应当能够合理证明其有能力访问该电子记录。
+The US ESIGN Act passed in 2000. In 2001, discussing the consumer-consent provisions, the FTC stated explicitly that where information required by law to be provided in writing is instead provided as an electronic record, the manner of consumer consent should reasonably demonstrate that the consumer has the ability to access that electronic record.
 
 Source:
 - FTC, `FTC, Department of Commerce to Host Esign Workshop`, 2001-02-16: https://www.ftc.gov/news-events/news/press-releases/2001/02/ftc-department-commerce-host-esign-workshop
 
-**Grade:** A — 同期政府材料。
+**Grade:** A — contemporaneous government material.
 
-这是一个很重要的海外反例：
+This is a very important overseas counter-example:
 
-**`electronic legal equivalence != meaningful access`**。
+**`electronic legal equivalence != meaningful access`**.
 
-一个人如果没有合适设备、软件或长期可进入的账号，“法律允许电子化”并不等于他真正得到了一份可保管的合同。
+If a person lacks suitable equipment, software or a long-term accessible account, "the law permits electronic form" does not mean they actually obtained a contract they can keep.
 
 ---
 
-## 3. 中国边界：2005 年法律生效，不等于 2005 年普通人突然开始电子签约
+## 3. The Chinese boundary: the law taking effect in 2005 did not mean ordinary people suddenly began signing electronically in 2005
 
-### 3.1 不能把 1994 写成“合同数字化从无到有”
+### 3.1 1994 must not be written as "contract digitalization went from nothing to something"
 
-中国 1994 年以前已经存在科研网络、电子邮件、专线与计算机系统；1994 年以后正式全功能接入全球 Internet，也不意味着家庭接入、企业流程、CA 体系和普通用户设备同时普及。
+Research networks, email, leased lines and computer systems already existed in China before 1994; and full-function connection to the global Internet after 1994 did not mean that household access, enterprise workflows, CA systems and ordinary users' devices all became widespread at the same time.
 
-本专题因此不把“Internet 接入日”直接当作电子合同生活史的起点，而使用分层：
+This topic therefore does not treat the "Internet connection date" directly as the starting point of the everyday history of electronic contracts, and instead uses layers:
 
 ```text
-网络/计算机系统存在
-→ 数字签名技术与认证基础设施存在
-→ 法律承认数据电文/可靠电子签名
-→ 企业或行业试用
-→ 普通个人能实际获得
-→ 签署进入工作/住房/消费常态
-→ 合同状态进一步接入公共服务系统
+network / computer systems exist
+→ digital signature technology and authentication infrastructure exist
+→ the law recognizes data messages / reliable electronic signatures
+→ enterprise or sector pilots
+→ ordinary individuals can actually obtain it
+→ signing enters work / housing / consumption as a norm
+→ contract status is further connected to public service systems
 ```
 
-### 3.2 2004—2005：《电子签名法》解决法律可承认性
+### 3.2 2004–2005: the Electronic Signature Law settled legal recognizability
 
-《中华人民共和国电子签名法》于 2004 年 8 月 28 日通过，自 2005 年 4 月 1 日施行。法律把电子签名定义为数据电文中用于识别签名人身份并表明其认可内容的数据；能够有形表现、随时调取的数据电文可以满足书面形式要求，满足完整性等条件时可以满足“原件”要求。
+The Electronic Signature Law of the People's Republic of China was adopted on 28 August 2004 and took effect on 1 April 2005. The law defines an electronic signature as data in a data message used to identify the signer and to indicate the signer's approval of the content; a data message that can be displayed in tangible form and retrieved at any time can satisfy the writing requirement, and can satisfy the "original" requirement when conditions such as integrity are met.
 
-2005 年的电子认证服务管理办法又把为电子签名提供真实性、可靠性验证的第三方认证服务纳入许可与管理。
+The 2005 Measures for the Administration of Electronic Authentication Services then brought third-party authentication services — which verify the authenticity and reliability of electronic signatures — under licensing and regulation.
 
 Sources:
-- 中央网信办，《中华人民共和国电子签名法》，2004-08-28: https://www.cac.gov.cn/2004-08/28/c_126468489.htm
-- 司法部，《电子认证服务管理办法》，2005-04-12（办法自 2005-04-01 施行）: https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200504/t20050412_143906.html
+- Cyberspace Administration of China, Electronic Signature Law of the People's Republic of China, 2004-08-28: https://www.cac.gov.cn/2004-08/28/c_126468489.htm
+- Ministry of Justice, Measures for the Administration of Electronic Authentication Services, 2005-04-12 (the measures took effect 2005-04-01): https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/200504/t20050412_143906.html
 
-**Grade:** A — 法律/部门规章原始文本。
+**Grade:** A — original text of a law / departmental rule.
 
-但法律本身也清楚说明：`electronic form` 只是可被承认的形式，不是所有文书、所有场景都自动完成电子化。
+But the law itself also makes clear that `electronic form` is only a form that may be recognized, and does not mean that every document and every setting is automatically digitalized.
 
 ---
 
-## 4. 2005：扩张型未来的早期版本——“以后合同也许不必等人回来”
+## 4. 2005: an early version of the expansionary future — "one day a contract may not have to wait for a person to come back"
 
-### 4.1 一场很“作秀”的签约，反而保存了当时真实的不确定性
+### 4.1 A very staged signing event actually preserved the real uncertainty of the time
 
-2005 年 4 月 1 日凌晨，《电子签名法》生效当天，潘石屹签下两份电子合同。同期《互联网周刊》报道自己就指出这场活动有明显展示/作秀意味。
+In the early hours of 1 April 2005, the day the Electronic Signature Law took effect, Pan Shiyi signed two electronic contracts. The contemporaneous report in Internet Weekly itself pointed out that the event had an obvious demonstrative/showcase character.
 
-更有价值的不是“第一”这个宣传称号，而是潘石屹当时连续问的问题：
+What is more valuable is not the promotional label of "the first", but the questions Pan Shiyi kept asking at the time:
 
-- 能不能拿它和银行签文件；
-- 密码被破解怎么办；
-- 电子签章丢了怎么办；
-- 以后能不能与购房者、建筑商、银行都这样签。
+- could he use it to sign documents with a bank;
+- what if the password were cracked;
+- what if the electronic seal were lost;
+- could he later sign this way with home buyers, builders and banks alike.
 
 Source:
-- 《互联网周刊》转载，《电子签名：告别纸上谈兵》，2005-05-11: https://finance.sina.com.cn/chanjing/b/20050511/16411578910.shtml
+- Internet Weekly, republished, Electronic Signature: Farewell to Armchair Talk, 2005-05-11: https://finance.sina.com.cn/chanjing/b/20050511/16411578910.shtml
 
-**Grade:** B — 同期行业报道；其中“第一”与应用效果属于报道/厂商叙事，不当作绝对事实。
+**Grade:** B — contemporaneous industry report; the "first" claim and the reported application effects belong to journalistic/vendor narrative and are not treated as absolute fact.
 
-这是一条非常好的“同时代人的未来想象”材料。它说明 2005 年的扩张感不是今天回头总结出来的：当时参与者自己就在想象一个未来——
+This is very good material on how contemporaries imagined the future. It shows that the sense of expansion in 2005 is not a summary produced by looking back today: the participants themselves were already imagining a future —
 
-> **如果银行、购房者、供应商都接受这套东西，签约地点也许不再和人的身体绑定。**
+> **if banks, home buyers and suppliers all accepted this system, the place of signing might no longer be tied to where a person's body was.**
 
-### 4.2 同一篇报道又给出了反证：法律出现，市场并没有立刻“井喷”
+### 4.2 The same report also supplied a counter-proof: the law appeared, but the market did not immediately take off
 
-该报道同时记录，一些电子商务企业因为成本等原因仍在观望，CA 市场化程度有限，信息化普及率和信用环境也限制采用。
+The same report also records that some e-commerce enterprises were still watching and waiting, for reasons including cost, that the degree of marketization of CAs was limited, and that informatization penetration and the credit environment also constrained adoption.
 
-这正好满足仓库的方法要求：
+This satisfies the repository's methodological requirement exactly:
 
 ```text
 law exists
@@ -255,153 +255,153 @@ law exists
 != ordinary user adopts
 ```
 
-2005 的“扩张”首先是**未来路线被打开**，而不是路线已经成为全民日常。
+The "expansion" of 2005 was first of all **a future route being opened**, not that route having already become everyone's daily life.
 
 ---
 
-## 5. 旧 Web 的真正摩擦：签名功能常常依赖浏览器、证书、控件和密钥
+## 5. The real friction of the old web: signature functions often depended on browsers, certificates, controls and keys
 
-电子签名很容易被今天的手机体验倒推成“点一下就行”。但 PC Web 时代并不是这样。
+Today's mobile experience makes it easy to read electronic signing backwards as "you just tap once". The PC web era was not like that.
 
-Microsoft 对 InfoPath Forms Server 2007 的官方遗留说明明确写到：浏览器中的数字签名需要支持 ActiveX 的 Web 浏览器，因此必须使用 Windows Internet Explorer；首次签署还需要安装并启用两个 ActiveX 控件，再选择证书后才能完成签署。
+Microsoft's official legacy note on InfoPath Forms Server 2007 states explicitly that a digital signature in a browser requires an ActiveX-capable web browser, and therefore Windows Internet Explorer must be used; the first signing also requires installing and enabling two ActiveX controls, and then selecting a certificate before the signature can be completed.
 
 Source:
-- Microsoft Support, `Add a digital signature to a browser-enabled form`（适用于 Forms Server 2007/InfoPath）: https://support.microsoft.com/en-US/infopath/add-a-digital-signature-to-a-browser-enabled-form
+- Microsoft Support, `Add a digital signature to a browser-enabled form` (applies to Forms Server 2007/InfoPath): https://support.microsoft.com/en-US/infopath/add-a-digital-signature-to-a-browser-enabled-form
 
-**Grade:** A/B — 官方产品文档，今天仍托管；可证明 legacy product 的技术要求，但不是 2007 年网页 capture。
+**Grade:** A/B — official product documentation, still hosted today; it can establish the technical requirements of a legacy product, but it is not a 2007 web capture.
 
-这说明“远程可签”必须继续拆成：
+This means "signable remotely" has to be broken down further into:
 
 ```text
-有电脑
-+ 有网络
-+ 浏览器兼容
-+ ActiveX/插件可安装
-+ 证书存在
-+ 私钥可用
-+ 页面能加载
-+ 签名控件能运行
-+ 服务端接受
+have a computer
++ have a network connection
++ a compatible browser
++ ActiveX/plugins can be installed
++ a certificate exists
++ the private key is usable
++ the page can load
++ the signature control can run
++ the server accepts it
 ```
 
-所以 Internet 到来以后，**身体不必去柜台**，并不意味着基础设施摩擦消失；摩擦可能只是转移到浏览器、USBKey、证书和技术支持。
+So after the Internet arrived, the fact that **the body no longer had to go to the counter** did not mean infrastructure friction disappeared; the friction may simply have moved into browsers, USB keys, certificates and technical support.
 
 ---
 
-## 6. “网签”不是一种东西：2008 年住房网签是最好的反例
+## 6. "Online filing" is not one thing: the 2008 housing online contract filing is the best counter-example
 
-北京 2008 年推行存量房网上签约时，同期材料显示仍设置了免费的服务窗口，买卖双方可以到服务场所办理网上签约；首日一些大厅甚至没有多少申请人。
+When Beijing introduced online filing for existing-home transactions in 2008, contemporaneous material shows that free service windows were still provided, where buyer and seller could go to a service venue to complete the online filing; on the first day some halls had few applicants at all.
 
-这类材料非常适合阻止一个常见误读：
+This kind of material is very well suited to blocking a common misreading:
 
-**`网上签约 / 网签 != cryptographic electronic signature != remote signing`**。
+**`online contract filing (wangqian) != cryptographic electronic signature != remote signing`**.
 
-“网签”可能意味着：
+"Online filing" may mean:
 
-- 房屋信息进入政府数据库；
-- 合同文本在线生成/备案；
-- 柜台人员通过系统操作；
-- 双方仍线下见面、纸面签字。
+- property information entering a government database;
+- contract text generated or recorded online;
+- counter staff operating through a system;
+- both parties still meeting in person and signing on paper.
 
-因此不要因为历史材料出现“网签”两个字，就直接写成“2008 年普通购房者已经可以在家远程电子签名”。
+So the appearance of the two words "online filing" in a historical source must not be written straight up as "in 2008 ordinary home buyers could already sign electronically remotely from home".
 
-> 住房网签本身已有独立专题，本节只作为签名概念的反例，不重复住房史。
+> Housing online filing already has its own dedicated topic; this section serves only as a counter-example for the concept of a signature, and does not repeat the housing history.
 
 ---
 
-## 7. 2015—2019：拥堵型未来——签约变快，但合同也开始变成平台事务
+## 7. 2015–2019: the congested future — signing became faster, but contracts also began to become platform affairs
 
-### 7.1 2015：远程租房合同仍首先是一种被宣传的未来
+### 7.1 2015: remote rental contracts were still first of all an advertised future
 
-2015 年上上签创始人万敏对《新京报》描述过一个理想场景：租房时和房东在网上迅速签完一份安全有效的合同；报道同时承认“网上签约”当时还没有真正发展起来。
-
-Source:
-- 新华网转载《新京报》，《上上签 让网上签约变得可靠》，2015-10-08: https://www.xinhuanet.com/politics/2015-10/08/c_128294214.htm
-
-**Grade:** B — 同期创业者/产品叙事，不用于证明大众普及。
-
-这条材料保存了 2015 年的未来想象：
-
-> 交易已经可以在线找到人、在线支付，下一步希望连“正式承诺”也不必掉回纸面和见面。
-
-### 7.2 互联网金融暴露了“平台里有交易，但个人手里没有证据”的问题
-
-2015 年关于 P2P 的同期报道记录，许多交易完全发生在平台中，投资人往往没有纸质合同；一旦平台跑路或后台证据消失，个人可能只剩付款记录。因此业内开始强调第三方电子合同与证据固化。
+In 2015 Wan Min, founder of Shangshangqian, described an ideal scenario to The Beijing News: when renting, you and the landlord quickly sign a safe and valid contract online; the report also acknowledged that "online signing" had not really developed yet at that time.
 
 Source:
-- 人民网转载《广州日报》，《引入电子合同破P2P“跑路”难题》，2015-04-27: https://finance.people.com.cn/money/n/2015/0427/c42877-26908888.html
+- Xinhua, republishing The Beijing News, Shangshangqian Makes Online Signing Reliable, 2015-10-08: https://www.xinhuanet.com/politics/2015-10/08/c_128294214.htm
 
-**Grade:** B — 同期媒体+行业人士；不能据此证明电子合同本身必然保护投资者。
+**Grade:** B — contemporaneous founder/product narrative, not used to establish mass adoption.
 
-这里出现的是 `contract custody`：
+This material preserves the 2015 imagination of the future:
 
-**如果合同只存在于交易平台自己的数据库里，平台失效时，合同也可能一起失去可执行性。**
+> transactions could already find the other party online and pay online; the next step was the hope that even the "formal commitment" would not have to fall back to paper and meeting in person.
 
-### 7.3 2019：劳动合同开始直接进入手机
+### 7.2 Internet finance exposed the problem of "the platform holds the transaction, but the individual holds no evidence"
 
-2019 年海尔与青岛人社部门发布电子劳动合同模式。同期报道描述：系统把签署邀请发到员工手机，员工刷脸实名认证后可一键签署，并可在线查询、打印和存储合同；宣传材料同时强调解决出差在外导致续签/改签不及时的问题。
+A contemporaneous 2015 report on P2P recorded that many transactions took place entirely inside the platform and investors often had no paper contract; once a platform absconded or the back-end evidence disappeared, an individual might be left with nothing but payment records. The industry therefore began to emphasize third-party electronic contracts and the fixing of evidence.
+
+Source:
+- People's Daily Online, republishing Guangzhou Daily, Introducing Electronic Contracts to Solve the P2P "Absconding" Problem, 2015-04-27: https://finance.people.com.cn/money/n/2015/0427/c42877-26908888.html
+
+**Grade:** B — contemporaneous media plus industry figures; it cannot be used to prove that electronic contracts in themselves necessarily protect investors.
+
+What appears here is `contract custody`:
+
+**if a contract exists only in the trading platform's own database, then when the platform fails the contract may lose its executability along with it.**
+
+### 7.3 2019: labour contracts began to go directly onto the phone
+
+In 2019 Haier and the Qingdao human-resources and social-security department launched an electronic labour-contract model. Contemporaneous reporting describes it: the system sends a signing invitation to the employee's phone; after face-recognition real-name authentication the employee can sign with one tap, and can query, print and store the contract online; the promotional material at the same time stressed that it solved the problem of renewals or amendments being late because the person was away on business.
 
 Sources:
-- 中国日报网，2019-06-04: https://sd.chinadaily.com.cn/a/201906/04/WS5cf62a43a31011d294da9fa7.html
-- 青岛日报转载，2019-06-04: https://news.iqilu.com/shandong/shandonggedi/20190604/4285044.shtml
+- China Daily, 2019-06-04: https://sd.chinadaily.com.cn/a/201906/04/WS5cf62a43a31011d294da9fa7.html
+- Qingdao Daily, republished, 2019-06-04: https://news.iqilu.com/shandong/shandonggedi/20190604/4285044.shtml
 
-**Grade:** B — 同期企业/政企项目报道；证明该流程存在，不代表所有劳动者已经这样签约。
+**Grade:** B — contemporaneous enterprise and government-enterprise project reporting; it proves the workflow existed, not that all workers were already signing this way.
 
-到 2020 年北京推广时的报道还回溯称，百度 2019 年已经把企业电子签章用于下半年校园招聘；京东的经验则是把批量入职时原本每名员工数小时的纸质手续改为员工手机操作，外地人员不再来回邮寄合同。
+By the time of the 2020 Beijing rollout, reporting also looked back and said that Baidu had already used an enterprise electronic seal for campus recruitment in the second half of 2019; JD.com's experience was to replace paper procedures that had previously taken several hours per employee during batch onboarding with operations on the employee's phone, so that people outside Beijing no longer had to mail contracts back and forth.
 
 Source:
-- 人民网北京频道，2020-04-22: https://bj.people.com.cn/n2/2020/0422/c14540-33967522.html
+- People's Daily Online Beijing channel, 2020-04-22: https://bj.people.com.cn/n2/2020/0422/c14540-33967522.html
 
-**Grade:** B — 2020 年对 2019 企业实践的近同时代重构。
+**Grade:** B — a near-contemporaneous 2020 reconstruction of 2019 enterprise practice.
 
-这意味着“开始一份工作”的流程发生了解耦：
+This means the process of "starting a job" became decoupled:
 
 ```text
-收到 offer
-→ 远程身份验证
-→ 手机看合同
-→ 电子签署
-→ 企业/平台存储
-→ 入职
+receive the offer
+→ remote identity verification
+→ read the contract on the phone
+→ sign electronically
+→ enterprise/platform storage
+→ start work
 ```
 
-一个人可以在尚未和 HR 身体共处时，就先完成劳动关系中的一部分正式手续。
+A person could complete part of the formalities of an employment relationship before ever being physically in the same place as HR.
 
 ---
 
-## 8. 但同一时期还有另一条现实：很多零工根本没有进入“合同”这条轨道
+## 8. But the same period had another reality: many gig workers never entered the "contract" track at all
 
-2019 年关于外卖骑手的同期报道指出，不少骑手没有传统劳动合同，只通过 App 的众包服务平台协议或线下口头约定确定关系，由此带来劳动关系认定和维权困难。
+A contemporaneous 2019 report on food-delivery riders noted that many riders had no traditional labour contract and had their relationship defined only by a crowdsourcing service platform agreement in an app or by an offline oral arrangement, which brought difficulties in establishing the employment relationship and in defending rights.
 
 Source:
-- 人民网公益频道，《“零工”骑手维权困难重重》，2019-07-26: https://gongyi.people.com.cn/n1/2019/0726/c151132-31257711.html
+- People's Daily Online public welfare channel, "Gig" Riders Face Many Difficulties Defending Their Rights, 2019-07-26: https://gongyi.people.com.cn/n1/2019/0726/c151132-31257711.html
 
-**Grade:** B — 同期报道。
+**Grade:** B — contemporaneous report.
 
-这是本专题最重要的反例之一：
+This is one of the most important counter-examples in this topic:
 
-> **电子签名把“已经愿意正式签合同的人”签得更快，并不自动把没有被纳入正式劳动合同的人纳入。**
+> **electronic signatures make the people who are already willing to sign a formal contract sign faster; they do not automatically bring in the people who were never covered by a formal labour contract.**
 
-所以不能写：
+So we cannot write:
 
-> “电子合同普及以后劳动关系更正式。”
+> "once electronic contracts spread, employment relationships became more formal."
 
-最多能写：
+At most we can write:
 
-> “对已经选择/被要求订立书面合同的一部分关系，电子签署降低了跨地完成手续的成本。”
+> "for the subset of relationships where a written contract has already been chosen or required, electronic signing lowered the cost of completing the formalities across distance."
 
 ---
 
-## 9. 2019：电子合同让“签过没有”从一张纸的问题变成一条证据链问题
+## 9. 2019: electronic contracts turned "did you sign or not" from a question about a sheet of paper into a question about an evidence chain
 
-2019 年《法制日报》报道过一家银行因电子合同关键日志缺失而陷入诉讼举证困境，最后需要司法鉴定专家复盘数据才能形成证据。
+In 2019 Legal Daily reported on a bank that fell into evidentiary difficulty in litigation because key logs of an electronic contract were missing, and in the end needed forensic-examination experts to rework the data before evidence could be formed.
 
 Source:
-- 人民网转载《法制日报》，2019-04-29: https://money.people.com.cn/n1/2019/0429/c42877-31056448.html
+- People's Daily Online, republishing Legal Daily, 2019-04-29: https://money.people.com.cn/n1/2019/0429/c42877-31056448.html
 
-**Grade:** B — 同期司法/媒体报道。
+**Grade:** B — contemporaneous judicial/media report.
 
-这说明电子合同虽然减少了纸张保管，却增加另一种“档案基础设施”要求：
+This shows that while electronic contracts reduce paper custody, they add another kind of "archival infrastructure" requirement:
 
 ```text
 contract PDF
@@ -413,291 +413,291 @@ contract PDF
 + audit trail
 ```
 
-**只保存最后一张 PDF，不一定等于保存了未来能证明它的全部条件。**
+**keeping only the final PDF is not necessarily the same as keeping all the conditions needed to prove it in the future.**
 
 ---
 
-## 10. 2020—2022：偶发型未来——不能见面时，远程承诺变成 fallback
+## 10. 2020–2022: the occasional future — when people could not meet, remote commitment became a fallback
 
-### 10.1 疫情把“是否必须面对面签劳动合同”变成现实问题
+### 10.1 The pandemic turned "must labour contracts be signed face to face" into a practical problem
 
-2020 年 3 月，人社部针对疫情防控期间的请示明确答复：用人单位与劳动者协商一致，可以采用电子形式订立书面劳动合同，但应使用符合电子签名法的可视为书面形式的数据电文和可靠电子签名，并确保生成、传递、储存完整、准确、不被篡改。
-
-Source:
-- 人力资源和社会保障部办公厅，《关于订立电子劳动合同有关问题的函》，2020-03-04: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/ldgx_4234/ldyg/202003/t20200310_362037.html
-
-**Grade:** A — 原始官方文件。
-
-北京随后明确把线上招聘、线上签订电子劳动合同与疫情期间复工就业联系起来。
+In March 2020, answering a request for instruction concerning epidemic prevention and control, the Ministry of Human Resources and Social Security stated explicitly: an employer and a worker may, by agreement, conclude a written labour contract in electronic form, but must use data messages that can be treated as writing under the Electronic Signature Law and reliable electronic signatures, and must ensure that generation, transmission and storage are complete, accurate and untampered with.
 
 Source:
-- 人民网/工人日报，2020-04-23: https://acftu.people.com.cn/n1/2020/0423/c67502-31685166.html
+- General Office of the Ministry of Human Resources and Social Security, Letter on Issues Concerning the Conclusion of Electronic Labour Contracts, 2020-03-04: https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/ldgx_4234/ldyg/202003/t20200310_362037.html
 
-**Grade:** B — 同期报道。
+**Grade:** A — original official document.
 
-这里的偶发型未来非常典型：
-
-> 平时主要用来省跑腿的能力，在“身体暂时不能方便见面”时，突然变成保持招聘、入职和续签继续运行的备用基础设施。
-
-### 10.2 2022：普通人的“15 分钟远程面签”证明了多方共处也能被拆开
-
-2022 年《人民日报海外版》报道，北京闫女士买房时丈夫在外地无法回京，夫妻、卖方、贷款银行客户经理和中介分别在不同地点登录系统，约 15 分钟完成线上面签。
+Beijing then explicitly linked online recruitment and the online signing of electronic labour contracts to returning to work and employment during the epidemic.
 
 Source:
-- 中央网信办转载《人民日报海外版》，《让信息多跑路、群众少跑腿 “云签约”，真方便》，2022-11-30: https://www.cac.gov.cn/2022-11/30/c_1671446738694677.htm
+- People's Daily Online / Workers' Daily, 2020-04-23: https://acftu.people.com.cn/n1/2020/0423/c67502-31685166.html
 
-**Grade:** B — 同期普通人个案；不代表全国住房交易都已可远程完成。
+**Grade:** B — contemporaneous report.
 
-这条材料的意义不是“房子终于上网”，而是：
+The occasional future appears here in a very typical form:
 
-**原本必须安排五类人的共同在场时间，现在可以被拆成同时在线但不共处一室。**
+> a capability normally used mainly to save errands suddenly became, at a time when bodies temporarily could not conveniently meet, the fallback infrastructure that kept recruitment, onboarding and renewal running.
+
+### 10.2 2022: an ordinary person's "15-minute remote counter signing" proved that multi-party co-presence could also be taken apart
+
+In 2022 People's Daily Overseas Edition reported that when Ms Yan in Beijing was buying a home, her husband was out of town and could not return to Beijing, so the couple, the seller, the loan bank's account manager and the agent each logged into the system from different locations and completed the online counter signing in about 15 minutes.
+
+Source:
+- Cyberspace Administration of China, republishing People's Daily Overseas Edition, Let Information Run More and the Public Run Less: "Cloud Signing" Is Really Convenient, 2022-11-30: https://www.cac.gov.cn/2022-11/30/c_1671446738694677.htm
+
+**Grade:** B — a contemporaneous individual case of an ordinary person; it does not mean all housing transactions nationwide could already be completed remotely.
+
+The significance of this material is not that "housing finally went online", but that:
+
+**a co-presence that originally had to be scheduled across five kinds of people can now be split into being online at the same time without being in the same room.**
 
 ---
 
-## 11. 2023—2026：防守型未来——重点开始从“能不能电子签”转向“怎样保证以后还能证明自己确实签过”
+## 11. 2023–2026: the defensive future — the focus began shifting from "can we sign electronically" to "how do we guarantee that we can still prove we signed"
 
-### 11.1 2023：一个求职者可以真正“还没见面就完成劳动合同”
+### 11.1 2023: a job applicant could genuinely "complete a labour contract before ever meeting"
 
-2023 年 3 月 1 日，求职者程方圆通过手机进入内蒙古政务 App，查看合同后确认、提交、输入密码，并通过刷脸/电子签名完成当地报道所称的首份电子劳动合同。她在同期采访里说，不用见面、不用来回跑，几分钟即可完成。
+On 1 March 2023, job applicant Cheng Fangyuan entered the Inner Mongolia government-services app on her phone, reviewed the contract, then confirmed, submitted and entered her password, and completed what local reporting called the first electronic labour contract there via face recognition / electronic signature. In a contemporaneous interview she said there was no need to meet and no need to run back and forth, and it could be done in a few minutes.
 
 Sources:
-- 中国就业网/人民网，2023-03-07: https://chinajob.mohrss.gov.cn/c/2023-03-07/371436.shtml
-- 中国青年报/中工网，2023-03-10: https://news.cyol.com/gb/articles/2023-03/10/content_bmqWLoILjq.html
+- China Employment Network / People's Daily Online, 2023-03-07: https://chinajob.mohrss.gov.cn/c/2023-03-07/371436.shtml
+- China Youth Daily / China Workers' Network, 2023-03-10: https://news.cyol.com/gb/articles/2023-03/10/content_bmqWLoILjq.html
 
-**Grade:** B — 同期媒体与普通人第一人称；“首份”为当地机构/报道口径。
+**Grade:** B — contemporaneous media plus an ordinary person's first-person account; "first" is the local agency's/report's framing.
 
-这是很明确的 life-path 变化：
+This is a very clear change in life path:
 
 ```text
-求职者在 A 地
-企业在 B 地
-→ 手机看合同
-→ 远程身份/意愿确认
-→ 劳动合同成立
+the job applicant is in place A
+the enterprise is in place B
+→ read the contract on the phone
+→ remote identity / intent confirmation
+→ the labour contract comes into existence
 ```
 
-就业关系的正式化不再天然要求一次实体会面。
+Formalizing an employment relationship no longer inherently requires one physical meeting.
 
-### 11.2 防守之一：合同必须能被劳动者自己拿走
+### 11.2 Defence one: the contract must be something the worker can take away
 
-2025 年人社部门公开问答明确要求，用人单位应通知劳动者电子劳动合同已订立，提示及时下载保存，并保证劳动者可用常用设备随时查看、下载、打印完整内容且不得收费；劳动者需要纸质文本时，用人单位至少免费提供一份。
-
-Source:
-- 天津经开区转发人社部微信公众号，《查看电子劳动合同收费吗？》，2025-04-22: https://www.teda.gov.cn/contents/220/85970.html
-
-**Grade:** A/B — 政府转发官方问答。
-
-这意味着电子化成熟度不能只看“签约完成率”，还应该问：
-
-> **劳动者离开企业、换设备、账号失效之后，是否仍然拥有一份自己可以保存和拿去维权的文本？**
-
-这就是 `contract custody right / 合同保管权`。
-
-### 11.3 防守之二：一张带“电子签名”的文件，也可能不能证明双方形成合意
-
-2025 年《工人日报》报道克拉玛依一起案件：企业不能证明网签劳动合同形成合意，法院最终按未签订书面劳动合同处理。案件提醒，电子合同争议并不是“文件在不在”这么简单，而要继续核验是谁操作、是否授权、是否送达、是否真正表达同意。
+A 2025 public question-and-answer from the human-resources and social-security authorities explicitly requires that the employer notify the worker that the electronic labour contract has been concluded, prompt them to download and save it in good time, and guarantee that the worker can view, download and print the complete content at any time on commonly used devices without charge; where the worker needs a paper text, the employer must provide at least one copy free of charge.
 
 Source:
-- 《工人日报》转载，2025-02-20: https://www.thepaper.cn/newsDetail_forward_30199347
+- Tianjin Economic-Technological Development Area, republishing the Ministry of Human Resources and Social Security WeChat account, Is There a Charge for Viewing an Electronic Labour Contract?, 2025-04-22: https://www.teda.gov.cn/contents/220/85970.html
 
-**Grade:** B — 同期司法报道。
+**Grade:** A/B — official question-and-answer republished by government.
 
-这条反例给出非常重要的底线：
+This means the maturity of digitalization cannot be judged only by the "signing completion rate"; we should also ask:
 
-**`real-name data / old signature image / electronic file != voluntary assent`**。
+> **after a worker leaves the enterprise, changes device or loses an account, do they still hold a text that they themselves can keep and take to defend their rights?**
 
-### 11.4 2026：合同开始从“一份文档”变成公共服务系统中的机器状态
+This is `contract custody right`.
 
-到 2023 年内蒙古的官方介绍里，电子劳动合同已经计划与劳动用工备案、就业失业登记、社会保险、劳动争议调解仲裁等系统打通；2026 年多地继续推动电子劳动合同数据通过平台进入就业、社保和人才服务流程。
+### 11.3 Defence two: a document bearing an "electronic signature" may still fail to prove that the two parties reached agreement
 
-这意味着未来的劳动合同可能同时具有两种身份：
+In 2025 Workers' Daily reported a case in Karamay: the enterprise could not prove that the online-filed labour contract constituted a meeting of minds, and the court ultimately handled it as no written labour contract having been signed. The case is a reminder that an electronic-contract dispute is not as simple as whether the file exists; it requires further verification of who operated it, whether they were authorized, whether it was delivered, and whether agreement was genuinely expressed.
+
+Source:
+- Workers' Daily, republished, 2025-02-20: https://www.thepaper.cn/newsDetail_forward_30199347
+
+**Grade:** B — contemporaneous judicial report.
+
+This counter-example sets a very important bottom line:
+
+**`real-name data / old signature image / electronic file != voluntary assent`**.
+
+### 11.4 2026: contracts begin turning from "a document" into machine state in public service systems
+
+By the time of the 2023 official introduction in Inner Mongolia, electronic labour contracts were already planned to be connected through to systems for labour-employment filing, employment and unemployment registration, social insurance, and labour-dispute mediation and arbitration; in 2026 many places continue to push electronic labour-contract data through platforms into employment, social-security and talent-service processes.
+
+This means a future labour contract may carry two identities at once:
 
 ```text
-给人阅读的一份文档
+a document for a person to read
 +
-给制度系统消费的一条结构化状态
+a structured state for institutional systems to consume
 ```
 
-对普通人来说，这会进一步改变“证明我曾经在这里工作”的方式。
+For an ordinary person, this will further change the way one proves "I once worked here".
 
-但必须保留边界：
+But the boundary must be kept:
 
-**`contract data synced != every downstream right automatically recognized`**。
+**`contract data synced != every downstream right automatically recognized`**.
 
 ---
 
-## 12. 四种“未来时间”的比较
+## 12. A comparison of four kinds of "future time"
 
-| 时段 | 主要时间感 | 电子签署在其中扮演的角色 | 不能偷换的结论 |
+| Period | Dominant sense of time | Role electronic signing plays in it | Conclusion that must not be substituted |
 |---|---|---|---|
-| 2005–2012 扩张型 | 更多事务似乎将可以脱离地点 | 打开“远程正式承诺”的未来路线 | 法律生效 ≠ 大众已使用 |
-| 2015–2019 拥堵型 | 线上事务越来越多，签约也被压进平台流程 | 手机/云签提高入职、交易速度 | 快 ≠ 看懂 ≠ 平等协商 |
-| 2020–2022 偶发型 | 面对面流程可能突然不可用 | 远程签署成为招聘、面签、办事 fallback | fallback ≠ 所有群体可访问 |
-| 2023–2026 防守型 | 开始关注证据、保管、退出和误签风险 | 下载/打印、纸质副本、实名/意愿/日志、公共平台 | 有电子文件 ≠ 合意成立 |
+| 2005–2012, expansionary | more and more affairs seemed able to detach from place | opens the future route of "remote formal commitment" | law in force ≠ public already using it |
+| 2015–2019, congested | more and more affairs online, and signing also pressed into platform workflows | phone/cloud signing raises the speed of onboarding and transactions | fast ≠ understood ≠ equal bargaining |
+| 2020–2022, occasional | face-to-face processes may suddenly become unavailable | remote signing becomes the fallback for recruitment, counter signing and administrative procedures | fallback ≠ accessible to all groups |
+| 2023–2026, defensive | attention begins to turn to evidence, custody, exit and mistaken-signing risk | download/print, paper copies, real name/intent/logs, public platforms | having an electronic file ≠ agreement established |
 
 ---
 
-## 13. 对“标准人生脚本”的影响
+## 13. Consequences for the "standard life script"
 
-传统的标准脚本常被写成：
+The traditional standard script is often written as:
 
 ```text
-毕业
-→ 到公司报到
-→ 当面办入职
-→ 签劳动合同
-→ 开始工作
+graduate
+→ report to the company
+→ handle onboarding in person
+→ sign the labour contract
+→ start work
 ```
 
-数字签署以后，现实顺序可以变成：
+After digital signing, the actual order can become:
 
 ```text
-人在异地
-→ 在线面试
-→ 收到 offer
-→ 远程实名认证
-→ 手机签劳动合同
-→ 再迁移 / 再到岗
+be in another place
+→ interview online
+→ receive the offer
+→ remote real-name authentication
+→ sign the labour contract on the phone
+→ then migrate / then report for duty
 ```
 
-这增加了一条很具体的生活路径：
+This adds a very concrete life path:
 
-> **一个人可以先把未来的一部分制度状态固定下来，再决定身体何时迁过去。**
+> **a person can first fix part of their future institutional status, and only then decide when their body will move there.**
 
-这对毕业生、异地求职者、出差者、跨城家庭尤其重要。
+This matters especially for graduates, people job-hunting in another city, business travellers and cross-city families.
 
-但另一条人生路径仍然存在：
+But another life path still exists:
 
 ```text
-开始干活
-→ 没有正式劳动合同
-→ 只剩平台协议 / 口头约定
-→ 发生争议后再证明关系
+start working
+→ no formal labour contract
+→ only a platform agreement / oral arrangement remains
+→ prove the relationship after a dispute arises
 ```
 
-所以电子签名不是“标准人生脚本更加标准”，而是让**某些人的正式路径更容易远程执行，同时并没有消灭正式路径之外的人。**
+So electronic signatures do not mean "the standard life script becomes more standard"; they mean **the formal path becomes easier to execute remotely for some people, while the people outside the formal path are not eliminated.**
 
 ---
 
-## 14. 与核心矩阵的连接
+## 14. Connections to the core matrix
 
-### 教育 / 就业
-- 校园招聘可以在学生仍在学校或外地时完成部分签约；
-- 就业开始时间与首次物理报到进一步解耦。
+### Education / employment
+- campus recruitment can complete part of the signing while the student is still at school or in another city;
+- the start of employment and the first physical reporting are further decoupled.
 
-### 住房
-- 必须区分“网签备案”“线上面签”“可靠电子签名”“最终登记”；
-- 不能把一个数据库状态当成整个住房交易完成。
+### Housing
+- a distinction must be kept between "online filing for the record", "online counter signing", "reliable electronic signature" and "final registration";
+- a database state must not be treated as the completion of the whole housing transaction.
 
-### 迁移
-- 可以先锁定工作/交易，再搬家；
-- 减少为了签字专程跨城往返。
+### Migration
+- a job or transaction can be locked in first, and the move made afterwards;
+- it reduces trips between cities made specially in order to sign.
 
-### 非正规劳动
-- 技术可用并不自动让骑手、保洁、短工等得到正式劳动合同。
+### Informal labour
+- technical availability does not automatically give riders, cleaners or day labourers a formal labour contract.
 
-### 证件与记录
-- 合同从纸件变成数据电文、签名证书、日志、时间记录与账号权限的组合。
+### Documents and records
+- the contract turns from paper into a combination of data message, signature certificate, logs, time records and account permissions.
 
-### 通信方式
-- 邮寄/传真/电话并没有被瞬间替代；
-- Web、App、短信、邮箱与人脸识别逐渐组成签署链。
+### Communication
+- post, fax and telephone were not replaced in an instant;
+- the web, apps, SMS, email and face recognition gradually came together to form the signing chain.
 
-### 未来预期
-- 2005 的未来是“以后合同也许都能远程”；
-- 2015 的未来是“支付已经在线，签约也应在线”；
-- 2020 的现实是“无法见面时还能继续签”；
-- 2025 的防守是“签完以后我还能不能拿到、证明、反驳这份合同”。
+### Future expectations
+- the future of 2005 was "one day contracts may all be remote";
+- the future of 2015 was "payment is already online, so signing should be online too";
+- the reality of 2020 was "we can keep signing when we cannot meet";
+- the defence of 2025 is "after signing, can I still obtain, prove and contest this contract".
 
-### 线上 / 线下身份
-- 实名认证不是合意本身；
-- 能识别“是谁”不等于能证明“他同意哪一版文本”。
+### Online / offline identity
+- real-name authentication is not consent itself;
+- being able to identify "who this is" is not the same as being able to prove "which version of the text they agreed to".
 
-### 平台消失与记忆保存
-- 电子合同不应只存在企业内部账号；
-- 未来应研究离职后账户关闭、平台迁移、证书失效对合同可验证性的影响。
-
----
-
-## 15. 历史可见性偏差
-
-电子合同对历史学家非常危险，因为今天最容易看见的是：
-
-- 法律；
-- 厂商官网；
-- “第一份电子合同”宣传；
-- 成功案例；
-- 电子签页面截图；
-- 一份最终 PDF。
-
-最难看见的是：
-
-- 用户到底有没有读；
-- 浏览器/ActiveX 当时是否成功；
-- 私钥到底由谁控制；
-- 短信/验证码是否真的到达；
-- 同意的是哪一版；
-- 企业有没有把完整副本交给个人；
-- 离职多年后还能不能取回；
-- 没签合同的人为什么没进入系统。
-
-因此：
-
-**`archive-visible contract != lived agreement`**。
+### Platform disappearance and memory preservation
+- electronic contracts should not exist only in an enterprise's internal account;
+- future research should examine how account closure after leaving a job, platform migration and certificate expiry affect the verifiability of contracts.
 
 ---
 
-## 16. 后见之明风险
+## 15. Historical visibility bias
 
-### 风险 A：把“电子签名法生效”写成电子合同大众化
+Electronic contracts are very dangerous for historians, because what is easiest to see today is:
 
-错误。法律只解决法律承认与制度框架的一部分。
+- the law;
+- vendor websites;
+- promotion of "the first electronic contract";
+- success stories;
+- screenshots of e-signature pages;
+- a final PDF.
 
-### 风险 B：把“网签”都理解成数字签名
+What is hardest to see is:
 
-错误。很多网签是数据库备案/在线生成流程，双方仍可能在柜台纸签。
+- whether the user actually read it;
+- whether the browser/ActiveX actually worked at the time;
+- who actually controlled the private key;
+- whether the SMS/verification code actually arrived;
+- which version was agreed to;
+- whether the enterprise gave the individual a complete copy;
+- whether it can still be retrieved years after leaving the job;
+- why the people who had no contract never entered the system.
 
-### 风险 C：把手机实名认证等同本人自由同意
+Therefore:
 
-错误。身份、设备控制、文本展示、授权、意思表示必须分开。
-
-### 风险 D：把省时间等同扩大自由
-
-错误。签得更快也可能意味着阅读时间更少、点击压力更强、企业流程更单向。
-
-### 风险 E：把电子合同覆盖扩大等同非正规劳动被保护
-
-错误。是否承认劳动关系、是否愿意签合同是不同制度问题。
-
----
-
-## 17. 仍不知道什么
-
-1. 2005—2010 普通个人实际使用 CA/USBKey 签非银行类合同的比例有多低？
-2. 早期电子合同的浏览器、控件、证书安装失败率如何？
-3. 企业内部电子合同平台离职后通常保留个人访问多久？
-4. 手机签署是否缩短了普通劳动者实际阅读合同的时间？
-5. 电子劳动合同是否减少了“已签但员工没有拿到自己那份”的情况？
-6. 第三方电子签平台关停、迁移或证书体系变化后，十年前合同怎样继续验证？
-7. 哪些非正规劳动群体在电子合同推广中仍系统性缺席？
-8. 当电子合同数据接入社保/就业系统后，数据错误怎样被普通人纠正？
+**`archive-visible contract != lived agreement`**.
 
 ---
 
-## 18. 本轮改变了什么理解
+## 16. Hindsight risks
 
-过去一个正式未来常常需要身体先到场：
+### Risk A: writing "the Electronic Signature Law took effect" as mass adoption of electronic contracts
 
-> 去公司、去银行、去中介、把纸签完，再回来等下一步。
+Wrong. The law settles only part of legal recognition and of the institutional framework.
 
-电子签名真正增加的不是“少一支笔”，而是：
+### Risk B: reading every "online filing" as a digital signature
 
-> **一个人的身体还没有抵达下一站时，制度上的一部分未来可以先抵达。**
+Wrong. Many online filings are database-recording or online-generation processes, and the two parties may still sign on paper at the counter.
 
-求职者可以在另一座城签下一份劳动合同；出差的人可以完成续签；疫情里不能见面的双方还能继续推进手续。这个变化让迁移、工作与交易变得更可拆分。
+### Risk C: equating phone real-name authentication with the person's own free consent
 
-但数字化也把纸面签字原来压在一个动作里的问题拆开了：
+Wrong. Identity, device control, presentation of the text, authorization and declaration of intent must be kept separate.
 
-> 谁签的？他控制的是什么凭证？看的是哪一版？真的同意吗？对方收到了吗？十年后还能拿出来吗？
+### Risk D: equating saved time with expanded freedom
 
-于是电子合同成熟的标志，不应该只是“几秒钟签完”，而是一个普通人在多年以后仍然能够回答这些问题。
+Wrong. Signing faster can also mean less time to read, stronger pressure to tap, and a more one-directional enterprise workflow.
+
+### Risk E: equating broader electronic-contract coverage with protection of informal labour
+
+Wrong. Whether the employment relationship is recognized and whether there is a willingness to sign a contract are different institutional questions.
+
+---
+
+## 17. What we still do not know
+
+1. How low was the share of ordinary individuals who actually used a CA/USB key to sign non-bank contracts in 2005–2010?
+2. What were the failure rates for browser, control and certificate installation in early electronic contracts?
+3. How long does an enterprise's internal electronic-contract platform usually retain an individual's access after they leave?
+4. Did phone signing shorten the time ordinary workers actually spend reading a contract?
+5. Did electronic labour contracts reduce the situation of "signed, but the employee never got their own copy"?
+6. After a third-party e-signature platform shuts down, migrates or changes its certificate system, how is a contract from ten years ago still verified?
+7. Which groups of informal workers remain systematically absent from the spread of electronic contracts?
+8. Once electronic-contract data is connected to social-security/employment systems, how can an ordinary person correct an error in the data?
+
+---
+
+## 18. What this round changed in our understanding
+
+In the past, a formal future often required the body to arrive first:
+
+> go to the company, go to the bank, go to the agency, finish signing on paper, then come back and wait for the next step.
+
+What electronic signatures genuinely added is not "one less pen", but:
+
+> **before a person's body has reached the next stop, part of their future in institutional terms can arrive first.**
+
+A job applicant can sign a labour contract in another city; someone on a business trip can complete a renewal; two parties who cannot meet during an epidemic can keep the procedures moving. This change makes migration, work and transactions more separable into parts.
+
+But digitalization also pulled apart the questions that paper signing had once compressed into a single action:
+
+> Who signed? What credential did they control? Which version did they see? Did they really agree? Did the other party receive it? Can it still be produced ten years later?
+
+So the sign that electronic contracts have matured should not be merely "signed in a few seconds", but that an ordinary person can still answer these questions many years later.

@@ -1,56 +1,56 @@
-# 从“记住一个密码”到“账号多得记不住”：密码、账号找回与数字身份维护劳动（中国，1995—2026）
+# From "remembering one password" to "too many accounts to remember": passwords, account recovery and digital-identity maintenance labor (China, 1995–2026)
 
 > Cross-repo companion: `tmzncty/old-web-archaeology/docs/PASSWORD_LOGIN_RECOVERY_QUESTION_EMAIL_SMS_SESSION_AND_ACCOUNT_CONTROL_STATE_GAPS_1998_2015.md`
 
-## 0. 为什么这是一个 life-horizon 问题
+## 0. Why this is a life-horizon problem
 
-密码很容易被写成信息安全史里的一个小技术细节，但对普通人的生命历程，它逐渐承担了一种更基础的功能：
+Passwords are easily written off as a small technical detail in the history of information security. But for ordinary people's life courses they have gradually taken on a more basic function:
 
-> **未来的自己，怎样重新证明“这个十年前建立的数字入口仍然属于我”。**
+> **How does the future self prove again that "this digital entrance established ten years ago still belongs to me"?**
 
-随着通信、工作、游戏、购物、银行、教育、政务等事务进入数字系统，一个人不只是“拥有更多线上选择”，还要持续保管能够重新进入这些选择的凭证。
+As communication, work, gaming, shopping, banking, education and government affairs move into digital systems, a person does not merely "have more online choices"; they must also keep custody of the credentials that allow re-entry into those choices.
 
-因此本专题不研究“怎样设置强密码”本身，而研究：
+This topic therefore does not study "how to set a strong password" as such, but studies:
 
-- 一个普通人一生需要维护多少个数字入口；
-- 密码、密保问题、注册邮箱、手机号、短信码、身份证资料、设备和生物识别怎样组成找回链；
-- 为什么很久不用的账号仍可能继续以你的名义发生社会后果；
-- 为什么密码复用看似降低记忆负担，却把不同平台的风险绑在一起；
-- 为什么 2020s 的“无密码”并没有让身份维护劳动消失，而是把它转移到设备、云账户、密码管理器和恢复渠道。
+- how many digital entrances an ordinary person has to maintain over a lifetime;
+- how passwords, security questions, registration email addresses, mobile numbers, SMS codes, identity documents, devices and biometrics combine into a recovery chain;
+- why an account unused for a long time may still produce social consequences in your name;
+- why password reuse appears to reduce memory load while binding the risks of different platforms together;
+- why 2020s "passwordlessness" did not make identity-maintenance labor disappear, but moved it to devices, cloud accounts, password managers and recovery channels.
 
-这是一种此前容易被技术史和生活史同时漏掉的劳动：
+This is a form of labor that the history of technology and the history of everyday life have both tended to miss:
 
-**`authentication maintenance labor / 身份验证维护劳动`**。
+**`authentication maintenance labor`**.
 
 ---
 
-## 1. 核心概念
+## 1. Core concepts
 
-### 1.1 `credential memory load / 凭证记忆负荷`
+### 1.1 `credential memory load`
 
-一个人为了保持若干数字服务可进入，需要记住、保存或能恢复的秘密与验证关系总量。
+The total quantity of secrets and verification relationships a person must remember, store or be able to recover in order to keep a number of digital services enterable.
 
-它至少包括：
+It includes at least:
 
 ```text
-用户名 / QQ号 / 邮箱地址
-+ 登录密码
-+ 二级/超级密码
-+ 密保问题与答案
-+ 注册时填写的身份资料
-+ 恢复邮箱
-+ 绑定手机号
-+ 短信验证码通道
-+ 可信设备
-+ 密码管理器主密码 / 设备解锁能力
+username / QQ number / email address
++ login password
++ secondary / super password
++ security questions and answers
++ identity details entered at registration
++ recovery email address
++ bound mobile number
++ SMS verification code channel
++ trusted devices
++ password-manager master password / device unlock capability
 = credential portfolio
 ```
 
-这里不能把“一个账号只有一个密码”当作实际生活模型。
+"One account, one password" must not be taken here as a model of actual life.
 
-### 1.2 `credential custody / 凭证保管`
+### 1.2 `credential custody`
 
-凭证不是只需要“记住”，还需要在多年里保持可用。
+Credentials do not only need to be "remembered"; they need to remain usable across many years.
 
 ```text
 secret created
@@ -61,13 +61,13 @@ secret created
 → future self can regain control
 ```
 
-一张纸、一份记事本、浏览器自动填充、密码管理器、绑定手机，都是不同年代的凭证保管方案。
+A sheet of paper, a notebook, browser autofill, a password manager, a bound mobile number — all are credential-custody solutions of different eras.
 
-### 1.3 `recovery dependency chain / 找回依赖链`
+### 1.3 `recovery dependency chain`
 
-找回账号 A，可能要求进入邮箱 B；邮箱 B 又要求手机号 C；手机号 C 已经注销；或者找回 C 的运营商账户又需要另一项身份资料。
+Recovering account A may require getting into mailbox B; mailbox B in turn requires mobile number C; mobile number C has already been cancelled; or recovering C's carrier account requires yet another piece of identity data.
 
-因此：
+Therefore:
 
 ```text
 ACCOUNT_A
@@ -77,34 +77,34 @@ ACCOUNT_A
             → SIM / subscriber status
 ```
 
-**恢复入口存在，不等于恢复链可执行。**
+**A recovery endpoint existing is not the same as a recovery chain being executable.**
 
-### 1.4 `dormant-account liability / 沉睡账号责任`
+### 1.4 `dormant-account liability`
 
-一个账号很久不使用，并不等于它已经退出社会关系。
+An account unused for a long time has not necessarily withdrawn from social relations.
 
-如果旧账号仍保留：
+If an old account still holds:
 
-- 好友列表；
-- 客户；
-- 群关系；
-- 付款能力；
-- 游戏/虚拟财产；
-- 旧照片与资料；
+- a friend list;
+- clients;
+- group relationships;
+- payment capability;
+- game / virtual property;
+- old photographs and materials;
 
-那么账号被重新控制后，仍然可以以旧身份发生现实后果。
+then once the account is re-controlled, real consequences can still occur under the old identity.
 
-### 1.5 `reuse blast radius / 密码复用故障半径`
+### 1.5 `reuse blast radius`
 
-为了降低凭证记忆负荷，人可能在多个服务复用同一密码。
+To lower credential memory load, a person may reuse the same password across several services.
 
-这样会把：
+This turns:
 
 ```text
 site A breach
 ```
 
-变成：
+into:
 
 ```text
 site A leaked credential
@@ -114,37 +114,37 @@ site A leaked credential
 → unrelated identities become reachable
 ```
 
-这不是简单的“用户安全意识差”，而是一种真实的人类记忆约束与平台增长发生碰撞后的结构性结果。
+This is not simply "poor user security awareness", but a structural outcome of real human memory constraints colliding with platform growth.
 
-### 1.6 `authentication burden transfer / 验证负担转移`
+### 1.6 `authentication burden transfer`
 
-2020s 的 passkey / 生物识别 / 密码管理器试图减少人脑记忆秘密字符串的工作，但劳动没有完全消失，而是转移到：
+2020s passkeys / biometrics / password managers try to reduce the work of holding secret strings in the human brain, but the labor has not disappeared. It has moved to:
 
-- 哪台设备保存了 passkey；
-- 哪个云钥匙串同步它；
-- 设备丢失后怎样恢复；
-- 是否跨 Windows / Android / iOS；
-- 旧服务是否仍只接受密码；
-- 密码管理器本身怎样恢复。
+- which device holds the passkey;
+- which cloud keychain synchronizes it;
+- how to recover after the device is lost;
+- whether it spans Windows / Android / iOS;
+- whether old services still accept only passwords;
+- how the password manager itself is recovered.
 
-所以：
+So:
 
-**`passwordless != maintenance-free identity`**。
+**`passwordless != maintenance-free identity`**.
 
 ---
 
-## 2. 互联网以前的关键前史：密码原本不是大众生活用品
+## 2. Key prehistory before the Internet: passwords were not originally a mass consumer item
 
-### 2.1 1960s：密码最初解决的是“多人共用一台计算机”
+### 2.1 1960s: passwords first solved "several people sharing one computer"
 
-MIT CSAIL 对 Fernando Corbató 的机构史回顾指出，CTSS 在 1961 年首次演示，使多人可以同时使用一台计算机；它也被广泛认为是第一个使用个人账号密码的计算机系统。密码在这里首先是共享机器上的文件与账户边界，而不是今天这种“每个普通人有几十个网站账号”的生活负担。
+MIT CSAIL's institutional-history retrospective on Fernando Corbató notes that CTSS was first demonstrated in 1961, allowing several people to use one computer at the same time; it is also widely regarded as the first computer system to use personal account passwords. Here the password was first of all a boundary between files and accounts on a shared machine, not today's life burden of "every ordinary person having dozens of website accounts".
 
 Source:
 - MIT CSAIL, `Fernando "Corby" Corbató (1926-2019)`, 2019-07-13: https://www.csail.mit.edu/news/fernando-corby-corbato-1926-2019
 
-**Grade:** B/C — 权威机构回顾，引用早期 CTSS 史料。
+**Grade:** B/C — an authoritative institutional retrospective, citing early CTSS historical materials.
 
-这个海外前史说明：
+This overseas prehistory shows:
 
 ```text
 multi-user computing
@@ -152,57 +152,57 @@ multi-user computing
 → personal secret
 ```
 
-早于 Web 数十年。
+decades before the Web.
 
-但不能从这一点推出 1960s 普通家庭已经需要维护数字密码。
+But it does not follow from this that ordinary households in the 1960s already had to maintain digital passwords.
 
-### 2.2 中国 1994 前后的边界不能偷懒
+### 2.2 The boundary around 1994 in China cannot be taken lazily
 
-中国在正式全功能接入全球 Internet 以前已经有科研网络、电子邮件和计算机账号环境；但这不能写成普通家庭已经进入大众密码文化。
+Before its formal full-function connection to the global Internet, China already had research networks, email and computer-account environments; but this cannot be written as ordinary households having already entered a mass password culture.
 
-本专题因此把中国普通生活的主时间线放在大众网络服务逐步可及以后，而不是把 1994 画成“密码从无到有”的断点。
+This topic therefore places the main timeline of ordinary life in China after mass network services became gradually available, rather than drawing 1994 as the breakpoint at which "passwords went from nonexistent to existing".
 
-真正需要追踪的是：
+What actually needs tracking is:
 
 ```text
-少量计算机账号秘密
-→ 邮箱 / BBS / IM / 网游账号
-→ 电商 / 支付 / 网银
-→ 大量 App / 政务 /工作账户
-→ 密码管理器 / passkey
+a small number of computer-account secrets
+→ email / BBS / IM / online-game accounts
+→ e-commerce / payment / online banking
+→ a large number of app / government / work accounts
+→ password managers / passkeys
 ```
 
 ---
 
-## 3. 1999—2005：账号开始变成“生活里值得找回的东西”
+## 3. 1999–2005: accounts begin to become "things in life worth recovering"
 
-### 3.1 早期账号的价值并不只在登录本身
+### 3.1 The value of an early account was not only in logging in
 
-当一个 QQ、邮箱或游戏账号只用来短暂试用时，忘记密码的损失可能很小。
+When a QQ, mailbox or game account was used only for a brief trial, the loss from forgetting the password might be very small.
 
-但一旦账号开始积累：
+But once an account begins to accumulate:
 
 ```text
-联系人
-+ 群关系
-+ 邮件
-+ 游戏角色
-+ 虚拟财产
-+ 注册历史
+contacts
++ group relationships
++ mail
++ game characters
++ virtual property
++ registration history
 ```
 
-“忘记密码”就变成一种生命连续性问题。
+"forgetting the password" becomes a question of biographical continuity.
 
-### 3.2 2004：邮箱开始成为恢复基础设施
+### 3.2 2004: email begins to become recovery infrastructure
 
-2004 年《天堂II》公开测试期间，同期材料记录账号注册系统通过邮箱发送验证码，用户必须等待邮件完成账号验证；系统繁忙时，部分用户收不到验证码。
+During the 2004 open beta of *Lineage II*, contemporary materials record that the account registration system sent verification codes by email, and users had to wait for the mail to complete account verification; when the system was busy, some users did not receive the code.
 
 Source:
-- 新浪游戏，《〈天堂II〉近期公开测试要闻综述》，2004-08-25: https://games.sina.com.cn/newgames/2004/08/082542676.shtml
+- Sina Games, "A summary of recent *Lineage II* open-beta news", 2004-08-25: https://games.sina.com.cn/newgames/2004/08/082542676.shtml
 
-**Grade:** B — 同期运营/媒体材料。
+**Grade:** B — contemporary operator/media material.
 
-它说明：
+It shows that:
 
 ```text
 GAME_ACCOUNT
@@ -211,27 +211,27 @@ GAME_ACCOUNT
 → ACCOUNT_ACTIVATION
 ```
 
-已经是一条跨系统事务。
+was already a cross-system transaction.
 
-`verification mail generated != mail received`。
+`verification mail generated != mail received`.
 
-### 3.3 2005：密码开始分层，并叠加外部恢复通道
+### 3.3 2005: passwords begin to stratify, with external recovery channels layered on top
 
-2005 年《天堂II》开始宣传“安全卡”，并说明此前已经推出手机绑定账号服务；《热血江湖》则陆续提供软键盘、手机密码保护、手机账号加锁等机制。
+In 2005 *Lineage II* began promoting a "security card" and stated that a mobile-binding account service had already been launched earlier; *Yulgang* successively offered a soft keyboard, mobile password protection and mobile account locking.
 
 Sources:
-- 新浪游戏，《天堂II安全卡 双因素保护游戏帐号》，2005-03-11: https://games.sina.com.cn/o/n/2005-03-11/88449.shtml
-- 新浪游戏，《〈热血江湖〉多重措施帮你防盗号》，2005-09-05: https://games.sina.com.cn/o/n/2005-09-05/1603124246.shtml
+- Sina Games, "*Lineage II* security card: two-factor protection for game accounts", 2005-03-11: https://games.sina.com.cn/o/n/2005-03-11/88449.shtml
+- Sina Games, "*Yulgang*: multiple measures help you prevent account theft", 2005-09-05: https://games.sina.com.cn/o/n/2005-09-05/1603124246.shtml
 
-**Grade:** B — 同期平台/运营材料的媒体镜像。
+**Grade:** B — media mirrors of contemporary platform/operator material.
 
-这里出现了一种重要变化：
+An important change appears here:
 
 ```text
 knows password
 ```
 
-不再是唯一恢复路径，账号控制逐渐叠加：
+is no longer the only recovery path; control over an account gradually layers up:
 
 ```text
 password
@@ -242,33 +242,33 @@ password
 + security card
 ```
 
-于是用户需要维护的不是一个秘密，而是一组互相兜底的秘密和关系。
+So what users had to maintain was not one secret but a set of secrets and relationships that backstop one another.
 
 ---
 
-## 4. 2005—2012：扩张型未来——更多线上可能，也意味着更多“钥匙”
+## 4. 2005–2012: the expansive future — more online possibility, and also more "keys"
 
-### 4.1 2006：一个被盗 QQ 可以直接切断工作关系
+### 4.1 2006: a stolen QQ could directly cut off work relationships
 
-2006 年四川在线/华西都市报报道网络营销从业者李先生：
+In 2006 Sichuan Online / Huaxi Metropolis Daily reported on Mr Li, an internet-marketing practitioner:
 
-- QQ 已使用 7 年；
-- 密码一直没有换；
-- 很多客户只通过 QQ 联系；
-- 某天系统突然提示“密码错误”；
-- 他认为账号被盗；
-- 腾讯客服表示可在网上填写 QQ 号码申诉表找回。
+- QQ had been in use for 7 years;
+- the password had never been changed;
+- many clients contacted him only through QQ;
+- one day the system suddenly reported "wrong password";
+- he believed the account had been stolen;
+- Tencent customer service said he could fill in a QQ-number appeal form online to recover it.
 
 Source:
-- 新浪转载四川在线-华西都市报，《QQ号被盗 索回需付30元》，2006-07-03: https://news.sina.com.cn/c/2006-07-03/06059355251s.shtml
+- Sina reprint of Sichuan Online–Huaxi Metropolis Daily, "QQ number stolen: getting it back costs 30 yuan", 2006-07-03: https://news.sina.com.cn/c/2006-07-03/06059355251s.shtml
 
-**Grade:** B — 同时代普通用户个案 + 平台客服回应。
+**Grade:** B — a same-era ordinary-user case plus a platform customer-service response.
 
-这个个案的重要性不在“盗号很可怕”，而在：
+The importance of this case is not that "account theft is frightening", but that:
 
-> **QQ 密码已经控制着一个人的客户网络。**
+> **A QQ password already controlled a person's client network.**
 
-因此：
+Therefore:
 
 ```text
 password lost
@@ -279,49 +279,49 @@ password lost
 → work continuity threatened
 ```
 
-### 4.2 “七年没换密码”不要被今天的安全规范倒灌解释
+### 4.2 "Seven years without changing the password" must not be explained backwards through today's security norms
 
-从今天看，长期不换、跨服务复用密码很容易被简单批评为“安全意识差”。
+Seen from today, not changing a password for a long time and reusing it across services is easily criticized as "poor security awareness".
 
-但 life-history 需要先恢复当时的生活约束：
+But life-history needs first to restore the life constraints of that time:
 
-- 用户已经在维护越来越多账号；
-- 密码管理器并非大众基础设施；
-- 不同服务的找回规则并不统一；
-- 注册资料可能是多年前随手填写；
-- 联系人和虚拟资产都可能只存在平台内部。
+- users were already maintaining more and more accounts;
+- password managers were not mass infrastructure;
+- recovery rules differed from service to service;
+- registration details might have been filled in casually years earlier;
+- contacts and virtual assets might exist only inside the platform.
 
-所以真正的历史问题是：
+So the real historical question is:
 
-**平台要求越来越多独立秘密的速度，是否已经超过普通人愿意或能够记忆的速度。**
+**whether the speed at which platforms demanded more and more separate secrets had already exceeded the speed at which ordinary people were willing or able to remember them.**
 
-### 4.3 2006：盗号规模让“凭证保管”成为群众性网络问题
+### 4.3 2006: the scale of account theft made "credential custody" a mass internet problem
 
-《法制日报》2006 年关于大型 QQ/Q 币盗窃案的同期报道转述腾讯报案：当年 3 月起 QQ 盗号投诉量急增，到 5 月每天接近 3—4 万；技术分析称大量账号密码由木马捕获，早期通过邮件回传，随后又改用 HTTP POST 写入远程服务器。
-
-Source:
-- 新浪转载《法制日报》，《全国最大规模盗窃Q币案侦破记》，2006-12-31: https://news.sina.com.cn/o/2006-12-31/083510902403s.shtml
-
-**Grade:** B — 同期警方/企业案件材料。
-
-这份证据能证明：
-
-- 当时账号密码盗取已产生大规模投诉；
-- 木马能够把“用户知道的秘密”从本机带走；
-- 密码并不是只要用户脑中记得就安全。
-
-它不能单独证明中国所有 QQ 用户被盗概率。
-
-### 4.4 2009：账号/密码已经可以直接通向生活费
-
-2009 年大学生肖曦的同期个案中，他日常网购；一次通过 QQ 与假客服交流后点击伪装成淘宝的 `taobao.con` 链接，遭遇钓鱼，损失 2256 元——报道把它描述为约四个月生活费。
+A 2006 *Legal Daily* report on a large QQ / Q-coin theft case relayed Tencent's report to the police: from March that year complaints about stolen QQ accounts rose sharply, reaching nearly 30,000–40,000 a day by May; technical analysis said large numbers of account passwords were captured by trojans, initially sent back by email and later written to remote servers via HTTP POST.
 
 Source:
-- 凤凰网，《遭“钓鱼”网站骗光生活费 大学生发帖人肉骗子》，2009-10-13: https://news.ifeng.com/society/2/200910/1013_344_1385831.shtml
+- Sina reprint of *Legal Daily*, "The story of solving the largest Q-coin theft case in the country", 2006-12-31: https://news.sina.com.cn/o/2006-12-31/083510902403s.shtml
 
-**Grade:** B — 同时代普通大学生个案。
+**Grade:** B — contemporary police/company case material.
 
-它说明当账号、支付和网页表单开始接在一起时：
+This evidence can establish that:
+
+- account-password theft had already generated complaints at large scale at the time;
+- trojans could carry "the secret the user knows" off the local machine;
+- a password was not safe merely because the user remembered it.
+
+It cannot by itself establish the theft probability for all QQ users in China.
+
+### 4.4 2009: an account/password could already lead straight to living expenses
+
+In a 2009 same-era case, university student Xiao Xi shopped online routinely; after talking with a fake customer-service agent on QQ he clicked a link disguised as Taobao, `taobao.con`, and was phished, losing 2256 yuan — the report described this as about four months of living expenses.
+
+Source:
+- Phoenix Net, "Phished out of his living expenses, a university student posts online to hunt the fraudster", 2009-10-13: https://news.ifeng.com/society/2/200910/1013_344_1385831.shtml
+
+**Grade:** B — a same-era case involving an ordinary university student.
+
+It shows that once accounts, payment and web forms begin to connect:
 
 ```text
 looks like known service
@@ -330,33 +330,33 @@ looks like known service
 → loss leaves screen and enters monthly budget
 ```
 
-这也是“扩张型未来”的反面：
+This is also the reverse side of the "expansive future":
 
-> 远程消费让选择空间扩大，同时要求普通人学会判断一个看起来几乎相同的页面究竟是不是同一个制度入口。
+> Remote consumption expands the space of choice while requiring ordinary people to learn to judge whether a page that looks almost identical really is the same institutional entrance.
 
-### 4.5 网络仍远未等于“人人都在用”
+### 4.5 The network was still far from "everyone is using it"
 
-CNNIC 第 23 次报告记录，到 2008 年底中国网民约 2.98 亿，互联网普及率 22.6%；手机网民约 1.176 亿。
+CNNIC's 23rd report recorded that by the end of 2008 China had about 298 million internet users and an internet penetration rate of 22.6%; mobile internet users numbered about 117.6 million.
 
 Source:
-- CNNIC，第23次《中国互联网络发展状况统计报告》，2009（官方报告页面/镜像可再定位）。
+- CNNIC, 23rd *Statistical Report on Internet Development in China*, 2009 (official report page/mirror relocatable).
 
-**Grade:** A — 同期官方统计。
+**Grade:** A — contemporary official statistics.
 
-因此 2000s 的密码负担不能写成全体人口的共同状态。它首先集中在已经进入 IM、网游、邮箱、网购、网银等数字生活的人群中。
+So the password burden of the 2000s cannot be written as a shared condition of the whole population. It was concentrated first among people already inside digital life: IM, online games, email, online shopping, online banking.
 
 ---
 
-## 5. 海外同时代对照：2007 年已经有人直接把“密码太多”称为生活负担
+## 5. A contemporary overseas comparison: by 2007 some people already called "too many passwords" a life burden
 
-2007 年美国之音中文报道讨论美国日常服务电子化时，已经把网上购物、银行、邮箱、ATM 和网站登录并列，并指出用户名/密码越来越多会造成记忆压力；有人修改银行密码后忘记，反复尝试又触发锁定。
+A 2007 VOA Chinese report discussing the digitization of everyday services in the United States already listed online shopping, banking, email, ATMs and website logins side by side, and noted that a growing number of usernames/passwords would create memory pressure; some people forgot a bank password after changing it, and repeated attempts triggered a lockout.
 
 Source:
-- VOA Chinese, 《美国人日常生活事事可上网 电子化方便无比密码成负担》，2007-10-05（公开 Web 检索可定位该文）。
+- VOA Chinese, "Americans can do everything online in daily life; digitalization is immensely convenient but passwords become a burden", 2007-10-05 (the article is locatable through public web search).
 
-**Grade:** B — 同时代海外生活报道。
+**Grade:** B — a contemporary overseas life report.
 
-这里出现的不是“中国网民特殊缺点”，而是现代网络服务的共同结构：
+What appears here is not "a peculiar defect of Chinese internet users" but a shared structure of modern network services:
 
 ```text
 more remote services
@@ -365,58 +365,58 @@ more remote services
 → more recovery procedures
 ```
 
-因此密码负担首先是互联网平台化的共同现象；不同国家的差异更多落在身份基础设施、服务集中度、恢复渠道和监管结构上。
+So the password burden is first of all a shared phenomenon of internet platformization; differences between countries fall more in identity infrastructure, service concentration, recovery channels and regulatory structure.
 
 ---
 
-## 6. 2015—2019：拥堵型未来——账号没有消失，反而越来越难完整退出
+## 6. 2015–2019: the congested future — accounts did not disappear, they became harder and harder to exit completely
 
-### 6.1 `dormant-account liability`：不用 QQ 了，不代表 QQ 身份已经死了
+### 6.1 `dormant-account liability`: not using QQ any more does not mean the QQ identity is already dead
 
-2018 年广州白领林先生的同期材料特别重要：
+The 2018 same-era material about Guangzhou office worker Mr Lin is especially important:
 
-- 换工作以后 QQ 已经基本不用；
-- 半年左右长期没登录；
-- 某天朋友突然打电话问“你的 QQ 是不是被盗了”；
-- 盗号者已经向联系人群发诈骗信息；
-- 他虽然很快通过申诉找回密码，仍需逐个向亲友解释。
+- after changing jobs he had basically stopped using QQ;
+- he had not logged in for about half a year;
+- one day a friend suddenly called to ask "has your QQ been stolen?";
+- the account thief had already mass-messaged his contacts with fraud messages;
+- although he quickly recovered the password through an appeal, he still had to explain it to relatives and friends one by one.
 
 Source:
-- 人民网转载《新快报》，《QQ盗号诈骗 老骗术竟“重出江湖”》，2018-11-28: https://it.people.com.cn/BIG5/n1/2018/1128/c1009-30429175.html
+- People's Daily Online reprint of *New Express*, "QQ account-theft fraud: an old trick returns to the scene", 2018-11-28: https://it.people.com.cn/BIG5/n1/2018/1128/c1009-30429175.html
 
-**Grade:** B — 同时代第一人称用户材料 + 平台回应。
+**Grade:** B — same-era first-person user material plus platform response.
 
-这建立了一条新的生命历程边界：
+This establishes a new life-course boundary:
 
 ```text
 user stops active use
 != account socially inert
 ```
 
-旧账号里保存的关系，仍然可以被别人重新激活。
+The relationships stored in an old account can still be reactivated by someone else.
 
-### 6.2 2018：退出本身也需要身份维护劳动
+### 6.2 2018: exiting itself also requires identity-maintenance labor
 
-2018 年中国新闻网调查大量 App “注册容易、注销难”。北京上班族秘强因工作原因想注销微博，尝试多次仍未成功；同期 QQ 又短暂灰度测试注销能力。
+A 2018 China News Service investigation found that many apps were "easy to register, hard to cancel". Beijing office worker Mi Qiang wanted to cancel Weibo for work reasons and tried many times without success; in the same period QQ briefly grey-tested a cancellation capability.
 
 Sources:
-- 人民网转载中新网，《“手机APP账号注销难”调查：为何这么难 有啥风险？》，2018-05-04: https://media.people.com.cn/n1/2018/0504/c40606-29964125.html
-- 人民网，《QQ号注销功能已下线 优化体验后将再上线》，2018-03-22: https://it.people.com.cn/BIG5/n1/2018/0322/c1009-29882099.html
+- People's Daily Online reprint of China News Service, "Investigation into 'hard cancellation of mobile app accounts': why is it so hard, what are the risks?", 2018-05-04: https://media.people.com.cn/n1/2018/0504/c40606-29964125.html
+- People's Daily Online, "QQ account cancellation feature taken offline, to return after the experience is optimized", 2018-03-22: https://it.people.com.cn/BIG5/n1/2018/0322/c1009-29882099.html
 
-**Grade:** B — 同期媒体调查 / 平台回应。
+**Grade:** B — contemporary media investigation / platform response.
 
-所以数字身份维护不仅包括“怎样进去”，还包括“怎样真正离开”。
+So digital-identity maintenance includes not only "how to get in" but also "how to really leave".
 
-### 6.3 2019：密码复用把记忆优化变成跨平台故障
+### 6.3 2019: password reuse turns a memory optimization into a cross-platform failure
 
-2019 年中新网/人民网报道“撞库”案件：攻击者从外部渠道取得数千万组账号密码，再批量尝试多个热门应用；抖音遭到千万级外部凭证尝试，其中有上百万账号密码与外部泄露密码吻合。报道明确指出，许多网民在多个网站使用同一账号密码，使撞库具有成功率。
+In 2019 China News Service / People's Daily Online reported a "credential stuffing" case: attackers obtained tens of millions of account-password pairs from external channels and then tried them in bulk against several popular applications; Douyin received tens of millions of external credential attempts, of which more than a million account passwords matched externally leaked passwords. The report stated explicitly that many internet users used the same account password on multiple websites, which gave credential stuffing a success rate.
 
 Source:
-- 人民网转载中新网，《黑客“撞库”热门APP盗密码赚百万 撞到抖音栽了》，2019-06-21: https://media.people.com.cn/n1/2019/0621/c14677-31174338.html
+- People's Daily Online reprint of China News Service, "Hackers 'stuff credentials' against popular apps to steal passwords and earn a million; they hit Douyin and fell", 2019-06-21: https://media.people.com.cn/n1/2019/0621/c14677-31174338.html
 
-**Grade:** B — 同期警方/平台案件材料。
+**Grade:** B — contemporary police/platform case material.
 
-这把 `credential memory load` 和 `reuse blast radius` 连在一起：
+This links `credential memory load` and `reuse blast radius` together:
 
 ```text
 remember one password everywhere
@@ -424,84 +424,84 @@ remember one password everywhere
 → one leak can unlock unrelated platforms
 ```
 
-这里不应只做道德化用户教育。密码复用也是对账号数量爆炸的一种低成本适应，只是它把风险外部化到其他账户。
+This should not be answered only with moralizing user education. Password reuse is also a low-cost adaptation to an explosion in the number of accounts; it merely externalizes risk onto other accounts.
 
-### 6.4 海外 2019 对照：几十个密码并不罕见，但统计应谨慎
+### 6.4 Overseas 2019 comparison: dozens of passwords are not rare, but the statistics call for caution
 
-HYPR 2019 年对 500 多名美国/加拿大全职劳动者的厂商调查称：37% 受访者个人密码超过 20 个，78% 在过去 90 天重置过忘记的个人密码，65% 使用 App 或纸质/数字清单保存密码。
+A 2019 HYPR vendor survey of more than 500 full-time workers in the US/Canada said: 37% of respondents had more than 20 personal passwords, 78% had reset a forgotten personal password in the past 90 days, and 65% used an app or a paper/digital list to keep passwords.
 
 Source:
-- HYPR / PR Newswire, 2019 password study（厂商调查）。
+- HYPR / PR Newswire, 2019 password study (vendor survey).
 
-**Grade:** B, low-to-medium confidence for population prevalence — 非随机/厂商研究，不能直接外推整体人口。
+**Grade:** B, low-to-medium confidence for population prevalence — a non-random/vendor study, not directly generalizable to the whole population.
 
-它适合作为**跨国机制对照**，不适合作为精确人口事实。
+It is suitable as a **cross-national mechanism comparison**, not as a precise population fact.
 
 ---
 
-## 7. 2020—2022：偶发型未来——数字入口突然从“便利”变成现实准入条件
+## 7. 2020–2022: the contingent future — digital entrances suddenly turn from "convenience" into a real-world admission condition
 
-这一阶段需要避免一个错误：
+This stage needs to avoid one error:
 
-> 不能把所有数字鸿沟都解释成“老人记不住密码”。
+> Not all digital divides can be explained as "old people cannot remember passwords".
 
-真实困难包括：视力、听力、输入法、验证码、设备、网络、绑定卡、界面层级、身份验证流程等。
+Real difficulties include eyesight, hearing, input methods, verification codes, devices, networks, bound bank cards, interface depth, identity-verification procedures and more.
 
-### 7.1 2020：金融 App 的密码验证流程本身成为排除因素之一
+### 7.1 2020: the password-verification flow of financial apps itself became one exclusion factor
 
-2020 年《经济参考报》关于老年数字金融的报道转述宁波相关调研：手机银行和支付 App 界面复杂、字体小、绑卡与密码验证流程复杂，被列为部分老年人对数字金融工具敬而远之的因素。
+A 2020 *Economic Information Daily* report on digital finance for older people relayed a related Ningbo survey: mobile-banking and payment-app interfaces were complex, fonts were small, and card-binding and password-verification flows were complicated, all of which were listed among the reasons some older people kept their distance from digital financial tools.
 
 Source:
-- 人民网转载《经济参考报》，《支付难、出行难 2亿“银发族”如何跨越数字鸿沟》，2020-10-20: https://hb.people.com.cn/n2/2020/1020/c192237-34360625-4.html
+- People's Daily Online reprint of *Economic Information Daily*, "Hard to pay, hard to travel: how can 200 million 'silver-haired' people cross the digital divide", 2020-10-20: https://hb.people.com.cn/n2/2020/1020/c192237-34360625-4.html
 
-**Grade:** B — 同期调查报道。
+**Grade:** B — contemporary survey reporting.
 
-### 7.2 2021：`human fallback layer / 人类后备层` 仍然必要
+### 7.2 2021: the `human fallback layer` is still necessary
 
-2021 年广州社区走访里，68 岁罗阿姨、63 岁张叔叔分别描述视力、听力等障碍；报道总结老人常见困难包括“看不清、听不明、记不得”。另有适老化报道指出，一些老人因为找不到“老年模式”入口而直接放弃，并建议人工语音/视频指导。
+During 2021 community visits in Guangzhou, 68-year-old Aunt Luo and 63-year-old Uncle Zhang described obstacles of eyesight and hearing respectively; the report summarized the common difficulties of older people as "cannot see clearly, cannot hear clearly, cannot remember". Another report on age-friendly adaptation noted that some older people simply gave up because they could not find the entrance to "elder mode", and recommended human voice/video guidance.
 
 Sources:
-- 人民网，《5G时代，如何找回在互联网世界“失联”的老人？》，2021-01-22: https://it.people.com.cn/n1/2021/0122/c1009-32008150.html
-- 人民网转载《北京日报》，《手机应用老年模式入口难寻 APP适老化改造如何更贴心》，2021-04-14: https://finance.people.com.cn/n1/2021/0414/c1004-32077599.html
+- People's Daily Online, "In the 5G era, how do we bring back the older people 'out of contact' in the internet world?", 2021-01-22: https://it.people.com.cn/n1/2021/0122/c1009-32008150.html
+- People's Daily Online reprint of *Beijing Daily*, "Elder-mode entrances in mobile apps are hard to find: how can app age-friendly retrofits be more considerate", 2021-04-14: https://finance.people.com.cn/n1/2021/0414/c1004-32077599.html
 
-**Grade:** B — 同时代现场走访。
+**Grade:** B — contemporary on-site visits.
 
-这里真正重要的是：
+What really matters here is:
 
 ```text
 digital authentication fails
 → family proxy / clerk / hotline / physical counter
 ```
 
-并不是“不够数字化”，而是系统的容错层。
+It is not "not digital enough" but the system's fault-tolerance layer.
 
-### 7.3 2021：验证码的可操作性也属于 authentication，不只是 password
+### 7.3 2021: whether a verification code can be operated also belongs to authentication, not just to password
 
-2021 年针对视障用户，工信部适老化/无障碍要求特别涉及验证码障碍；支付宝上线面向视障场景的替代验证交互。
+In 2021, for visually impaired users, the Ministry of Industry and Information Technology's age-friendly / accessibility requirements specifically addressed verification-code obstacles; Alipay launched an alternative verification interaction for visually impaired scenarios.
 
 Source:
-- 中国日报网，《“挥一挥”，解决视障用户手机验证码困扰》，2021-10-15: https://caijing.chinadaily.com.cn/a/202110/15/WS61696e02a3107be4979f2de2.html
+- China Daily, "'A wave of the hand' solves the mobile verification-code problem for visually impaired users", 2021-10-15: https://caijing.chinadaily.com.cn/a/202110/15/WS61696e02a3107be4979f2de2.html
 
-**Grade:** B — 同期产品/政策报道。
+**Grade:** B — contemporary product/policy reporting.
 
-因此本专题必须坚持：
+This topic must therefore insist that:
 
-**`authentication burden != password burden only`**。
+**`authentication burden != password burden only`**.
 
 ---
 
-## 8. 2023—2026：防守型未来——不再要求人脑记住所有钥匙
+## 8. 2023–2026: the defensive future — no longer requiring the human brain to hold every key
 
-### 8.1 2024：一年才登录一次的账号，会产生“周期性遗忘”
+### 8.1 2024: an account logged into once a year produces "periodic forgetting"
 
-国家税务总局 2024 年个税年度汇算提示用一个典型案例解释：用户一年未登录个税 App，已经忘记密码；系统可以通过绑定手机号或本人银行卡验证重设，仍无法找回时可以携带证件到线下窗口。
+A 2024 State Taxation Administration reminder about the annual individual income tax settlement used a typical case to explain: a user had not logged into the individual income tax app for a year and had already forgotten the password; the system could reset it through a bound mobile number or the user's own bank card for verification, and if recovery still failed the user could bring identity documents to an offline counter.
 
 Source:
-- 人民网，《关于个税年度汇算，这13个问题请注意》，2024-03-13: https://finance.people.com.cn/n1/2024/0313/c1004-40195265.html
+- People's Daily Online, "About the annual individual income tax settlement, please note these 13 questions", 2024-03-13: https://finance.people.com.cn/n1/2024/0313/c1004-40195265.html
 
-**Grade:** A/B — 税务部门官方示例经人民网发布；它是制度设计证据，不应冒充随机抽取的真实个人第一人称。
+**Grade:** A/B — an official tax-authority example published through People's Daily Online; it is evidence of institutional design and should not be passed off as a randomly sampled real individual speaking in the first person.
 
-它很好地说明：
+It illustrates well:
 
 ```text
 low-frequency but high-stakes account
@@ -509,70 +509,70 @@ low-frequency but high-stakes account
 → recovery must be multi-channel
 ```
 
-### 8.2 2025：没有“忘记密码”入口，已经能阻断现实经营义务
+### 8.2 2025: the absence of a "forgot password" entrance can already block a real business obligation
 
-2025 年北京 12345 企业服务热线公开案例中，一家餐饮企业反映“阳光餐饮”App 没有密码重置功能，忘记密码就无法登录，并担心无法及时完成监管平台操作；反馈后市场监管部门增加了密码重置功能和操作指南。
+In a 2025 public case from the Beijing 12345 enterprise service hotline, a catering business reported that the "Sunshine Catering" app had no password-reset function, so that once the password was forgotten it was impossible to log in, and it worried that it could not complete operations on the regulatory platform in time; after the feedback, the market regulation department added a password-reset function and an operating guide.
 
 Source:
-- 人民网/北京日报，《北京12345帮13.3万家企业解决“急难愁盼”》，2025-11-13: https://bj.people.com.cn/n2/2025/1113/c14540-41409924.html
+- People's Daily Online / *Beijing Daily*, "Beijing 12345 helps 133,000 enterprises solve pressing difficulties", 2025-11-13: https://bj.people.com.cn/n2/2025/1113/c14540-41409924.html
 
-**Grade:** A/B — 政务热线实际诉求的官方/同期报道。
+**Grade:** A/B — official/contemporary reporting of an actual request to a government hotline.
 
-这条材料非常重要，因为它证明：
+This material is very important because it proves that:
 
-> **密码找回不是网站的“附加便利”，而可以成为现实制度接口是否可执行的一部分。**
+> **Password recovery is not an "extra convenience" of a website; it can be part of whether a real institutional interface is executable.**
 
-### 8.3 Passkey：从“记秘密”转向“持有设备/密钥”
+### 8.3 Passkey: from "remembering a secret" to "holding a device/key"
 
-2024 年 WIRED 记者 Matt Burgess 做了一个很好的海外第一人称实验：
+In 2024 WIRED journalist Matt Burgess ran a good overseas first-person experiment:
 
-- 他十多年累积 337 个账号；
-- 使用密码管理器生成并保存大量独立密码；
-- 尝试把一部分账号迁到 passkey；
-- 当 passkey 顺利工作时，Face ID 等可以在数十秒内完成登录；
-- 但不同设备、操作系统、浏览器和密码管理器的支持仍不一致；
-- 他还需要记住 passkey 到底保存在 iCloud、Bitwarden、设备还是硬件 key。
+- over more than a decade he had accumulated 337 accounts;
+- he used a password manager to generate and store large numbers of unique passwords;
+- he tried moving some accounts to passkeys;
+- when passkeys worked smoothly, Face ID and similar could complete a login within tens of seconds;
+- but support across devices, operating systems, browsers and password managers remained inconsistent;
+- he still had to remember whether a passkey was stored in iCloud, Bitwarden, the device, or a hardware key.
 
 Source:
 - WIRED, `I Stopped Using Passwords. It’s Great—and a Total Mess`, 2024-02-08: https://www.wired.com/story/stopped-using-passwords-passkeys/
 
-**Grade:** B — 同时代海外第一人称技术生活材料。
+**Grade:** B — contemporary overseas first-person technology-life material.
 
-它给出一个很好的反例：
+It provides a good counterexample:
 
 ```text
 no password string to remember
 != no credential custody problem
 ```
 
-未来的问题从：
+The future question shifts from:
 
-> “密码是什么？”
+> "What is the password?"
 
-逐渐变成：
+gradually to:
 
-> “密钥到底在哪台设备/哪个云钥匙串里？”
+> "Which device / which cloud keychain is the key actually in?"
 
-### 8.4 2025：平台开始把“无密码”设为默认方向
+### 8.4 2025: platforms begin to make "passwordless" the default direction
 
-微软在 2025 年 5 月宣布新注册 Microsoft Account 默认采用无密码方式，可使用 passkey、推送等方法登录。
+In May 2025 Microsoft announced that new Microsoft Account registrations would adopt a passwordless method by default, allowing sign-in through passkeys, push notifications and other means.
 
 Source:
-- IT之家转述微软发布，2025-05-02: https://www.ithome.com/0/850/417.htm
+- ITHome relaying a Microsoft announcement, 2025-05-02: https://www.ithome.com/0/850/417.htm
 
-**Grade:** B — 同期科技报道，具体产品机制可进一步用 Microsoft 原始公告补强。
+**Grade:** B — contemporary technology reporting; the specific product mechanics can be further strengthened with Microsoft's original announcement.
 
-它不能证明“中国用户已经普遍不用密码”，只能证明平台设计方向已经改变。
+It cannot prove that "Chinese users already generally do not use passwords"; it can only prove that the direction of platform design has changed.
 
 ---
 
-## 9. 四个未来阶段的新证据比较
+## 9. Comparing new evidence across the four future stages
 
-### 9.1 2005—2012：扩张型未来
+### 9.1 2005–2012: the expansive future
 
-关键词：**更多数字入口、更远的关系、更便宜的交易、更值得保住的账号。**
+Keywords: **more digital entrances, more distant relationships, cheaper transactions, accounts more worth keeping.**
 
-典型机制：
+Typical mechanism:
 
 ```text
 QQ / email / games / shopping / banking expand
@@ -581,15 +581,15 @@ QQ / email / games / shopping / banking expand
 → recovery email / mobile / security card proliferate
 ```
 
-未来想象偏向“越来越多事情可以在线做”。
+The imagination of the future leaned toward "more and more things can be done online".
 
-代价是普通人第一次要给越来越多数字门各自保管钥匙。
+The cost was that ordinary people, for the first time, had to keep a key for more and more digital doors.
 
-### 9.2 2015—2019：拥堵型未来
+### 9.2 2015–2019: the congested future
 
-关键词：**账号太多、旧账号不死、密码复用、退出困难。**
+Keywords: **too many accounts, old accounts that do not die, password reuse, hard to exit.**
 
-典型机制：
+Typical mechanism:
 
 ```text
 many accounts
@@ -599,27 +599,27 @@ many accounts
 → user must clean up old digital selves
 ```
 
-“机会更多”逐渐变成“维护这些入口本身就是工作”。
+"More opportunities" gradually became "maintaining these entrances is itself work".
 
-### 9.3 2020—2022：偶发型未来
+### 9.3 2020–2022: the contingent future
 
-关键词：**某些数字入口突然成为进入现实事务的必要路径。**
+Keywords: **certain digital entrances suddenly become the necessary path into real-world affairs.**
 
-在疫情、线上办事和 App 化加速时，原本只是便利功能的登录、验证码、绑卡和账号恢复，可能突然决定一个人能否顺利支付、办事、进入服务。
+As the pandemic, online handling of affairs and appification accelerated, logins, verification codes, card binding and account recovery — previously merely convenience features — could suddenly decide whether a person could pay, handle affairs or enter a service smoothly.
 
-因此系统不得不补上：
+So systems had to add:
 
-- 亲属代理；
-- 人工窗口；
-- 电话；
-- 无障碍验证码；
-- 适老化界面。
+- family proxy;
+- manual counters;
+- telephone;
+- accessible verification codes;
+- age-friendly interfaces.
 
-### 9.4 2023—2026：防守型未来
+### 9.4 2023–2026: the defensive future
 
-关键词：**减少可重复秘密、降低记忆负担、增加恢复与 fallback。**
+Keywords: **fewer repeatable secrets, lower memory load, more recovery and fallback.**
 
-典型机制：
+Typical mechanism:
 
 ```text
 password manager
@@ -629,61 +629,61 @@ password manager
 + recovery fallback
 ```
 
-防守不是“彻底没有身份维护”，而是尝试少让普通人自己记忆和重复输入可被钓鱼的秘密。
+Defense is not "no identity maintenance at all"; it is an attempt to let ordinary people remember and repeatedly type fewer phishable secrets.
 
 ---
 
-## 10. 一条新的 life-course：账号会活得比某段人生更久
+## 10. A new life course: an account can outlive a segment of a life
 
-把这一专题放回生命历程，可以看到一种很不自然却越来越常见的关系：
+Putting this topic back into the life course reveals a very unnatural yet increasingly common relationship:
 
 ```text
-高中建立 QQ
-→ 大学积累同学
-→ 毕业后积累客户
-→ 换工作后不再登录
-→ 多年后账号仍保留旧关系
-→ 密码泄露后突然重新“代表你说话”
+build a QQ in high school
+→ accumulate classmates in university
+→ accumulate clients after graduation
+→ stop logging in after changing jobs
+→ years later the account still holds old relationships
+→ after a password leak it suddenly "speaks for you" again
 ```
 
-人的人生阶段已经过去，数字身份却没有自然随阶段结束。
+The person's life stage has passed, but the digital identity does not naturally end with the stage.
 
-因此应该加入 Life Horizons 的一个判断：
+So one judgment should be added to Life Horizons:
 
-**`life-stage exit != account-state exit`**。
+**`life-stage exit != account-state exit`**.
 
-这与此前手机号专题的 `account-binding debt`、照片专题的 `archive exit labor`、同学录专题的 `social recoverability` 可以形成一组更大的结构：
+This can form a larger structure together with `account-binding debt` from the earlier mobile-number topic, `archive exit labor` from the photograph topic, and `social recoverability` from the class-address-book topic:
 
-> 数字基础设施提高了跨阶段连续性，也让过去的身份关系更难自然消散。
+> Digital infrastructure increases continuity across stages, and also makes past identity relationships harder to let dissipate naturally.
 
 ---
 
-## 11. 反例与不要过度解释
+## 11. Counterexamples and what not to over-interpret
 
-### 11.1 密码多 ≠ 每个人都痛苦
+### 11.1 Many passwords ≠ everyone suffers
 
-有人会：
+Some people:
 
-- 长期复用少量密码；
-- 让浏览器记住；
-- 用密码管理器；
-- 依赖短信登录；
-- 几乎从不退出 App；
-- 直接找家人/客服帮助。
+- reuse a small number of passwords for a long time;
+- let the browser remember them;
+- use a password manager;
+- rely on SMS login;
+- almost never log out of apps;
+- simply ask family / customer service for help.
 
-不能把“理想安全规范需要唯一密码”误写成所有人的实际生活。
+"An ideal security norm requires unique passwords" must not be miswritten as everyone's actual life.
 
-### 11.2 忘记密码 ≠ 数字排斥的唯一原因
+### 11.2 Forgetting a password ≠ the only cause of digital exclusion
 
-数字鸿沟还包括设备、网络、识字、视听、认知、界面、银行卡、手机号、验证码和制度设计。
+The digital divide also includes devices, networks, literacy, audio-visual ability, cognition, interfaces, bank cards, mobile numbers, verification codes and institutional design.
 
-### 11.3 找回成功 ≠ 原状态完整恢复
+### 11.3 Successful recovery ≠ complete restoration of the original state
 
-QQ 号找回以后，群、照片、虚拟财产、被诈骗的联系人、被修改资料等不一定全部恢复。
+After a QQ number is recovered, groups, photographs, virtual property, contacts who were defrauded and altered profile data are not necessarily all restored.
 
-### 11.4 有 passkey ≠ 已经没有 password
+### 11.4 Having a passkey ≠ no password any more
 
-过渡期很多服务同时保留：
+During the transition many services keep simultaneously:
 
 ```text
 password
@@ -691,105 +691,105 @@ password
 + SMS/email recovery
 ```
 
-新的方案可能减少一种风险，同时增加设备/云生态依赖。
+A new scheme may reduce one risk while increasing dependence on a device / cloud ecosystem.
 
-### 11.5 安全建议 ≠ 历史行为事实
+### 11.5 Security advice ≠ the historical facts of behavior
 
-今天知道“每个网站用不同密码”是好习惯，不能倒推 2006 年普通用户理应已经按今天规范生活。
+Knowing today that "use a different password for every website" is a good habit cannot be used to infer backwards that ordinary users in 2006 should already have lived by today's norms.
 
 ---
 
-## 12. 证据等级小结
+## 12. Summary of evidence grades
 
 | Claim | Evidence | Grade | Confidence |
 |---|---|---:|---:|
-| CTSS 1961 时代已经有个人账号密码 | MIT CSAIL institutional history | B/C | high |
-| 2004 网游注册依赖邮箱验证码 | 同期新浪游戏运营材料 | B | high |
-| 2005 手机绑定/安全卡等多因子保护已存在 | 同期运营材料 | B | high for existence |
-| 2006 QQ 被盗可直接影响网络营销客户联系 | 同期普通用户采访 | B | high for case |
-| 2006 QQ 盗号投诉规模达到每日数万量级（腾讯报案口径） | 法制日报/警方案件报道 | B | medium-high |
-| 2009 钓鱼可造成大学生数月生活费损失 | 同期个案 | B | high for case |
-| 2018 长期不用的 QQ 被盗后仍能向旧关系诈骗 | 同期普通用户采访 | B | high for case |
-| 2019 password reuse 支持撞库跨平台成功 | 警方/平台案件材料 | B | high for mechanism |
-| 2020–21 复杂身份验证属于部分老年数字障碍 | 同期调查/现场采访 | B | medium-high |
-| 2024 税务 App 提供手机号/银行卡/线下密码恢复 | 官方办税说明 | A/B | high |
-| 2025 无重置功能能阻断现实监管 App 使用 | 北京 12345 实际诉求 | A/B | high |
-| 2024 passkey 减少记忆秘密但仍有设备/生态管理问题 | WIRED first-person | B | high for case |
+| Personal account passwords already existed in the CTSS era, 1961 | MIT CSAIL institutional history | B/C | high |
+| 2004: online-game registration depended on email verification codes | Contemporary Sina Games operator material | B | high |
+| 2005: multi-factor protection such as mobile binding / security cards already existed | Contemporary operator material | B | high for existence |
+| 2006: a stolen QQ could directly affect an internet marketer's client contact | Contemporary ordinary-user interview | B | high for case |
+| 2006: QQ theft complaints reached the scale of tens of thousands per day (Tencent's report to police) | Legal Daily / police case reporting | B | medium-high |
+| 2009: phishing could cost a university student several months of living expenses | Contemporary individual case | B | high for case |
+| 2018: a long-unused stolen QQ could still defraud old relationships | Contemporary ordinary-user interview | B | high for case |
+| 2019: password reuse enabled successful cross-platform credential stuffing | Police / platform case material | B | high for mechanism |
+| 2020–21: complex identity verification is part of the digital obstacles for some older people | Contemporary surveys / on-site interviews | B | medium-high |
+| 2024: the tax app offers password recovery by mobile number / bank card / offline | Official tax-service explanation | A/B | high |
+| 2025: the absence of a reset function can block use of a real regulatory app | An actual request to Beijing 12345 | A/B | high |
+| 2024: passkeys reduce memorized secrets but still have device / ecosystem management problems | WIRED first-person | B | high for case |
 
 ---
 
-## 13. 后见之明风险
+## 13. Hindsight risks
 
-### 风险 A：把密码史写成今天网络安全教材
+### Risk A: writing password history as today's cybersecurity textbook
 
-本专题的对象不是“历史用户哪里做错了”，而是当时普通用户面对怎样的凭证组合和恢复制度。
+The object of this topic is not "where historical users went wrong", but what combinations of credentials and recovery institutions ordinary users faced at the time.
 
-### 风险 B：把账号被盗全部归因于弱密码
+### Risk B: attributing all account theft to weak passwords
 
-木马、钓鱼、社工、申诉机制、第三方泄露、终端环境和平台设计都可能参与。
+Trojans, phishing, social engineering, appeal mechanisms, third-party leaks, endpoint environments and platform design may all play a part.
 
-### 风险 C：把 1994 写成密码文化的起点
+### Risk C: writing 1994 as the starting point of password culture
 
-中国此前已经有计算机网络/账号环境；此后普通家庭也并未瞬间联网。
+China already had computer-network / account environments before that; and ordinary households did not instantly go online afterwards either.
 
-### 风险 D：把 passkey 写成已经完成的“无密码时代”
+### Risk D: writing passkeys as an already-completed "passwordless era"
 
-当前仍处在多套机制并存阶段。
+We are still in a stage where several sets of mechanisms coexist.
 
-### 风险 E：把某个平台安全帮助页当成普通人实际使用率
+### Risk E: treating some platform's security help page as ordinary people's actual usage rate
 
-`exists != used != popular`。
-
----
-
-## 14. 尚未确定、值得后续补强的地方
-
-1. 1990s 中文 BBS、校园网、拨号 ISP 对普通用户密码管理的同期第一人称资料仍不够；
-2. 需要更好的 1998—2003 QQ/OICQ、邮箱“忘记密码/密码保护”原始帮助页 capture；
-3. 2005—2010 密保问题、超级密码、手机密保的实际使用率仍未知；
-4. 普通家庭是否曾普遍用纸质本、Excel、浏览器保存密码，需要更多同时代材料；
-5. 2015—2019 中国普通人的“我到底有多少个账号/密码”代表性调查还需补强；
-6. 中国大陆主流消费服务的 passkey 实际采用率与跨设备恢复体验，2023—2026 仍缺高质量总体证据；
-7. 账号继承、死亡后数字资产和密码托管是另一个 life-course 接口，本轮没有展开。
+`exists != used != popular`.
 
 ---
 
-## 15. 它改变了我们对“人怎么活着”的哪一点理解
+## 14. Still unsettled, worth strengthening later
 
-过去说 Internet 扩大生活选择，常常只数：
-
-- 可以和谁聊天；
-- 可以在哪里买东西；
-- 可以做多少工作；
-- 可以去多少社区。
-
-但每新增一个可远程进入的世界，普通人往往也多了一扇需要长期保管钥匙的门。
-
-所以现代数字生活有一项很少被单独计算的成本：
-
-> **你不仅要决定今天想进入哪些生活，还要替未来的自己保管“以后还能回来”的证明。**
-
-2006 年，一个用了七年的 QQ 密码突然失效，可能意味着客户网络被切断；2018 年，一个已经半年不用的 QQ 仍能突然以你的名义去找老朋友；2019 年，为了少记几个密码而复用秘密，又能让一次泄露穿过多个平台。到 2020s，平台终于开始试着把这部分工作从人的记忆里拿走——让手机、生物识别、密码管理器和 passkey 替你保管钥匙。
-
-可钥匙并没有消失。
-
-它只是从一句你必须记住的字符串，变成了另一套你必须维持的设备、云账户和恢复关系。
-
-这说明一种新的生活能力正在形成：
-
-**普通人不仅要管理钱、证件、联系人和住址，还要管理自己在数字社会里“仍然是谁”。**
+1. First-person same-era material on password management by ordinary users of 1990s Chinese BBS, campus networks and dial-up ISPs is still insufficient;
+2. Better captures are needed of the original 1998–2003 QQ/OICQ and email "forgot password / password protection" help pages;
+3. The actual usage rates of security questions, super passwords and mobile security protection in 2005–2010 remain unknown;
+4. Whether ordinary households commonly used paper notebooks, Excel or browsers to save passwords needs more contemporary material;
+5. A representative survey of "how many accounts/passwords do I actually have" among ordinary Chinese people in 2015–2019 still needs strengthening;
+6. High-quality aggregate evidence on actual passkey adoption rates and cross-device recovery experience in mainland China's mainstream consumer services is still lacking for 2023–2026;
+7. Account inheritance, digital assets after death and password escrow are another life-course interface, not developed in this round.
 
 ---
 
-## 16. 本轮研究饱和判断
+## 15. What it changes in our understanding of "how people live"
 
-本轮新增了：
+In the past, saying that the Internet expanded life choices usually meant counting only:
 
-- 新生活机制：`authentication maintenance labor`；
-- 新制度接口：账号找回链与现实服务可执行性；
-- 新时代机制：`dormant-account liability`、`reuse blast radius`；
-- 新通信/互联网转折：个人秘密 → 多恢复通道 → 密码管理器/passkey；
-- 新海外对照：1960s CTSS 与 2024 passkey 第一人称；
-- 2006、2009、2018、2025 的同时代具体个案。
+- whom you can chat with;
+- where you can buy things;
+- how much work you can do;
+- how many communities you can enter.
 
-因此本轮不是饱和轮，连续“无实质新增”计数保持 **0/3**。
+But for every newly added world that can be entered remotely, ordinary people usually also gain one more door whose key has to be kept over the long term.
+
+So modern digital life has a cost that is rarely calculated on its own:
+
+> **You must not only decide which lives you want to enter today, but also keep, for your future self, the proof that "you can still come back later".**
+
+In 2006, a QQ password that had worked for seven years suddenly failing could mean a client network cut off; in 2018, a QQ unused for half a year could still suddenly go looking for old friends in your name; in 2019, reusing secrets in order to remember a few fewer passwords could let a single leak pass through several platforms. By the 2020s, platforms finally began trying to take this work out of human memory — letting phones, biometrics, password managers and passkeys keep the keys for you.
+
+But the keys have not disappeared.
+
+They have only turned from a string you must remember into another set of devices, cloud accounts and recovery relationships that you must maintain.
+
+This shows that a new life capability is forming:
+
+**Ordinary people must manage not only money, documents, contacts and addresses, but also "who they still are" in the digital society.**
+
+---
+
+## 16. Saturation judgment for this round
+
+This round added:
+
+- a new life mechanism: `authentication maintenance labor`;
+- a new institutional interface: account recovery chains and the executability of real services;
+- new era mechanisms: `dormant-account liability`, `reuse blast radius`;
+- a new communication/internet transition: personal secret → multiple recovery channels → password managers/passkeys;
+- new overseas comparisons: 1960s CTSS and the 2024 passkey first-person account;
+- concrete same-era cases from 2006, 2009, 2018 and 2025.
+
+This round is therefore not a saturation round; the consecutive "no substantial addition" count remains **0/3**.

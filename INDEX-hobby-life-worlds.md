@@ -1,500 +1,500 @@
 # Hobby Life Worlds Index
 
-> 这条索引研究：**普通人在必须完成的工作、家庭、教育和制度事务之外，究竟把剩余的钱、时间、空间、技能和社交关系花在了什么上。**
+> This index asks: **beyond the work, family, education and institutional obligations they must complete, what do ordinary people actually spend their remaining money, time, space, skills and social ties on?**
 
-它不是“兴趣爱好大全”，也不是消费榜单。它要追踪一个兴趣怎样从偶然接触变成稳定生活：需要什么基础设施、多少钱、多少空间、哪些知识入口、什么同好网络，以及它怎样被工作、婚姻、生育、迁移、住房变化和平台更替打断或重启。
+It is not a "complete catalogue of hobbies," nor a consumption ranking. It tracks how an interest turns from an accidental encounter into a stable life: what infrastructure it needs, how much money, how much space, which knowledge entry points, what network of fellow enthusiasts — and how it is interrupted or restarted by work, marriage, childbirth, migration, housing change and platform turnover.
 
-方法入口：
+Method entry points:
 
 - [Hobby life worlds and discretionary life](foundations/hobby-life-worlds-and-discretionary-life.md)
 - [Time as a material resource](topics/time-as-a-material-resource.md)
 - [Leisure, boredom and the disappearance of offline time](topics/leisure-boredom-and-the-disappearance-of-offline-time.md)
-- [From hobby networks to “dazi”](topics/from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md)
+- [From hobby networks to "dazi"](topics/from-hobby-networks-to-dazi-interest-addressability-activity-companionship-and-copresence-china-1980-2026.zh-CN.md)
 - [Owned media versus platform access](topics/owned-media-vs-platform-access.md)
 - [Secondhand circulation and possession liquidity](topics/secondhand-circulation-possession-liquidity-and-household-reversibility-china-1987-2026.zh-CN.md)
 
 ---
 
-## 1. 这条线与已有“兴趣社交”专题的区别
+## 1. How this line differs from the existing "interest-based socializing" topic
 
-已有 `from-hobby-networks-to-dazi...` 主要研究：
+The existing `from-hobby-networks-to-dazi...` line mainly studies:
 
-> 我想做一件事，怎样找到另一个愿意和我一起做的人？
+> I want to do something — how do I find another person willing to do it with me?
 
-本索引主要研究：
+This index mainly studies:
 
-> 我为什么有条件长期玩这件事？我把什么资源压进去了？这个生活能维持多久？
+> Why do I have the conditions to do this thing over the long term? What resources have I sunk into it? How long can this life be sustained?
 
-因此同一个案例可以同时进入两条线。
+So the same case can enter both lines at once.
 
-例如 Hi-Fi：
+For example, Hi-Fi:
 
-- “论坛上怎样找到同城烧友去试听”属于兴趣可寻址性；
-- “一套音箱占掉客厅多少空间、花掉几个月工资、结婚后还能不能继续摆、搬家以后怎么处理”属于兴趣生活世界。
+- "how to find a fellow enthusiast in the same city on a forum, to go and audition equipment" belongs to interest addressability;
+- "how much living-room space a speaker system consumes, how many months of wages it costs, whether it can still be set out after marriage, and what happens to it after a move" belongs to the hobby life world.
 
 ---
 
-## 2. 核心矩阵
+## 2. Core matrix
 
-每个兴趣专题至少检查以下项目中的大部分。
+Every hobby topic should check at least most of the following items.
 
-| 维度 | 要问的问题 |
+| Dimension | Question to ask |
 |---|---|
-| money | 入门、升级、维护、耗材、交通、订阅、退出成本分别是多少？相对工资如何？ |
-| time | 一次要多久？是否需要连续时间？工作班次和照护会不会把它挤掉？ |
-| space | 需要房间、工作台、车库、阳台、储物、户外场地吗？ |
-| noise / nuisance | 会不会打扰家人、邻居，制造灰尘、气味、危险或占用公共空间？ |
-| infrastructure | 电、水、路、网络、场馆、商店、维修、耗材是否可得？ |
-| knowledge | 知识从师友、杂志、广播、论坛、视频还是平台推荐来？ |
-| tools / objects | 是一次消费，还是长期器材栈、收藏、作品和维护系统？ |
-| peers | 一个人能否执行？需要圈子、搭档、比赛、俱乐部、展会吗？ |
-| household negotiation | 伴侣、父母、孩子怎样影响预算、空间和时间？ |
-| mobility | 搬家、租房、迁城以后还能玩吗？器材是否可携带？ |
-| secondhand liquidity | 买错、升级、退出时能不能卖掉？二手市场是否让尝试更可逆？ |
-| identity | 什么时候从“偶尔喜欢”变成“我是玩家 / 发烧友 / 收藏家”？ |
-| archive | 这种生活留下什么史料？论坛、目录、日志、照片、票据还是几乎不留痕？ |
+| money | What are the entry, upgrade, maintenance, consumables, transport, subscription and exit costs? How do they compare with wages? |
+| time | How long does one session take? Does it need continuous time? Do work shifts and caregiving squeeze it out? |
+| space | Does it need a room, workbench, garage, balcony, storage, outdoor ground? |
+| noise / nuisance | Does it disturb family or neighbours, create dust, smell or danger, or occupy shared space? |
+| infrastructure | Are electricity, water, roads, network, venues, shops, repair and consumables available? |
+| knowledge | Does knowledge come from teachers and friends, magazines, radio, forums, video, or platform recommendation? |
+| tools / objects | Is it a one-off purchase, or a long-term equipment stack, collection, body of work and maintenance system? |
+| peers | Can one person do it alone? Does it need a circle, a partner, competitions, clubs, trade fairs? |
+| household negotiation | How do partners, parents and children affect budget, space and time? |
+| mobility | Can it survive moving house, renting, changing city? Is the equipment portable? |
+| secondhand liquidity | If you bought wrong, upgraded or quit, could you sell it? Does the secondhand market make trying things more reversible? |
+| identity | When does "I occasionally like this" turn into "I am a player / audiophile / collector"? |
+| archive | What historical traces does this life leave? Forums, catalogues, logs, photographs, receipts — or almost nothing? |
 
 ---
 
-## 3. 生命历程矩阵
+## 3. Life-course matrix
 
-不要只按年代写产品，要按一个人的时间写。
+Do not write products only in chronological order; write in the time of one person.
 
 ```text
-第一次接触
-→ 入门
-→ 第一次真正属于自己的器材 / 工具
-→ 深入
-→ 同好网络扩大
-→ 升级 / DIY / 收藏
-→ 工作更忙 / 结婚 / 生育 / 搬家
-→ 缩小、便携化、休眠或退出
-→ 中年收入/空间改善后重新进入
-→ 退休后时间释放
-→ 物品转卖、赠与、继承或变成家庭负担
+first contact
+→ entry
+→ first equipment / tools genuinely one's own
+→ going deeper
+→ widening enthusiast network
+→ upgrades / DIY / collecting
+→ work gets busier / marriage / childbirth / moving house
+→ shrinking, going portable, going dormant or exiting
+→ re-entry after mid-life income or space improves
+→ time released after retirement
+→ objects resold, given away, inherited, or turned into a household burden
 ```
 
-特别值得主动找的个案：
+Cases worth actively seeking out:
 
-- 学生时代“买不起但会折腾”；
-- 第一份工资第一次购买长期想要的器材；
-- 租房时只能玩小型版本；
-- 结婚后客厅从私人兴趣空间变成家庭共享空间；
-- 生育后长期暂停；
-- 人到中年重新买回年轻时买不起的东西；
-- 退休后重新获得连续白天时间；
-- 旧器材成为二手资产、收藏物或难以处理的遗留物。
+- student years: "cannot afford it, but keeps tinkering";
+- buying, with the first paycheck, equipment one had wanted for a long time;
+- renting, so only a small version can be played with;
+- after marriage, the living room turns from private hobby space into shared family space;
+- a long pause after childbirth;
+- in mid-life, buying back the things one could not afford when young;
+- recovering continuous daytime hours after retirement;
+- old equipment becoming a secondhand asset, a collectible, or an awkward piece of leftover clutter.
 
 ---
 
-## 4. Internet 前后必须拆开的几只钟
+## 4. Several clocks that must be kept apart around the Internet
 
-兴趣网络非常适合继续维护项目的互联网前史边界。
+Hobby networks are especially well suited to maintaining the project's pre-Internet boundary.
 
-### 前互联网 / 非互联网阶段
+### Pre-Internet / non-Internet stage
 
-可能已有：
+There may already be:
 
-- 协会、文化宫、学校社团；
-- 专门商店、维修店、旧货市场；
-- 报刊、技术杂志、读者来信；
-- 邮购目录；
-- 广播电视栏目；
-- 电话和邮政联系；
-- 线下展会、比赛、交换会；
-- 业余无线电等自身就是通信系统的爱好。
+- associations, workers' cultural palaces, school clubs;
+- specialist shops, repair shops, flea markets;
+- newspapers and periodicals, technical magazines, readers' letters;
+- mail-order catalogues;
+- radio and television programmes;
+- contact by telephone and post;
+- offline trade fairs, competitions, swap meets;
+- hobbies such as amateur radio that are themselves communication systems.
 
-### 早期数字通信
+### Early digital communication
 
-要区分：
+Distinguish:
 
-- 大学/科研 BBS；
-- Fidonet / BBS / 邮件列表；
-- 局域网资源；
-- 电脑爱好者交换软件和资料；
-- 少量能接触这些系统的人。
+- university / research-institute BBSs;
+- Fidonet / BBS / mailing lists;
+- local-area-network resources;
+- computer enthusiasts exchanging software and material;
+- the small number of people who could reach these systems.
 
-不能把这些写成普通家庭已经普遍上网。
+These must not be written as though ordinary households were already widely online.
 
-### 中文大众 Web 以后
+### After the Chinese mass Web
 
-继续拆：
+Keep splitting further:
 
 ```text
-专题站 / 独立论坛
-→ 可搜索帖子与器材数据库
-→ 二手交易板块
-→ 博客 / SNS
-→ 电商 / 团购
-→ 群聊
-→ 视频测评 / 直播
-→ 推荐算法和内容平台
+topical sites / independent forums
+→ searchable posts and equipment databases
+→ secondhand trading boards
+→ blogs / SNS
+→ e-commerce / group buying
+→ group chats
+→ video reviews / livestreaming
+→ recommendation algorithms and content platforms
 ```
 
-Internet 可能扩大知识和交易半径，却不一定增加现实中的时间、房间、器材供应和活动场地。
+The Internet may widen the radius of knowledge and trade, without necessarily adding real-world time, rooms, equipment supply or venues for activity.
 
 ---
 
-## 5. 首批专题族
+## 5. First families of topics
 
-### A. 器材与感官生活
+### A. Equipment and sensory life
 
-#### Hi-Fi / 音响 / 黑胶 / 耳机 — **首个深描已开工**
+#### Hi-Fi / audio / vinyl / headphones — **the first deep description is under way**
 
-研究重点：
+Research focus:
 
-- 1990s 报刊、广播、杂志、音响店、试听和展会；
-- 一套系统与工资、客厅、邻里、家庭空间的关系；
-- DIY / 摩机 / 线材 / 唱片与技术知识；
-- 2000s 独立论坛和 PC Hi-Fi；
-- 二手器材的升级循环；
-- 从大音箱到桌面、耳机、便携个人音频的空间迁移；
-- 论坛与旧站消失以后，一代人的听感、改机记录和交易经验怎样被保存。
+- 1990s newspapers and periodicals, radio, magazines, audio shops, auditions and trade fairs;
+- how one system relates to wages, the living room, neighbours and household space;
+- DIY / modifications / cables / records, and technical knowledge;
+- 2000s independent forums and PC Hi-Fi;
+- the upgrade cycle of secondhand equipment;
+- the spatial migration from large speakers to desktop, headphones and portable personal audio;
+- how a generation's listening impressions, modification records and trading experience are preserved after forums and old sites disappear.
 
-当前文件：
+Current file:
 
 - `topics/audiophile-hifi-hobby-life-world-china-1980s-2026.zh-CN.md`
 
-#### 摄影
+#### Photography
 
-候选问题：
+Candidate questions:
 
-- 胶卷、冲洗、暗房、相机价格；
-- 摄影店与摄影协会；
-- 胶卷张数怎样约束“按快门”；
-- 数码相机怎样改变试错成本；
-- 色影无忌等论坛、器材数据库和二手；
-- 手机摄影让“拍照”大众化后，摄影发烧是否反而进一步器材化。
+- film, processing, darkroom, camera prices;
+- photography shops and photography associations;
+- how the number of frames on a roll constrains "pressing the shutter";
+- how digital cameras change the cost of trial and error;
+- forums such as Xitek, equipment databases and secondhand trading;
+- whether, after phone photography popularized "taking pictures," photographic enthusiasm became even more about equipment.
 
-#### 天文
+#### Astronomy
 
-候选问题：
+Candidate questions:
 
-- 城市光污染和交通；
-- 望远镜、星图、观测站；
-- 夜间连续时间；
-- 论坛如何协调远郊观星；
-- 数码摄影怎样让观测与图像处理合并。
-
----
-
-### B. 技术、制作与“自己动手”
-
-#### 业余无线电
-
-重点不是只写执照和设备史，而是：
-
-- 一个人为什么愿意花夜晚架天线、守频率、记通联；
-- 设备和空间门槛；
-- QSL 卡与邮政；
-- 通信乐趣与 Internet 到来后是否替代、共存；
-- 社团、比赛和应急通信怎样改变“爱好”的意义。
-
-#### 电子制作 / 收音机 / DIY 音响
-
-可与 Hi-Fi 交叉但不合并：
-
-- 零件市场；
-- 《无线电》等技术媒体；
-- 焊接工具和测量仪器；
-- 套件、照图制作和自主设计之间的技能阶梯；
-- Web 论坛让电路图、PCB、测量结果和 BOM 怎样传播。
-
-#### PC DIY / 超频 / 家庭服务器
-
-这是很适合 1995—2026 的连续线：
-
-- 电脑城、报价单、报刊；
-- BBS / 硬件网站 / 评测；
-- 装机、超频、散热、跑分；
-- 宽带和电商改变零件可达性；
-- “有一台电脑”与“把电脑当长期 hobby”严格分开。
-
-#### 模型 / 航模 / 遥控
-
-- 套件、胶水、喷漆、工具和储物；
-- 公园/场地；
-- 比赛和俱乐部；
-- 网购使稀有零件可得；
-- 3D 打印、开源图纸如何改变制作边界。
+- urban light pollution and transport;
+- telescopes, star charts, observation sites;
+- continuous night-time hours;
+- how forums coordinate stargazing in the outer suburbs;
+- how digital photography merges observation and image processing.
 
 ---
 
-### C. 收藏、保存与交换
+### B. Technology, making and "doing it yourself"
 
-#### 集邮
+#### Amateur radio
 
-非常适合做 Internet 前史：
+The point is not to write only a history of licences and equipment, but:
 
-- 邮局、集邮门市、报刊；
-- 通信本身产生收藏对象；
-- 交换会和邮寄交换；
-- 价格目录、真伪和品相；
-- 电子邮件 / 论坛 / 拍卖网站改变交易半径后，爱好是否扩大还是老化。
+- why a person is willing to spend nights putting up antennas, guarding a frequency, logging contacts;
+- equipment and space thresholds;
+- QSL cards and the postal system;
+- whether the pleasure of communication was replaced by the Internet, or coexisted with it;
+- how clubs, contests and emergency communication change the meaning of the "hobby."
 
-#### 钱币 / 票证 / 卡片 / 玩具
+#### Electronics building / radios / DIY audio
 
-研究重点不是价格涨跌，而是：
+May intersect with Hi-Fi, but not be merged into it:
 
-- 收藏知识如何标准化；
-- 真假鉴定；
-- 本地市场 vs 全国在线市场；
-- 收藏柜、储存空间和家庭容忍；
-- “收藏”何时被金融化、投机化。
+- component markets;
+- technical media such as Wuxiandian (Radio) magazine;
+- soldering tools and measuring instruments;
+- the skill ladder from kits through building from a schematic to independent design;
+- how Web forums let circuit diagrams, PCBs, measurement results and BOMs circulate.
 
-#### 唱片 / 磁带 / VCD / DVD / 旧游戏
+#### PC DIY / overclocking / home servers
 
-可与 `owned-media-vs-platform-access` 连接：
+This is a continuous line well suited to 1995–2026:
 
-- 文化消费什么时候同时成为“拥有一个可反复访问的对象”；
-- 唱片架和光盘柜占用的住宅空间；
-- 淘碟和二手；
-- 流媒体出现后，收藏为什么仍可能继续。
+- computer malls, price sheets, newspapers and periodicals;
+- BBSs / hardware sites / reviews;
+- building, overclocking, cooling, benchmarks;
+- broadband and e-commerce changing component reachability;
+- "owning a computer" kept strictly separate from "treating the computer as a long-term hobby."
 
----
+#### Models / model aircraft / radio control
 
-### D. 户外、移动与身体型兴趣
-
-#### 钓鱼
-
-- 时间结构非常不同：可能要半天甚至整天；
-- 交通和水域可达性；
-- 渔具店、饵料、天气信息；
-- 论坛和群聊怎样改变钓点信息流；
-- 城市化和水域管理怎样关闭/迁移日常玩法。
-
-#### 骑行
-
-- 1980s 自行车作为交通工具，与后来“骑车作为 hobby”严格区分；
-- 山地车 / 公路车、装备和俱乐部；
-- 城市道路、长途旅行；
-- BBS、路线分享、GPS 和运动记录平台。
-
-#### 徒步 / 登山 / 露营
-
-- 休假制度和周末；
-- 交通网络；
-- 装备与风险知识；
-- 论坛召集与 AA 制；
-- 2020s 露营热要与更早户外社群比较，而不是从消费趋势直接推生活普遍化。
-
-#### 改装车 / 摩托
-
-- 车辆拥有门槛；
-- 维修和零件；
-- 法规与场地；
-- 车友会、论坛与实体聚会；
-- 大额“非必要”投入怎样和家庭预算冲突。
+- kits, glue, spray paint, tools and storage;
+- parks / flying fields;
+- competitions and clubs;
+- online shopping making rare parts obtainable;
+- how 3D printing and open-source plans change the boundaries of making.
 
 ---
 
-### E. 文化、游戏与创作
+### C. Collecting, preserving and exchanging
 
-#### 电子游戏玩家
+#### Philately
 
-- 街机厅、红白机、主机、PC、网吧、家庭宽带；
-- 游戏杂志、攻略、盗版/正版软件供应；
-- “玩游戏”与“成为长期玩家/收藏者/竞技者”分开；
-- 账号和服务器关闭造成的记忆保存问题。
+Very suitable for pre-Internet history:
 
-#### 乐器 / 乐队 / 家庭录音
+- post offices, philatelic counters, newspapers and periodicals;
+- correspondence itself producing collectible objects;
+- swap meets and exchange by post;
+- price catalogues, authenticity and condition;
+- after e-mail / forums / auction sites changed the radius of trade, whether the hobby expanded or aged.
 
-- 乐器价格、练习噪声和住房；
-- 老师、琴行、谱子；
-- 乐队需要的排练室和共同日历；
-- 电脑录音和网络发布降低什么门槛；
-- 是否从爱好变成演出、副业或职业。
+#### Coins / ration coupons / cards / toys
 
-#### 阅读 / 同人 / 手工 / 绘画 / 书法
+The research focus is not price movements, but:
 
-这些案例非常重要，因为能防止 hobby 轴退化为“男性器材史”。
+- how collecting knowledge becomes standardized;
+- authentication;
+- local markets vs national online markets;
+- display cabinets, storage space and household tolerance;
+- when "collecting" became financialized and speculative.
 
-研究重点应包括：
+#### Records / cassettes / VCDs / DVDs / old games
 
-- 纸张、材料、空间和课程；
-- 图书馆、报刊和作品交换；
-- 社群怎样组织；
-- 互联网如何降低发表、找同好和购买材料的门槛；
-- 平台推荐是否改变创作方向和投入节奏。
+Can connect to `owned-media-vs-platform-access`:
 
-#### 追星 / 票友 / 戏曲 / 演出
-
-- 广播、电视、磁带、歌迷会、报刊；
-- 演出票、交通和异地活动；
-- 粉丝组织的通信基础设施；
-- BBS、贴吧、博客、微博怎样改变组织能力；
-- 不能把当代“饭圈”概念倒投回早期歌迷文化。
+- when cultural consumption also became "owning an object that can be accessed repeatedly";
+- the domestic space taken up by record shelves and disc cabinets;
+- hunting for discs and secondhand;
+- why collecting may still continue after streaming appears.
 
 ---
 
-## 6. 跨时期比较模板
+### D. Outdoor, mobile and bodily interests
 
-每个深描专题尽量至少做四段：
+#### Fishing
+
+- a very different time structure: it may take half a day or even a whole day;
+- transport and the reachability of waters;
+- tackle shops, bait, weather information;
+- how forums and group chats change the flow of information about fishing spots;
+- how urbanization and water management close or relocate ordinary practice.
+
+#### Cycling
+
+- the 1980s bicycle as a means of transport, kept strictly separate from the later "cycling as a hobby";
+- mountain bikes / road bikes, equipment and clubs;
+- urban roads, long-distance touring;
+- BBSs, route sharing, GPS and activity-logging platforms.
+
+#### Hiking / mountaineering / camping
+
+- leave systems and weekends;
+- transport networks;
+- equipment and risk knowledge;
+- forum-organised trips and going Dutch (AA);
+- the 2020s camping boom must be compared with earlier outdoor communities, not read off consumption trends straight into a claim that the life became universal.
+
+#### Modified cars / motorcycles
+
+- the threshold for owning a vehicle;
+- repair and parts;
+- regulations and venues;
+- car clubs, forums and in-person gatherings;
+- how large "non-essential" spending collides with the household budget.
+
+---
+
+### E. Culture, games and making
+
+#### Video-game players
+
+- arcades, Famicom, consoles, PCs, Internet cafés, home broadband;
+- game magazines, walkthroughs, supply of pirated/legitimate software;
+- "playing games" kept separate from "becoming a long-term player/collector/competitor";
+- the memory-preservation problem caused by accounts and servers shutting down.
+
+#### Instruments / bands / home recording
+
+- instrument prices, practice noise and housing;
+- teachers, instrument shops, sheet music;
+- the rehearsal rooms and shared calendars a band needs;
+- what thresholds computer recording and online release lowered;
+- whether it turned from a hobby into performance, a side job or a career.
+
+#### Reading / fan works / crafts / drawing / calligraphy
+
+These cases matter greatly, because they prevent the hobby axis from degenerating into "a history of men's equipment."
+
+Research focus should include:
+
+- paper, materials, space and classes;
+- libraries, periodicals and the exchange of works;
+- how communities organize;
+- how the Internet lowered the thresholds for publishing, finding fellow enthusiasts and buying materials;
+- whether platform recommendation changes creative direction and the rhythm of investment.
+
+#### Star fandom / amateur opera clubs / opera / performance
+
+- radio, television, cassettes, fan clubs, newspapers and periodicals;
+- performance tickets, transport and events in other cities;
+- the communication infrastructure of fan organizations;
+- how BBSs, Baidu Tieba, blogs and Weibo changed organizational capacity;
+- the contemporary "fandom circle" concept must not be projected backwards onto earlier fan culture.
+
+---
+
+## 6. Cross-period comparison template
+
+Each deep-description topic should try to cover at least four periods:
 
 ### pre-Web baseline
 
-研究 Internet 以前知识、商品、同好和活动怎样被组织。
+Study how knowledge, goods, fellow enthusiasts and activities were organized before the Internet.
 
 ### 1995—2012: searchable enthusiast world
 
-重点看论坛、专题网站、电脑城/市场、电商和二手如何扩大信息与物品半径。
+Focus on how forums, topical websites, computer malls/markets, e-commerce and secondhand trading widened the radius of information and objects.
 
 ### 2015—2019: abundance and congestion
 
-重点看：
+Focus on:
 
-- 信息已经很多，但谁可信；
-- 器材和内容越来越容易买，时间是否反而更碎；
-- 论坛衰落后，知识是否转向群聊、公众号、视频；
-- 生活成本和住房如何压缩大型兴趣。
+- information is already abundant, but who is credible;
+- equipment and content are ever easier to buy, while time may be more fragmented instead;
+- after forums decline, whether knowledge moves into group chats, WeChat official accounts, video;
+- how living costs and housing compress large hobbies.
 
 ### 2020—2022: home-bound / interrupted hobbies
 
-不同 hobby 会出现完全相反结果：
+Different hobbies produce completely opposite outcomes:
 
-- 家庭内 hobby 可能获得更多时间；
-- 需要旅行、场地和共同在场的 hobby 可能直接中断；
-- 供应链和快递又会决定“在家有时间”是否等于“能继续玩”。
+- hobbies based in the home may gain more time;
+- hobbies needing travel, venues and co-presence may be cut off outright;
+- supply chains and delivery then determine whether "having time at home" equals "being able to keep going."
 
 ### 2023—2026: defensive leisure / experience portfolios
 
-这里先作为研究假设，不预设结论：
+These are research hypotheses for now, with no conclusions presupposed:
 
-- 有些人是否减少长期大件投入，转向更便携、可退出、按次体验的兴趣；
-- 是否出现“先保现金缓冲，再给兴趣预算”；
-- 是否更多通过展会、租赁、二手、共享场所获得体验而非永久拥有；
-- 也要找反例：高投入收藏和装备型兴趣仍可能增长。
-
----
-
-## 7. 海外比较池
-
-每个案例至少找一个可比对象，而且可以早于 1990s：
-
-- 美国 1950s–1970s Hi-Fi、Stereo Review、Heathkit、Audio Amateur；
-- 英国 What Hi-Fi?、模型铁路、Airfix、摄影俱乐部；
-- 法国 Minitel 上的兴趣服务与后来的论坛；
-- 美国业余无线电与电子制作杂志；
-- Homebrew Computer Club / BYTE / 早期微机 hobby；
-- Usenet 的摄影、音频、游戏、模型和技术组；
-- CompuServe / AOL 专题论坛；
-- GeoCities / LiveJournal 等个人兴趣页面。
-
-比较目标不是寻找“谁更早”，而是区分：
-
-- 哪些机制来自工业化和可支配收入增长；
-- 哪些来自住房与交通；
-- 哪些确实是 Internet 让小众市场和知识网络变厚；
-- 哪些是具体国家的零售、出版、社团或制度路径。
+- whether some people reduce long-term big-ticket investment and shift to interests that are more portable, easier to exit, and paid for per session;
+- whether a pattern appears of "secure the cash buffer first, then set a budget for the hobby";
+- whether experience is gained more through trade fairs, rental, secondhand and shared venues rather than permanent ownership;
+- counter-examples must also be sought: high-investment collecting and equipment-heavy interests may still grow.
 
 ---
 
-## 8. 证据优先级
+## 7. Overseas comparison pool
 
-兴趣研究不能只用后来怀旧。
+Find at least one comparable case for each, and it may predate the 1990s:
 
-优先：
+- U.S. Hi-Fi, Stereo Review, Heathkit and Audio Amateur in the 1950s–1970s;
+- Britain's What Hi-Fi?, model railways, Airfix, photography clubs;
+- hobby services on France's Minitel and the forums that followed;
+- U.S. amateur-radio and electronics-building magazines;
+- the Homebrew Computer Club / BYTE / the early microcomputer hobby;
+- the photography, audio, games, models and technical groups on Usenet;
+- topical forums on CompuServe / AOL;
+- personal interest pages such as GeoCities / LiveJournal.
 
-1. 同时代杂志、产品目录、说明书、价目表；
-2. 同时代报纸的家访、展会、市场报道；
-3. 原论坛/BBS/博客/个人主页；
-4. 旧店铺、市场和协会档案；
-5. 统计年鉴中的家庭耐用品、文化消费与时间使用；
-6. 同时代第一人称帖子和日记；
-7. 学术消费史、技术史、休闲史；
-8. 后来的口述与怀旧，用来补体验，不用来单独确定技术时点。
+The aim of comparison is not to find "who was earlier," but to distinguish:
 
-广告只证明“有人这样卖”，不能证明典型家庭拥有。
-
-发烧友家访只证明“这种深度生活确实存在”，不能把顶级玩家的预算外推成圈内平均。
+- which mechanisms came from industrialization and the growth of disposable income;
+- which came from housing and transport;
+- which really were the Internet thickening niche markets and knowledge networks;
+- which are country-specific paths of retail, publishing, association or institution.
 
 ---
 
-## 9. old-web companion 的固定问题
+## 8. Evidence priority
 
-每个 1995—2015 的中文 Web 兴趣案例都可以检查：
+Research on hobbies cannot rely only on later nostalgia.
+
+Priority:
+
+1. contemporary magazines, product catalogues, manuals, price lists;
+2. contemporary newspaper home visits, and reports on trade fairs and markets;
+3. original forums/BBSs/blogs/personal homepages;
+4. archives of old shops, markets and associations;
+5. household durables, cultural consumption and time use in statistical yearbooks;
+6. contemporary first-person posts and diaries;
+7. academic histories of consumption, technology and leisure;
+8. later oral history and nostalgia, used to supplement experience, not to fix technological timing on their own.
+
+Advertising proves only that "someone was selling this way"; it does not prove that a typical household owned it.
+
+An audiophile home visit proves only that "this kind of deep life really existed"; the budget of a top-tier player cannot be extrapolated into a circle-wide average.
+
+---
+
+## 9. Fixed questions for the old-web companion
+
+Every Chinese Web hobby case from 1995–2015 can be checked against:
 
 ```text
-专题首页
-→ 注册 / 匿名浏览
-→ 版块
-→ 帖子
-→ 回复
-→ 图片 / 附件
-→ 搜索
-→ 用户资料 / 等级 / 积分
-→ 私信 / QQ / 电话 handoff
-→ 团购 / 二手交易
-→ 线下试听 / 聚会 / 比赛
-→ 交易或活动真实发生
-→ 历史帖后来是否仍能打开
+topical homepage
+→ registration / anonymous browsing
+→ boards
+→ posts
+→ replies
+→ images / attachments
+→ search
+→ user profile / rank / points
+→ private message / QQ / telephone handoff
+→ group buying / secondhand trading
+→ offline audition / meetup / competition
+→ the trade or event actually happening
+→ whether the historical post can still be opened later
 ```
 
-重点保存失败状态：
+Focus on preserving failure states:
 
-- 图片外链死掉；
-- 附件需登录；
-- 旧帖子编码错乱；
-- 搜索索引重建后找不到；
-- 用户名仍在但头像/签名消失；
-- 二手帖留下但成交状态未知；
-- 版主精华帖留存造成 expert-survival bias；
-- 论坛迁移 Discuz!/PHPWind 后楼层、链接或附件关系断裂。
-
----
-
-## 10. 当前进度
-
-### 已完成基础框架
-
-- [x] 建立 hobby life world 概念和研究矩阵；
-- [x] 与已有兴趣可寻址/“搭子”专题划清边界；
-- [x] 建立 Internet 前史、旧 Web、平台化的媒介链；
-- [x] 建立首批专题池。
-
-### 第一专题：Hi-Fi
-
-- [x] 已开深描文件；
-- [ ] 继续追 1980s–1990s 同时代个人来信/家访；
-- [ ] 找 1990s 器材价格与工资对照；
-- [ ] 找 1990s 广州/北京/上海音响市场与试听空间；
-- [ ] 核验 2001–2005 中文 Hi-Fi 论坛历史 capture；
-- [ ] 建立大系统 → PC Hi-Fi → headphone/personal audio 的空间与设备迁移链；
-- [ ] 找更多婚姻、生育、搬家导致 hobby 中断/缩小/重启的一手材料。
-
-### 下一批高价值专题
-
-优先级暂定：
-
-1. **摄影** — 胶卷成本、暗房、数码化和色影无忌等 old-Web 证据很丰富；
-2. **PC DIY / 电脑城** — 与旧网、硬件媒体和个人技能身份高度交叉；
-3. **业余无线电** — 可把 Internet 前史真正拉到更早的普通人通信实践；
-4. **电子游戏玩家** — 杂志、主机、网吧、BBS、服务器和数字保存；
-5. **集邮** — 典型的前互联网全国交换网络，可观察 Internet 到来后改变了什么；
-6. **骑行 / 户外** — 强调身体、道路、天气、共同时间，避免 hobby 线全部变成室内技术史。
+- externally linked images dead;
+- attachments requiring login;
+- old posts with corrupted encoding;
+- unfindable after the search index is rebuilt;
+- usernames still present but avatars/signatures gone;
+- secondhand listings left behind with transaction status unknown;
+- moderators' featured posts surviving, creating expert-survival bias;
+- floor order, links or attachment relations broken after a forum migrates to Discuz! / PHPWind.
 
 ---
 
-## 11. 饱和标准
+## 10. Current progress
 
-这条线不以“列了多少爱好”为饱和标准。
+### Foundational framework completed
 
-只有当我们已经覆盖若干资源拓扑明显不同的类型，才算形成基础：
+- [x] establish the hobby life world concept and research matrix;
+- [x] draw a clear boundary with the existing interest-addressability / "dazi" topic;
+- [x] establish the media chain from pre-Internet through old Web to platformization;
+- [x] establish the first pool of topics.
 
-- 一个高空间/高器材 hobby；
-- 一个低成本技能 hobby；
-- 一个收藏交换 hobby；
-- 一个户外/场地依赖 hobby；
-- 一个强同伴依赖 hobby；
-- 一个创作型 hobby；
-- 至少两个 Web 前就有成熟全国网络的案例；
-- 至少两个因 Internet 出现新交易/知识机制的案例；
-- 至少若干 hobby 的中断、休眠、重启生命史。
+### First topic: Hi-Fi
 
-真正要回答的不是：
+- [x] deep-description file opened;
+- [ ] keep tracking contemporary personal letters and home visits from the 1980s–1990s;
+- [ ] find 1990s equipment prices set against wages;
+- [ ] find 1990s audio markets and audition spaces in Guangzhou, Beijing and Shanghai;
+- [ ] verify historical captures of Chinese Hi-Fi forums, 2001–2005;
+- [ ] build the chain of spatial and equipment migration from large systems → PC Hi-Fi → headphone/personal audio;
+- [ ] find more first-hand material on hobbies interrupted, shrunk or restarted by marriage, childbirth and moving house.
 
-> “以前的人玩什么？”
+### Next batch of high-value topics
 
-而是：
+Provisional priority:
 
-> **“一个时代给了普通人多少真正属于自己的可支配生命，以及他们把这些生命做成了什么？”**
+1. **Photography** — film costs, darkrooms, digitization and old-Web evidence such as Xitek are abundant;
+2. **PC DIY / computer malls** — intersects heavily with the old Web, hardware media and personal skill identity;
+3. **Amateur radio** — can pull pre-Internet history back to much earlier ordinary people's communication practice;
+4. **Video-game players** — magazines, consoles, Internet cafés, BBSs, servers and digital preservation;
+5. **Philately** — a classic pre-Internet national exchange network, good for observing what the arrival of the Internet changed;
+6. **Cycling / the outdoors** — emphasize the body, roads, weather and shared time, so the hobby line does not become entirely an indoor history of technology.
+
+---
+
+## 11. Saturation criteria
+
+This line does not take "how many hobbies have been listed" as its saturation criterion.
+
+A foundation counts as established only once we have covered several types with clearly different resource topologies:
+
+- one high-space / high-equipment hobby;
+- one low-cost skill hobby;
+- one collecting-and-exchange hobby;
+- one outdoor / venue-dependent hobby;
+- one strongly peer-dependent hobby;
+- one creative hobby;
+- at least two cases with a mature national network before the Web;
+- at least two cases where the Internet produced new trading or knowledge mechanisms;
+- at least several life histories of hobbies interrupted, gone dormant and restarted.
+
+What really needs answering is not:
+
+> "What did people in the past do for fun?"
+
+But:
+
+> **"How much disposable life genuinely their own did an era give ordinary people, and what did they make of it?"**

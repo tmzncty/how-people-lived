@@ -132,7 +132,7 @@ CHARLS 2018 年 60–64 岁年龄组的退休率约：
 
 ## 死亡、丧亲与家庭连续
 
-- [与死亡共处：死亡率、丧亲、埋葬与日常生活](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [与死亡共处：死亡率、丧亲、埋葬与日常生活](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.zh-CN.md)
 - [作为家庭工作的死亡：身后身份与无亲属行政](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
 - [死亡登记、网上哀悼与身后身份](topics/death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
 - [白宝国，2026：教师劳动、评价与死亡后的公共记忆](topics/bai-baoguo-art-teaching-evaluation-public-letter-and-death-2026.zh-CN.md) —— 区分确认死亡、争议信件与未决因果问题

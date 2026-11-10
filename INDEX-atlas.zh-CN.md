@@ -49,7 +49,7 @@
 
 从这些开始：
 
-- [与死亡共处：死亡率、哀悼、葬礼和日常生活](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.md)
+- [与死亡共处：死亡率、哀悼、葬礼和日常生活](topics/living-with-death-mortality-bereavement-burial-and-ordinary-life.zh-CN.md)
 - [死亡作为家庭工作](topics/death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
 
 这个分支问一个生命历程地图可能意外隐藏的问题：

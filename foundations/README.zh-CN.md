@@ -141,10 +141,10 @@
 
 ## 当前基础笔记
 
-- [技术存在，不等于一个人真正用得到](technology-existence-vs-adoption.md)
+- [技术存在，不等于一个人真正用得到](technology-existence-vs-adoption.zh-CN.md)
 - [互联网作为普通人生活的档案](internet-as-an-archive-of-ordinary-life.zh-CN.md)
-- [人生目标与可见未来](life-horizons-and-goals.md)
-- [代际是时间位置，不是人格类型](generations-are-timing-not-personality.md)
-- [历史断裂与人生地平线](historical-breaks-and-life-horizons.md)
+- [人生目标与可见未来](life-horizons-and-goals.zh-CN.md)
+- [代际是时间位置，不是人格类型](generations-are-timing-not-personality.zh-CN.md)
+- [历史断裂与人生地平线](historical-breaks-and-life-horizons.zh-CN.md)
 
 后续中文化会逐步覆盖工资 / 物价、水、电、交通可及、住房面积、时间使用、代际和人生路径等基础文档。

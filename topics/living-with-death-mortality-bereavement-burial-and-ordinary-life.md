@@ -1,317 +1,317 @@
-# 与死亡共处：死亡率、丧亲、遗体处理与普通生活
+# Living with death: mortality, bereavement, the disposal of the dead and ordinary life
 
 Status: research framework / comparative ordinary-life axis  
 Scope: cross-period and cross-regional; intended to connect demographic history, household history, material life, war/epidemic aftermath, burial practice, oral history and literature context.
 
-## 0. 为什么这一题属于“人怎么活着”
+## 0. Why this topic belongs to "how people lived"
 
-普通生活史很容易把一个人的生命写成：
+Ordinary-life history very easily writes a person's life as:
 
-> 出生 → 成长 → 上学/工作 → 成家 → 生育 → 退休 → 死亡
+> birth → growth → school/work → marriage → childbirth → retirement → death
 
-这个箭头把死亡放在最后，仿佛它只是个人生命历程的终点。
+This arrow puts death at the end, as if it were merely the endpoint of an individual life course.
 
-但真实生活里，人很早就可能遇到别人的死亡：
+But in real life, a person may encounter other people's deaths very early:
 
-- 婴儿或儿童夭折；
-- 父母、兄弟姐妹、配偶、朋友死亡；
-- 分娩、疾病、事故或职业风险带来的死亡；
-- 饥荒、瘟疫、战争和灾害造成的集中死亡；
-- 战场失踪、无名遗体和无法立即确认的死亡；
-- 老年亲属死亡以后家庭照护、住房和财产关系重组。
+- the death of infants or children;
+- the death of parents, siblings, spouses, friends;
+- deaths from childbirth, illness, accidents or occupational risk;
+- concentrated deaths from famine, plague, war and disaster;
+- the missing on battlefields, unnamed bodies, and deaths that cannot be confirmed immediately;
+- the reorganization of family care, housing and property relations after an elderly relative dies.
 
-因此本专题研究的不是抽象的“死亡观”，而是：
+So this topic studies not an abstract "view of death," but:
 
-> **一个人怎样生活在一个别人会不断死去的世界里？**
+> **How does a person live in a world where other people keep dying?**
 
-以及：
+And:
 
-> **一个人死后，活着的人第二天还要做什么？**
+> **After a person dies, what do the living still have to do the next day?**
 
-死亡不是普通生活的反面。对生者来说，它会立刻变成新的时间、劳动、空间、照护、财产、身份和记忆问题。
-
----
-
-## 1. 不要把“平均寿命”直接翻译成“人通常活到这么大”
-
-研究历史死亡经验时，至少区分：
-
-- 出生时预期寿命；
-- 婴儿死亡率；
-- 儿童死亡率；
-- 已活到某年龄后的剩余预期寿命；
-- 成年死亡风险；
-- 孕产妇死亡风险；
-- 战争、瘟疫、饥荒、灾害等危机死亡；
-- 不同阶层、职业、地区、性别和城乡人口的差异。
-
-高婴幼儿死亡率会显著拉低出生时预期寿命，但不能因此把一个低预期寿命社会想成“多数成年人三四十岁就自然死亡”。
-
-反过来，也不能因为有人活到七八十岁，就忽略一个家庭在此前几十年中可能已经经历多次丧亲。
-
-本仓以后遇到“古人平均只能活 X 岁”一类说法时，应优先追问：
-
-> **这个数字的年龄条件、人口范围、时期和死亡结构是什么？**
+Death is not the opposite of ordinary life. For the living it immediately becomes new problems of time, labour, space, care, property, identity and memory.
 
 ---
 
-## 2. 把“死亡发生”拆成一条物质链
+## 1. Do not translate "average lifespan" directly into "people usually live this long"
 
-一个死亡事件至少可能包含：
+When studying historical experiences of death, distinguish at least:
+
+- life expectancy at birth;
+- infant mortality;
+- child mortality;
+- remaining life expectancy after having reached a given age;
+- adult mortality risk;
+- maternal mortality risk;
+- crisis mortality from war, plague, famine and disaster;
+- differences by class, occupation, region, sex and rural/urban population.
+
+High infant and child mortality substantially lowers life expectancy at birth, but that does not make a low-life-expectancy society one in which "most adults died naturally in their thirties or forties."
+
+Conversely, the fact that someone lived to seventy or eighty does not license ignoring that a household may already have gone through several bereavements in the preceding decades.
+
+When this repository later meets statements of the kind "people in the past lived only X years on average," it should first ask:
+
+> **What are the age conditions, population scope, period and mortality structure behind this number?**
+
+---
+
+## 2. Break "a death happens" into a material chain
+
+A single death may involve at least:
 
 ```text
-生病 / 受伤 / 临终
-→ 谁在场
-→ 谁确认死亡
-→ 谁通知亲友或机构
-→ 谁清洗、包裹或整理遗体
-→ 遗体暂放在哪里
-→ 棺木 / 裹尸 / 火化 / 其他处理
-→ 谁搬运
-→ 葬在哪里
-→ 墓地是否永久、轮换、迁葬或二次葬
-→ 谁付钱
-→ 谁停工或承担额外劳动
-→ 谁接替死者原来的家务、收入、照护和社会角色
-→ 财产、债务、身份与住房怎样收尾
-→ 纪念怎样进入之后的日历
+illness / injury / dying
+→ who is present
+→ who confirms the death
+→ who notifies kin or institutions
+→ who washes, wraps or lays out the body
+→ where the body is kept in the meantime
+→ coffin / shroud / cremation / other disposal
+→ who carries
+→ where the burial takes place
+→ whether the grave is permanent, rotated, relocated or used for secondary burial
+→ who pays
+→ who stops work or takes on extra labour
+→ who takes over the dead person's housework, income, care and social role
+→ how property, debt, identity and housing are wound up
+→ how commemoration enters the calendar afterwards
 ```
 
-不同社会、时期、宗教、阶层和环境会给出完全不同的答案。
+Different societies, periods, religions, classes and environments give completely different answers.
 
-研究时不要把“存在某种葬俗”直接写成“所有人都这样做”，也不要把精英墓葬当作普通人的代表。
+In research, do not write "some burial custom existed" directly as "everyone did this," and do not treat elite tombs as representative of ordinary people.
 
 ---
 
-## 3. 尸体、骨骼和空间也是普通生活史
+## 3. Bodies, bones and space are also ordinary-life history
 
-大量死亡会产生非常具体的空间问题：
+Mass death produces very concrete spatial problems:
 
-- 尸体能否及时辨认；
-- 是否一人一墓；
-- 是否使用集体墓坑、战壕、城壕、临时墓地；
-- 是否火化；
-- 墓地是否重复使用；
-- 旧骨是否迁出、集中、二次安葬或被后来的建设扰动；
-- 土壤、地下水、气候和埋藏条件怎样影响骨骼保存；
-- 城市扩张、道路、耕作和建筑怎样与旧墓地相遇。
+- whether bodies can be identified in time;
+- whether there is one grave per person;
+- whether mass pits, trenches, city moats or temporary cemeteries are used;
+- whether cremation is used;
+- whether graves are reused;
+- whether old bones are removed, gathered, reburied secondarily, or disturbed by later construction;
+- how soil, groundwater, climate and burial conditions affect bone preservation;
+- how urban expansion, roads, farming and building encounter old cemeteries.
 
-因此“这里死了很多人”与“今天应该能挖到同样数量的完整骨架”不是同一个命题。
+So "many people died here" and "the same number of complete skeletons should be diggable today" are not the same proposition.
 
-需要把：
+One must keep the following clearly apart:
 
 ```text
-死亡人数
-!= 完整尸体数量
-!= 可辨认墓葬数量
-!= 今天仍保存的人骨数量
+number of deaths
+!= number of complete bodies
+!= number of identifiable burials
+!= amount of human bone still preserved today
 ```
 
-明确分开。
+These are not the same.
 
 ---
 
-## 4. 战争：伤亡数字最后必须落实到身体和家庭
+## 4. War: casualty figures must ultimately come down to bodies and households
 
-战争史常用：
+Military history commonly uses:
 
-- 阵亡；
-- 伤亡；
-- 失踪；
-- 俘虏；
-- 减员；
-- “斩首”或战果数字。
+- killed in action;
+- casualties;
+- missing;
+- prisoners;
+- attrition;
+- "decapitation" or battle-result figures.
 
-这些统计口径不能自动互换。
+These statistical categories cannot be exchanged for one another automatically.
 
-本专题不把史书或战报中的大数字直接当作精确尸体计数，而应追问：
+This topic does not take the large numbers in histories or battle reports as precise body counts, but should ask:
 
-- 这个数字是如何记录的？
-- 是否包括伤员、失踪、俘虏或溃散者？
-- 当场死亡与伤后死亡怎样区分？
-- 谁负责战后收尸？
-- 败方遗体是否得到处理？
-- 无法辨认者怎么办？
-- 战场附近居民是否被征用承担掩埋、运输或清理？
-- 军人死亡以后，家庭失去了什么收入、劳动力、照护或继承关系？
-- 战争结束以后，活人怎样恢复种植、市场、住房和日常交通？
+- How was this number recorded?
+- Does it include the wounded, missing, prisoners or deserters?
+- How are deaths on the spot distinguished from deaths of wounds later?
+- Who is responsible for collecting bodies after the battle?
+- Were the bodies of the losing side dealt with?
+- What happens to those who cannot be identified?
+- Were residents near the battlefield requisitioned for burial, transport or clearance?
+- When a soldier dies, what income, labour, care or inheritance relations does the household lose?
+- After the war ends, how do the living restore cultivation, markets, housing and everyday transport?
 
-真正属于本仓的问题不是“某场战争死了多少人”本身，而是：
+The question that genuinely belongs to this repository is not "how many people died in a given war," but:
 
-> **这些死亡怎样进入随后一天、一个季节、一代人的普通生活。**
-
----
-
-## 5. 丧亲不是一个情绪标签，而是生活结构变化
-
-配偶、父母、子女或其他家庭成员死亡以后，家庭可能发生：
-
-- 收入减少；
-- 无偿家务重新分配；
-- 儿童照护或老人照护中断；
-- 继承和债务处理；
-- 搬家、合居或独居；
-- 再婚或长期丧偶；
-- 孤儿由亲属、社区、机构或其他安排接手；
-- 农田、商铺、手艺或岗位无人接续；
-- 家庭内部权力和决策结构改变。
-
-因此“丧偶”“孤儿”“失子”不应只作为人口学状态字段。
-
-它们首先是新的生活条件。
+> **How these deaths enter the ordinary life of the following day, season and generation.**
 
 ---
 
-## 6. 灾难之后为什么还有日常生活
+## 5. Bereavement is not an emotional label but a change in the structure of life
 
-瘟疫、饥荒、战争和灾害会制造大规模死亡，但幸存者仍必须：
+After the death of a spouse, parent, child or other household member, a household may experience:
 
-- 找食物和水；
-- 照顾儿童、伤者和老人；
-- 处理遗体；
-- 恢复住房和道路；
-- 重新组织劳动；
-- 重新分配土地、财产、债务和照护；
-- 建立新的家庭组合；
-- 决定是否迁移或返回；
-- 纪念、回避或逐渐遗忘死者。
+- reduced income;
+- redistribution of unpaid housework;
+- interruption of child care or elder care;
+- inheritance and debt settlement;
+- moving house, doubling up, or living alone;
+- remarriage or long widowhood;
+- orphans taken on by kin, community, institutions or other arrangements;
+- farmland, shops, craft or posts with no one to continue them;
+- changes in the internal structure of authority and decision-making.
 
-这一部分要避免两种极端：
+So "widowed," "orphaned" and "bereaved parent" should not be only demographic status fields.
 
-1. 只写灾难数字，仿佛人一死故事就结束；
-2. 只写“社会恢复”，把死者和幸存者付出的代价抹平。
-
-本仓要追踪的是两者之间的过程：
-
-> **死亡发生以后，生活怎样被迫继续。**
+They are first of all new conditions of life.
 
 ---
 
-## 7. 与现有死亡专题的关系
+## 6. Why there is still ordinary life after a disaster
 
-本专题是一个更宽的历史框架。仓库已经有几条现代中国的细分研究：
+Plague, famine, war and disaster produce mass death, but survivors must still:
 
-- [死亡之后还有多少工作：家庭收尾、身后身份、网络纪念与无近亲属托底](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
-- [从“一个人”到“一个单位”：纳济诺、行政分类、强制迁移与统计失踪（苏联，1933）](from-person-to-record-administrative-sorting-deportation-and-statistical-disappearance-nazino-1933.zh-CN.md)
-- [从死亡证明到“账号还活着”：死亡登记、远程追思、数字身后身份与生命终点接口](death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
-- [从“回坟”到持续联结：线上纪念、远程哀悼与身后记忆](from-grave-return-to-continuing-bond-address-online-memorial-remote-mourning-and-posthumous-memory-china-2000-2026.zh-CN.md)
-- [从墓地到数字身后世界：哀悼可寻址性、纪念持续性与身后账号治理](from-graves-to-digital-afterlives-mourning-addressability-memorial-persistence-and-posthumous-account-governance-china-1980-2026.zh-CN.md)
-- [从扫墓到维持账号：哀悼、数字遗留与身后社会存在](from-visiting-a-grave-to-keeping-an-account-alive-mourning-digital-remains-and-posthumous-social-presence-china-1980-2026.zh-CN.md)
+- find food and water;
+- care for children, the injured and the old;
+- deal with bodies;
+- restore housing and roads;
+- reorganize labour;
+- redistribute land, property, debt and care;
+- form new household combinations;
+- decide whether to migrate or return;
+- commemorate, avoid, or gradually forget the dead.
 
-这些专题主要回答现代行政与数字生活中的“死后怎么办”。
+This part must avoid two extremes:
 
-本框架补足更早、更物质的问题：
+1. writing only disaster numbers, as if the story ends when people die;
+2. writing only "social recovery," flattening the costs paid by the dead and the survivors.
 
-> **死得有多频繁、谁处理遗体、家庭怎样失去成员、幸存者怎样继续过日子。**
+What this repository tracks is the process in between:
 
----
-
-## 8. 文学为什么需要这一轴
-
-文学中的死亡不能自动当作人口史证据，但历史死亡环境可以帮助恢复同时代读者不需要解释的背景。
-
-适合交叉研究的问题包括：
-
-- 古战场文学里“白骨”“无名死者”“鬼哭”等意象背后的战场处置和记忆；
-- 悼亡诗文背后的家庭死亡频率、丧制和家庭重组；
-- 古希腊悲剧里“尸体能否安葬”为何可以成为城邦、家族和神律冲突的核心；
-- 战争小说中一条“某部伤亡数万”怎样对应个体身体、家属和地方社会；
-- 疫病文学里死亡发生以后，市场、葬仪、照护与邻里关系怎样继续。
-
-文学材料证明的是表现、假设和意义结构；死亡率、葬俗普及程度和实际生活后果仍需非文学证据支持。
+> **How life is forced to continue after a death has occurred.**
 
 ---
 
-## 9. 优先研究包
+## 7. Relation to the existing death topics
 
-后续可以逐个建立小而可证的 life slice：
+This topic is a broader historical framework. The repository already has several narrower studies of modern China:
 
-1. **古代城市普通死亡的物质流程**  
-   谁处理遗体、停放多久、葬在哪里、谁承担费用与劳动。
+- [How much work remains after a death: household winding-up, posthumous identity, online commemoration and the safety net for those with no close kin](death-as-household-work-posthumous-identity-and-kinless-administration-china-1958-2026.zh-CN.md)
+- [From "a person" to "a record": Nazino, administrative sorting, forced deportation and statistical disappearance (USSR, 1933)](from-person-to-record-administrative-sorting-deportation-and-statistical-disappearance-nazino-1933.zh-CN.md)
+- [From death certificate to "the account is still alive": death registration, remote mourning, digital posthumous identity and end-of-life interfaces](death-registration-online-mourning-digital-afterlife-and-posthumous-identity-china-1956-2026.zh-CN.md)
+- [From "returning to the grave" to continuing bonds: online memorials, remote mourning and posthumous memory](from-grave-return-to-continuing-bond-address-online-memorial-remote-mourning-and-posthumous-memory-china-2000-2026.zh-CN.md)
+- [From graves to digital afterlives: mourning addressability, memorial persistence and posthumous account governance](from-graves-to-digital-afterlives-mourning-addressability-memorial-persistence-and-posthumous-account-governance-china-1980-2026.zh-CN.md)
+- [From visiting a grave to keeping an account alive: mourning, digital remains and posthumous social presence](from-visiting-a-grave-to-keeping-an-account-alive-mourning-digital-remains-and-posthumous-social-presence-china-1980-2026.zh-CN.md)
 
-2. **儿童夭折怎样改变家庭**  
-   不只算死亡率，也追踪哺育劳动、再次生育、兄弟姐妹结构和纪念。
+These topics mainly answer "what happens after death" in modern administrative and digital life.
 
-3. **配偶早亡以后的一户人家**  
-   寡妇 / 鳏夫、收入、土地、再婚、合居、儿童照护。
+This framework fills in earlier, more material questions:
 
-4. **一场战役之后的地方社会**  
-   收尸、伤员、失踪、墓坑、道路与农田恢复。
-
-5. **墓地怎样“装得下”几代人**  
-   墓地轮换、迁葬、二次葬、火化、骨骼保存与城市扩张。
-
-6. **高死亡率世界中的友情和远行**  
-   “一别可能成永别”如何改变通信、告别、遗嘱和文学表达。
-
-7. **从在家死亡到机构化死亡**  
-   临终地点、医院、殡仪设施与家属参与怎样改变。
-
-8. **灾难后第二天**  
-   不以死亡人数收尾，而从幸存者第二天必须完成的任务开始。
+> **how often people died, who handled the bodies, how households lost members, and how survivors kept going with their days.**
 
 ---
 
-## 10. 证据优先级
+## 8. Why literature needs this axis
 
-优先寻找：
+Death in literature cannot automatically be used as demographic evidence, but the historical environment of death can help restore background that contemporary readers did not need explained.
 
-- 人口登记、教区簿册、族谱和墓葬登记；
-- 年龄别死亡率与生命表；
-- 军队名册、战损记录、阵亡/失踪登记；
-- 殡葬、墓地、火化、迁葬和卫生管理档案；
-- 同时代日记、书信、讣告、祭文和家庭账簿；
-- 考古墓地报告与生物考古研究；
-- 灾后地方记录；
-- 丧偶、孤儿、家庭重组和继承的历史研究；
-- 文学作品，但仅用于表现史与背景假设。
+Questions suitable for cross-cutting research include:
 
----
+- the battlefield disposal and memory behind images such as "white bones," "nameless dead" and "ghosts wailing" in literature of ancient battlefields;
+- the household death frequency, mourning rules and household recomposition behind elegiac poetry and prose;
+- why "whether the body can be buried" could become the core of the conflict between city, family and divine law in ancient Greek tragedy;
+- how a line in a war novel such as "a certain unit suffered tens of thousands of casualties" corresponds to individual bodies, bereaved families and local society;
+- how markets, funerary rites, care and neighbourly relations continue after deaths in plague literature.
 
-## 11. 研究纪律
-
-### 不做死亡数字猎奇
-
-大数字必须回到口径、人口和生活后果。
-
-### 不把古人写成“习惯死亡所以不悲伤”
-
-高死亡频率不等于低情感强度。需要分别研究死亡风险、仪式、表达规范和私人经验。
-
-### 不把现代殡葬流程倒推到过去
-
-医院死亡、死亡证明、专业殡仪机构、火化设施、墓园管理和数字账号都是有历史的。
-
-### 不把精英葬礼当作普通葬礼
-
-墓志、豪华墓葬和完整礼书往往具有强烈选择偏差。
-
-### 不把“战争死亡”只写成战场事件
-
-死者离开了时间，生者仍要继续劳动、吃饭、照护、迁移和记忆。
+Literary material proves representation, assumption and structures of meaning; mortality rates, the prevalence of burial customs and actual consequences for life still require non-literary evidence.
 
 ---
 
-## 12. 这个专题最终要回答什么
+## 9. Priority research packages
 
-如果一个现代读者醒在某个历史时期，除了问：
+Small, provable life slices can be built one by one later:
 
-- 我住哪里？
-- 我吃什么？
-- 我怎么工作？
-- 我怎样通信？
+1. **The material process of an ordinary death in an ancient city**  
+   who handles the body, how long it lies in state, where it is buried, who bears the cost and the labour.
 
-还应该问：
+2. **How the death of a child changes a household**  
+   not only counting mortality rates, but tracing feeding labour, further births, sibling structure and commemoration.
 
-- 我多大概率会在童年失去兄弟姐妹？
-- 我的父母、配偶或孩子可能怎样死亡？
-- 人通常在哪里死？
-- 尸体由谁处理？
-- 墓地在哪里，能用多久？
-- 葬礼要花多少钱和多少时间？
-- 一个家庭少了一个成年人以后，谁接手他的劳动？
-- 战争、瘟疫或饥荒过后，第二天的生活是什么样？
-- 当身边的人死去，我怎样继续活？
+3. **A household after the early death of a spouse**  
+   widow / widower, income, land, remarriage, doubling up, child care.
 
-这也是 ordinary life。
+4. **Local society after a battle**  
+   body collection, the wounded, the missing, burial pits, the restoration of roads and farmland.
+
+5. **How a cemetery "holds" several generations**  
+   grave rotation, relocation, secondary burial, cremation, bone preservation and urban expansion.
+
+6. **Friendship and long journeys in a high-mortality world**  
+   how "parting may be forever" changes correspondence, leave-taking, wills and literary expression.
+
+7. **From dying at home to institutionalized dying**  
+   how the place of dying, hospitals, funeral facilities and family participation changed.
+
+8. **The day after a disaster**  
+   not ending with the death toll, but beginning with the tasks survivors must complete the next day.
+
+---
+
+## 10. Evidence priority
+
+Priority sources:
+
+- population registers, parish registers, genealogies and burial registers;
+- age-specific mortality rates and life tables;
+- army rolls, battle-loss records, registers of the killed/missing;
+- archives of funerals, cemeteries, cremation, reburial and sanitary administration;
+- contemporary diaries, letters, obituaries, funeral orations and household account books;
+- archaeological cemetery reports and bioarchaeological research;
+- post-disaster local records;
+- historical research on widowhood, orphanhood, household recomposition and inheritance;
+- literary works, but only for the history of representation and background assumptions.
+
+---
+
+## 11. Research discipline
+
+### No death-toll sensationalism
+
+Large numbers must be returned to their definitions, their populations and their consequences for life.
+
+### Do not write people in the past as "accustomed to death, therefore not grieving"
+
+High mortality frequency does not equal low emotional intensity. Mortality risk, ritual, norms of expression and private experience need to be studied separately.
+
+### Do not project modern funeral procedures backwards
+
+Death in hospital, death certificates, professional funeral institutions, cremation facilities, cemetery management and digital accounts all have histories.
+
+### Do not take elite funerals as ordinary funerals
+
+Epitaphs, lavish tombs and complete ritual manuals usually carry strong selection bias.
+
+### Do not write "wartime death" only as a battlefield event
+
+The dead have left time; the living must still work, eat, care, migrate and remember.
+
+---
+
+## 12. What this topic ultimately has to answer
+
+If a modern reader woke up in some historical period, besides asking:
+
+- Where do I live?
+- What do I eat?
+- How do I work?
+- How do I communicate?
+
+they should also ask:
+
+- What is the probability that I lose a sibling in childhood?
+- How might my parents, spouse or children die?
+- Where do people usually die?
+- Who handles the body?
+- Where is the grave, and how long does it last?
+- How much money and time does a funeral cost?
+- When a household loses an adult, who takes over that person's labour?
+- What does the next day's life look like after a war, a plague or a famine?
+- When people around me die, how do I keep living?
+
+This, too, is ordinary life.
 

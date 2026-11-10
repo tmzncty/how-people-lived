@@ -1,135 +1,135 @@
-# Source pack — Hi-Fi / 发烧友兴趣生活世界（1997—2005）
+# Source pack — Hi-Fi / the enthusiast hobby life world (1997–2005)
 
-本文件补充 `topics/audiophile-hifi-hobby-life-world-china-1980s-2026.zh-CN.md` 的同时代证据，重点不是再写一篇 Hi-Fi 史，而是保存可以直接用于“兴趣生活世界”分析的窄 claim、证据等级和 old-Web 边界。
+This file gathers contemporaneous evidence for `topics/audiophile-hifi-hobby-life-world-china-1980s-2026.zh-CN.md`. Its focus is not to write another history of Hi-Fi, but to preserve narrow claims, evidence grades and old-Web boundaries that can be used directly in "hobby life world" analysis.
 
 ---
 
-## 1. 1997《中国电子商情》：俱乐部、海印行情与试听室
+## 1. 1997 *China Electronics Business Information*: clubs, Haiyin price-watching and listening rooms
 
-### 1.1 “Hi-Fi 俱乐部”已经是同期专业刊物的可理解对象
+### 1.1 "Hi-Fi club" was already an intelligible object for contemporaneous specialist magazines
 
-《中国电子商情（基础电子）》1997 年第 8 期目录包含：
+The contents of *China Electronics Business Information (Basic Electronics)*, issue 8 of 1997, include:
 
-- 《在音乐中寻知音——记一位发烧友和他的 Hi-Fi 俱乐部》；
-- 摘要开头直接讨论“怎样才算是发烧友”；
-- 同期另一篇作者写自己在 1995 年中“惯常地”去海印电器区看行情。
+- "Finding a kindred ear in music — a note on one enthusiast and his Hi-Fi club";
+- an abstract that opens by directly discussing "what counts as an enthusiast";
+- another article in the same issue, whose author writes that through 1995 he "habitually" went to the Haiyin electrical-appliance district to watch prices.
 
-来源：
+Source:
 
 - <https://dzsq.chinajournal.net.cn/WKD/WebPublication/wkTextContent.aspx?colType=4&st=08&yt=1997>
 
-证据等级：**A/B（同期专业刊物的当前数据库呈现）**。
+Evidence grade: **A/B (present-day database rendering of a contemporaneous specialist magazine)**.
 
-可支持：
-
-```text
-1997 年中国专业音响刊物已经把：
-“发烧友”
-“Hi-Fi 俱乐部”
-“反复去专业市场看器材行情”
-当作读者可以理解的 hobby 实践来书写。
-```
-
-不能支持：
+Can support:
 
 ```text
-普通城市家庭普遍拥有 Hi-Fi 系统
-海印客户结构代表全国
-“发烧友”有统一人口定义
+By 1997, Chinese specialist audio magazines already wrote:
+"enthusiast"
+"Hi-Fi club"
+"repeatedly going to specialist markets to watch equipment prices"
+as hobby practice their readers could understand.
 ```
 
-### 1.2 1997：海印不只是卖场，也是试听基础设施
+Cannot support:
 
-同刊 1997 年第 9 期《明价就是实价——昌业音响有限公司专访》摘要称，海印电器城是广州乃至华南重要的音响电器市场，受访公司拥有四间大型试听室及音响工程公司。
+```text
+ordinary urban households generally owning Hi-Fi systems
+Haiyin's customer mix representing the whole country
+a single demographic definition of "enthusiast"
+```
 
-同一期《HiFi 基本法——电源的净化》还记录：电脑、电讯器材普及后，一些发烧友尝试把电脑电源滤波器用于音响，“这种玩法曾一度成为热潮”。
+### 1.2 1997: Haiyin was not only a marketplace, but also listening infrastructure
 
-来源：
+The abstract of "A stated price is a real price — an interview with Changye Audio Co., Ltd.", in issue 9 of 1997 in the same magazine, states that the Haiyin electrical-appliance city was an important audio and electrical market for Guangzhou and indeed for South China, and that the company interviewed had four large listening rooms as well as an audio engineering company.
+
+"HiFi basic law — purifying the power supply", in the same issue, also records that after computers and telecom equipment became widespread, some enthusiasts tried using computer power filters in audio systems, and that "this way of playing once became a craze."
+
+Source:
 
 - <https://dzsq.chinajournal.net.cn/WKD/WebPublication/wkTextContent.aspx?colType=4&st=09&yt=1997>
 
-可支持的生活史机制：
+Life-history mechanisms it can support:
 
-- **audition infrastructure / 试听基础设施**：高价器材并不只靠广告决定，专门试听室让身体听感成为购买前的一步；
-- **optimization hobby / 优化型兴趣**：兴趣对象不是只“拥有设备”，还包括不断寻找可调整变量；
-- **cross-domain tinkering / 跨领域折腾**：电脑滤波器进入音响玩法，说明器材知识会跨技术领域流动。
+- **audition infrastructure**: expensive equipment is not decided by advertising alone; dedicated listening rooms make bodily hearing a step before purchase;
+- **optimization hobby**: the object of interest is not only "owning the equipment", but also continually hunting for variables that can be adjusted;
+- **cross-domain tinkering**: computer filters entering audio play shows that equipment knowledge flows across technical domains.
 
 ---
 
-## 2. 1998《人民日报》：发烧杂志作为技术 + 音乐知识接口
+## 2. 1998 *People's Daily*: enthusiast magazines as an interface between technical and musical knowledge
 
-1998 年 2 月 13 日《人民日报》第 10 版《“软硬兼施”的〈高保真音响〉》明确称：
+*People's Daily*, 13 February 1998, page 10, in "'Soft and hard both applied': *High Fidelity Audio*", states explicitly:
 
-- 《高保真音响》在爱乐人士和“发烧圈”里颇有声望；
-- 创刊已四年多；
-- “音响版”涉及器材、制作工艺、新技术、新产品、使用常识和技巧；
-- “音乐版”由音乐发烧友、专家和收藏者参与，谈演出、唱片与音乐背景；
-- 报道把杂志成长同时与古典音乐爱好者和高档音响消费市场扩大联系起来。
+- *High Fidelity Audio* had considerable standing among music lovers and within the "enthusiast circle";
+- it had already been publishing for more than four years;
+- the "equipment section" covered gear, construction technique, new technology, new products, and everyday know-how and tips;
+- the "music section" involved music enthusiasts, experts and collectors, and discussed performances, records and musical background;
+- the report links the magazine's growth to the simultaneous expansion of both the classical-music audience and the high-end audio consumer market.
 
-来源：
+Source:
 
 - <https://cn.govopendata.com/renminribao/1998/2/13/10/>
 
-证据等级：**A（同期报刊文本）**。
+Evidence grade: **A (contemporaneous newspaper text)**.
 
-这条来源特别适合支持：
+This source is especially well suited to supporting:
 
 ```text
-前大众 Web 的发烧知识不是只有商家广告。
-它已经形成：
-器材评论 + 技术知识 + 音乐知识 + 收藏知识 + 同好作者
-的专业媒体接口。
+pre-mass-Web enthusiast knowledge was not only vendor advertising.
+It had already formed:
+equipment reviews + technical knowledge + musical knowledge + collecting knowledge + fellow-enthusiast writers
+as a specialist media interface.
 ```
 
-它仍不能证明发行量、读者阶层或普通家庭拥有率。
+It still cannot establish circulation, readership class or household ownership rates.
 
 ---
 
-## 3. 2003 HIFI168 legacy page：兴趣怎样占用下班后的时间
+## 3. 2003 HIFI168 legacy page: how a hobby occupies the time after work
 
-当前仍可访问页面：
+A page still accessible today:
 
 - <https://mail.hifi168.com/bbs/showtopic-34221.aspx>
 
-页面承载一篇标注 2003-08-04 的帖子。发帖者描述：
+The page carries a post dated 2003-08-04. The poster describes:
 
-- 新系统已经“煲”一周；
-- 每天下班回家就开，睡觉再关；
-- 对女声高频不满意；
-- 把朋友的 CD 机换进系统测试；
-- 在论坛询问是否需要换 CD 机以及价格建议。
+- the new system has been "broken in" for a week;
+- it is switched on every day on getting home from work, and switched off at bedtime;
+- dissatisfaction with the treble on female vocals;
+- swapping a friend's CD player into the system to test it;
+- asking the forum whether the CD player needs replacing, and for price advice.
 
-证据类型：**current live legacy page carrying contemporaneously dated user text**。
+Evidence type: **current live legacy page carrying contemporaneously dated user text**.
 
-它最适合支持：
+It is best suited to supporting:
 
-- **hobby-time integration**：兴趣已经进入每天“下班—睡觉”之间的固定时间；
-- **peer diagnostic loop**：朋友借机 + 论坛建议共同成为故障/搭配判断渠道；
-- **upgrade funnel**：听感问题可能转化为下一笔购买，但帖子本身不能证明最后真的买了。
+- **hobby-time integration**: the hobby has entered a fixed daily slot between "leaving work" and "going to sleep";
+- **peer diagnostic loop**: a friend's loaned player plus forum advice together become the channel for judging a fault and matching components;
+- **upgrade funnel**: a listening complaint may convert into the next purchase, but the post itself cannot prove that the purchase actually happened.
 
-严格不能推：
+Strictly cannot be inferred:
 
-- 当前 `Discuz!NT` 壳层就是 2003 年原页面；
-- 当前查看数、用户等级、总帖数是 2003 时点值；
-- 作者真实拥有帖子里所有被讨论器材；
-- 论坛建议后来真的被执行。
+- that the current `Discuz!NT` shell is the original 2003 page;
+- that current view counts, user levels and total post counts are 2003 values;
+- that the author really owned all the equipment discussed in the post;
+- that the forum advice was actually carried out later.
 
 ---
 
-## 4. 2003：论坛 → 音响店 → 音响展
+## 4. 2003: forum → audio shop → audio show
 
-当前 legacy page：
+Current legacy page:
 
 - <https://mail.hifi168.com/bbs/showtopic-39648-9.aspx>
 
-页面承载 2003 年白天鹅音响展赠票报名/名单内容：
+The page carries sign-up and list content for free tickets to the 2003 White Swan audio show:
 
-- 论坛内报名；
-- 版主发布获票名单；
-- 要求用户到海印广场实体音响店取票，并携身份证核对；
-- 外地用户因为没有时间来广州取票，询问是否能邮寄。
+- signing up inside the forum;
+- a moderator publishing the list of those who got tickets;
+- users required to collect tickets at a physical audio shop in Haiyin Plaza, with an ID card check;
+- out-of-town users, unable to come to Guangzhou for the tickets, asking whether they could be mailed.
 
-可支持：
+Can support:
 
 ```text
 Web forum
@@ -139,148 +139,148 @@ Web forum
 → audio show
 ```
 
-Internet 没有替代实体试听和展会，而是提高了这些本地兴趣节点的跨地可发现性。
+The Internet did not replace physical audition and trade shows; it raised the cross-locality discoverability of these local hobby nodes.
 
 ---
 
-## 5. 2005：论坛二手交易增加 hobby reversibility
+## 5. 2005: forum secondhand trading increases hobby reversibility
 
-当前 legacy page：
+Current legacy page:
 
 - <https://bbs.hifi168.com/bbs/showtopic-79771.aspx>
 
-页面承载 2005-07-17 的器材转让帖：
+The page carries an equipment-for-sale post dated 2005-07-17:
 
-- 列出 CD 机与 AE200 音箱；
-- 给出原购买时间、使用状态与出售价格；
-- 卖家位于上海；
-- 偏好“本地看货交易”。
+- listing a CD player and AE200 speakers;
+- giving the original purchase date, the condition of use and the asking price;
+- the seller is located in Shanghai;
+- a preference for "local inspection and local transaction."
 
-可支持：
+Can support:
 
-- 高价/大件兴趣器材存在论坛化二手退出路线；
-- **listing state** 可以包含价格、成色、地点和联系意向；
-- 物理试听/验货与本地 handoff 仍然重要。
+- expensive and bulky hobby equipment has a forum-mediated secondhand exit route;
+- **listing state** can include price, condition, location and contact intent;
+- physical audition and inspection, plus local handoff, still matter.
 
-不能支持：
+Cannot support:
 
 ```text
 listing posted = sold
 asking price = realized price
 reply = buyer
-“已出”文本 = 完整支付/交付可独立核验
+the words "sold" = independently verifiable completion of payment/delivery
 ```
 
 ---
 
-## 6. 海外对照：1990s Usenet 已把发烧活动拆成知识频道
+## 6. An overseas comparison: 1990s Usenet had already split enthusiast activity into knowledge channels
 
 ### 6.1 1992 `rec.audio.pro`
 
-1992 年建组投票文本把受众定义为广播/录音工程师、音乐人和 recording hobbyists，讨论范围包括：
+The 1992 call-for-votes text defines the audience as broadcast and recording engineers, musicians and recording hobbyists, with discussion covering:
 
-- 买卖交换器材；
-- 维修和改装；
-- 录音、混音、母带；
-- 设备选择；
-- 测试与 studio design。
+- buying, selling and swapping equipment;
+- repair and modification;
+- recording, mixing, mastering;
+- equipment selection;
+- testing and studio design.
 
-来源：
+Source:
 
 - <https://groups.google.com/g/rec.audio/c/X6WnhmCBaoc>
 
 ### 6.2 1997 `rec.audio.*` FAQ
 
-1997 FAQ 已经明确区分：
+The 1997 FAQ already distinguishes clearly:
 
-- `rec.audio.high-end`：高端器材、线材、黑胶与细微听感；
-- `rec.audio.marketplace`：买卖、价格、来源；
-- `rec.audio.opinion`：听感和选择争论；
-- `rec.audio.tech`：理论、DIY、规格与技术问题。
+- `rec.audio.high-end`: high-end equipment, cables, vinyl and subtle listening impressions;
+- `rec.audio.marketplace`: buying and selling, prices, sources;
+- `rec.audio.opinion`: arguments about listening and about choices;
+- `rec.audio.tech`: theory, DIY, specifications and technical questions.
 
-FAQ 还提醒 Usenet 没有保护买卖双方资金/财物的机制，出售帖最好写真实姓名、电话和地点。
+The FAQ also warns that Usenet has no mechanism protecting either party's money or goods, and that for-sale posts should give a real name, telephone number and location.
 
-来源：
+Source:
 
 - <https://groups.google.com/g/rec.audio.tech/c/oUd1fiZb0Fo>
 
-这组海外材料可支持一个跨国共同机制：
+This overseas material supports one cross-national shared mechanism:
 
 ```text
-杂志/本地店/俱乐部中的混合知识
-→ 网络论坛/新闻组按技术、听感、二手、专业用途拆分
+mixed knowledge inside magazines / local shops / clubs
+→ network forums / newsgroups splitting it by technical, listening, secondhand and professional use
 ```
 
-不能写成“Usenet 让所有发烧友都全球联网”，因为接入本身仍有强烈的学校、职业、设备和网络分布差异。
+It cannot be written as "Usenet put every enthusiast online globally", because access itself still varied strongly by school, occupation, equipment and network distribution.
 
 ---
 
-## 7. 后续时期的广义兴趣线索：不要只盯着 Hi-Fi
+## 7. Broader hobby leads from later periods: do not stare only at Hi-Fi
 
-这几条不是 Hi-Fi 证据，而是用来验证“兴趣生活世界”这个更大的研究轴。
+These are not Hi-Fi evidence; they are used to test the larger research axis of "hobby life worlds".
 
-### 2018：多兴趣圈同时存在
+### 2018: multiple interest circles coexisting
 
-中国青年报 2018 年在线调查记录了影视、美食、运动、音乐、旅游、英语、动漫、游戏、摄影、科技、育儿、话剧等兴趣圈。
+A 2018 online survey by China Youth Daily recorded interest circles including film and television, food, sport, music, travel, English, anime, games, photography, technology, parenting and stage drama.
 
 - <https://zqb.cyol.com/html/2018-05/17/nw.D110000zgqnb_20180517_1-07.htm>
 
-样本不能外推全国，但适合证明 **social portfolio of hobbies / 多兴趣组合** 已经是同期可见结构。
+The sample cannot be extrapolated to the whole country, but it is good for showing that a **social portfolio of hobbies** was already a visible structure at the time.
 
-### 2019：兴趣升级曲线和“入坑”语言
+### 2019: the hobby upgrade curve and the language of "falling into the pit"
 
-中国青年报 2019 年关于“氪金兴趣”的同期报道保存 BJD、游戏等深度消费个案；其中一名大学生省吃俭用 2000 元购买娃娃，后续又面对服装、妆面、部件与稀缺品的继续投入。
+A contemporaneous 2019 China Youth Daily report on "pay-to-play interests" preserves deep-consumption cases such as BJD dolls and games; one university student scrimped and saved 2000 yuan to buy a doll, and then faced continued outlay on clothing, face-ups, parts and scarce items.
 
 - <https://zqb.cyol.com/html/2019-10/15/nw.D110000zgqnb_20191015_1-08.htm>
 
-这些是选择性强的深度玩家，不能作为青年平均消费，但很适合研究 **upgrade/escalation curve**。
+These are strongly self-selected deep players and cannot stand for average youth consumption, but they are very good for studying the **upgrade/escalation curve**.
 
-### 2020—2021：兴趣的居家 fallback
+### 2020–2021: the domestic fallback of hobbies
 
-- 2020 大学生“宅家”消费中出现新收藏兴趣、烹饪、手账等：<https://zqb.cyol.com/html/2020-04/27/nw.D110000zgqnb_20200427_1-08.htm>
-- 2021 云健身把部分训练迁到 App/直播和家中空间：<https://www.news.cn/politics/2021-10/12/c_1127947319.htm>
+- In 2020, university students' "staying at home" consumption included new collecting interests, cooking and bullet journalling: <https://zqb.cyol.com/html/2020-04/27/nw.D110000zgqnb_20200427_1-08.htm>
+- In 2021, cloud fitness moved part of training onto apps/livestreams and into domestic space: <https://www.news.cn/politics/2021-10/12/c_1127947319.htm>
 
-适合支持 **hobby continuity fallback**，不能写成疫情创造这些兴趣。
+Good for supporting **hobby continuity fallback**; it must not be written as the pandemic creating these hobbies.
 
-### 2024—2025：时间稀缺与“被保护的兴趣预算”
+### 2024–2025: time scarcity and a "protected hobby budget"
 
-- 2024 青年闲暇时间调查：<https://yn.people.com.cn/n2/2024/1212/c378440-41072967.html>
-- 2025 青年消费调查：<https://zqb.cyol.com/pc/content/202504/29/content_410386.html>
-- 2025 羽毛球爱好者器材/耗材个案：<https://zqb.cyol.com/pc/content/202504/14/content_409701.html>
+- A 2024 survey of young people's leisure time: <https://yn.people.com.cn/n2/2024/1212/c378440-41072967.html>
+- A 2025 survey of youth consumption: <https://zqb.cyol.com/pc/content/202504/29/content_410386.html>
+- A 2025 case of a badminton enthusiast's equipment and consumables: <https://zqb.cyol.com/pc/content/202504/14/content_409701.html>
 
-可支持的窄结论：在部分青年样本中，一方面连续空闲时间紧张，另一方面仍有人把兴趣当作值得单独保护的预算项。
+The narrow conclusion this can support: in some youth samples, continuous free time is tight, while some people still treat a hobby as a budget line worth protecting separately.
 
 ---
 
-## 8. 这组来源改变了什么
+## 8. What this set of sources changes
 
-它们把“90s Hi-Fi 发烧友”从一个怀旧标签恢复成了一套实际生活：
+They restore "the 1990s Hi-Fi enthusiast" from a nostalgic label to a set of actual life practices:
 
 ```text
-定期读杂志 / 听节目
-→ 去专业市场看行情
-→ 在试听室比较
-→ 买器材与唱片
-→ 在家庭空间长期使用
-→ 自己调、借朋友器材排查
-→ 论坛求助
-→ 去展会
-→ 升级 / 二手退出
+regularly reading magazines / listening to programmes
+→ going to specialist markets to watch prices
+→ comparing in listening rooms
+→ buying equipment and records
+→ long-term use in domestic space
+→ tweaking things oneself, borrowing a friend's gear to isolate a fault
+→ asking the forum for help
+→ going to trade shows
+→ upgrading / exiting through secondhand
 ```
 
-因此发烧友史最重要的不是“当年谁的器材最贵”，而是这套兴趣生活需要多少**可自由支配的钱、房间、晚上、周末、技术知识与物质流通网络**。
+So the most important thing in the history of enthusiasts is not "whose equipment was the most expensive back then", but how much **discretionary money, room, evening, weekend, technical knowledge and material circulation network** this hobby life required.
 
 ---
 
-## 9. 待补证据
+## 9. Evidence still to be filled in
 
-1. 1990s 入门/中档/高档器材相对工资的分布，而不是单一顶级价格；
-2. 1991—1994 广东“音响世界”广播节目同期节目表/报刊；
-3. 海印专业市场客户地域、职业与性别构成；
-4. 女性、非大城市、低预算发烧友材料；
-5. 大型音箱在租房/婚后/有孩子家庭里的真实空间协商；
-6. “退烧”与重返，尤其搬家、生育、失业、退休后的变化；
-7. 耳机/桌面 Hi-Fi 是否显著压低空间门槛；
-8. Hifi168 2003—2005 页面的真正 historical memento、DOM、charset、论坛软件版本与附件保存状态。
+1. the distribution of entry-level, mid-range and high-end equipment prices against wages in the 1990s, rather than a single top-end price;
+2. contemporaneous programme schedules and press coverage for the 1991–1994 Guangdong "Audio World" radio programme;
+3. the regional, occupational and gender composition of customers at the Haiyin specialist market;
+4. material on women, non-metropolitan and low-budget enthusiasts;
+5. how large speakers are actually negotiated spatially in rented homes, after marriage, and in households with children;
+6. "cooling off" and re-entry, especially the changes after moving house, childbirth, unemployment and retirement;
+7. whether headphones and desktop Hi-Fi significantly lower the space threshold;
+8. the real historical memento, DOM, charset, forum software version and attachment preservation state of the Hifi168 pages from 2003–2005.
 
-> 当前 Hifi168 证据均应继续标为 `live legacy rendering carrying dated content`，除非后续实际验证对应的 Wayback/WARC capture。
+> All current Hifi168 evidence should continue to be labelled `live legacy rendering carrying dated content`, unless the corresponding Wayback/WARC capture is actually verified later.

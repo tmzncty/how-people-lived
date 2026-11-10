@@ -1,256 +1,256 @@
-# 从“找得到你家”到“这个号码跟着你走”：手机号、可达性连续性与账号绑定债（中国，1987—2026）
+# From "we can find your home" to "this number travels with you": phone numbers, reachability continuity and account-binding debt (China, 1987–2026)
 
 > Cross-repo companion: `tmzncty/old-web-archaeology/docs/MOBILE_NUMBER_WEB_BINDING_SMS_RECOVERY_REALNAME_AND_RECYCLED_NUMBER_STATE_GAPS_2001_2015.md`
 
-## 0. 为什么这是一个 life-horizon 问题
+## 0. Why this is a life-horizon question
 
-电话号码看起来只是通信史里的一个技术字段，但对普通人的真实生命历程，它逐渐承担了至少四种不同功能：
+A telephone number looks like a single technical field in the history of communications, but in the actual life course of ordinary people it has gradually taken on at least four distinct functions:
 
-1. **社会地址**：朋友、同事、客户和亲属怎样找到你；
-2. **迁移连续性**：换城市、换工作、换运营商以后，旧关系是否仍然知道怎样联系你；
-3. **制度凭证**：银行、学校、医院、政务服务和互联网平台用什么号码向你发送状态、验证码或通知；
-4. **数字身份恢复入口**：忘记密码、账号异常、支付确认时，平台把“能收到这个号码的短信”当成什么程度的身份信号。
+1. **Social address**: how friends, colleagues, clients and relatives find you;
+2. **Migration continuity**: after changing city, job or carrier, whether old relationships still know how to contact you;
+3. **Institutional credential**: which number banks, schools, hospitals, government services and Internet platforms use to send you status, verification codes or notifications;
+4. **Digital-identity recovery entry point**: when you forget a password, hit an account anomaly or confirm a payment, how strong a proof of identity the platform treats "can receive an SMS at this number" as being.
 
-因此本专题问的不是“手机什么时候普及”，而是：
+So this topic does not ask "when did mobile phones become widespread," but:
 
-> **一个人的现实生活不断换地点、单位、设备和服务商以后，是否还能保留一个足够稳定、足够可执行的联系方式；以及当这个联系方式被越来越多系统当成身份接口以后，放弃它为什么会越来越难。**
+> **After a person's real life keeps changing location, work unit, device and service provider, can they still keep one sufficiently stable and sufficiently executable contact channel; and once more and more systems treat that contact channel as an identity interface, why does giving it up become harder and harder.**
 
-这可以帮助解释一类过去容易被拆散研究的生活现象：
+This helps explain a class of ordinary-life phenomena that used to be studied in fragments:
 
-- 为什么有人毕业或跨省工作以后仍不愿换号；
-- 为什么长期老号码会变成一种难以退出的个人基础设施；
-- 为什么“携号转网”不只是电信竞争政策，也是生命历程的可携带性问题；
-- 为什么手机号注销以后，旧的互联网身份并不会自动跟着消失；
-- 为什么到 2020s，普通人反而需要“一证通查”“一键解绑”来管理几十个自己已经记不清的账号关系。
-
----
-
-## 1. 核心概念
-
-### 1.1 `personal reachability / 个人可达性`
-
-一个具体的人，能否在不依赖共同在场的情况下被特定关系人可靠联系。
-
-它不是“社会里存在电话”这么简单，而取决于：
-
-```text
-通信服务存在
-→ 这个人实际可用
-→ 联系人知道正确入口
-→ 入口在迁移/换工作后仍有效
-→ 消息实际抵达
-→ 接收者能识别发送者和语境
-```
-
-### 1.2 `reachability continuity / 可达性连续性`
-
-当一个人换城市、宿舍、单位、运营商或设备时，旧联系人是否还能使用原来的社会地址找到他。
-
-固定电话时代，家庭住址和单位往往是号码的重要锚点；移动电话把号码越来越多地绑定到“人”而不是“地点”。
-
-### 1.3 `contact-address portability / 联系地址可携带性`
-
-人的通信入口能否与某个具体地点或服务商解绑。
-
-至少有三种不同层次：
-
-- **空间可携带**：号码随身体离开家、办公室和城市；
-- **设备可携带**：更换终端后仍保留号码；
-- **运营商可携带**：更换电信服务商后仍保留号码。
-
-这三者出现的历史时间不同，不能压成一个“手机带来移动性”的句子。
-
-### 1.4 `phone-number identity accretion / 手机号身份沉积`
-
-一个号码使用得越久，越多关系和制度会把它当成这个人的稳定入口：
-
-```text
-朋友通讯录
-+ 客户/同事
-+ 银行预留号码
-+ QQ/网游/电商/支付账号
-+ 快递/票务/医院
-+ 政务与公共服务
-+ 双因素/密码恢复
-= 号码逐年沉积越来越多身份关系
-```
-
-### 1.5 `account-binding debt / 账号绑定债`
-
-改变手机号时，需要逐个发现、验证、解绑和更新旧关系的累积劳动。
-
-它是一种很典型的数字时代退出成本：注册时每次只花几十秒，几年以后却可能已经无法记住自己到底在哪些系统里留下过这个号码。
-
-### 1.6 `number-recycling collision / 二次放号身份碰撞`
-
-电信系统认为：
-
-```text
-旧用户销号 → 冻结/等待 → 号码可重新分配 → 新订户获得号码
-```
-
-第三方互联网系统却可能仍然认为：
-
-```text
-该手机号 → 旧账号/银行卡/支付工具/通知关系
-```
-
-两个生命周期没有同步清理时，新号码持有人会撞进旧人的数字残留。
+- why some people are still unwilling to change their number after graduating or working in another province;
+- why a long-held old number becomes a piece of personal infrastructure that is hard to exit;
+- why "mobile number portability" is not only telecom competition policy but also a question of life-course portability;
+- why, after a phone number is cancelled, an old Internet identity does not automatically disappear with it;
+- why by the 2020s ordinary people instead need "one-ID lookup" and "one-click unbinding" to manage dozens of account relationships they can no longer remember clearly.
 
 ---
 
-## 2. Internet 以前：普通人的“社会地址”本来是什么
+## 1. Core concepts
 
-在移动电话大规模可及以前，一个人的可达性往往拼在多个地点型接口上：
+### 1.1 `personal reachability`
+
+Whether a specific person can be reliably contacted by specific counterparties without depending on co-presence.
+
+It is not as simple as "telephones exist in the society"; it depends on:
 
 ```text
-家庭通信地址 / 邮政
-家庭固定电话
-工作单位地址与总机
-学校宿舍与办公室
-寻呼号 + 回拨电话
-共同熟人
+communication service exists
+→ this person can actually use it
+→ the contact knows the correct entry point
+→ the entry point still works after migration/job change
+→ the message actually arrives
+→ the receiver can identify the sender and the context
 ```
 
-这套系统完全可以支持复杂生活，并不能写成“Internet 前普通人无法远距离联系”。真正的限制是：**入口往往与地点、组织和共同知识绑定。**
+### 1.2 `reachability continuity`
 
-一个人离开原单位、搬家或毕业以后，若旧联系人不知道新地址、新单位或新的固定电话，关系恢复就需要通过共同熟人继续追索。
+When a person changes city, dormitory, work unit, carrier or device, whether old contacts can still reach them through the same social address.
 
-移动电话改变的一个关键点，是把通信入口从“在哪里能找到你”逐渐变成“这串号码通常能找到你本人”。
+In the landline era, the household address and the work unit were often the important anchors of a number; mobile telephony bound the number increasingly to the "person" rather than the "place."
+
+### 1.3 `contact-address portability`
+
+Whether a person's communication entry point can be unbound from a specific place or service provider.
+
+There are at least three different layers:
+
+- **spatially portable**: the number leaves home, office and city with the body;
+- **device-portable**: the number is kept after changing the terminal;
+- **carrier-portable**: the number is kept after changing the telecom service provider.
+
+These three appeared at different historical moments and cannot be compressed into one sentence about "mobile phones bringing mobility."
+
+### 1.4 `phone-number identity accretion`
+
+The longer a number is in use, the more relationships and institutions treat it as this person's stable entry point:
+
+```text
+friends' address books
++ clients/colleagues
++ bank-registered number
++ QQ/online games/e-commerce/payment accounts
++ delivery/ticketing/hospitals
++ government and public services
++ two-factor/password recovery
+= the number accretes more and more identity relationships year by year
+```
+
+### 1.5 `account-binding debt`
+
+When changing a phone number, the accumulated labor of discovering, verifying, unbinding and updating old relationships one by one.
+
+It is a very typical exit cost of the digital age: registration cost only a few dozen seconds each time, but a few years later a person may no longer be able to remember in which systems they left this number.
+
+### 1.6 `number-recycling collision`
+
+The telecom system believes:
+
+```text
+old user cancels number → quarantine/wait → number can be reallocated → new subscriber gets the number
+```
+
+Third-party Internet systems may still believe:
+
+```text
+this phone number → old account/bank card/payment tool/notification relationship
+```
+
+When the two lifecycles are not cleaned up in sync, the new number holder runs into the previous person's digital residue.
 
 ---
 
-## 3. 1987—1996：移动通信先出现，但离普通生活还很远
+## 2. Before the Internet: what an ordinary person's "social address" actually was
 
-### 3.1 1987：存在 ≠ 普通可及
+Before mobile telephony became widely accessible, a person's reachability was often pieced together across several place-type interfaces:
 
-中国经济网 2008 年整理的移动通信大事记记录：
+```text
+household correspondence address / post
+household landline
+work-unit address and switchboard
+school dormitory and office
+pager number + call-back telephone
+mutual acquaintances
+```
 
-- 1987 年 11 月 18 日，广州开通中国第一个 TACS 模拟蜂窝移动电话系统；
-- 首批用户只有约 700 个；
-- 1989 年珠三角实现移动电话自动漫游；
-- 1993 年嘉兴开通数字移动电话网；
-- 1995 年全国 15 个省市相继建设 GSM 网络；
-- 1996 年移动电话实现全国漫游并开始提供国际漫游。
+This system could fully support a complex life, and must not be written up as "before the Internet ordinary people could not contact each other over distance." The real limitation was: **the entry point was often bound to a place, an organization and shared knowledge.**
+
+After a person left their original work unit, moved house or graduated, if old contacts did not know the new address, new work unit or new landline, restoring the relationship required continuing to trace through mutual acquaintances.
+
+One key thing mobile telephony changed was to shift the communication entry point gradually from "where can you be found" to "this string of digits can usually find you yourself."
+
+---
+
+## 3. 1987–1996: mobile communication appears first, but is still far from ordinary life
+
+### 3.1 1987: existence ≠ ordinary accessibility
+
+A chronology of mobile communication milestones compiled by China Economic Net in 2008 records:
+
+- on 18 November 1987, Guangzhou opened China's first TACS analogue cellular mobile telephone system;
+- the first batch of users numbered only about 700;
+- in 1989 the Pearl River Delta achieved automatic mobile telephone roaming;
+- in 1993 Jiaxing opened a digital mobile telephone network;
+- in 1995, 15 provinces and municipalities across the country successively built GSM networks;
+- in 1996 mobile telephony achieved nationwide roaming and began offering international roaming.
 
 Source:
-- 中国经济网，《藏区牧民用上移动电话》，2008-11-10: https://www.ce.cn/cysc/ztpd/08/txsh/ly/200811/10/t20081110_17327366.shtml
-- 中国经济网，《农村信息网开通》，2008-11-10: https://www.ce.cn/cysc/ztpd/08/txsh/ly/200811/10/t20081110_17327144.shtml
+- China Economic Net, "Tibetan herders get mobile phones", 2008-11-10: https://www.ce.cn/cysc/ztpd/08/txsh/ly/200811/10/t20081110_17327366.shtml
+- China Economic Net, "Rural information network opens", 2008-11-10: https://www.ce.cn/cysc/ztpd/08/txsh/ly/200811/10/t20081110_17327144.shtml
 
-**Evidence:** B/C institutional retrospective chronology; dates are suitable for infrastructure chronology, not for claims about mass ordinary use.
+**Evidence:** B/C institutional retrospective chronology; the dates are suitable for infrastructure chronology, not for claims about mass ordinary use.
 
-这正好要求使用本仓的技术采用梯度：1987 可以证明商用系统已经出现，绝不能推出“大多数城市居民已经有随身号码”。
+This is exactly why the technology-adoption gradient of this repository must be used: 1987 can prove that a commercial system already existed, and absolutely cannot yield "most urban residents already had a number on their person."
 
-### 3.2 第一批用户为什么需要“可移动的联系入口”
+### 3.2 Why the first users needed a "movable contact entry point"
 
-2018 年人民邮电报对中国内地早期移动电话用户徐峰的回顾采访称，他 1987 年 23 岁，在广州经营海鲜餐饮；海鲜采购价格随时变化，无法即时联系卖家会造成经济损失，因此购买移动电话具有很强的业务动机。当时一部“大哥大”约 2 万元，另有约 6000 元入网费。
+A 2018 retrospective interview by People's Posts and Telecommunications News with Xu Feng, an early mobile telephone user in mainland China, says that in 1987 he was 23 and running a seafood restaurant business in Guangzhou; seafood purchase prices changed at any moment, and being unable to reach sellers immediately would cause economic loss, so buying a mobile phone had a strong business motive. At the time a "big brother" handset cost about 20,000 yuan, plus about 6,000 yuan in network access fee.
 
 Source:
-- 人民邮电报转载，《改革开放40年访谈丨手机，改变了人们的生活》，2018-12-18: https://www.sohu.com/a/282714973_354877
-- CCTV 同主题材料: https://tv.cctv.com/2018/12/13/ARTILb7nbEd2ZRzj3iQYONn6181213.shtml
+- People's Posts and Telecommunications News, reprinted, "40 years of reform and opening up interview | Mobile phones changed people's lives", 2018-12-18: https://www.sohu.com/a/282714973_354877
+- CCTV material on the same theme: https://tv.cctv.com/2018/12/13/ARTILb7nbEd2ZRzj3iQYONn6181213.shtml
 
 **Evidence:** C retrospective first-person, cross-checked by institutional/media chronology.
 
-这不能代表 1987 年普通家庭，却能说明最早一批高成本用户购买的并不只是“新奇机器”，而是一种**脱离固定地点等待电话的交易能力**。
+This cannot stand for the ordinary household of 1987, but it can show that what the earliest high-cost users bought was not merely a "novel machine" but a kind of **transactional capacity detached from waiting for a call at a fixed place**.
 
 ---
 
-## 4. 不要把 1994 写成“之前没有数字通信，之后人人上网”
+## 4. Do not write 1994 as "no digital communication before, everyone online after"
 
-本专题必须与中国 Internet 边界保持一致：
+This topic must stay consistent with the China Internet boundary:
 
-- 1994 年 4 月 20 日的 64K 国际专线是中国实现与国际 Internet 全功能连接的重要节点；
-- 但此前已经存在科研联网、电子邮件、寻呼、移动电话和其他数字通信；
-- 1994 年以后也绝不意味着普通家庭马上通过 Web 管理手机号。
+- the 64K international leased line of 20 April 1994 is an important node in China's achievement of full-function connection to the international Internet;
+- but before that there already existed research networking, e-mail, paging, mobile telephony and other digital communication;
+- and after 1994 it absolutely does not mean ordinary households immediately managed phone numbers through the Web.
 
-手机号码作为个人可达地址的形成，主要属于电信基础设施史；它后来与 Internet 账号绑定，才成为本专题和 `old-web-archaeology` 的关键交叉点。
+The formation of the phone number as a personal reachable address belongs mainly to the history of telecom infrastructure; only when it later became bound to Internet accounts did it become the key intersection of this topic and `old-web-archaeology`.
 
 ---
 
-## 5. 2001—2005：号码开始从“联系你”变成“证明/保护互联网账号”
+## 5. 2001–2005: the number starts turning from "contacting you" into "proving/protecting an Internet account"
 
-### 5.1 2001：QQ“手机捆绑”留下早期交叉证据
+### 5.1 2001: QQ "mobile binding" leaves an early cross-over trace
 
-2006 年重庆媒体对 QQ 号码盗用诉讼的报道，转述用户刘晓华的诉状：他称自己在 2001 年使用“手机捆绑”、每月支付 10 元，并注册到一个五位 QQ 号码。
+A 2006 Chongqing media report on a lawsuit over QQ number theft relays the plaintiff Liu Xiaohua's complaint: he said that in 2001 he used "mobile binding," paid 10 yuan a month, and registered a five-digit QQ number.
 
 Source:
-- 重庆商报/新浪新闻，《网民QQ号被盗首次告网络公司》，2006-03-10: https://news.sina.com.cn/c/2006-03-10/02358404178s.shtml
+- Chongqing Business Daily / Sina News, "Netizen whose QQ number was stolen sues the network company for the first time", 2006-03-10: https://news.sina.com.cn/c/2006-03-10/02358404178s.shtml
 
-**Evidence:** B, 2006 legal/media reconstruction of a 2001 transaction; suitable for“2001 已存在手机—QQ 绑定/付费路径”的窄 claim，不足以单独复原当年全部页面和协议细节。
+**Evidence:** B, a 2006 legal/media reconstruction of a 2001 transaction; suitable for the narrow claim that "a phone—QQ binding/payment path already existed in 2001," insufficient on its own to reconstruct all the page and agreement details of that year.
 
-这里出现的是一个重要变化：
+What appears here is an important change:
 
 ```text
-电话号：别人拨给你
+telephone number: other people dial you
 ↓
-电话号：互联网服务也用来给账号收费 / 绑定 / 恢复 / 保护
+telephone number: Internet services also use it to charge / bind / recover / protect accounts
 ```
 
-手机号码开始拥有第二种生命：它既是通信地址，也是 Web/IM 服务的外部凭证。
+The phone number begins to have a second life: it is both a communication address and an external credential for Web/IM services.
 
-### 5.2 2005：短信密保把“控制号码”变成账号安全信号
+### 5.2 2005: SMS security protection turns "controlling the number" into an account-security signal
 
-2005 年的游戏材料已经明确介绍：网易“大话密保”通过手机绑定游戏账号，并以短信指令锁定/解锁角色；同期其他网游也推广手机密码保护和短信找回。
+Game materials from 2005 already clearly describe NetEase's "Dahua Mibao" binding game accounts through a mobile phone and using SMS commands to lock/unlock characters; other online games of the same period also promoted mobile password protection and SMS-based recovery.
 
 Source:
-- 叶子猪转载官方说明，《“密保”功能介绍》，2005-08-24: https://xy2.yzz.cn/pa/htmldata/8/10/2005_08/5028_1.shtml
+- Yezizhu reprint of the official description, "Introduction to 'Mibao' features", 2005-08-24: https://xy2.yzz.cn/pa/htmldata/8/10/2005_08/5028_1.shtml
 
 **Evidence:** B, contemporaneous service documentation mirror.
 
-此时必须拆开：
+At this point these must be pulled apart:
 
 ```text
-手机号被账号登记
-≠ SIM 此刻在原用户手里
-≠ 短信一定成功投递
-≠ 收到短信的人就是法律意义上的账号本人
+phone number is registered by the account
+≠ the SIM is in the original user's hands at this moment
+≠ the SMS is certain to be delivered successfully
+≠ the person who receives the SMS is the account owner in the legal sense
 ```
 
-但在普通用户的实际操作里，“能控制这个号码”已经越来越常被平台当作可执行身份信号。
+But in ordinary users' actual practice, "being able to control this number" was increasingly treated by platforms as an executable identity signal.
 
 ---
 
-## 6. 2005—2012：扩张型未来里的“旧号码跟着我走”
+## 6. 2005–2012: "the old number comes with me" in an expansionary future
 
-这一阶段的扩张并不只是更多人买手机，而是**生活路径第一次更容易与联系方式解绑**。
+The expansion of this stage was not only that more people bought mobile phones, but that **life paths were for the first time more easily unbundled from a contact channel**.
 
-### 6.1 2010：携号转网试点把“号码”和“运营商”第一次制度性拆开
+### 6.1 2010: the number-portability pilot institutionally separates "number" and "carrier" for the first time
 
-2010 年 11 月 22 日，天津、海南启动移动用户号码携带试验。光明日报同时代报道用一个很生活化的例子说明旧约束：有人想换联通 iPhone 4，却舍不得多年使用的 139 号码；如果换号，可能要重新通知成百上千联系人。
+On 22 November 2010, Tianjin and Hainan launched mobile number portability trials. A contemporaneous Guangming Daily report used a very everyday example to explain the old constraint: someone wanted to switch to a Unicom iPhone 4 but was reluctant to give up a 139 number used for many years; changing the number might mean re-notifying hundreds or thousands of contacts.
 
 Source:
-- 光明日报，《携号转网：我的手机号我做主》，2010-11-24: https://epaper.gmw.cn/gmrb/html/2010-11/24/nw.D110000gmrb_20101124_2-07.htm
-- 新华社转载，《工信部：适时向全国推出携号转网》，2010-11-23: https://www.cnfin.com/news-xh08/a/20101123/100974.shtml
+- Guangming Daily, "Number portability: my mobile number is my call", 2010-11-24: https://epaper.gmw.cn/gmrb/html/2010-11/24/nw.D110000gmrb_20101124_2-07.htm
+- Xinhua reprint, "MIIT: number portability to be offered nationwide in due course", 2010-11-23: https://www.cnfin.com/news-xh08/a/20101123/100974.shtml
 
 **Evidence:** A/B contemporaneous policy + media interpretation.
 
-这说明号码已经不只是运营商分配的技术标识，而是用户多年积累的**社会关系资产**。
+This shows that the number was no longer just a technical identifier allocated by a carrier, but a **social-relationship asset** accumulated by the user over years.
 
-### 6.2 一个很好的 2010 第一人称反例：“两部手机”是制度缝隙的生活方案
+### 6.2 A very good 2010 first-person counter-example: "two phones" as a life solution to an institutional gap
 
-经济观察网 2010 年采访中，北京地产销售经理宋先生说，自己和身边不少朋友为使用 iPhone 4/联通 3G，同时继续保留原来的移动号码，于是成为“两部手机”的用户；他直接说，一部电话能解决的事当然比两部更好。
+In a 2010 Economic Observer interview, Mr. Song, a Beijing real-estate sales manager, said that he and quite a few friends around him used an iPhone 4/Unicom 3G while continuing to keep their original China Mobile numbers, and so became "two phones" users; he said directly that one phone solving what one phone can solve is of course better than two.
 
 Source:
-- 经济观察网，《携号转网试点 用户争夺日趋激烈》，2010-11-30: https://www.eeo.com.cn/2010/1130/187751.shtml
+- Economic Observer, "Number-portability pilot: the fight for users intensifies", 2010-11-30: https://www.eeo.com.cn/2010/1130/187751.shtml
 
 **Evidence:** B, contemporaneous first-person.
 
-这增加了一条很具体的生活路径：
+This adds a very concrete life path:
 
 ```text
-想换网络/设备
-但不能承受旧号码失效
-→ 不真正“迁走”旧号码
-→ 同时养两张卡 / 两部手机
+want to change network/device
+but cannot bear the old number going dead
+→ do not actually "migrate" the old number
+→ run two SIMs / two phones at the same time
 ```
 
-因此：
+Therefore:
 
-> `multi-SIM / multi-phone` 不一定只是消费升级，也可能是为了维护旧社会地址而支付的协调成本。
+> `multi-SIM / multi-phone` is not necessarily just consumption upgrading; it may also be a coordination cost paid to maintain an old social address.
 
-### 6.3 海外比较：号码可携带不是中国特有
+### 6.3 Overseas comparison: number portability is not unique to China
 
-美国 FCC 在 1996 年根据 Telecommunications Act 推进 local number portability，明确把它定义为消费者更换本地电话服务商时保留电话号码的能力；FCC 当时认为，没有号码可携带，消费者选择服务商的能力会受到旧号码沉没成本限制。2003 年 11 月 24 日起，美国最大的 100 个 metropolitan statistical areas 又开始实施 wireless local number portability。
+In 1996, under the Telecommunications Act, the U.S. FCC advanced local number portability and defined it explicitly as the ability of consumers to keep their telephone number when changing local telephone service providers; the FCC held at the time that without number portability, consumers' ability to choose a provider would be limited by the sunk cost of the old number. From 24 November 2003, the 100 largest U.S. metropolitan statistical areas began implementing wireless local number portability.
 
 Sources:
 - FCC First Report and Order, FCC 96-286: https://docs.fcc.gov/public/attachments/FCC-96-286A1.pdf
@@ -258,37 +258,37 @@ Sources:
 
 **Evidence:** A, regulatory originals.
 
-因此“号码成为切换运营商的锁定成本”属于现代电信社会的共同变化，而不是中国独有现象。中国值得特别研究的是它与本地号码归属、跨省迁移，以及后来巨大互联网账号生态之间怎样叠加。
+So "the number becoming a switching lock-in cost" is a common change of modern telecom societies, not a China-specific phenomenon. What is especially worth studying in China is how it stacked with local number attribution, cross-province migration, and later the enormous Internet account ecosystem.
 
 ---
 
-## 7. 2013—2015：一个电话号码越来越像制度化身份入口
+## 7. 2013–2015: a phone number looks more and more like an institutionalized identity entry point
 
-### 7.1 2013：电话实名把电信订户与法定身份关系进一步制度化
+### 7.1 2013: real-name registration for telephones further institutionalizes the link between telecom subscriber and legal identity
 
-工业和信息化部《电话用户真实身份信息登记规定》于 2013 年 9 月 1 日起施行，要求固定电话、移动电话等用户在入网时登记真实身份信息。
+The Ministry of Industry and Information Technology's *Provisions on the Registration of True Identity Information of Telephone Users* took effect on 1 September 2013, requiring users of fixed telephones, mobile telephones and the like to register true identity information when joining a network.
 
 Source:
-- 工业和信息化部，第25号令: https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_07ad6d8e69cd4d5ba8b307b37c1aa093.html
+- Ministry of Industry and Information Technology, Order No. 25: https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_07ad6d8e69cd4d5ba8b307b37c1aa093.html
 
 **Evidence:** A, primary regulatory source.
 
-必须强调：
+This must be emphasized:
 
-> `号码实名登记 = 电信运营商记录当前订户身份`，不等于 `所有引用这个号码的互联网账号都完成了同等强度的身份核验`。
+> `number real-name registration = the telecom operator records the current subscriber's identity`, which is not the same as `all Internet accounts that reference this number have completed identity verification of equal strength`.
 
-这是后面“二次放号”问题的关键。
+This is the key to the later "number recycling" problem.
 
-### 7.2 2014：二次放号第一次把两个生命周期的错位暴露给普通用户
+### 7.2 2014: number recycling exposes the mismatch of two lifecycles to ordinary users for the first time
 
-2014 年北京青年报报道，市民赵女士新办一个手机号码后，不仅收到陌生人的银行卡扣费短信，还能通过号码验证进入前号码持有者的支付宝和淘宝相关账号。运营商、支付宝和银行客服均把问题指向：号码被重新放号，而旧用户没有解除第三方绑定。
+In 2014 Beijing Youth Daily reported that after Ms. Zhao, a resident, took out a new mobile number, she not only received bank card debit SMS meant for a stranger, but could also, through number verification, enter the Alipay and Taobao-related accounts of the previous number holder. The carrier, Alipay and bank customer service all pointed to the same cause: the number had been reissued, and the old user had not removed the third-party bindings.
 
 Source:
-- 北京青年报/人民网，《新手机号能查别人支付宝 因原主人销号后没撤“绑定”》，2014-09-15: https://politics.people.com.cn/n/2014/0915/c1001-25660141.html
+- Beijing Youth Daily / People's Daily Online, "A new mobile number can look up someone else's Alipay, because the original owner did not withdraw the 'binding' after cancelling the number", 2014-09-15: https://politics.people.com.cn/n/2014/0915/c1001-25660141.html
 
 **Evidence:** B, contemporaneous user case + multi-party service confirmation.
 
-这是一个非常强的 state-gap：
+This is a very strong state-gap:
 
 ```text
 Telecom lifecycle:
@@ -298,78 +298,78 @@ Internet account lifecycle:
 OLD_ACCOUNT → PHONE_BOUND → PHONE_STILL_BOUND
 ```
 
-二者没有共同的“原子解绑”动作。
+The two share no common "atomic unbinding" action.
 
-于是出现：
+So there appears:
 
 > **`current number holder ≠ original web-account owner`**
 
-这条规则以后必须贯穿手机号相关旧网研究。
+This rule must run through all phone-number-related old-web research from now on.
 
 ---
 
-## 8. 2015—2019：拥堵型未来——号码越稳定，退出越麻烦
+## 8. 2015–2019: the congested future — the more stable the number, the more troublesome the exit
 
-### 8.1 2019：迁移者不是不能换号，而是换号的连锁成本太高
+### 8.1 2019: it is not that migrants cannot change numbers, but that the chain cost of changing is too high
 
-新华社 2019 年调查“携号转地”问题时，记录了一名从重庆本科毕业、到长沙读研的小刘。他长期使用重庆号码，因为重庆朋友很多，不愿因换号失去联系；报道同时指出，银行卡、购物网站、社交工具等已经与手机号紧密绑定，跨省迁移者因此可能选择“多卡傍身”。
+When Xinhua investigated the "number follows you across places" problem in 2019, it recorded Xiao Liu, who had graduated from an undergraduate programme in Chongqing and gone to Changsha for graduate study. He had long used a Chongqing number because he had many friends in Chongqing and did not want to lose touch by changing it; the report also noted that bank cards, shopping sites and social tools were already tightly bound to mobile numbers, so cross-province migrants might therefore choose to keep "several SIMs about the person."
 
 Source:
-- 新华网/人民网，《手机号码“携号转地”何时能实现？》，2019-03-28: https://finance.people.com.cn/n1/2019/0328/c1004-30999881.html
+- Xinhua / People's Daily Online, "When can mobile numbers 'follow you across places'?", 2019-03-28: https://finance.people.com.cn/n1/2019/0328/c1004-30999881.html
 
 **Evidence:** B, contemporaneous first-person + reported institutional context.
 
-这里“旧号码”已经同时承担：
+Here the "old number" already simultaneously carries:
 
 ```text
-过去关系
-+ 当前联系人
-+ 银行联系方式
-+ 网站登录/恢复
-+ 平台通知
-+ 号码归属地标签
+past relationships
++ current contacts
++ bank contact details
++ site login/recovery
++ platform notifications
++ number-attribution-region label
 ```
 
-因此一个人的身体可以跨省迁移，数字社会地址却可能继续留在原来的号段上。
+So a person's body can migrate across provinces while their digital social address may stay on the original number block.
 
-### 8.2 全国携号转网解决的是“运营商锁定”，不是所有号码退出成本
+### 8.2 Nationwide number portability solves "carrier lock-in," not every exit cost of every number
 
-2019 年 11 月 27 日，全国携号转网正式提供服务。人民日报海外版当时明确指出：过去换运营商如果只能换号，银行预留电话、网站账号和朋友通讯录都需要重新更新；截至 11 月 26 日，全国已经有 323.2 万用户完成携转。
+On 27 November 2019, nationwide mobile number portability officially began service. People's Daily Overseas Edition pointed out at the time that in the past, if switching carriers meant only being able to change the number, bank-registered telephones, website accounts and friends' address books all had to be updated again; as of 26 November, 3.232 million users nationwide had completed porting.
 
 Source:
-- 人民日报海外版，《“携号转网”，服务要跟上》，2019-12-06: https://finance.people.com.cn/n1/2019/1206/c1004-31493056.html
+- People's Daily Overseas Edition, "'Number portability': service must keep up", 2019-12-06: https://finance.people.com.cn/n1/2019/1206/c1004-31493056.html
 
 **Evidence:** A/B institutional event + contemporaneous synthesis.
 
-携号转网降低了：
+Number portability reduced:
 
 ```text
 switch carrier → change number
 ```
 
-却没有消除：
+but it did not eliminate:
 
 ```text
 change number → update every social/institutional/web binding
 ```
 
-因此真正累积的是 `account-binding debt`。
+So what actually accumulates is `account-binding debt`.
 
 ---
 
-## 9. 2020—2022：偶发型未来——一个旧号码可以突然影响现实准入
+## 9. 2020–2022: the incidental future — an old number can suddenly affect real-world admission
 
-2020 年北京“健康宝”的换绑规则留下了一个很特殊的状态实例。北京市政府公开说明：有用户出差返京后发现，健康宝要求验证两个曾绑定的手机号，其中一个已经作废，结果无法正常完成行程核验；即使申请解绑，旧号码在 14 天内仍可能需要完成行程申报与核验，因此官方提醒提前 14 天以上换绑。
+The rebinding rules of Beijing's "Health Kit" in 2020 left a very particular state example. The Beijing municipal government explained publicly that some users, after returning to Beijing from a business trip, found that Health Kit required verification of two previously bound mobile numbers, one of which had already been invalidated, and as a result they could not properly complete itinerary verification; even after applying to unbind, the old number might still need to complete itinerary declaration and verification within 14 days, so officials advised rebinding more than 14 days in advance.
 
 Source:
-- 首都之窗/海淀区政府，《近期“健康宝”使用问题释疑》，2020-11-24: https://www.bjhd.gov.cn/ztzx/2020zt/yqfk/tbts/202011/t20201127_4435658_hd.shtml
-- CCTV/北京青年报，同期报道: https://news.cctv.com/2020/11/25/ARTIPsH36zRUYkP3cWXM2TK8201125.shtml
+- Capital Window / Haidian District Government, "Answers to recent 'Health Kit' usage problems", 2020-11-24: https://www.bjhd.gov.cn/ztzx/2020zt/yqfk/tbts/202011/t20201127_4435658_hd.shtml
+- CCTV / Beijing Youth Daily, contemporaneous report: https://news.cctv.com/2020/11/25/ARTIPsH36zRUYkP3cWXM2TK8201125.shtml
 
 **Evidence:** A/B government service explanation + contemporaneous user feedback.
 
-本专题不把这写成健康码史；它只证明一个手机号绑定关系在特定时期可以从“登录便利”突然升级为**现实移动资格的一部分**。
+This topic does not write this up as health-code history; it only proves that in a particular period a single phone-number binding could abruptly escalate from "login convenience" to **part of real-world mobility eligibility**.
 
-状态必须写成：
+The state must be written as:
 
 ```text
 user no longer uses old number
@@ -377,85 +377,85 @@ user no longer uses old number
 ≠ old number has ceased to affect current transaction
 ```
 
-这就是“偶发型未来”的一个典型特征：平时不起眼的旧绑定，在外部制度突然改变时变成新的瓶颈。
+This is a typical feature of the "incidental future": an old binding that is inconspicuous in normal times becomes a new bottleneck when the external institutional environment suddenly changes.
 
 ---
 
-## 10. 2023—2026：防守型未来——开始管理“我过去到底绑过什么”
+## 10. 2023–2026: the defensive future — starting to manage "what exactly did I bind in the past"
 
-### 10.1 2023：用户已经记不清自己的绑定关系
+### 10.1 2023: users can no longer remember their own binding relationships
 
-中国政府网 2023 年保存了一条来自河南驻马店网民“小白”的留言。他说自己想换手机卡，却发现已经记不清到底绑定过多少 App 和互联网账号，担心换号以后账号无法登录，希望出现统一查询机制。工信部回复称，“一证通查 2.0”已经可以查询本人手机号在互联网企业注册账号的数量，并提供解绑和明细查询路径。
+In 2023 the Chinese government website preserved a message from an internet user "Xiaobai" in Zhumadian, Henan. He said he wanted to change his mobile SIM but found he could not remember clearly how many apps and Internet accounts he had bound, was worried that after changing the number the accounts could not be logged into, and hoped a unified lookup mechanism would appear. MIIT replied that "one-ID lookup 2.0" could already look up the number of accounts registered with Internet companies under one's own mobile number, and provided paths for unbinding and for querying details.
 
 Source:
-- 中国政府网，《工业和信息化部答网民关于“记不清自己绑定多少APP账号，换了手机没法找”的留言》，2023-05-24: https://www.gov.cn/hudong/202305/content_6876023.htm
+- Chinese government website, "Ministry of Industry and Information Technology answers a netizen's message: 'I cannot remember how many APP accounts I have bound, and after changing my phone I cannot find them'", 2023-05-24: https://www.gov.cn/hudong/202305/content_6876023.htm
 
 **Evidence:** A for contemporaneous self-report as preserved by government; A for agency response; not evidence that every listed account can always be successfully recovered.
 
-这条材料把 `account-binding debt` 几乎完整说了出来：
+This material states `account-binding debt` almost completely:
 
-> 注册行为是一笔一笔发生的，但退出时，用户需要先重新发现自己的全部历史。
+> Registration happened one transaction at a time, but on exit the user must first rediscover their whole history.
 
-### 10.2 2025：系统开始替用户清理“前机主的数字残留”
+### 10.2 2025: the system starts cleaning up "the previous holder's digital residue" on the user's behalf
 
-2025 年 5 月，多家运营商在工信部指导下升级“二次号码焕新”，支持 200 多款常用 App 一键解绑；报道还称，部分运营商会在回收号码重新投放市场以前，将号码批量推送给互联网应用方清理前任用户绑定。
+In May 2025, several carriers, under MIIT guidance, upgraded "recycled number renewal," supporting one-click unbinding for more than 200 commonly used apps; reports also said that some carriers, before returning recycled numbers to the market, push numbers in batches to Internet application providers so that the previous user's bindings can be cleaned up.
 
 Source:
-- 中国新闻网/人民网，《支持200多款App一键解绑 手机“二次号码”焕新全面升级》，2025-05-11: https://finance.people.com.cn/n1/2025/0511/c1004-40477306.html
+- China News Service / People's Daily Online, "One-click unbinding supported for more than 200 apps: renewal of 'recycled' mobile numbers comprehensively upgraded", 2025-05-11: https://finance.people.com.cn/n1/2025/0511/c1004-40477306.html
 
 **Evidence:** B, contemporaneous institutional/service reporting.
 
-这是一种非常典型的**防守型基础设施**：
+This is a very typical piece of **defensive infrastructure**:
 
 ```text
-旧模式：新用户发现撞号 → 自己逐个平台申诉
+old model: new user discovers the collision → appeals to each platform on their own
 
-新模式：运营商/平台在重新放号前主动交换状态 → 批量清理历史绑定
+new model: carrier/platform proactively exchange state before reissuing → batch-clean historical bindings
 ```
 
-目标不是创造更多新功能，而是降低多年数字化沉积造成的退出和接管风险。
+The goal is not to create more new features, but to reduce the exit and takeover risk created by years of digital accretion.
 
 ---
 
-## 11. 四种“未来”放在同一条手机号线上
+## 11. Four kinds of "future" placed on the same phone-number line
 
-| 时段 | 同时代表现 | 生活机制 | 不能过度推出 |
+| Period | Simultaneous manifestations | Life mechanism | What cannot be over-inferred |
 |---|---|---|---|
-| 2005–2012 扩张型 | 手机绑定账号；携号转网试点；双卡/双机过渡 | 旧关系可以跟着身体和服务选择继续走 | 不是所有人都已有智能手机或账号绑定 |
-| 2015–2019 拥堵型 | 银行、购物、社交、工作联系人都积在同一号码；跨省迁移后不愿换号 | `account-binding debt` 与多号维护 | 不是每个号码都同样“不可放弃” |
-| 2020–2022 偶发型 | 健康宝等临时制度把历史手机号纳入现实状态核验 | 旧绑定突然变成现实准入瓶颈 | 不能把疫情期规则写成永久常态 |
-| 2023–2026 防守型 | 一证通查、解绑查询、二次号码焕新 | 开始管理、清理、降低旧身份关系的故障半径 | 不代表二次放号风险已彻底消失 |
+| 2005–2012 expansionary | mobile binding of accounts; number-portability pilot; two-SIM/two-phone transition | old relationships can continue to travel with the body and the service choice | not everyone already had a smartphone or account bindings |
+| 2015–2019 congested | banks, shopping, social and work contacts all accumulate on the same number; unwillingness to change numbers after cross-province migration | `account-binding debt` and maintenance of multiple numbers | not every number is equally "impossible to give up" |
+| 2020–2022 incidental | temporary institutions such as Health Kit bring historical phone numbers into real-world status verification | an old binding suddenly becomes a real-world admission bottleneck | the pandemic-period rules must not be written as a permanent norm |
+| 2023–2026 defensive | one-ID lookup, unbinding queries, recycled-number renewal | starting to manage, clean and reduce the failure radius of old identity relationships | does not mean the number-recycling risk has completely disappeared |
 
-这条线与“今天的人更悲观”没有直接关系。它更准确地描述：**未来选择变多以后，人需要保留和清理的数字连续性也越来越多。**
+This line has no direct connection with "people today are more pessimistic." It describes more accurately: **as future options multiply, the digital continuity a person has to keep and clean up also multiplies.**
 
 ---
 
-## 12. 重点 life matrix
+## 12. Key life matrix
 
-| 生活维度 | 手机号怎样进入 |
+| Life dimension | How the phone number enters it |
 |---|---|
-| 教育 | 入学/毕业后仍保留原号码；学校、同学、账号联系继续存在 |
-| 就业 | 客户与同事把号码当个人入口；换城市/工作后仍需可达 |
-| 住房 | 房东、中介、物业、快递等依赖稳定号码 |
-| 婚姻家庭 | 亲属长期保存号码；跨地家庭依赖持续可达性 |
-| 迁移 | 身体迁走但号段/归属地可保持，形成“数字地址不迁” |
-| 照护 | 医院、学校、老人/孩子事务通过手机号通知远地家庭成员 |
-| 非正规劳动 | 小商户、销售、个体经营者高度依赖长期客户知道同一个号码 |
-| 长期中断 | 停机、销号、海外居留会让大量旧绑定同时变脆弱 |
-| 证件与记录 | 2013 后电信实名强化“号码—订户”关系，但不等同所有第三方账号实名 |
-| 通信方式 | 家庭/单位固定电话 → 寻呼回拨 → 个人移动号码 → IM/平台账号，但号码仍做底层恢复入口 |
-| 互联网平台 | 付费、注册、密保、验证码、找回、支付和通知均可绑定号码 |
-| 信息获取 | 短信从人际通信扩展为服务通知和验证码 |
-| 社交关系 | 长期号码降低“换城市等于失联”的概率 |
-| 未来预期 | 换运营商/城市/设备时，可把“我还能被旧人找到”视为可保留条件 |
-| 线上/线下身份 | 一个电信号码逐渐成为连接现实实名与线上账号的桥 |
-| 平台消失与记忆 | 平台可以消失，号码可继续；但号码也会注销、回收，导致第三方残留反向暴露 |
+| Education | the original number is kept after enrolment/graduation; school, classmate and account contact continues to exist |
+| Employment | clients and colleagues treat the number as a personal entry point; it must remain reachable after changing city or job |
+| Housing | landlords, agents, property management and couriers depend on a stable number |
+| Marriage and family | relatives keep the number for the long term; cross-locality families depend on continuous reachability |
+| Migration | the body moves away but the number block/attribution region can stay, producing "a digital address that does not migrate" |
+| Care | hospitals, schools and matters concerning the elderly or children notify distant family members through mobile numbers |
+| Informal labour | small merchants, salespeople and self-employed operators depend heavily on long-term customers knowing the same number |
+| Long interruption | suspension, cancellation or residence abroad makes a large number of old bindings fragile at the same time |
+| Credentials and records | telecom real-name registration after 2013 strengthens the "number—subscriber" link, but is not equivalent to real-name verification of all third-party accounts |
+| Communication mode | household/work-unit landline → pager call-back → personal mobile number → IM/platform account, but the number remains the underlying recovery entry point |
+| Internet platforms | payment, registration, security protection, verification codes, recovery, payment and notifications can all bind the number |
+| Information access | SMS expands from interpersonal communication to service notifications and verification codes |
+| Social relationships | a long-held number lowers the probability that "changing city equals losing touch" |
+| Future expectations | when changing carrier, city or device, "old people can still find me" can be treated as a retainable condition |
+| Online/offline identity | a telecom number gradually becomes the bridge connecting real-world real-name identity and online accounts |
+| Platform disappearance and memory | a platform can disappear while the number continues; but the number can also be cancelled and recycled, causing third-party residue to expose itself in reverse |
 
 ---
 
-## 13. 状态模型：不要把“这个号码是我的”写成一个布尔值
+## 13. State model: do not write "this number is mine" as a Boolean
 
-### 13.1 电信层
+### 13.1 Telecom layer
 
 ```text
 NUMBER_ALLOCATED
@@ -470,7 +470,7 @@ NUMBER_ALLOCATED
 → NEW_SUBSCRIBER
 ```
 
-### 13.2 社会关系层
+### 13.2 Social-relationship layer
 
 ```text
 CONTACT_HAS_NUMBER
@@ -480,7 +480,7 @@ CONTACT_HAS_NUMBER
 → CURRENT_HOLDER_IS_YOU
 ```
 
-### 13.3 Web/account 层
+### 13.3 Web/account layer
 
 ```text
 ACCOUNT_CREATED
@@ -491,162 +491,162 @@ ACCOUNT_CREATED
 → THIRD_PARTY_BINDING_UPDATED?
 ```
 
-三个生命周期彼此独立，所以必须坚持：
+The three lifecycles are independent of one another, so we must insist:
 
-- `号码当前在你名下 ≠ 所有朋友都知道这个号`；
-- `朋友通讯录里写着你的名字 ≠ 号码现在还属于你`；
-- `电信实名 ≠ 第三方 Web 账号本人已被同等核验`；
-- `短信验证码投递成功 ≠ 当前收信者就是最初建号的人`；
-- `销号成功 ≠ 第三方服务同步解绑`；
-- `二次放号完成 ≠ 新号码在互联网世界已经“干净”`；
-- `携号转网成功 ≠ 所有原运营商增值业务与认证关系无缝迁移`。
-
----
-
-## 14. 海外比较：哪些是共同机制，哪些仍需继续证明
-
-### 已有共同机制
-
-美国 1996 年 fixed/local number portability 与 2003 年 wireless portability 说明：
-
-- 长期电话号码会成为消费者更换服务商的沉没成本；
-- 号码与具体网络运营者解绑需要新的路由数据库和协调制度；
-- “保留号码”本身可以扩展消费者的可选择集合。
-
-这与中国 2010/2019 携号转网在结构上高度可比。
-
-### 不能轻率写成“中国特有”
-
-以下现象在本轮没有做足跨国证据，故暂不判定中国特殊：
-
-- 手机号作为 Web 账号恢复入口；
-- 回收号码撞入前任账号；
-- 多因素认证造成号码退出成本。
-
-这些很可能是全球移动互联网的共同问题，需要后续用美国、欧盟、日本、韩国或其他地区的号码回收/账号恢复资料验证，而不是因为本轮中国材料丰富就称其为“中国特色”。
+- `the number is currently in your name ≠ all your friends know this number`;
+- `your name is written in a friend's address book ≠ the number still belongs to you`;
+- `telecom real-name registration ≠ the third-party Web account holder has been verified to an equal degree`;
+- `an SMS verification code was delivered successfully ≠ the current recipient is the person who originally created the account`;
+- `cancelling the number succeeded ≠ third-party services have unbound it in sync`;
+- `number recycling completed ≠ the new number is already "clean" in the Internet world`;
+- `number porting succeeded ≠ all value-added services and authentication relationships of the original carrier migrated seamlessly`.
 
 ---
 
-## 15. 证据等级摘要
+## 14. Overseas comparison: which mechanisms are shared, and which still need to be proven
 
-| Claim | 证据 | Grade | Confidence |
+### Shared mechanisms already established
+
+U.S. fixed/local number portability in 1996 and wireless portability in 2003 show that:
+
+- a long-held telephone number becomes a sunk cost for consumers changing providers;
+- unbinding the number from a specific network operator requires new routing databases and coordination institutions;
+- "keeping the number" can itself expand the consumer's choice set.
+
+This is highly comparable in structure with China's number portability in 2010/2019.
+
+### Do not lightly write it up as "unique to China"
+
+The following phenomena did not receive sufficient cross-national evidence in this round, so no judgement of Chinese exceptionalism is made for now:
+
+- phone numbers as Web-account recovery entry points;
+- recycled numbers colliding with a previous holder's accounts;
+- multi-factor authentication creating number exit costs.
+
+These are very likely common problems of the global mobile Internet and need later verification with number-recycling/account-recovery material from the United States, the European Union, Japan, South Korea or other regions, rather than being called "a Chinese characteristic" simply because this round's Chinese material is abundant.
+
+---
+
+## 15. Evidence-grade summary
+
+| Claim | Evidence | Grade | Confidence |
 |---|---|---:|---:|
-| 1987 广州已有商用模拟蜂窝系统，首批约 700 用户 | 2008 中国经济网通信史回顾 | B/C | high |
-| 第一批高价手机用户可出于即时商业沟通需要购买 | 2018 徐峰回顾采访 + CCTV | C | medium-high for experience, low for representativeness |
-| 2001 QQ 已存在手机捆绑路径 | 2006 诉讼报道转述 2001 用户行为 | B | medium-high |
-| 2005 手机短信已用于游戏账号保护 | 同期官方功能说明镜像 | B | high |
-| 2010 天津/海南启动携号转网试点 | 光明日报 + 新华社 | A/B | high |
-| 2010 有用户为保留旧号码同时携带两部手机 | 经济观察网同期采访 | B | high for case, not representative |
-| 2013 电话用户实名登记规定施行 | 工信部第25号令 | A | high |
-| 2014 二次放号可与旧支付宝/淘宝绑定发生碰撞 | 北青报用户案例 + 多方客服确认 | B | high for case/mechanism |
-| 2019 跨省迁移者会因联系人/账号负担保留旧号 | 新华社同期采访 | B | high for case |
-| 2020 旧手机号绑定可影响健康宝行程核验 | 政府说明 + 同期报道 | A/B | high |
-| 2023 用户已经出现“记不清绑定多少账号”的退出负担 | 中国政府网网民留言 + 工信部回复 | A | high for self-report/service existence |
-| 2025 二次号码一键解绑覆盖 200+ 常用 App | 中国新闻网/人民网 | B | high |
-| 美国 1996/2003 分阶段推进号码可携带 | FCC originals | A | high |
+| 1987 Guangzhou already had a commercial analogue cellular system, with about 700 first users | 2008 China Economic Net communications-history retrospective | B/C | high |
+| The first batch of high-price mobile users could buy out of a need for immediate business communication | 2018 Xu Feng retrospective interview + CCTV | C | medium-high for experience, low for representativeness |
+| A phone-binding path for QQ already existed in 2001 | 2006 litigation report relaying 2001 user behaviour | B | medium-high |
+| Mobile SMS was already used for game account protection in 2005 | contemporaneous mirror of an official feature description | B | high |
+| Tianjin/Hainan launched the number-portability pilot in 2010 | Guangming Daily + Xinhua | A/B | high |
+| In 2010 some users carried two phones at once to keep an old number | contemporaneous Economic Observer interview | B | high for case, not representative |
+| The real-name registration provisions for telephone users took effect in 2013 | MIIT Order No. 25 | A | high |
+| In 2014 number recycling could collide with old Alipay/Taobao bindings | Beijing Youth Daily user case + multi-party customer-service confirmation | B | high for case/mechanism |
+| In 2019 cross-province migrants kept old numbers because of contact/account burdens | contemporaneous Xinhua interview | B | high for case |
+| In 2020 old phone-number bindings could affect Health Kit itinerary verification | government explanation + contemporaneous reports | A/B | high |
+| By 2023 users already bore the exit burden of "not remembering how many accounts are bound" | Chinese government website netizen message + MIIT reply | A | high for self-report/service existence |
+| In 2025 one-click unbinding for recycled numbers covered 200+ commonly used apps | China News Service / People's Daily Online | B | high |
+| The United States advanced number portability in stages in 1996/2003 | FCC originals | A | high |
 
 ---
 
-## 16. 反例与限制
+## 16. Counter-examples and limitations
 
-### 反例 1：稳定号码不是所有关系的必要条件
+### Counter-example 1: a stable number is not a necessary condition for all relationships
 
-很多密切关系会通过共同群聊、社交平台账号、家庭网络或线下地址保持；换号不等于必然失联。
+Many close relationships are maintained through shared group chats, social platform accounts, family networks or offline addresses; changing a number does not necessarily mean losing touch.
 
-### 反例 2：保留老号码也不能保证关系连续
+### Counter-example 2: keeping an old number cannot guarantee relationship continuity either
 
-联系人可能换号、删除通讯录、不再愿意联系，或者转向新的平台。
+Contacts may change their own numbers, delete their address books, no longer wish to be in contact, or move to a new platform.
 
-`same number persists ≠ same relationship persists`。
+`same number persists ≠ same relationship persists`.
 
-### 反例 3：号码可携带不等于位置可携带
+### Counter-example 3: number portability is not the same as location portability
 
-中国 2019 年跨省“携号转地”讨论说明，保留号码与改变号码归属地不是一回事。一个重庆号可以跟人到长沙，却仍在界面上表现出过去的地域来源。
+China's 2019 discussion of cross-province "number follows you across places" shows that keeping the number and changing the number's attribution region are not the same thing. A Chongqing number can follow a person to Changsha while still displaying its past regional origin in the interface.
 
-### 反例 4：实名制不自动解决账号归属
+### Counter-example 4: the real-name system does not automatically settle account ownership
 
-实名登记强化的是电信经营者与当前订户的关系；一个 2014 年新订户拿到回收号以后，第三方平台仍可能保留旧人的绑定。
+Real-name registration strengthens the relationship between the telecom operator and the current subscriber; when a new subscriber in 2014 received a recycled number, third-party platforms could still retain the previous person's bindings.
 
-### 反例 5：一键解绑不等于所有数字身份都已清理
+### Counter-example 5: one-click unbinding is not the same as all digital identities having been cleaned up
 
-覆盖 200 多款 App 是重要进展，但长尾网站、停运平台、国际服务、旧数据库和非标准业务仍可能不在统一清理范围内。
-
----
-
-## 17. 后见之明风险
-
-### 风险 A：把 1987 的“大哥大”写成普通生活
-
-错。首批规模小、成本极高，只能证明高收入/高商业价值场景中的早期服务可及。
-
-### 风险 B：把 1994 当成手机号历史分水岭
-
-错。移动电话和寻呼都早于中国全功能接入全球 Internet；Web 只是后来与号码发生交叉。
-
-### 风险 C：用今天的验证码经验倒推 2001
-
-错。2001 手机捆绑、2005 密保、2010 携转、2013 实名、今天的短信认证生态是不同阶段。
-
-### 风险 D：把“绑定很多账号”解释成用户粗心
-
-不够。绑定是在十几年中被许多服务逐次要求或鼓励形成的；退出劳动之所以巨大，正因为历史状态是分散累积的。
-
-### 风险 E：把二次放号做成猎奇安全故事
-
-本专题关心的不是“有人误进别人账户”本身，而是**电信号码生命周期与互联网账号生命周期没有同步结束**这一基础设施事实。
+Covering more than 200 apps is an important advance, but long-tail websites, discontinued platforms, international services, old databases and non-standard businesses may still fall outside the scope of unified cleanup.
 
 ---
 
-## 18. 还不知道什么
+## 17. Hindsight risks
 
-1. 1995—2000 不同城市、职业和收入群体中，“个人手机号”取代家庭/单位固定电话作为主要社会地址的具体速度；
-2. 寻呼机用户转手机时，联系人迁移通常怎样完成；
-3. 2001 QQ“手机捆绑”的原始页面、SMS/计费流程、运营商合作细节仍缺 verified historical capture；
-4. 2005 前后手机密保在实际网民中的采用率；
-5. 2010 携号转网试点的申请失败原因如何按用户类型分布；
-6. 2013 实名制实施前后，普通用户是否明显改变“借卡/共用卡/家庭代办”习惯；
-7. 二次放号在 2014—2025 间的总体发生率与严重后果分布；
-8. 一个人一生平均会累积多少手机号绑定账号，目前还缺可靠纵向样本；
-9. 海外移动互联网的 recycled-number/account-binding collision 是否与中国具有相同规模与治理路径；
-10. 号码长期稳定是否真实提高跨城市迁移后的弱关系保留，需要生命史或网络研究验证。
+### Risk A: writing the 1987 "big brother" handset as ordinary life
+
+Wrong. The first batch was small in scale and extremely costly, and can only prove early service accessibility in high-income/high-commercial-value scenarios.
+
+### Risk B: treating 1994 as the watershed in phone-number history
+
+Wrong. Mobile telephony and paging both predate China's full-function connection to the global Internet; the Web only intersected with numbers later.
+
+### Risk C: reading 2001 backwards from today's verification-code experience
+
+Wrong. Mobile binding in 2001, security protection in 2005, number porting in 2010, real-name registration in 2013 and today's SMS authentication ecosystem are different stages.
+
+### Risk D: explaining "bound to many accounts" as user carelessness
+
+Not enough. Bindings were formed over more than a decade as many services required or encouraged them one by one; the exit labour is enormous precisely because the historical state accumulated in a dispersed way.
+
+### Risk E: turning number recycling into a sensational security story
+
+What this topic cares about is not "someone wandered into another person's account" in itself, but the infrastructure fact that **the telecom number lifecycle and the Internet account lifecycle do not end in sync**.
 
 ---
 
-## 19. 对“普通人到底有多少种活法”的修正
+## 18. What we do not yet know
 
-过去讨论迁移，经常默认只要人能买票、找到工作和住房，就已经能够离开。
+1. The specific speed at which, between 1995 and 2000 and across cities, occupations and income groups, the "personal mobile number" replaced the household/work-unit landline as the main social address;
+2. How contact migration was usually completed when pager users moved to mobile phones;
+3. The original pages, SMS/billing flows and carrier-cooperation details of the 2001 QQ "mobile binding" still lack a verified historical capture;
+4. The adoption rate of mobile security protection among actual netizens around 2005;
+5. How the reasons for failed applications in the 2010 number-portability pilot were distributed by user type;
+6. Whether ordinary users noticeably changed habits of "borrowing a SIM / sharing a SIM / having a family member handle it" before and after real-name registration was implemented in 2013;
+7. The overall incidence of number recycling between 2014 and 2025, and the distribution of serious consequences;
+8. How many phone-number-bound accounts a person accumulates on average over a lifetime — reliable longitudinal samples are still lacking;
+9. Whether recycled-number/account-binding collisions in the overseas mobile Internet have the same scale and governance path as in China;
+10. Whether long-term number stability genuinely improves the retention of weak ties after cross-city migration, which requires life-history or network research to verify.
 
-手机号这条线说明，真正的可移动性还需要考虑：
+---
 
-> **旧世界还能不能找到你。**
+## 19. A revision to "how many ways are there for ordinary people to live"
 
-固定电话时代，一个人离开家庭、宿舍或单位时，常常也离开了别人原本知道的通信地点。移动号码逐渐把这个社会地址放到人身上，于是身体可以迁走，关系入口不一定跟着重置。
+Past discussion of migration often assumed by default that as long as a person could buy a ticket, find work and find housing, they were already able to leave.
 
-可当银行、网站、QQ、游戏、支付、政务服务和密码恢复又一层层把这串号码当成稳定身份，最初帮助人离开的工具反过来产生了新的黏性：
+The phone-number line shows that real mobility also has to consider:
 
-> **你不是舍不得十一位数字，而是十几年的人际关系、账号和制度接口都已经学会把这十一位数字当成你。**
+> **whether the old world can still find you.**
 
-因此现代生命历程多了一项以前很少被单独建模的维护劳动：
+In the landline era, when a person left the household, the dormitory or the work unit, they often also left the communication place that others originally knew. Mobile numbers gradually put this social address onto the person, so the body can migrate away while the relationship entry point does not necessarily reset with it.
+
+But when banks, websites, QQ, games, payments, government services and password recovery layer by layer treat this string of digits as a stable identity, the tool that initially helped a person leave produces a new stickiness in turn:
+
+> **What you are reluctant to give up is not eleven digits, but the fact that more than a decade of personal relationships, accounts and institutional interfaces have all learned to treat these eleven digits as you.**
+
+So the modern life course has an extra piece of maintenance labour that was rarely modelled separately before:
 
 ```text
-保持可达
-→ 维护号码
-→ 迁移时保留号码
-→ 更换号码时清点绑定
-→ 注销前解绑
-→ 防止旧号码在被回收后继续代表过去的自己
+stay reachable
+→ maintain the number
+→ keep the number when migrating
+→ inventory bindings when changing the number
+→ unbind before cancelling
+→ prevent the old number from continuing to represent your past self after it is recycled
 ```
 
-这不是简单的通信便利史，而是一条从“个人可达性扩张”走向“数字身份连续性治理”的长期变化链。
+This is not a simple history of communication convenience, but a long chain of change running from "the expansion of personal reachability" toward "the governance of digital identity continuity."
 
 ---
 
-## 20. 下一步最值得补的证据
+## 20. The evidence most worth adding next
 
-优先级从高到低：
+Priority from high to low:
 
-1. **1998—2003 同时代中文个人材料**：第一次把手机号写进个人主页、求职、租房、毕业通讯录时，人怎样理解“这是我的长期联系方式”；
-2. **原始旧网 capture**：QQ 手机捆绑/手机密保、运营商短信网关帮助页、早期手机找回密码页面；
-3. **迁移生命史**：第一代跨省大学生/务工者怎样决定保留原手机号，尤其 2000s；
-4. **海外 recycled-number 对照**：区分中国制度特征与全球移动身份共同问题；
-5. **退出成本定量化**：换号一次实际需要更新多少银行、平台、工作与家庭关系。
+1. **Contemporaneous Chinese personal material from 1998–2003**: when people first wrote a mobile number into a personal homepage, a job application, a rental listing or a graduation address book, how did they understand "this is my long-term contact channel";
+2. **Original old-web captures**: QQ mobile binding/mobile security protection, carrier SMS gateway help pages, early mobile password-recovery pages;
+3. **Migration life histories**: how the first generation of cross-province university students/migrant workers decided to keep their original mobile numbers, especially in the 2000s;
+4. **Overseas recycled-number comparison**: distinguishing China's institutional features from common problems of global mobile identity;
+5. **Quantifying exit cost**: how many bank, platform, work and family relationships actually have to be updated for one number change.
